@@ -1,4 +1,4 @@
-# hfr-topics
+# hfr-topics ![](http://resize.over-blog.com/500x500.png?http://www.hardware.fr/images_skin_2010/facebook/logo.png =30x30)
 
 A collection of topics, mainly Linux related, that I'm keeping them going on the forum [Hardware.fr](https://forum.hardware.fr/). 
 
@@ -6,8 +6,9 @@ A collection of topics, mainly Linux related, that I'm keeping them going on the
 
 The forum [Hardware.fr](https://forum.hardware.fr/) treats various topics related more or less to the computer/IT world.
 
-## Why
+## Why?
 
+Because ![](https://reho.st/preview/self/2436ba48c780a3c233639920cb15cb22af71d943.jpg =30x30)
 I decided to revive some topics that were either dead or the front page was not updated recently. These topics are mainly related to the Linux world.
 
 ## Presentation
