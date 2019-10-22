@@ -1,0 +1,185 @@
+[img]http://reho.st/self/21d05bf4c68ed944dae2137de465c891eac86a2c.png[/img]
+
+Topic initialement crée par [b][#FF0000]Radeon24[/#FF0000][/b], actuellement maintenu par[b] FrenchieiSverige[/b]. Retrouvez son post original dans un de ses posts en-dessous.
+
+[:troudbal] [i]"Voilà, le topic n'existait pas, et je vois que nous sommes de plus en plus nombreux à utiliser cet OS afin de se monter un NAS en toute simplicité - enfin presque, sinon un topic serait peu utile :D - Allez c'est parti !"[/i][:troudbal] 
+
+
+[#0055AA][b][u]OPENMEDIAVAULT C'EST QUOI?[/u] [/b][/#0055AA]
+
+OpenMediaVault, ou OMV pour les intimes, est une distribution Linux orientée [url=https://fr.wikipedia.org/wiki/Serveur_de_stockage_en_r%C3%A9seau][b]NAS[/b][/url], basée sur [url=https://www.debian.org/index.fr.html][b]Debian[/b][/url]. Il a été spécialement conçu pour monter son petit NAS chez soi, ou peut être utilisé dans les petites entreprises, mais ne se limites pas à ses cas de figures. Grâce à sa conception modulaire, il s'agit d'une solution clé en main, facile à utiliser,  facile à installer et d'administrer un stockage en réseau sans plus de connaissances, tout en le personnalisant à ses goûts grâce aux plugins. 
+
+
+[#0055AA][b][u]FEATURES[/u][/b][/#0055AA]
+
+Actuellement, OpenMediaVault est en version [b]4.1[/b] et est basé sur Debian Stretch (Debian 9.0) et propose notemment les fonctionnalités suivantes:
+[*] Administration via Web
+[*] Gestion des utilisateurs
+[*] Aggrégation de liens
+[*] Wake on Lan
+[*] Partitions GPT
+[*] Prise en charge des systèmes de fichiers EXT3 / EXT4 / XFS / JFS
+[*] Gestion du RAID JBOD 0/1/5/6 
+[*] ACL
+[*] Syslog / info S.M.A.R.T 
+[*] SNMP (Simple Network Management Protocol)
+[*] Notifications par email
+[*] SSH / FTP / TFTP / NFS / SMB / CIFS / RSync 
+
+De plus, via l'installation du plugin [url=http://omv-extras.org/joomla/][b]OMV-Extras[/b][/url], il est possible d'installer d'autres services comme par example, un client [url=https://fr.wikipedia.org/wiki/BitTorrent_(protocole)][b]Bitorrent[/b][/url], le support [url=https://fr.wikipedia.org/wiki/ISCSI][b]iSCSI[/b][/url], la création d'un cloud personnel [url=https://owncloud.org/][b]Owncloud[/b][/url], la paravirtualisation avec [url=https://www.docker.com/][b]Docker[/b][/url], ou encore l'installation d'un server [url=https://www.plex.tv/][b]Plex[/b][/url] pour transformer votre salon en cinéma!
+
+
+[#0055AA][b][u]OU TELECHARGER OPENMEDIAVAULT?[/u][/b][/#0055AA]
+
+OpenMediaVault est disponible gratuitement et légalement:
+     --> En version Stable:
+	                   [url=https://sourceforge.net/projects/openmediavault/files/][#0055AA][b]OMV 4.X (x64)[/b][/#0055AA][/url]
+                    [url=https://sourceforge.net/projects/openmediavault/files/Raspberry%20Pi%20images/][#0055AA][b]OMV 4.X RPi (ARM) [/b][/#0055AA][/url]
+                    [url=https://sourceforge.net/projects/openmediavault/files/Odroid%20images/][#0055AA][b]OMV 4.X Single boards (ARM)[/b][/#0055AA][/url]
+
+     --> En version Beta:
+                    [url=https://sourceforge.net/projects/openmediavault/files/5.0.5/][#0055AA][b]OMV 5.0.5 Beta (x64)[/b][/#0055AA][/url]
+
+
+Je vous conseille de prendre la version stable si vous voulez commencer à utiliser OMV. Elle a été testée en large et en travers, des corrections de bugs ont été ajoutées, des incompatibilités ont été résolues, bref c'est la version idéale pour stocker vos données et dormir sur vos deux oreilles.
+Si par contre, vous vous sentez aventurier, et n'avez pas peur de perdre vos données pour profiter des dernières innovations, la version beta et faite pour vous! Elle aura certainement des bugs, à vous de jugez si vous pouvez faire avec.
+
+Dans les deux cas, veuillez aussi vérifier [b]l'intégrité de votre image[/b] avant de la copier sur votre clé USB grâce au MD5, pour éviter pas mal de soucis lors de l'installation ;)
+
+
+[#0055AA][b][u]SCREENSHOTS[/u][/b][/#0055AA]
+[url=https://reho.st/view/self/332b272c779fcd74b5009d44c22ccecbed6381d5.png][img]https://reho.st/medium/self/332b272c779fcd74b5009d44c22ccecbed6381d5.png[/img][/url]
+   [i]Figure 1: Dashboard d'OMV 4.0[/i]
+
+
+[#0055AA][b][u]CREATION CLE USB BOOTABLE[/u][/b][/#0055AA]
+
+Si vous êtes sous Linux, une simple commande dd fera l'affaire:
+[fixed]sudo dd if=/chemin/vers/image/OMV.iso of=/dev/sdX bs=4096[/fixed]
+Ou X est la lettre correspondant à votre clé USB.
+
+Si vous êtes sous Windows, je vous conseille l'excellent [url=https://rufus.akeo.ie/?locale=fr][b]Rufus[/b][/url], et remplissez comme ci-dessous: (1) Choisir la clé USB (2) Choisir l'image ISO » (3) Sélectionner limage d’OpenMediaVault (4) Démarrer.
+[url=http://reho.st/view/self/ecb5e3d26aeeb152981f7ff9230ca924fbfdbfc4.png][img]http://reho.st/thumb/self/ecb5e3d26aeeb152981f7ff9230ca924fbfdbfc4.png[/img][/url]
+  [i]Figure 2: Création clé USB avec Rufus[/i]
+
+
+[#0055AA][b][u]INSTALLATION[/u][/b][/#0055AA]
+
+Pour l'installation, un petit disque suffit. Personnellement, j'ai recyclé un vieux SSD Kingston de 32 Go pour y installer OMV!
+
+[:gnel42] [#FF0E00][b]Je vous conseille de laisser uniquement le HDD/SSD qui servira de disque système branché sur la machine. Cela peut éviter de formater les disques durs de données par mégarde[/b][/#FF0E00] [:icon4] [:jarodfr]
+
+Pour l'installation, laissez vous guider. Si il y a besoin d'aide, vous pouvez vous référer aux screenshots [url=http://wiki.openmediavault.org/index.php?title=Installation]ici[/url].
+Une fois l'installation faite, vous pouvez brancher vos disques durs de données. Prenez aussi un papier et un crayon pour noter l'adresse IP de votre NAS. Une fois notée, connectez vous via votre navigateur préféré [:minipouss] avec les identifiants qui sont par défaut:
+[fixed]user: admin
+password: openmediavault[/fixed]
+Et voila, vous êtes sur le dashboard d'OMV! Il ne reste plus qu'à le configurer et personnalisez comme vous voulez (RAID 0/1/5, JBOD, utilisateur, partages etc etc)
+
+
+[#0055AA][b][u]ET MAINTENANT: RAID 0 / RAID 1 / RAID 5 / JBOB POUR LES DONNEES ?[/u][/b][/#0055AA]
+
+Il n'est pas facile de choisir comment on va stocker ses données sur le ou les disques. Voici quelques pistes qui pourront peut-être aider à faire votre choix:
+[*]RAID 0: Il faut avoir au minimum 2 disques de même taille. Cela permet d'avoir une grande capacité de stockage (nombreDisques*Capacité) mais il l'un des disques cassent vos perdez [b]toutes[/b] vos données.
+[*]RAID 1: Il faut avoir 2 disques de même taille. Le principe du RAID 1 est simple. Dès qu'une donnée est copiée, elle est immédiatement répliquée sur l'autre disque (principe du miroir). Si un disque dur casse, vos données seront toujours sur l'autre disque.
+[*]RAID 5: Il faut au minimum 3 disques de même taille. Pour schématiser, dans le raid 5, il y a deux disques durs alloués aux données, et un disque dur réservé pour la parité (même si dans la réalité c'est pas tout à fait comme ça). On a donc une capacité utile de NombreDisque*Capacité-1*Capacité. Il permet d'avoir une tolérance de 1 disque: Si 1 disque dur casse, les données sont toujours la et accessibles, mais le RAID fonctionne alors en mode dégradé. Il faut alors changer au plus vite le disque et réparer le RAID.
+[*]JBOD: Comme son nom l'indique, le Just a Bunch Of Disks est un ensemble de disques de taille différentes que l'on décide de mettre en commun. Si l'un des disques dur casse, on perd uniquement les données de ce dernier. Pensez aussi à l'alternative [url=https://github.com/trapexit/mergerfs]mergerfs[/url] qui permet de "concatener des disques". A retrouver dans le plugin [i]unionfilesystems[/i].
+[*]Volume simple + Rsync: Similaire au RAID 1. Un script (rync) via synchroniser les données entre les deux disques à intervalle régulier.
+
+
+[#0055AA][b][u]INSTALLATION D'OMV-EXTRAS[/u][/b][/#0055AA]
+
+L'installation d'[url=http://omv-extras.org/joomla/][b]OMV-Extras[/b][/url] n'est pas obligatoire mais vivement conseillé. Elle permet d'ajouter des plugins très cool à OMV, comme Plex, Docker, Syncthing, BitSynch. L'installation, issue de ce [url=http://omv-extras.org/joomla/index.php/guides]lien[/url], se fait de la manière suivante:
+
+(1) Téléchargez le paquet (.deb) correspondant à votre version:
+    --> [url=omv-extras.org/openmediavault-omvextrasorg_latest_all4.deb][b][#0055AA]OMV 4.X[/#0055AA][/b][/url]
+(2) Connectez vous à l'interface Web / Dashboard d'OMV.
+(3) Dans Gestionnaire de mise à jour, transférez le paquet [i]openmediavault-omvextrasorg_latest_allX.deb[/i] en cliquant sur télécharger.
+(4) Dans Plugins, sélectionnez le plugin fraîchement uploadé nommé [i]openmediavault-omvextrasorg[/i].
+(5) Un petit click sur Installer. Une fois l'installation faite, un F5 pour rafraîchir la page. 
+(6) Vérifiez bien la présence d'OMV-Extras dans le panneau latéral gauche, en dessous de Plugins.
+
+
+[#0055AA][b][u]MISE A JOUR OMV 3.X --> OMV 4.X[/u][/b][/#0055AA]
+
+Comme vous avez pu le voir, OMV 3.X n'est [b]plus officiellement supporté[/b] depuis le 30 Juin 2018. Cependant, comme elle est basée sur Debian 8.X et que sa End-Of-Life (EOL) est en Mai 2018, vous recevrez toujours les MAJs du système (Debian), mais si vous rencontrez un bug propre à OMV, [b]il ne sera plus jamais reglé/fixed[/b].
+
+Je vous conseille donc de passer sous la version 4 d'OMV (même si personnellement j'attends encore un peu pour upgrader  :whistle:) avec le petit tuto suivant:
+
+0-a/ Veuillez bien vérifier que [b][#FF1C00]TOUS[/#FF1C00][/b] vos plugins soit compatibles avec OMV 4.0.X. Vous pouvez les checker à cette [url=http://omv-extras.org/joomla/index.php/omv-plugins-4/4-stable]addresse[/url].
+0-b/ Comme pour l'installation, je vous conseille de laisser [b][#FF0E00]uniquement[/#FF0E00][/b] le HDD/SSD qui servira de disque système branché sur la machine.
+
+1/ Se connecter en SSH sur le NAS, puis on rafraichit les sources puis on installes les dernières MAJs avant l'upgrade:
+[fixed]
+sudo apt-get update && apt-get upgrade
+[/fixed]
+2/ On lance la procédure d'upgrade de OMV 3.X --> OMV 4.X
+[fixed]
+omv-release-upgrade 
+[/fixed]
+Et on attend patiemment, cela risque de prendre du temps...
+
+
+[#0055AA][b][u]F.A.Q[/u][/b][/#0055AA]
+
+
+[b]Est-il possible d'installer OMV sur une clé usb?[/b] Oui, à condition que l'on installe un plugin d'OMV extras qui va écrire les logs sur les disques de données (les clefs USB mourant prématurément si il y a trop Read/Write effectués)
+[b]Est-il possible de brancher un disque dur externe sans le formater?[/b] Oui, il faudra juste créer un dossier de partage comme [url=http://www.htpcguides.com/create-shared-folders-openmediavault-for-usb-hard-drives/]ici[/url]
+[b]Est-il possible de brancher mes disques venant d'un Synology?[/b] Oui, à condition qu'il soit [b]tous[/b] de la même taille. Cf. post [i]FrenchieiSverige[/i] page 78.
+[b]Est-il possible un gestionnaire de cameras de surveillance de type "Surveillance Station"?[/b] Oui, grâce à [url=http://forum.openmediavault.org/index.php/Thread/8578-Zoneminder-on-1-18/?pageNo=1]Zoneminder[/url].
+[b]Est-il possible d'ajouter un disque dur formaté NTFS déjà rempli de données au NAS ?[/b] Oui, possible en installant le paquet [i]ntfs-3g[/i] disponible dans les dépôts Debian mais avec des performances catastrophiques (~10Mo/s) et plus ou moins stable (risque de pertes de données lors de l'écriture/lecture). Ceci est lié au système de fichiers qu'utilise Linux (FUSE filesystem), peu ou pas compatible avec le système de fichiers propriétaire de Microsoft, NTFS. Je ne recommande donc pas l'installation de ce paquet, et plutôt de se diriger vers un disque formaté en ext4.  
+[b]Ma GUI me refuse toutes connexions depuis quelques semaines car la connexion n'est pas sécurisée (aussi bien sur Firefox que Chrome). Comment je peux récupérer l'accès ?[/b] Vérifiez votre HDD système s'il n'est pas plein (gros fichier log etc etc).
+[:icon4] WIP [:icon4]
+
+[#0055AA][b][u]CHANGELOGS[/u][/b][/#0055AA]
+
+
+OpenMediaVault 4.1.25
+[quote]    
+[*]Issue #452: SharedFolders do not mount on ZFS File system.
+[/quote]
+
+OpenMediaVault 4.0:
+[quote]  
+[*]Using Debian 9 (Stretch).
+[*]Shared folders can be accessed via /sharedfolders/<name> in the root filesystem.
+[*]The SNMP feature has been outsourced as plugin. Please note that the existing configuration will be deleted.
+[*]Refactor RRD graph generation. Introduce omv-mkrrdgraph tool.
+[*]Fix various email configuration issues, e.g. problems with Gmail.
+[*]Fix timeout on filesystems page when having many filesystems. Also reduced time to collect filesystem information.
+[*]Improve UI usablility on mobile and touch devices.
+[*]Many fixed bugs and improvements.
+[/quote]
+
+Une liste complète des changelogs for OpenMediaVault 4 peut se retrouver à [url=https://github.com/openmediavault/openmediavault/blob/4.x/deb/openmediavault/debian/changelog]l'adresse suivante[/url]. 
+
+[#0055AA][b][u]SITES OFFICIELS[/u][/b][/#0055AA]
+
+Pour plus d'informations, veuillez consulter:
+--> [url=http://www.openmediavault.org/]openmediavault.org[/url]
+--> [url=http://wiki.openmediavault.org/index.php?title=Main_Page]wiki.openmediavault.org[/url]
+--> [url=http://forum.openmediavault.org/]forum.openmediavault.org[/url]
+--> [url=https://forum.openmediavault.org/index.php/Thread/21269-Solutions-to-common-problems/]OMV: Solutions to common problems[/url]
+
+
+[#0055AA][b][u]RESSOURCES ANNEXES[/u][/b][/#0055AA]
+
+Si vous avez des questions qui sont restés sans réponses, je vous conseille de vous tourner vers:
+--> [url=https://www.youtube.com/watch?v=Svs7d3x7pzg]NAS Partie 2 - Installation et configuration logicielle[/url]: Vidéo YouTube expliquant pas à pas l'Installation et la Configuration d'OMV 
+--> [url=http://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=12264&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0]Debian-HFR[/url]: Le Topic Debian d'HFR pour des questions lié à Debian.
+--> [url=http://www.linuxquestions.org/questions/linux-distributions-5/]linuxquestions.org[/url] : Site plus généraliste de Linux.
+--> [url=http://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=208&post=74606&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0 ]Docker-HFR[/url]: Le Topic Docker d'HFR pour toutes les questions lié à Docker.
+--> [url=https://www.youtube.com/watch?v=s4US4tRv70I]Rsync[/url] : Vidéo YouTube expliquant comment mettre en place rync
+--> [url=https://forum.openmediavault.org/index.php/Thread/19871-Which-energy-efficient-ARM-platform-to-choose/?postID=154980#post154980]ARM-based NAS examples[/url] : Exemples de configs NAS basés sur ARM et donc peu consommatrice en énergie électrique (~5W).
+[:icon4] WIP [:icon4]
+
+
+[#0055AA][b][u]HISTORIQUES DES VERSIONS[/u][/b][/#0055AA]
+
+[#0055AA][b] 08/05/2018: OpenMediaVault 4.0 (Arrakis) based on Debian 9 [/b][/#0055AA]
+[#848484] 13/06/2017: OpenMediaVault 3.0 (Erasmus) based on Debian 8 [/#848484]
+[#848484] 29/06/2015: OpenMediaVault 2.0 (Stone burner) based on Debian 7 [/#848484]
+[#848484] 15/09/2014: OpenMediaVault 1.0 (Kralizec) based on Debian 7 [/#848484]
+[#848484] 25/08/2013: OpenMediaVault 0.5 (Sardaukar) based on Debian 6 [/#848484]
+[#848484] 21/09/2012: OpenMediaVault 0.4 (Fedaykin) based on Debian 6 [/#848484]
+[#848484] 18/04/2012: OpenMediaVault 0.3 (Omnius) based on Debian 6 [/#848484]
+[#848484] 17/10/2011: OpenMediaVault 0.2 (Ix) based on Debian 6 [/#848484]
