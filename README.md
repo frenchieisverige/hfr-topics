@@ -20,7 +20,7 @@ Here are the topics that I'm currently maintaining:
 
 ## TODOs
 
-* Community-driven update of the topic via Github:
+* Community-driven update of the topic via Github.
 
 ## Built With
 
@@ -28,7 +28,7 @@ Here are the topics that I'm currently maintaining:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Authors
 
