@@ -8,7 +8,7 @@ The forum [Hardware.fr](https://forum.hardware.fr/) treats various topics relate
 
 ## Why?
 
-Because <img src="https://reho.st/preview/self/2436ba48c780a3c233639920cb15cb22af71d943.jpg" width=20> \s\s
+Because <img src="https://reho.st/preview/self/2436ba48c780a3c233639920cb15cb22af71d943.jpg" width=20> <br>
 I decided to revive some topics that were either dead or the front page was not updated recently. These topics are mainly related to the Linux world.
 
 ## Presentation
