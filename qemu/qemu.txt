@@ -1,0 +1,122 @@
+[url=https://reho.st/view/self/397a3d9a09264bd6344fb29192f6ffed10b55b0e.png][img]https://reho.st/preview/self/397a3d9a09264bd6344fb29192f6ffed10b55b0e.png[/img][/url]
+ 
+Topic initialement crée par [b][#FF0000]mean[/#FF0000][/b], actuellement maintenu par[b] FrenchieiSverige[/b]. 
+
+Son post original:
+[quote]J'ai decouvert ca aujourdh'ui par hazard Qemu
+http://fabrice.bellard.free.fr/qemu/
+
+C'est un espece de clone de vmware
+C'est LGPL, et ca marche[/quote]
+[#FF7100][b]PRESENTATION[/b][/#FF7100]
+
+Qemu, créé par Fabrice Bellard - un boss du C au passage  [:omniscience:4] - est un logiciel de [b]virtualisation système[/b] comme son compère [url=https://www.virtualbox.org/]VirtualBox[/url]. Il est possible de démarrer un autre système d'exploitation dans une fenêtre et de l'utiliser comme s'il avait été démarré "normalement".
+Qemu possède un gros avantage sur ses concurrents: il est aussi capable de pouvoir [b]émuler du matériel[/b] comme par exemple une architecture X86, ARM ou encore PowerPC.
+Il est donc aussi bien adapté aux [strike]noobs[/strike] novices qu'aux pros.
+
+
+[#FF7100][b]FONCTIONNALITÉS[/b][/#FF7100]
+
+Qemu offre trois grandes fonctionnalités:
+[*] [b]Full-system emulation[/b]: Qemu émule une architecture complète d'un CPU et ses périphériques en plus de virtualiser l'OS.
+[*] [b]User-mode emulation[/b]: Qemu adapte les instructions initialement prévu pour un CPU à une autre type de CPU. Uniquement valable pour des applications UNIX/BSD.
+[*] [b]Virtualisation[/b]: Qemu peut être intégré dans [url=https://www.linux-kvm.org/page/Main_Page]KVM[/url] ou [url=https://xenproject.org/]Xen[/url] pour profiter de performances quasi native.
+
+
+[#FF7100][b]ARCHITECTURES SUPPORTÉES[/b][/#FF7100]
+
+Qemu est capable d'émuler les matériels suivants:
+[*] x86
+[*] PowerPC
+[*] ARM
+[*] SPARC
+[*] MicroBlaze
+[*] LatticeMico32
+[*] CRIS
+[*] OpenRISC
+
+Celles qui nous intéressent principalement sont le x86 pour virtualiser d'autres OS sur sa machine et l'ARM avec l'omni présence de nos smartphones ainsi que les board computers.
+Une liste plus détaillée est à retrouver sur [url=https://en.wikipedia.org/wiki/QEMU#Emulated_hardware_platforms]l'article Wikipedia anglais de Qemu[/url].
+
+
+[#FF7100][b]TÉLÉCHARGEMENTS[/b][/#FF7100]
+
+Qemu est disponible:
+[*] Dans les repos de votre distribution linux via votre manager de paquets préféré ([i]apt/pacman/emerge/yum/whatever[/i]). Instructions [url=https://www.qemu.org/download/#linux]ici[/url]
+[*] Directement compilable à partir du [url=https://www.qemu.org/download/#source]code source[/url]. 
+
+À noter qu'il est aussi disponible pour [url=https://www.qemu.org/download/#windows]Windows[/url] et [url=https://www.qemu.org/download/#macos]MacOS[/url].
+
+
+[#FF7100][b]SCREENSHOT[/b][/#FF7100]
+
+[url=https://reho.st/view/self/2f01b52c00b0e65cca3613c37615155a392f088f.png][img]https://reho.st/preview/self/2f01b52c00b0e65cca3613c37615155a392f088f.png[/img][/url]
+ [i]Figure 1: Qemu/kvm émulant Windows 10 (Guest) avec Arch Linux en Host[/i]
+
+
+[#FF7100][b]EXEMPLES en CLI[/b][/#FF7100]
+
+[:icon4] WIP [:icon4]
+
+
+[#FF7100][b]INTERFACES GRAPHIQUES[/b][/#FF7100]
+
+Comme vu dans la précédente section, Qemu est uniquement utilisable en CLI. Mais une surcouche graphique peut rendre utilisation de Qemu plus user-friendly et surtout moins prise de tête. Deux GUIs sous Linux sortent du lot à savoir:
+[*] [url=https://wiki.gnome.org/Apps/Boxes]Gnomes boxes[/url]
+[*] [url=https://virt-manager.org/]virt-manager[/url]
+Toutes les deux nécessitent en plus l'installation du paquet [url=https://www.libvirt.org/]Libvirt[/url]. 
+
+
+[#FF7100][b]SITES OFFICIELS[/b][/#FF7100]
+ 
+--> [url=https://www.qemu.org/]Qemu.org[/url] 
+--> [url=https://www.qemu.org/documentation/]Documentation de Qemu[/url]
+--> [url=https://www.qemu.org/blog/]Blog de Qemu[/url]
+
+ 
+[#FF7100][b]RESSOURCES ANNEXES[/b][/#FF7100]
+
+Qemu:
+--> [url=https://git.qemu.org/?p=qemu.git]Git de Qemu[/url]
+--> [url=https://www.reddit.com/r/qemu_kvm/]Qemu sur Reddit[/url]
+--> [url=https://wiki.archlinux.org/index.php/QEMU#Graphical_front-ends_for_QEMU]Arch wiki de Qemu[/url]
+--> [url=https://en.wikipedia.org/wiki/QEMU]Article Wikipedia Qemu[/url]
+
+Xen:
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=208&post=74655&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0]Forum HFR de Xen[/url]
+
+
+[#FF7100][b]FAQ[/b][/#FF7100]
+
+[*] Comment accélérer les performances de mon Windows 10 emulé via Qemu/Kvm? En installant les drivers [url=https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html]virtuo[/url].
+[*] Quels matériel vidéo émulé choisir dans Qemu? Les pour et contre dans cet [url=https://www.kraxel.org/blog/2019/09/display-devices-in-qemu/]article[/url].
+[:icon4] WIP [:icon4]
+
+
+[#FF7100][b]CHANGELOGS[/b][/#FF7100]
+ 
+--> [url=https://wiki.qemu.org/ChangeLog/4.1]Release Notes pour qemu-4.1.0[/url]
+
+
+[#FF7100][b]HISTORIQUE DES VERSIONS[/b][/#FF7100]
+
+Voici une liste non exhaustive des différentes versions de Qemu. La liste complète des 79 versions est à retrouver [url=https://download.qemu.org/]ici[/url].
+
+[#FF7100][b]15/08/2019: qemu-4.1.0 [/b][/#FF7100]
+[#848484] 23/04/2019: qemu-4.0.0 [/#848484]
+[#848484] 02/08/2019: qemu-3.1.1 [/#848484]
+[#848484] 12/04/2019: qemu-3.0.1 [/#848484]
+[#848484] 14/08/2018: qemu-3.0.0 [/#848484]
+[#848484] 02/08/2018: qemu-2.12.1 [/#848484]
+[#848484] 31/03/2017: qemu-2.8.1 [/#848484]
+[#848484] 29/09/2016: qemu-2.6.2 [/#848484]
+[#848484] 16/12/2015: qemu-2.5.0 [/#848484]
+[#848484] 01/08/2014: qemu-2.1.0 [/#848484]
+[#848484] 17/04/2014: qemu-2.0.0 [/#848484]
+[#848484] 23/07/2014: qemu-1.7.2 [/#848484]
+[#848484] 16/12/2013: qemu-1.6.2 [/#848484]
+[#848484] 03/12/2012: qemu-1.3.0 [/#848484]
+[#848484] 17/07/2012: qemu-1.1.1 [/#848484]
+[#848484] 01/12/2011: qemu-1.0 [/#848484]
+[#848484] 29/11/2010: qemu-0.13.0 [/#848484]
+[#848484] 29/01/2010: qemu-0.9.1 [/#848484]
