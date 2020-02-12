@@ -1,0 +1,127 @@
+[b][#ff0000]Le topic lancé par - Fred - puis par l0ky (udok ayant déserté OSA ) et maintenant par quelqu'un qui a été désigné volontaire :o ![/b]
+Le premier topic d'OSA 
+
+[b]Version la plus récente et changelog[/b]
+
+https://www.kernel.org/
+
+[b]Liens utiles pour les mises à jour : [/b]
+
+- http://www.kernel.org/ Linux Kernel Archive : Toutes les versions, toute la doc, toutes les branches
+- http://planet.kernel.org/ : News officielles
+- https://git.kernel.org/cgit/ : Les dépots git du kernel
+- http://www.tux.org/lkml/ : FAQ du Kernel Linux
+- http://kernelnewbies.org/ : Kernel Newbies, très à jour, facile d'accès
+- http://go.linuxfoundation.org/who-writes-linux-2012 : Report de la linux foundation sur le développement du Kernel
+- http://en.tldp.org/LDP/tlk/tlk.html : Ancien ebook, très complet, sur l'architecture du kernel
+- https://lkml.org/  LKML (Linux Kernel Mailing List) : archives des discussions entre développeurs et utilisateurs du kernel, en général LA principale source d'information et de discussion sur les problèmes techniques. Un peu difficile d'accès en revanche, défile très rapidement (plusieurs centaines de messages par jour)
+- http://lwn.net/Kernel/ : site d'info partiellement payant sur les systèmes linux, propose une page très bien mise à jour des news sur le kernel, plus synthétique que de lire LKML en temps normal. 
+- http://www.youtube.com/watch?v=_-UnhWJjGJk : The State of the Linux Kernel Panel Featuring Linus Torvalds 
+- http://www.youtube.com/watch?v=pOSqctHH9vY : Jolie vidéo qui représente graphiquement le développement du Kernel depuis 1991
+- http://www.linuxfoundation.org/ : Le développement est supervisé par la Linux Foundation qui organise aussi les events (Kernel Summit, LinuxCon ...)
+- https://bbs.archlinux.org/viewforum.php?id=22 : Sur les problèmes de mise à jour, j'utilise souvent les infos de la section Kernel du forum d'archlinux
+- http://www.kroah.com/lkn/ : Doc plus technique : Linux Kernel in a Nutshell mis à dispo gratuitement par O'Reilly.
+- http://linuxfr.org/news/le-point-sur-udev-et-systemd : A propos de Udev et de systemd 
+
+[b]Sur les principes fondamentaux du kernel linux :[/b]
+
+- http://en.wikipedia.org/wiki/Tanenbaum%E2%80%93Torvalds_debate : Tanenbaum - Thorvalds debate aka Minix vs Linux et intéret des micro kernels
+- https://groups.google.com/forum/?fromgroups=#!topic/comp.os.minix/wlhw16QWltI : l'historique complet du débat
+- http://www.cs.vu.nl/~ast/reliable-os/ : Partie 2 et relance par Tanenbaum
+
+[b]Guides pour la configuration manuelle du Kernel Linux : [/b]
+
+Le guide gentoo : http://wiki.gentoo.org/wiki/Kernel/Gentoo_Kernel_Configuration_Guide/fr
+Le guide ubuntu : http://doc.ubuntu-fr.org/tutoriel/compiler_linux
+Un très bon guide issu du livre "Sea Linux" de Sven Vermeulen : http://swift.siphos.be/linux_sea/kernelbuilding.html
+
+
+[b]Les principaux kernels[/b]
+
+Linux libre - sans composants non acceptés par la FSF : http://www.fsfla.org/ikiwiki/selibre/linux-libre/
+CK Kernel et BFS - Optimisations de Con Kolivas : http://ck-hack.blogspot.fr/
+Benchmark ici : http://repo-ck.com/bench/cpu_schedulers_compared.pdf
+Zen Kernel - http://zen-kernel.org/
+Linux GIT - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git
+
+On distingue aussi le kernel "vanilla" (sans modification ni aucun patch contrairement à ce qu'on trouve dans la plupart des distributions) du kernel "Long Term Support" 
+https://www.kernel.org/
+
+[/#ff0000][#ff0000][g]Bienvenue sur le topic officiel du noyau 3.0 sur le forum HFR ![/g]
+
+Même si le nombre de pages vous paraît impressionnant, sachez que les news, rapportées par les joyeux testeurs du 3.0, sont toujours dans les 3-4 derniers volets du topic, n'hésitez pas à y jeter un oeil. De même, la section recherche est également à votre disposition pour un problème spécifique. Si vous ne trouvez pas de réponse à vos questions, vous pouvez bien entendu les poser sur ce topic en mentionnant votre distribution, configuration et le numéro de version ainsi que les patches de votre noyau.
+___________________________________________________________________________________________
+
+[s][g]Où obtenir le kernel ?[/g][/s]
+
+Le site officiel du noyau Linux propose en téléchargement les sources de tous les derniers noyaux Linux, c'est le site de référence à visiter si vous souhaitez compiler vous même votre noyau Linux (n'oubliez pas d'utiliser les miroirs disponibles pour télécharger les sources afin de ne pas surcharger le serveur central). Toutefois, si vous souhaitez installer rapidement un noyau sans vous soucier de sa configuration ou de sa compilation, je vous conseille vivement d'utiliser la dernière version du noyau de votre distribution.
+
+(Pour l'application d'un patch, voyez la section \"Les patches : pourquoi, comment ?\" ci-dessous)
+___________________________________________________________________________________________
+
+[g][s]Syntaxe des versions du noyau[/s][/g] (par KRUMLI)
+
+Le 1° chiffre indique une version majeure
+Le 2° indique une version stable (chiffre pair) ou de développement (chiffre impair)
+Le 3° indique une évolution mineure
+Le 4° indique une correction de bug (optionnel)
+La dernière partie peut indiquer un patch (optionnel)
+ 
+0.0.1: le premier
+1.2.x: très ancienne version stable
+2.0.x: ça devait pas être triste
+2.3.x: une ancienne version de développement
+2.4.x: une ancienne version stable
+2.5.x: une version de développement
+2.6.x: l'ancienne version stable
+3.0.x: la nouvelle version stable
+___________________________________________________________________________________________
+
+[s][g]Les patches : pourquoi, comment ?[/g][/s]
+
+Le noyau officiel est livré avec les drivers officiels, il peut être compilé directement pour plusieurs architectures, bref les sources officielles contiennent normalement tout ce dont vous avez besoin. Tout ? Pas si sûr  : Linus, qui supervise avec Andrew Morton le développement du noyau Linux, n'intègre [normalement] dans le noyau que les fonctionnalités qui lui semblent essentielles et suffisamment stables pour répondre aux attentes de chacun. Toutefois, le noyau Linux est l'objet de nombreux projets \"alternatifs\", des modifications de programmeurs indépendants qui ont pour but d'améliorer tel ou tel aspect du noyau, d'ajouter une fonctionnalité ou un driver, et proposent donc aux utilisateurs testeurs des patches grâce auxquels ils pourront modifier les sources du noyau et ainsi compiler un noyau personnalisé. N'oubliez pas que les patches ne \"s'additionnent\" pas facilement, c'est pourquoi la liste ci dessous mentionne des séries de patches, je vous conseille de n'en appliquer qu'un seul si vous n'êtes pas en mesure de gérer les conflits à l'application de plusieurs patches \"concurrents\". Voici une liste non exhaustive des patches ou séries de patches disponibles pour le noyau 3.0 :
+
+[*]Les séries -mm sont disponibles depuis la page officielle kernel.org, elles sont l'oeuvre d'Andrew Morton et regroupent certains patches destinés à être testés avant une éventuelle adoption dans les séries officielles. De qualité variable, il offre souvent de bonnes performances et quelques fonctionnalités intéressantes en avant première.
+
+[*]Les séries -ck sont l'oeuvre de Con Kolivas. Propres et bien maintenues, il s'agit d'une petite sélection de patches utiles destinées aux machines \"Desktop\", notamment pour améliorer le temps de réponse sous X, il inclut également Supermount, le patch Bootsplash et dernièrement le système de fichier Reiser4. Une excellente série, à conseiller même aux débutants, et à réserver comme mentionné plus haut aux postes sous X et non aux serveurs. Con Kolivas ayant décidé d'arréter le développement pour le kernel Linux, le dernier patch -ck est le 2.6.22-ck1. Les différentes raisons de l'arrêt de ces patches sont exprimées ici  (en) et la (en) En résumé, pour les non-anglophones, de virulentes critiques faites par des dev du kernel ont conduit à un nouveau scheduler se basant sur les même concept que le sien, prêt pourtant à l'intégration dans la branche principale.
+
+[*]Les Love sources, chères aux utilisateurs de la Gentoo, regroupe les séries mm avec quelques patches intéressants comme Reiser4, bootsplash, et divers drivers et autres améliorations des fonctions de base.
+
+Commande pour appliquer un patch :
+[*]Décompressez le patch si nécessaire, par la suite le chemin d'accès au patch décompressé sera noté [i]/path/to/monpatch.patch[/i]
+[*]Se placer dans le répertoire des sources du noyau et taper [i]patch -p1 --dry-run -s < monpatch.patch[/i]
+[*]Si la commande ci-dessus ne renvoie aucune erreur, taper [i]patch -p1 -s < /path/to/monpatch.patch[/i]
+
+Commande pour enlever un patch :
+[*]Se placer dans le répertoire des sources du noyau et taper [i]patch -p1 -R --dry-run -s < monpatch.patch[/i]
+[*]Si la commande ci-dessus ne renvoie aucune erreur, taper [i]patch -p1 R -s < /path/to/monpatch.patch[/i]
+ Il est nécessaire d'enlever un patch notamment lorsque l'on veut passer, par exemple, de la version 2.6.13.1 à la version 2.6.14. En effet il faut d'abord repasser à la version 2.6.13 avant de pouvoir patcher vers la version 2.6.14.
+___________________________________________________________________________________________
+
+[s][g]Comment compiler un 3.0 ?[/g][/s] (par Vanilla)
+
+Ce tutorial vous aidera à compiler votre noyau, mais sa configuration reste à votre charge, prenez votre temps et ne vous impatientez pas, plusieurs essais seront sans doute nécessaires 
+
+[g][/#ff0000][#ff0000][s]ATTENTION[/s][/g] : Les commandes [/#ff0000][#ff0000]en rouge sont toutes à exécuter en tant d'administrateur (utilisateur \"root\", soyez donc très prudent quant à leur manipulation !
+Il est d'ailleurs à noter que si vous tentez une configuration graphique (xconfig, gconfig, ...) en tant qu'administrateur (root) et que la session X a été lancée par un utilisateur (cela peut par exemple arriver si vous utilisez la commande [i]su[/i]), l'application de configuration ne pourra pas se lancer. Il est donc conseillé de décompresser le noyau et de le configurer en tant qu'utilisateur \"normal\", sans droits particulier, parce qu'il est bien entendu [g]impensable[/g] de lancer X en tant qu'administrateur (root) 
+
+[/#ff0000][#0000a0][s]Première étape : la décompression des sources[/s]
+
+Tout d'abord, il faut choisir un dossier de décompression des sources. Un petit [i]du -sh[/i] vous indiquera l'espace libre sur vos différents points de montage, n'oubliez pas que le noyau compressé fait environ 30Mo, puis 120Mo lorsqu'il est décompressé et quelques Mo de plus lors de la compilation : il vous faudra donc au total au minimum 300Mo pour pouvoir compiler le noyau tranquillement. De même, il est très maladroit de décompresser le noyau dans un volume réseau (lenteur, trafic ...) ni sur une partition qui ne gère pas les droits Unix (en particulier les partitions FAT). Il est courant de décompresser les sources du noyau dans [i]/usr/src[/i], mais il faudra auparavant faire un peu de ménage : pensez au besoin à supprimer via [i]rm -rf[/i] (attention, cette commande est dangereuse et supprimera le dossier spécifié ainsi que tout ses sous dossiers) le dossier dans lequel le noyau sera décompressé, à savoir bien souvent [i]/usr/src/linux-3.0.X[/i] où X est la version mineure du noyau 3.0 que vous voulez compiler. la commande est donc :
+  [i][/#0000a0][#006633]$ cd /usr/src && rm -rf /usr/src/linux-3.0.X[/i]
+
+Maintenant que votre dossier /usr/src est propre, vous pouvez décompresser les sources du noyau via la commande :
+  [i][/#006633][#006633]$ cd /usr/src && tar xjf /path/to/linux-3.0.X.tar.bz2[/i][/#006633]
+
+
+[quotemsg=1334706,1,567107]On le sait tous trouver les drivers adéquat pour son kernel est difficile parfois. Voilà donc un petit "truc", ça marche pas a 100% mais ça permet lors de la compilation de son kernel d'avoir son matos un maximum reconnus sans "trop" de soucis :
+Commencer par faire une liste utilisable de votre kernel 
+[code]
+lspci -n
+[/code]
+
+puis allez sur cette page :
+http://kmuto.jp/debian/hcl/
+
+Collez le résultat de votre commande rentrée plus haut et ça vous donnera les modules a configurer :>[/quotemsg]
+%
