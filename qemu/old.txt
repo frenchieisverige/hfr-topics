@@ -1,0 +1,5 @@
+J'ai decouvert ca aujourdh'ui par hazard Qemu
+http://fabrice.bellard.free.fr/qemu/
+
+C'est un espece de clone de vmware
+C'est LGPL, et ca marche
