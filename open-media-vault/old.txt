@@ -1,0 +1,48 @@
+[quote]Voilà, le topic n'existait pas, et je vois que nous sommes de plus en plus nombreux à utiliser cet OS afin de se monter un NAS en toute simplicité (enfin presque, sinon un topic serait peu utile :D).
+Allez c'est parti !
+
+[#FF0E00][b]I/ Présentation[/b][/#FF0E00]
+
+[img]http://img708.imageshack.us/img708/3865/openmediavault.png[/img]
+
+Open Media Vault - OMV pour les intimes - est une distribution Linux dédiée à un usage NAS en premier lieu. Elle est basée sur Debian.
+
+[URL]http://www.openmediavault.org/[/URL]
+
+En bref :
+[*]Basé sur Debian Squeeze
+[*]Une interface Web "user-friendly", un peu à l'image des NAS Synology ou autre, tout en ayant la possibilité d'aller bidouiller en ligne de commande en SSH par exemple
+[*]Systèmes de fichiers EXT3/EXT4/XFS/JFS
+[*]Gestion du raid logiciel MDADM
+[*]Support de LVM
+[*]Protocoles standards de transfert de fichier (Samba, FTP, NFS, etc.
+[*]Système de plugins permettant d'ajouter des fonctionnalités utilisables depuis l'interface web, tout en étant basé sur les paquets standards Debian, dont notamment :
+           - Serveur miniDLNA
+          - Client BitTorrent (Transmission)
+          - Serveur iTunes (DAAP)
+          - Support UPS (NUT)
+          - Support iSCSI
+          - Et de nombreux autres, évolution constante...
+
+[#FF0E00][b]II/ Les versions[/b][/#FF0E00]
+
+La version stable actuelle :
+     [b]- 0.2.7.4 : Il est conseillé de rester sur cette branche si vous ne voulez pas trop tester les différents bugs[/b]
+La version béta actuelle :
+     [b]- 0.3.0.17 : Rajoute quelques fonctionnalités intéressantes, en béta mais bien plus stable qu'au départ[/b]
+
+[#FF0E00][b]III/ Installation[/b][/#FF0E00]
+
+(1) Téléchargez l'ISO d'installation depuis les dépôts officiels : [url]http://sourceforge.net/projects/openmediavault/files/[/url]
+
+(2) Gravez l'ISO, ou pour l'installer sur une clef USB bootable utilisez un outil adapté (UNETbootin fonctionne très bien)
+
+[#E2001C][b]/!\ Je conseille de laisser uniquement le disque-dur qui servira de disque système si vous effectuez une installation "auto", sinon gare aux mauvaises surprises...[/b][/#E2001C]
+[b]Il est fortement déconseillé de se servir d'une clef USB comme disque système, les versions actuelles semblent poser problème. Privilégiez un petit disque ou un petit SSD.[/b]
+
+(3) Booter sur le CD gravé / la clef USB. Sélectionnez installation "auto" si vous n'êtes pas sûr de vous, ou pas à l'aise avec l'installation d'une distribution Linux. Le disque système sera complètement formaté et non disponible directement pour du stockage. Sinon faites une installation "expert" afin de partitionner à votre guise.
+
+(4) Une fois l'installation terminée, si votre interface réseau a bien été configurée (par DHCP ou manuellement), l'adresse IP devrait s'afficher lors du premier boot.
+Depuis un navigateur internet, connectez vous à cette adresse IP. Par défaut, les identifiants / mot de passe sont admin / openmediavault . Je vous conseille de les modifier par la suite.
+
+(5) [i]A suivre...[/i][/quote]
