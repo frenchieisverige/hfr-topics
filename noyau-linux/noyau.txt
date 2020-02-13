@@ -13,36 +13,35 @@ Retrouvez leurs posts originaux [url=https://raw.githubusercontent.com/frenchiei
 
 Il existe plusieurs noyaux:
 [*] [url=https://www.kernel.org/]kernel.org[/url]: Noyaux utilisés dans la plus part des distributions Linux. Aussi appelé noyaux "Vanilla".
-[*] [url=https://github.com/anthraxx/linux-hardened]Hardened[/url]: Kernel mettant l'accent sur la sécurité.
-[*] [url=https://github.com/zen-kernel/zen-kernel]Zen[/url]: Kernel à part entière résultant d'un effort collaboratif de plusieurs hackers pour fournir le meilleurs kernel possible pour une utilisation quotidienne.
+[*] [url=https://github.com/anthraxx/linux-hardened]Hardened[/url]: Noyau mettant l'accent sur la sécurité.
+[*] [url=https://github.com/zen-kernel/zen-kernel]Zen[/url]: Noyau à part entière résultant d'un effort collaboratif de plusieurs hackers pour fournir le meilleur noyau possible pour une utilisation quotidienne.
 
 Sur [i]kernel.org[/i], on retrouve plusieurs versions de noyaux:
 [*] [url=https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git]Mainline[/url]: C'est le noyau compilé depuis le git de [url=https://fr.wikipedia.org/wiki/Linus_Torvalds]Linus Torvalds[/url] (créateur du noyau Linux) qui dirige donc son développement. Toutes les nouveautés sont y introduites dans ce dernier.
-[*] [url=https://www.kernel.org/]Stable[/url]: Le noyau [i]mainline[/i] officiellement sorti, considéré comme stable. Si un bogue est repérée dans la version [i]stable[/i], sa correction se fait d'abord dans l'arborescence du noyau [i]mainline[/i] avant d'être retroportée manuellement.
-[*] [url=https://www.kernel.org/]LTS[/url]: Noyau ayant une maintenance à long terme (Long Term Support en anglais). Tout comme pour le noyau [i]stable[/i], les corrections sont retroportées manuellement, mais seulement si ces derniéres corrigent des bogues jugés critiques.
+[*] [url=https://www.kernel.org/]Stable[/url]: Le noyau [i]mainline[/i] officiellement sorti, considéré comme stable. Si un bogue est repéré dans la version [i]stable[/i], sa correction se fait d'abord dans l'arborescence du noyau [i]mainline[/i] avant d'être retroporté manuellement.
+[*] [url=https://www.kernel.org/]LTS[/url]: Noyau ayant une maintenance à long terme (Long Term Support en anglais). Tout comme pour le noyau [i]stable[/i], les corrections sont retroportées manuellement, mais seulement si ces dernières corrigent des bogues jugés critiques.
 [*] [url=https://www.kernel.org/doc/man-pages/linux-next.html]Next[/url]: Noyau de développement attendant d'être intégré dans la version [i]mainline[/i].
 
-A ma grande surprise, il est possible d'appliquer des "patchsets" sur les noyaux [i]kernel.org[/i] créant de nouvelles variantes de noyaux répondant à des critères spécifiques ou respectant une philosophie:
-[*] [url=http://www.fsfla.org/ikiwiki/selibre/linux-libre/]Linux libre[/url]: Kernel dépourvu de tous code propriétaire, uniquement sous acceptation par la FSF.
+À ma grande surprise, il est possible d'appliquer des "patchsets" sur les noyaux [i]kernel.org[/i] créant de nouvelles variantes de noyaux répondant à des critères spécifiques ou respectant une philosophie:
+[*] [url=http://www.fsfla.org/ikiwiki/selibre/linux-libre/]Linux libre[/url]: Noyau dépourvu de tous codes propriétaires, uniquement sous acceptation par la FSF.
 [*] [url=http://ck-hack.blogspot.com]CK Kernel[/url]: Optimisations du noyau proposé par Con Kolivas se concentrant sur la réactivité du système doté d'un bureau.
-[*] [url=https://wiki.linuxfoundation.org/realtime/start]Realtime Kernel[/url]: Noyau mettant l'accent sur le temp réel via diverses optimisations et/ou changements du code source.
-Et il existe encore bien d'autres noyaux créés à partir de "patchsets" dits mineurs comme les noyaux optimisés pour Chromebooks ou netbook, l'intégration du noyau [i]zen[/i] dans Debian etc etc... A retrouver [url=https://wiki.archlinux.org/index.php/Kernel]ici[/url] et [url=https://wiki.archlinux.fr/Noyaux_Linux]ici[/url].
+[*] [url=https://wiki.linuxfoundation.org/realtime/start]Realtime Kernel[/url]: Noyau mettant l'accent sur le temps réel via diverses optimisations et/ou changements du code source.
+Et il existe encore bien d'autres noyaux créés à partir de "patchsets" dits mineurs comme les noyaux optimisés pour Chromebooks ou Netbook, l'intégration du noyau [i]zen[/i] dans Debian etc etc... Liste complète à retrouver [url=https://wiki.archlinux.org/index.php/Kernel]ici[/url] et [url=https://wiki.archlinux.fr/Noyaux_Linux]ici[/url].
 
-[#FFAA00][b]VERSIONS LES PLUS RECENTES[/b][/#FFAA00]
+[#FFAA00][b]VERSIONS LES PLUS RÉCENTES[/b][/#FFAA00]
 
 Le développement des noyaux Linux ([i]kernel.org[/i]) va vite, c'est pour cette raison que je recommande directement d'aller sur le site [url=https://www.kernel.org/]kernel.org[/url] pour vérifier la dernière version en date. Néanmoins je vous écris ci dessous les versions que j'essayerai de mettre le plus souvent à jour:
-[*] mainline: 	5.6-rc1 	
-[*] stable: 	5.5.3 	
-[*] LTS: 	5.4.19 / 4.19.103 / 4.14.170 / 4.9.213 / 4.4.213 / 3.16.82
+[*] mainline: 5.6-rc1 	
+[*] stable: 5.5.3 	
+[*] LTS: 5.4.19 / 4.19.103 / 4.14.170 / 4.9.213 / 4.4.213 / 3.16.82
 
-[#FFAA00][b]TELECHARGER[/b][/#FFAA00]
+[#FFAA00][b]TÉLÉCHARGER[/b][/#FFAA00]
 
-Les sources du noyaux Linux sont directement téléchargeable depuis [url=https://www.kernel.org/]kernel.org[/url] pour ensuite pour le compiler et l'installer à la main.
-Sinon, il est toujours possible que vous attendiez leurs présences dans les dépôts de votre distribution Linux préférée.
+Les sources du noyaux Linux sont directement téléchargeable depuis [url=https://www.kernel.org/]kernel.org[/url] pour ensuite pour le compiler et l'installer à la main. Sinon, il est toujours possible que vous attendiez leurs présences dans les dépôts de votre distribution Linux préférée.
 
 [#FFAA00][b]COMPILER et INSTALLER[/b][/#FFAA00]
 
-Plusieurs guides expliquent, selon votre distribution, comment compiler à la main le noyau fraichement téléchargé:
+Plusieurs guides expliquent, selon votre distribution, comment compiler à la main le noyau fraîchement téléchargé:
 [*] [url=https://wiki.archlinux.fr/Compiler_un_nouveau_noyau]Arch Linux[/url]
 [*] [url=https://debian-facile.org/doc:systeme:kernel:compiler]Debian[/url]
 [*] [url=https://fedoraproject.org/wiki/Building_a_custom_kernel/fr]Fedora[/url]
@@ -83,20 +82,20 @@ Ensuite, on recompile les modules utiles : nvidia-drivers, alsa-lib, alsa-utils,
 Reboot!
 [/fixed][i]Crédit: @j_c_p[/i]
 
-Il ne vous reste plus qu'a poster fièrement votre [i]screenfetch[/i] sur le topic [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=420&post=21939&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0]Le topic des 'uname -a'[/url] :sol: 
+Il ne vous reste plus qu'à poster fièrement votre [i]screenfetch[/i] sur le topic [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=420&post=21939&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0]Le topic des 'uname -a'[/url] :sol: 
 
 [#FFAA00][b]RESSOURCES[/b][/#FFAA00]
 
 Pour plus d'informations, veuillez consulter: 
-[*] [url=https://www.kernel.org/doc/html/latest/]Git kernel.org[/url]: Dépôt du code source du noyau Linux ([i]kernel.org[/i]).
 [*] [url=https://git.kernel.org/pub/scm/]Git kernel.org[/url]: Dépôt du code source du noyau Linux ([i]kernel.org[/i]).
+[*] [url=https://www.kernel.org/doc/html/latest/]Doc kernel.org[/url]: Documentation du code source du noyau Linux ([i]kernel.org[/i]).
 [*] [url=http://www.kroah.com/lkn/]Linux Kernel in a Nutshell[/url]: La bible pour pouvoir compiler, customiser et installer son noyau.
 [*] [url=https://kernelnewbies.org/]Kernelnewbies[/url]: Site d'entraide pour le développement du noyau Linux.
 [*] [url=https://forum.linuxfoundation.org/]Linuxfoundation[/url]: Forum de la fondation Linux, ayant pour but de standardiser Linux.
 [*] [url=https://lkml.org/]Lkml.org[/url]: Liste de diffusion non officiel du noyau Linux.
-[*] [url=https://lwn.net/Kernel/]Lkml.org[/url]: Couverture du code source du noyau Linux.
+[*] [url=https://lwn.net/Kernel/]lwn.net[/url]: Couverture du code source du noyau Linux.
 
-[#FFAA00][b]SITE D'ACTUALITES[/b][/#FFAA00] 
+[#FFAA00][b]SITE D’ACTUALITÉS[/b][/#FFAA00] 
 
 Pour se maintenir au courant des dernières actualités, vous pouvez aller sur:
 [*] [url=https://www.phoronix.com/scan.php?page=home]Phoronix[/url]: Actualités hardware lié aux distributions Linux.
@@ -104,7 +103,7 @@ Pour se maintenir au courant des dernières actualités, vous pouvez aller sur:
 [*] [url=https://linuxfr.org/]Linuxfr.org[/url]: L'actualité du logiciel libre et de Linux.
 [*] [url=https://www.linuxtricks.fr/pages/bienvenue-sur-linuxtricks]Linuxtricks.fr[/url]: Blogue Linux écrit par le Youtubeur @AdrienD. 
 
-[#FFAA00][b]DISCUSSIONS / DEBATS[/b][/#FFAA00]
+[#FFAA00][b]DISCUSSIONS / DÉBATS[/b][/#FFAA00]
 
 Pour approfondir ses connaissances:
 [*] [url=https://www.youtube.com/watch?v=_-UnhWJjGJk]The State of the Linux Kernel Panel[/url]: Discussion entre les principaux acteurs sur l'état du noyau.
@@ -113,16 +112,11 @@ Pour approfondir ses connaissances:
 
 [#FFAA00][b]RESSOURCES ANCIENNES[/b][/#FFAA00]
 
-Ces ressources n'ont pas étées mise à jour depuis un petit bout de temps, mais peuvent toujours servir:
+Ces ressources n'ont pas été mise à jour depuis un petit bout de temps, mais peuvent toujours servir:
 [*] [url=http://en.tldp.org/LDP/tlk/tlk.html]The Linux Kernel[/url]: Ancien ebook, très complet, sur l'architecture du noyau.
 
-[#FFAA00][b]PRECEDENTES VERSIONS TOPIC[/b][/#FFAA00]
+[#FFAA00][b]PRÉCÉDENTES VERSIONS DU TOPIC[/b][/#FFAA00]
 
 [#FFAA00][b]22/12/2019: Reprise par FrenchieiSverige[/b][/#FFAA00]
-[#848484]31-08-2005: Reprise par l0ky[/#848484]
+[#848484]31/08/2005: Reprise par l0ky[/#848484]
 [#848484]29/05/2003: Création du topic par par - Fred -[/#848484]
-
-
-
-
-
