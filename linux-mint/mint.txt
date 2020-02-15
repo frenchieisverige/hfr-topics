@@ -2,6 +2,7 @@
 
 Topic initialement crée par [b][#FF0000]Tenaka[/#FF0000][/b], actuellement maintenu par[b] FrenchieiSverige[/b].
 
+
 [#78C02F][b]PRESENTATION[/b][/#78C02F]
 
 [quote]En bref : Une distribution user friendly basée sur Ubuntu ou alors Debian disposant de surcouches afin d'améliorer l'expérience utilisateur.  
@@ -24,7 +25,7 @@ Ces [strike]quatre[/strike] trois éditions (RIP KDE) sont toutes les mêmes, sa
 
 Enfin, la version basé sur Debian, réservé aux utilisateurs plus expérimentés:
 [*]LMDE 3 Cinnamon
-[*]LMDE 3 MATE
+
 
 [#78C02F][b]POURQUOI CHOISIR LINUX MINT VS UBUNTU LTS?[/b][/#78C02F]
 
@@ -33,6 +34,7 @@ Enfin, la version basé sur Debian, réservé aux utilisateurs plus expériment�
 [*]Gestion des noyaux sous Mint facilité: [url=https://youtu.be/_BvDi-ENzDA?t=395]vidéo[/url] 
 
 [:icon4] WIP, donnez votre avis! [:icon4]
+
 
 [#78C02F][b]CONFIGURATION MINIMALE[/b][/#78C02F]
 
@@ -50,6 +52,7 @@ Disque Dur: 9Go d'espace disque disponible (20Go recommandé).
 Carte Graphique: Une pouvant supporter une résolution d'au moins 800×600 (1024×768 recommandé) 
 1 port USB ou lecteur DVD pour l'installation[/quote]
 
+
 [#78C02F][b]TELECHARGEMENTS[/b][/#78C02F]
 
 Toutes les versions (Ubuntu & Debian) peuvent être téléchargées à partir de ce lien: [url]https://linuxmint.com/download_all.php[/url]. 
@@ -61,9 +64,8 @@ NB: Si vous le pouvez, utilisez les torrents pour soulager les serveurs de tél�
 
 
 [#78C02F][b]SCREENSHOTS[/b][/#78C02F]
-
-[url=https://reho.st/view/self/a280b0d5896b9431e69f122baabf8f0d233c0811.png][img]https://reho.st/medium/self/a280b0d5896b9431e69f122baabf8f0d233c0811.png[/img][/url]
- [i]Figure 1: Linux Mint 19.2 Tina Xfce Edition[/i]
+[url=https://www.pixenli.com/image/gvq4fmyB][img]https://www.pixenli.com/miniature/gvq4fmyB[/img][/url]
+ [i]Figure 1: Linux Mint 19.3 Tricia MATE Edition[/i]
 
 
 [#78C02F][b]INSTALLATION[/b][/#78C02F]
@@ -94,9 +96,9 @@ Notez que les cartes AMD/ATI sont recommandées car mieux supportées sous Linux
 
 [#78C02F][b]CHANGELOGS[/b][/#78C02F]
 
---> [url=https://www.linuxmint.com/rel_tina_cinnamon.php]Release Notes pour Linux Mint 19.2 Tina Cinnamon[/url]
---> [url=https://www.linuxmint.com/rel_tina_mate.php]Release Notes pour Linux Mint 19.2 Tina  MATE[/url]
---> [url=https://www.linuxmint.com/rel_tina_xfce.php]Release Notes pour Linux Mint 19.2 Tina Xfce[/url]
+--> [url=https://www.linuxmint.com/rel_tricia_cinnamon.php]Release Notes pour Linux Mint 19.3 Tricia Cinnamon[/url]
+--> [url=https://www.linuxmint.com/rel_tricia_mate.php]Release Notes pour Linux Mint 19.3 Tricia  MATE[/url]
+--> [url=https://www.linuxmint.com/rel_tricia_xfce.php]Release Notes pour Linux Mint 19.3 Tricia Xfce[/url]
 
 
 [#78C02F][b]SITES OFFICIELS[/b][/#78C02F]
@@ -117,8 +119,9 @@ Notez que les cartes AMD/ATI sont recommandées car mieux supportées sous Linux
 
 [#78C02F][b]HISTORIQUES DES VERSIONS[/b][/#78C02F] 
 
-[#78C02F][b] 02/08/2019: Tina 19.2 LTS based on Ubuntu 18.04.2[/b][/#78C02F] 
-[#848484] 29/06/2018: Tessa 19.1 LTS based on Ubuntu 18.04.1[/#848484] 
+[#78C02F][b] 18/12/2019: Tricia 19.3 LTS based on Ubuntu 18.04.3[/b][/#78C02F] 
+[#848484] 02/08/2019: Tina 19.2 LTS based on Ubuntu 18.04.2[/#848484] 
+[#848484] 29/06/2018: Tessa 19.1 LTS based on Ubuntu 18.04.1[/#848484]
 [#848484] 29/06/2018: Tara 19 LTS based on Ubuntu 18.04[/#848484]  
 [#848484] 24/11/2017:  Sylvia 18.3 LTS based on Ubuntu 16.04.3[/#848484] 
 [#848484] 29/06/2017:  Sonya 18.2 LTS based on Ubuntu 16.04.2[/#848484] 
