@@ -8,7 +8,7 @@ The forum [Hardware.fr](https://forum.hardware.fr/) treats various topics relate
 
 ## Why?
 
-Because <img src="https://forum-images.hardware.fr/icones/redface.gif" width=100> <br>
+Because <img src="https://forum-images.hardware.fr/icones/redface.gif" width=20> <br>
 I decided to revive some topics that were either dead or the front page was not updated recently. These topics are mainly related to the Linux world.
 
 ## Presentation
