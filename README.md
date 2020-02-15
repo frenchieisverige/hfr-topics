@@ -8,13 +8,14 @@ The forum [Hardware.fr](https://forum.hardware.fr/) treats various topics relate
 
 ## Why?
 
-Because <img src="https://reho.st/preview/self/2436ba48c780a3c233639920cb15cb22af71d943.jpg" width=20> <br>
+Because <img src="https://forum-images.hardware.fr/icones/redface.gif" width=100> <br>
 I decided to revive some topics that were either dead or the front page was not updated recently. These topics are mainly related to the Linux world.
 
 ## Presentation
 
 Here are the topics that I'm currently maintaining:
 * [[LINUX MINT] - Topic dédié / version Tina 19.2 LTS](https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=67863&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0)
+* [[Noyau Linux] Version 5 et des brouettes](https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=205&post=24424&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0)
 * [Qemu : la baffe](https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=208&post=38501&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0)
 * [[TOPIC UNIQUE] Elementary OS : La distrib qui n'a rien a envier à OSX](https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=74522&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0)
 * [[Topic Unique] Open Media Vault, le topic des utilisateurs](https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=72970&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0)
