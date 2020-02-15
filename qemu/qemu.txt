@@ -1,5 +1,5 @@
-[url=https://reho.st/view/self/397a3d9a09264bd6344fb29192f6ffed10b55b0e.png][img]https://reho.st/preview/self/397a3d9a09264bd6344fb29192f6ffed10b55b0e.png[/img][/url]
- 
+[url=https://www.pixenli.com/image/IdJsnVNS][img]https://www.pixenli.com/miniature/IdJsnVNS[/img][/url]
+
 Topic initialement crée par [b][#FF0000]mean[/#FF0000][/b], actuellement maintenu par[b] FrenchieiSverige[/b]. 
 
 Son post original:
@@ -50,7 +50,7 @@ Qemu est disponible:
 
 [#FF7100][b]SCREENSHOT[/b][/#FF7100]
 
-[url=https://reho.st/view/self/2f01b52c00b0e65cca3613c37615155a392f088f.png][img]https://reho.st/preview/self/2f01b52c00b0e65cca3613c37615155a392f088f.png[/img][/url]
+[url=https://www.pixenli.com/image/VmBis6mE][img]https://www.pixenli.com/miniature/VmBis6mE[/img][/url]
  [i]Figure 1: Qemu/kvm émulant Windows 10 (Guest) avec Arch Linux en Host[/i]
 
 
