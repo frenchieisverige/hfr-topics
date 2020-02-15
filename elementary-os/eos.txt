@@ -1,8 +1,8 @@
-[img]http://hsto.org/getpro/habr/post_images/402/66f/3b0/40266f3b01ed53aabe4970c5ad6302b6.png[/img]
+[url=https://www.pixenli.com/image/3KezRNFJ][img]https://www.pixenli.com/miniature/3KezRNFJ[/img][/url]
 
 [:troudbal] Bonjour, et bienvenue sur mon premier topic unique!  [:troudbal] 
 
-[#0055AA][b]Introduction [/b][/#0055AA]
+[#0055AA][b]INTRODUCTION[/b][/#0055AA]
 
 Elementary OS, ou eOS pour les intimes, est une distribution Linux basée sur Ubuntu LTS. Le système d’exploitation utilise son propre environnement de bureau basé sur Gnome (GTK3) nommé Pantheon.
 Cette distribution a initialement commencé en étant un ensemble de thèmes et d’applications conçus pour Ubuntu mais qui mettait en avant une homogénéisation et une harmonie dans la présentation de la distribution. Le but étant simple : combler les manques de Linux:
@@ -14,28 +14,27 @@ Cette distribution a initialement commencé en étant un ensemble de thèmes et 
 
 Son interface se veut intuitive, légère et inspiré d'un OS développé par un géant américain, Apple [:nicephore17]. La distribution ne consomme pas trop de ressource système (CPU, RAM …) et peut donc tourner sur de vieillissantes machines.
 
-[#0055AA][b]Se procurer Elementary OS[/b][/#0055AA]
+[#0055AA][b]SE PROCURER ELEMENTARY OS[/b][/#0055AA]
 
 Elementary OS est disponible gratuitement et légalement:
-     --> [url=https://www.elementaryos-fr.org/telecharger-elementary-os/][#0055AA]Juno 5.0[/#0055AA][/url]
+     --> [url=https://www.elementaryos-fr.org/telecharger-elementary-os/][#0055AA]Hera 5.1[/#0055AA][/url]
 Cette release est uniquement disponible pour les processeurs [b][#FF0E00]64 bits[/#FF0E00][/b].
 
-[#0055AA][b]Changelogs[/b][/#0055AA]
+[#0055AA][b]CHANGELOGS[/b][/#0055AA]
 
-[*] [url=https://www.elementaryos-fr.org/juno-est-maintenant-disponible/]Juno 5.0[/url] disponible
+[*] [url=https://www.elementaryos-fr.org/presentation-delementary-os-5-1-hera/]Hera 5.1[/url] disponible
 
-[#0055AA][b]Screenshots[/b][/#0055AA]
+[#0055AA][b]SCREENSHOT[/b][/#0055AA]
 
-[url=https://reho.st/view/self/5bc02bd9f57e442447f7245bcb1bd199f83d6a4e.png][img]https://reho.st/medium/self/5bc02bd9f57e442447f7245bcb1bd199f83d6a4e.png[/img][/url]
- [i]Figure 1: Bureau d'eOS Juno[/i]
+[url=https://www.pixenli.com/image/HUDZ4LRo][img]https://www.pixenli.com/miniature/HUDZ4LRo[/img][/url]
+ [i]Figure 1: Bureau d'eOS Hera[/i]
  
-
-[#0055AA][b]Bugs connus[/b][/#0055AA]
+[#0055AA][b]BUGS CONNUS[/b][/#0055AA]
 
 --> [url=http://www.elementaryos-fr.org/uefi-bug-fixed/]UEFI-fixed[/url]
 --> Switch Carte graphique intel+amd sur PC portable: aticonfig --px-i(ou d)gpu (voir page 2)
 
-[#0055AA][b]Ressources annexes[/b][/#0055AA]
+[#0055AA][b]RESSOURCES ANNEXES[/b][/#0055AA]
 
 Si vous avez des questions qui sont restés sans réponses, je vous conseille de vous tourner vers:
 
@@ -45,16 +44,17 @@ Si vous avez des questions qui sont restés sans réponses, je vous conseille de
 --> [url=http://elementary-art.deviantart.com/]Elementary OS sur DeviantArt[/url] Pour personnaliser son Elementary OS à souhait!
 --> [url=http://danrabbit.deviantart.com/gallery/]Danrabbit pour Elementary OS[/url] Un créateur plutôt talentueux au service d'Elementary OS
 
-[#0055AA][b]Sites officiels[/b][/#0055AA]
+[#0055AA][b]SITES OFFICIELS[/b][/#0055AA]
 
 Pour plus d'informations et (re) découvrir Elementary OS, veuillez consulter:
 --> [url]http://www.elementaryos-fr.org/[/url]
 --> [url]http://elementaryos.org/[/url]
 
-[#0055AA][b]Historique des versions [/b][/#0055AA]
+[#0055AA][b]HISTORIQUE DES VERSIONS[/b][/#0055AA]
 
-[#0055AA][b] Juno (5.0) based on Ubuntu 18.04 LTS : 16 Septembre 2018 [/b][/#0055AA]
-[#848484] Loki (0.4.1) based on Ubuntu 16.04 LTS : 09 Septembre 2016 [/#848484]
-[#848484] Freya (0.3) based on Ubuntu 14.04 LTS : 08 Février 2015 [/#848484]
-[#848484] Luna (0.2) based on Ubuntu 12.04 : 10 Aout 2013 [/#848484]
-[#848484] Jupiter (0.1) based on Ubuntu 10.10 : 11 Avril 2011 [/#848484]
+[#0055AA][b] 03/12/2019: Hera 5.1 based on Ubuntu 18.04 LTS [/b][/#0055AA]
+[#848484] 16/09/18: Juno (5.0) based on Ubuntu 18.04 LTS [/#848484]
+[#848484] 09/09/2016: Loki (0.4.1) based on Ubuntu 16.04 LTS [/#848484]
+[#848484] 08/02/2015: Freya (0.3) based on Ubuntu 14.04 LTS [/#848484]
+[#848484] 10/08/2013: Luna (0.2) based on Ubuntu 12.04 [/#848484]
+[#848484] 11/04/2011: Jupiter (0.1) based on Ubuntu 10.10 [/#848484]
