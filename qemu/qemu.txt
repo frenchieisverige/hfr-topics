@@ -102,7 +102,8 @@ Xen:
 
 Voici une liste non exhaustive des différentes versions de Qemu. La liste complète des 79 versions est à retrouver [url=https://download.qemu.org/]ici[/url].
 
-[#FF7100][b]15/08/2019: qemu-4.1.0 [/b][/#FF7100]
+[#FF7100][b] 12/12/2019: qemu-4.2.0 [/b][/#FF7100]
+[#848484] 15/08/2019: qemu-4.1.0 [/#848484]
 [#848484] 23/04/2019: qemu-4.0.0 [/#848484]
 [#848484] 02/08/2019: qemu-3.1.1 [/#848484]
 [#848484] 12/04/2019: qemu-3.0.1 [/#848484]
