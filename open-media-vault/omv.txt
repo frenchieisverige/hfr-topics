@@ -48,7 +48,8 @@ Dans les deux cas, veuillez aussi vérifier [b]l'intégrité de votre image[/b] 
 
 
 [#0055AA][b][u]SCREENSHOTS[/u][/b][/#0055AA]
-[url=https://reho.st/view/self/332b272c779fcd74b5009d44c22ccecbed6381d5.png][img]https://reho.st/medium/self/332b272c779fcd74b5009d44c22ccecbed6381d5.png[/img][/url]
+
+[url=https://www.pixenli.com/image/b-E2LPCV][img]https://www.pixenli.com/miniature/b-E2LPCV[/img][/url]
    [i]Figure 1: Dashboard d'OMV 4.0[/i]
 
 
@@ -58,10 +59,7 @@ Si vous êtes sous Linux, une simple commande dd fera l'affaire:
 [fixed]sudo dd if=/chemin/vers/image/OMV.iso of=/dev/sdX bs=4096[/fixed]
 Ou X est la lettre correspondant à votre clé USB.
 
-Si vous êtes sous Windows, je vous conseille l'excellent [url=https://rufus.akeo.ie/?locale=fr][b]Rufus[/b][/url], et remplissez comme ci-dessous: (1) Choisir la clé USB (2) Choisir l'image ISO » (3) Sélectionner limage d’OpenMediaVault (4) Démarrer.
-[url=http://reho.st/view/self/ecb5e3d26aeeb152981f7ff9230ca924fbfdbfc4.png][img]http://reho.st/thumb/self/ecb5e3d26aeeb152981f7ff9230ca924fbfdbfc4.png[/img][/url]
-  [i]Figure 2: Création clé USB avec Rufus[/i]
-
+Si vous êtes sous Windows, je vous conseille l'excellent [url=https://rufus.akeo.ie/?locale=fr][b]Rufus[/b][/url], ou encore sa très bonne alternative j'ai nommé [url=https://www.balena.io/etcher/][b]Etcher[/b][/url]. Vous trouverez des tutoriels à la pelle sur la toile, ou si vous avez la flemme [url=https://lmgtfy.com/?q=comment+cr%C3%A9er+une+cl%C3%A9+usb+bootable+iso+rufus]je vous ai déjà googler ça pour vous[/url] :o
 
 [#0055AA][b][u]INSTALLATION[/u][/b][/#0055AA]
 
@@ -128,6 +126,7 @@ Et on attend patiemment, cela risque de prendre du temps...
 [b]Est-il possible un gestionnaire de cameras de surveillance de type "Surveillance Station"?[/b] Oui, grâce à [url=http://forum.openmediavault.org/index.php/Thread/8578-Zoneminder-on-1-18/?pageNo=1]Zoneminder[/url].
 [b]Est-il possible d'ajouter un disque dur formaté NTFS déjà rempli de données au NAS ?[/b] Oui, possible en installant le paquet [i]ntfs-3g[/i] disponible dans les dépôts Debian mais avec des performances catastrophiques (~10Mo/s) et plus ou moins stable (risque de pertes de données lors de l'écriture/lecture). Ceci est lié au système de fichiers qu'utilise Linux (FUSE filesystem), peu ou pas compatible avec le système de fichiers propriétaire de Microsoft, NTFS. Je ne recommande donc pas l'installation de ce paquet, et plutôt de se diriger vers un disque formaté en ext4.  
 [b]Ma GUI me refuse toutes connexions depuis quelques semaines car la connexion n'est pas sécurisée (aussi bien sur Firefox que Chrome). Comment je peux récupérer l'accès ?[/b] Vérifiez votre HDD système s'il n'est pas plein (gros fichier log etc etc).
+
 [:icon4] WIP [:icon4]
 
 [#0055AA][b][u]CHANGELOGS[/u][/b][/#0055AA]
@@ -164,6 +163,7 @@ Pour plus d'informations, veuillez consulter:
 [#0055AA][b][u]RESSOURCES ANNEXES[/u][/b][/#0055AA]
 
 Si vous avez des questions qui sont restés sans réponses, je vous conseille de vous tourner vers:
+--> [url=https://www.youtube.com/channel/UCX2Vhc0LIzSS9aMzhGFZ7PA]Chaine YouTube de Techno Dad Life[/url]: Chaîne YouTube  traitant tout ce qui tourne autour d'OMV. En anglais.
 --> [url=https://www.youtube.com/watch?v=Svs7d3x7pzg]NAS Partie 2 - Installation et configuration logicielle[/url]: Vidéo YouTube expliquant pas à pas l'Installation et la Configuration d'OMV 
 --> [url=http://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=12264&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0]Debian-HFR[/url]: Le Topic Debian d'HFR pour des questions lié à Debian.
 --> [url=http://www.linuxquestions.org/questions/linux-distributions-5/]linuxquestions.org[/url] : Site plus généraliste de Linux.
@@ -172,6 +172,12 @@ Si vous avez des questions qui sont restés sans réponses, je vous conseille de
 --> [url=https://forum.openmediavault.org/index.php/Thread/19871-Which-energy-efficient-ARM-platform-to-choose/?postID=154980#post154980]ARM-based NAS examples[/url] : Exemples de configs NAS basés sur ARM et donc peu consommatrice en énergie électrique (~5W).
 [:icon4] WIP [:icon4]
 
+[#0055AA][b][u]TUTOS ANNEXES[/u][/b][/#0055AA]
+
+--> [url=https://forum.hardware.fr/hfr/OSAlternatifs/Installation/unique-vault-utilisateurs-sujet_72970_176.htm]Installer Nextcloud avec Docker[/url]: Tuto proposé par [i]@glubovore[/i]
+--> [url=https://blog.shevarezo.fr/post/2019/11/06/openmediavault-installer-le-plugin-docker]Installer le plugin Docker sur OpenMediaVault[/url]: Tuto proposé par [i]@sheva-mafioso[/i]
+--> [url=https://blog.shevarezo.fr/post/2019/11/19/openmediavault-installer-configurer-mariadb-docker]Installer et configurer MariaDB sous Docker[/url]: Tuto proposé par [i]@sheva-mafioso[/i]
+--> [url=https://blog.shevarezo.fr/post/2019/12/11/openmediavault-mettre-a-jour-automatiquement-images-docker-watchtower]Mettre à jour automatiquement ses images Docker avec WatchTower[/url]: Tuto proposé par [i]@sheva-mafioso[/i]
 
 [#0055AA][b][u]HISTORIQUES DES VERSIONS[/u][/b][/#0055AA]
 
