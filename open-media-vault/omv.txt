@@ -1,4 +1,4 @@
-[img]http://reho.st/self/21d05bf4c68ed944dae2137de465c891eac86a2c.png[/img]
+[img]https://www.pixenli.com/miniature/JA0QUmjr[/img]
 
 Topic initialement crée par [b][#FF0000]Radeon24[/#FF0000][/b], actuellement maintenu par[b] FrenchieiSverige[/b]. Retrouvez son post original dans un de ses posts en-dessous.
 
@@ -7,12 +7,12 @@ Topic initialement crée par [b][#FF0000]Radeon24[/#FF0000][/b], actuellement ma
 
 [#0055AA][b][u]OPENMEDIAVAULT C'EST QUOI?[/u] [/b][/#0055AA]
 
-OpenMediaVault, ou OMV pour les intimes, est une distribution Linux orientée [url=https://fr.wikipedia.org/wiki/Serveur_de_stockage_en_r%C3%A9seau][b]NAS[/b][/url], basée sur [url=https://www.debian.org/index.fr.html][b]Debian[/b][/url]. Il a été spécialement conçu pour monter son petit NAS chez soi, ou peut être utilisé dans les petites entreprises, mais ne se limites pas à ses cas de figures. Grâce à sa conception modulaire, il s'agit d'une solution clé en main, facile à utiliser,  facile à installer et d'administrer un stockage en réseau sans plus de connaissances, tout en le personnalisant à ses goûts grâce aux plugins. 
+Openmediavault, ou OMV pour les intimes, est une distribution Linux orientée [url=https://fr.wikipedia.org/wiki/Serveur_de_stockage_en_r%C3%A9seau][b]NAS[/b][/url], basée sur [url=https://www.debian.org/index.fr.html][b]Debian[/b][/url]. Il a été spécialement conçu pour monter son petit NAS chez soi, ou peut être utilisé dans les petites entreprises, mais ne se limites pas à ses cas de figures. Grâce à sa conception modulaire, il s'agit d'une solution clé en main, facile à utiliser,  facile à installer et d'administrer un stockage en réseau sans plus de connaissances, tout en le personnalisant à ses goûts grâce aux plugins. 
 
 
 [#0055AA][b][u]FEATURES[/u][/b][/#0055AA]
 
-Actuellement, OpenMediaVault est en version [b]4.1[/b] et est basé sur Debian Stretch (Debian 9.0) et propose notemment les fonctionnalités suivantes:
+Actuellement, openmediavault est en version [b]5.5[/b] et est basé sur Debian Buster (Debian 10.0) et propose notamment les fonctionnalités suivantes:
 [*] Administration via Web
 [*] Gestion des utilisateurs
 [*] Aggrégation de liens
@@ -25,21 +25,21 @@ Actuellement, OpenMediaVault est en version [b]4.1[/b] et est basé sur Debian S
 [*] SNMP (Simple Network Management Protocol)
 [*] Notifications par email
 [*] SSH / FTP / TFTP / NFS / SMB / CIFS / RSync 
+[*] Time Machine
 
 De plus, via l'installation du plugin [url=http://omv-extras.org/joomla/][b]OMV-Extras[/b][/url], il est possible d'installer d'autres services comme par example, un client [url=https://fr.wikipedia.org/wiki/BitTorrent_(protocole)][b]Bitorrent[/b][/url], le support [url=https://fr.wikipedia.org/wiki/ISCSI][b]iSCSI[/b][/url], la création d'un cloud personnel [url=https://owncloud.org/][b]Owncloud[/b][/url], la paravirtualisation avec [url=https://www.docker.com/][b]Docker[/b][/url], ou encore l'installation d'un server [url=https://www.plex.tv/][b]Plex[/b][/url] pour transformer votre salon en cinéma!
 
 
 [#0055AA][b][u]OU TELECHARGER OPENMEDIAVAULT?[/u][/b][/#0055AA]
 
-OpenMediaVault est disponible gratuitement et légalement:
-     --> En version Stable:
-	                   [url=https://sourceforge.net/projects/openmediavault/files/][#0055AA][b]OMV 4.X (x64)[/b][/#0055AA][/url]
-                    [url=https://sourceforge.net/projects/openmediavault/files/Raspberry%20Pi%20images/][#0055AA][b]OMV 4.X RPi (ARM) [/b][/#0055AA][/url]
-                    [url=https://sourceforge.net/projects/openmediavault/files/Odroid%20images/][#0055AA][b]OMV 4.X Single boards (ARM)[/b][/#0055AA][/url]
+Openmediavault est disponible gratuitement en version [b]Stable[/b] pour plusieurs platformes (PC & ARM).
+* Version PC: 
+[*] [url=https://sourceforge.net/projects/openmediavault/files/][#0055AA][b]Openmediavault 5.X (x64)[/b][/#0055AA][/url]
+* Pour les single board computers, la procédure d'installation pour cette version 5 a changé. Plusieurs guides sont disponibles pour:
+[*] [url=https://github.com/OpenMediaVault-Plugin-Developers/docs/blob/master/Adden-B-Installing_OMV5_on_an%20R-PI.pdf][#0055AA][b]OMV 5.X RPi (ARM) [/b][/#0055AA][/url]
+[*] [url=https://github.com/OpenMediaVault-Plugin-Developers/docs/blob/master/Adden-A-Installing_OMV5_on_Armbian.pdf][#0055AA][b]OMV 5.X Single boards (ARM)[/b][/#0055AA][/url]
 
-     --> En version Beta:
-                    [url=https://sourceforge.net/projects/openmediavault/files/5.0.5/][#0055AA][b]OMV 5.0.5 Beta (x64)[/b][/#0055AA][/url]
-
+A noter qu'openmediavault réinstaure le support pour [url=https://sourceforge.net/projects/openmediavault/files/][#0055AA][b]les très vieux PCs à base de processeur 32 bits[/b][/#0055AA][/url], utile peut être encore pour certains Atoms. Une version [b]Beta[/b] est disponible aussi (pas tout le temps) [url=https://sourceforge.net/projects/openmediavault/files/]ici[/url].   
 
 Je vous conseille de prendre la version stable si vous voulez commencer à utiliser OMV. Elle a été testée en large et en travers, des corrections de bugs ont été ajoutées, des incompatibilités ont été résolues, bref c'est la version idéale pour stocker vos données et dormir sur vos deux oreilles.
 Si par contre, vous vous sentez aventurier, et n'avez pas peur de perdre vos données pour profiter des dernières innovations, la version beta et faite pour vous! Elle aura certainement des bugs, à vous de jugez si vous pouvez faire avec.
@@ -49,8 +49,8 @@ Dans les deux cas, veuillez aussi vérifier [b]l'intégrité de votre image[/b] 
 
 [#0055AA][b][u]SCREENSHOTS[/u][/b][/#0055AA]
 
-[url=https://www.pixenli.com/image/b-E2LPCV][img]https://www.pixenli.com/miniature/b-E2LPCV[/img][/url]
-   [i]Figure 1: Dashboard d'OMV 4.0[/i]
+[url=https://www.pixenli.com/image/27scX3Hc][img]https://www.pixenli.com/miniature/27scX3Hc[/img][/url]
+   [i]Figure 1: Dashboard d'OMV 5.0[/i]
 
 
 [#0055AA][b][u]CREATION CLE USB BOOTABLE[/u][/b][/#0055AA]
@@ -60,6 +60,7 @@ Si vous êtes sous Linux, une simple commande dd fera l'affaire:
 Ou X est la lettre correspondant à votre clé USB.
 
 Si vous êtes sous Windows, je vous conseille l'excellent [url=https://rufus.akeo.ie/?locale=fr][b]Rufus[/b][/url], ou encore sa très bonne alternative j'ai nommé [url=https://www.balena.io/etcher/][b]Etcher[/b][/url]. Vous trouverez des tutoriels à la pelle sur la toile, ou si vous avez la flemme [url=https://lmgtfy.com/?q=comment+cr%C3%A9er+une+cl%C3%A9+usb+bootable+iso+rufus]je vous ai déjà googler ça pour vous[/url] :o
+
 
 [#0055AA][b][u]INSTALLATION[/u][/b][/#0055AA]
 
@@ -86,39 +87,24 @@ Il n'est pas facile de choisir comment on va stocker ses données sur le ou les 
 
 [#0055AA][b][u]INSTALLATION D'OMV-EXTRAS[/u][/b][/#0055AA]
 
-L'installation d'[url=http://omv-extras.org/joomla/][b]OMV-Extras[/b][/url] n'est pas obligatoire mais vivement conseillé. Elle permet d'ajouter des plugins très cool à OMV, comme Plex, Docker, Syncthing, BitSynch. L'installation, issue de ce [url=http://omv-extras.org/joomla/index.php/guides]lien[/url], se fait de la manière suivante:
+L'installation d'[url=http://omv-extras.org/joomla/][b]OMV-Extras[/b][/url] n'est pas obligatoire mais vivement conseillé. Elle permet d'ajouter des plugins très cool à OMV, comme Plex, Docker, Syncthing, BitSynch (Liste compl) L'installation, issue de ce [url=https://forum.openmediavault.org/index.php?thread/5549-omv-extras-org-plugin/]lien[/url], se fait de la manière suivante:
 
 (1) Téléchargez le paquet (.deb) correspondant à votre version:
-    --> [url=omv-extras.org/openmediavault-omvextrasorg_latest_all4.deb][b][#0055AA]OMV 4.X[/#0055AA][/b][/url]
+    --> [url=https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/openmediavault-omvextrasorg_latest_all5.deb][b][#0055AA]OMV 5.X[/#0055AA][/b][/url]
 (2) Connectez vous à l'interface Web / Dashboard d'OMV.
 (3) Dans Gestionnaire de mise à jour, transférez le paquet [i]openmediavault-omvextrasorg_latest_allX.deb[/i] en cliquant sur télécharger.
 (4) Dans Plugins, sélectionnez le plugin fraîchement uploadé nommé [i]openmediavault-omvextrasorg[/i].
 (5) Un petit click sur Installer. Une fois l'installation faite, un F5 pour rafraîchir la page. 
 (6) Vérifiez bien la présence d'OMV-Extras dans le panneau latéral gauche, en dessous de Plugins.
 
+La liste complète des plugins compatible OMV5 est à retrouver [url=https://forum.openmediavault.org/index.php?thread/24545-why-should-you-use-or-not-use-dockers/&postID=186122#post186122]ici[/url].
 
-[#0055AA][b][u]MISE A JOUR OMV 3.X --> OMV 4.X[/u][/b][/#0055AA]
 
-Comme vous avez pu le voir, OMV 3.X n'est [b]plus officiellement supporté[/b] depuis le 30 Juin 2018. Cependant, comme elle est basée sur Debian 8.X et que sa End-Of-Life (EOL) est en Mai 2018, vous recevrez toujours les MAJs du système (Debian), mais si vous rencontrez un bug propre à OMV, [b]il ne sera plus jamais reglé/fixed[/b].
+[#0055AA][b][u]MISE A JOUR OMV 4.X --> OMV 5.X[/u][/b][/#0055AA]
 
-Je vous conseille donc de passer sous la version 4 d'OMV (même si personnellement j'attends encore un peu pour upgrader  :whistle:) avec le petit tuto suivant:
-
-0-a/ Veuillez bien vérifier que [b][#FF1C00]TOUS[/#FF1C00][/b] vos plugins soit compatibles avec OMV 4.0.X. Vous pouvez les checker à cette [url=http://omv-extras.org/joomla/index.php/omv-plugins-4/4-stable]addresse[/url].
-0-b/ Comme pour l'installation, je vous conseille de laisser [b][#FF0E00]uniquement[/#FF0E00][/b] le HDD/SSD qui servira de disque système branché sur la machine.
-
-1/ Se connecter en SSH sur le NAS, puis on rafraichit les sources puis on installes les dernières MAJs avant l'upgrade:
-[fixed]
-sudo apt-get update && apt-get upgrade
-[/fixed]
-2/ On lance la procédure d'upgrade de OMV 3.X --> OMV 4.X
-[fixed]
-omv-release-upgrade 
-[/fixed]
-Et on attend patiemment, cela risque de prendre du temps...
-
+Comme il y a trop de changements, Volker Theile, le developpeur d'OMV préconise une nouvelle installation fraîche d'OMV 5. Mais il ne ferme pas la porte à une MAJ: Il a publié un petit tutoriel sur [url=https://forum.openmediavault.org/index.php?thread/27909-omv-5-0-finally-out/&postID=219830#post219830]le forum officiel[/url] (Merci [i]@Teren35[/i])
 
 [#0055AA][b][u]F.A.Q[/u][/b][/#0055AA]
-
 
 [b]Est-il possible d'installer OMV sur une clé usb?[/b] Oui, à condition que l'on installe un plugin d'OMV extras qui va écrire les logs sur les disques de données (les clefs USB mourant prématurément si il y a trop Read/Write effectués)
 [b]Est-il possible de brancher un disque dur externe sans le formater?[/b] Oui, il faudra juste créer un dossier de partage comme [url=http://www.htpcguides.com/create-shared-folders-openmediavault-for-usb-hard-drives/]ici[/url]
@@ -129,27 +115,18 @@ Et on attend patiemment, cela risque de prendre du temps...
 
 [:icon4] WIP [:icon4]
 
+
 [#0055AA][b][u]CHANGELOGS[/u][/b][/#0055AA]
 
-
-OpenMediaVault 4.1.25
-[quote]    
-[*]Issue #452: SharedFolders do not mount on ZFS File system.
-[/quote]
-
-OpenMediaVault 4.0:
+OpenMediaVault 5.5.11:
 [quote]  
-[*]Using Debian 9 (Stretch).
-[*]Shared folders can be accessed via /sharedfolders/<name> in the root filesystem.
-[*]The SNMP feature has been outsourced as plugin. Please note that the existing configuration will be deleted.
-[*]Refactor RRD graph generation. Introduce omv-mkrrdgraph tool.
-[*]Fix various email configuration issues, e.g. problems with Gmail.
-[*]Fix timeout on filesystems page when having many filesystems. Also reduced time to collect filesystem information.
-[*]Improve UI usablility on mobile and touch devices.
-[*]Many fixed bugs and improvements.
+[*]Update locales.
+[*]Do not allow to create NFS shares using shared folders with blanks in their relative path. SaltStack can’t handle such bind mounts (https://github.com/saltstack/salt/issues/54508).
+[*]Issue #815: Disable quota if no quotas are configured for a device.
 [/quote]
 
-Une liste complète des changelogs for OpenMediaVault 4 peut se retrouver à [url=https://github.com/openmediavault/openmediavault/blob/4.x/deb/openmediavault/debian/changelog]l'adresse suivante[/url]. 
+Une liste complète des changelogs for Openmediavault 5 peut se retrouver à [url=https://github.com/openmediavault/openmediavault/blob/5.x/deb/openmediavault/debian/changelog]l'adresse suivante[/url]. 
+
 
 [#0055AA][b][u]SITES OFFICIELS[/u][/b][/#0055AA]
 
@@ -172,20 +149,23 @@ Si vous avez des questions qui sont restés sans réponses, je vous conseille de
 --> [url=https://forum.openmediavault.org/index.php/Thread/19871-Which-energy-efficient-ARM-platform-to-choose/?postID=154980#post154980]ARM-based NAS examples[/url] : Exemples de configs NAS basés sur ARM et donc peu consommatrice en énergie électrique (~5W).
 [:icon4] WIP [:icon4]
 
+
 [#0055AA][b][u]TUTOS ANNEXES[/u][/b][/#0055AA]
 
 --> [url=https://forum.hardware.fr/hfr/OSAlternatifs/Installation/unique-vault-utilisateurs-sujet_72970_176.htm]Installer Nextcloud avec Docker[/url]: Tuto proposé par [i]@glubovore[/i]
---> [url=https://blog.shevarezo.fr/post/2019/11/06/openmediavault-installer-le-plugin-docker]Installer le plugin Docker sur OpenMediaVault[/url]: Tuto proposé par [i]@sheva-mafioso[/i]
+--> [url=https://blog.shevarezo.fr/post/2019/11/06/openmediavault-installer-le-plugin-docker]Installer le plugin Docker sur openmediavault[/url]: Tuto proposé par [i]@sheva-mafioso[/i]
 --> [url=https://blog.shevarezo.fr/post/2019/11/19/openmediavault-installer-configurer-mariadb-docker]Installer et configurer MariaDB sous Docker[/url]: Tuto proposé par [i]@sheva-mafioso[/i]
 --> [url=https://blog.shevarezo.fr/post/2019/12/11/openmediavault-mettre-a-jour-automatiquement-images-docker-watchtower]Mettre à jour automatiquement ses images Docker avec WatchTower[/url]: Tuto proposé par [i]@sheva-mafioso[/i]
 
+
 [#0055AA][b][u]HISTORIQUES DES VERSIONS[/u][/b][/#0055AA]
 
-[#0055AA][b] 08/05/2018: OpenMediaVault 4.0 (Arrakis) based on Debian 9 [/b][/#0055AA]
-[#848484] 13/06/2017: OpenMediaVault 3.0 (Erasmus) based on Debian 8 [/#848484]
-[#848484] 29/06/2015: OpenMediaVault 2.0 (Stone burner) based on Debian 7 [/#848484]
-[#848484] 15/09/2014: OpenMediaVault 1.0 (Kralizec) based on Debian 7 [/#848484]
-[#848484] 25/08/2013: OpenMediaVault 0.5 (Sardaukar) based on Debian 6 [/#848484]
-[#848484] 21/09/2012: OpenMediaVault 0.4 (Fedaykin) based on Debian 6 [/#848484]
-[#848484] 18/04/2012: OpenMediaVault 0.3 (Omnius) based on Debian 6 [/#848484]
-[#848484] 17/10/2011: OpenMediaVault 0.2 (Ix) based on Debian 6 [/#848484]
+[#0055AA][b] 13/06/2019: Openmediavault 5.0 (Usul) based on Debian 10 [/b][/#0055AA]
+[#848484] 08/05/2018: Openmediavault 4.0 (Arrakis) based on Debian 9 [/#848484]
+[#848484] 13/06/2017: Openmediavault 3.0 (Erasmus) based on Debian 8 [/#848484]
+[#848484] 29/06/2015: Openmediavault 2.0 (Stone burner) based on Debian 7 [/#848484]
+[#848484] 15/09/2014: Openmediavault 1.0 (Kralizec) based on Debian 7 [/#848484]
+[#848484] 25/08/2013: Openmediavault 0.5 (Sardaukar) based on Debian 6 [/#848484]
+[#848484] 21/09/2012: Openmediavault 0.4 (Fedaykin) based on Debian 6 [/#848484]
+[#848484] 18/04/2012: Openmediavault 0.3 (Omnius) based on Debian 6 [/#848484]
+[#848484] 17/10/2011: Openmediavault 0.2 (Ix) based on Debian 6 [/#848484]
