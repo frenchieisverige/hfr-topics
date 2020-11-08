@@ -1,122 +1,125 @@
-[url=https://www.pixenli.com/image/KBKgbagy][img]https://www.pixenli.com/miniature/KBKgbagy[/img][/url]
+[url=https://www.pixenli.com/image/IdJsnVNS][img]https://www.pixenli.com/miniature/IdJsnVNS[/img][/url]
 
-Bienvenue sur le topic officiel du noyau Linux sur le forum HFR!
+Topic initialement crée par [b][#FF0000]mean[/#FF0000][/b], actuellement maintenu par[b] FrenchieiSverige[/b]. 
 
-Le topic lancé par [b][#FF0000]- Fred -[/#FF0000][/b], puis par [b][#FF0000]l0ky[/#FF0000][/b] (udok ayant déserté OSA) et maintenant par quelqu'un qui a été désigné volontaire :o ([b]FrenchieiSverige[/b])! 
-Retrouvez leurs posts originaux [url=https://raw.githubusercontent.com/frenchieisverige/hfr-topics/master/noyau-linux/old.txt]ici[/url]. 
+Son post original:
+[quote]J'ai decouvert ca aujourdh'ui par hazard Qemu
+http://fabrice.bellard.free.fr/qemu/
+
+C'est un espece de clone de vmware
+C'est LGPL, et ca marche[/quote]
+[#FF7100][b]PRESENTATION[/b][/#FF7100]
+
+Qemu, créé par Fabrice Bellard - un boss du C au passage  [:omniscience:4] - est un logiciel de [b]virtualisation système[/b] comme son compère [url=https://www.virtualbox.org/]VirtualBox[/url]. Il est possible de démarrer un autre système d'exploitation dans une fenêtre et de l'utiliser comme s'il avait été démarré "normalement".
+Qemu possède un gros avantage sur ses concurrents: il est aussi capable de pouvoir [b]émuler du matériel[/b] comme par exemple une architecture X86, ARM ou encore PowerPC.
+Il est donc aussi bien adapté aux [strike]noobs[/strike] novices qu'aux pros.
 
 
-[#FFAA00][b]LE KERNEL, KESAKO?[/b][/#FFAA00]
-[fixed]Un noyau de système d’exploitation, ou simplement noyau, ou kernel (de l'anglais), est une des parties fondamentales de certains systèmes d’exploitation. Il gère les ressources de l’ordinateur et permet aux différents composants — matériels et logiciels — de communiquer entre eux.[/fixed][i]Source: wiki.archlinux.fr/Noyaux_Linux[/i]
+[#FF7100][b]FONCTIONNALITÉS[/b][/#FF7100]
 
-[#FFAA00][b]PRINCIPAUX NOYAUX[/b][/#FFAA00]
+Qemu offre trois grandes fonctionnalités:
+[*] [b]Full-system emulation[/b]: Qemu émule une architecture complète d'un CPU et ses périphériques en plus de virtualiser l'OS.
+[*] [b]User-mode emulation[/b]: Qemu adapte les instructions initialement prévu pour un CPU à une autre type de CPU. Uniquement valable pour des applications UNIX/BSD.
+[*] [b]Virtualisation[/b]: Qemu peut être intégré dans [url=https://www.linux-kvm.org/page/Main_Page]KVM[/url] ou [url=https://xenproject.org/]Xen[/url] pour profiter de performances quasi native.
 
-Il existe plusieurs noyaux:
-[*] [url=https://www.kernel.org/]kernel.org[/url]: Noyaux utilisés dans la plus part des distributions Linux. Aussi appelé noyaux "Vanilla".
-[*] [url=https://github.com/anthraxx/linux-hardened]Hardened[/url]: Noyau mettant l'accent sur la sécurité.
-[*] [url=https://github.com/zen-kernel/zen-kernel]Zen[/url]: Noyau à part entière résultant d'un effort collaboratif de plusieurs hackers pour fournir le meilleur noyau possible pour une utilisation quotidienne.
 
-Sur [i]kernel.org[/i], on retrouve plusieurs versions de noyaux:
-[*] [url=https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git]Mainline[/url]: C'est le noyau compilé depuis le git de [url=https://fr.wikipedia.org/wiki/Linus_Torvalds]Linus Torvalds[/url] (créateur du noyau Linux) qui dirige donc son développement. Toutes les nouveautés sont y introduites dans ce dernier.
-[*] [url=https://www.kernel.org/]Stable[/url]: Le noyau [i]mainline[/i] officiellement sorti, considéré comme stable. Si un bogue est repéré dans la version [i]stable[/i], sa correction se fait d'abord dans l'arborescence du noyau [i]mainline[/i] avant d'être retroporté manuellement.
-[*] [url=https://www.kernel.org/]LTS[/url]: Noyau ayant une maintenance à long terme (Long Term Support en anglais). Tout comme pour le noyau [i]stable[/i], les corrections sont retroportées manuellement, mais seulement si ces dernières corrigent des bogues jugés critiques.
-[*] [url=https://www.kernel.org/doc/man-pages/linux-next.html]Next[/url]: Noyau de développement attendant d'être intégré dans la version [i]mainline[/i].
+[#FF7100][b]ARCHITECTURES SUPPORTÉES[/b][/#FF7100]
 
-À ma grande surprise, il est possible d'appliquer des "patchsets" sur les noyaux [i]kernel.org[/i] créant de nouvelles variantes de noyaux répondant à des critères spécifiques ou respectant une philosophie:
-[*] [url=http://www.fsfla.org/ikiwiki/selibre/linux-libre/]Linux libre[/url]: Noyau dépourvu de tous codes propriétaires, uniquement sous acceptation par la FSF.
-[*] [url=http://ck-hack.blogspot.com]CK Kernel[/url]: Optimisations du noyau proposé par Con Kolivas se concentrant sur la réactivité du système doté d'un bureau.
-[*] [url=https://wiki.linuxfoundation.org/realtime/start]Realtime Kernel[/url]: Noyau mettant l'accent sur le temps réel via diverses optimisations et/ou changements du code source.
-Et il existe encore bien d'autres noyaux créés à partir de "patchsets" dits mineurs comme les noyaux optimisés pour Chromebooks ou Netbook, l'intégration du noyau [i]zen[/i] dans Debian etc etc... Liste complète à retrouver [url=https://wiki.archlinux.org/index.php/Kernel]ici[/url] et [url=https://wiki.archlinux.fr/Noyaux_Linux]ici[/url].
+Qemu est capable d'émuler les matériels suivants:
+[*] x86
+[*] PowerPC
+[*] ARM
+[*] SPARC
+[*] MicroBlaze
+[*] LatticeMico32
+[*] CRIS
+[*] OpenRISC
 
-[#FFAA00][b]VERSIONS LES PLUS RÉCENTES[/b][/#FFAA00]
+Celles qui nous intéressent principalement sont le x86 pour virtualiser d'autres OS sur sa machine et l'ARM avec l'omni présence de nos smartphones ainsi que les board computers.
+Une liste plus détaillée est à retrouver sur [url=https://en.wikipedia.org/wiki/QEMU#Emulated_hardware_platforms]l'article Wikipedia anglais de Qemu[/url].
 
-Le développement des noyaux Linux ([i]kernel.org[/i]) va vite, c'est pour cette raison que je recommande directement d'aller sur le site [url=https://www.kernel.org/]kernel.org[/url] pour vérifier la dernière version en date. Néanmoins je vous écris ci dessous les versions que j'essayerai de mettre le plus souvent à jour:
-[*] mainline: 5.9 	
-[*] stable: 5.8.14 	
-[*] LTS: 5.4.70 / 4.19.150 / 4.14.200 / 4.9.218 / 4.4.238 / 4.4.238
 
-[#FFAA00][b]TÉLÉCHARGER[/b][/#FFAA00]
+[#FF7100][b]TÉLÉCHARGEMENTS[/b][/#FF7100]
 
-Les sources du noyaux Linux sont directement téléchargeable depuis [url=https://www.kernel.org/]kernel.org[/url] pour ensuite pour le compiler et l'installer à la main. Sinon, il est toujours possible que vous attendiez leurs présences dans les dépôts de votre distribution Linux préférée.
+Qemu est disponible:
+[*] Dans les repos de votre distribution linux via votre manager de paquets préféré ([i]apt/pacman/emerge/yum/whatever[/i]). Instructions [url=https://www.qemu.org/download/#linux]ici[/url]
+[*] Directement compilable à partir du [url=https://www.qemu.org/download/#source]code source[/url]. 
 
-[#FFAA00][b]COMPILER et INSTALLER[/b][/#FFAA00]
+À noter qu'il est aussi disponible pour [url=https://www.qemu.org/download/#windows]Windows[/url] et [url=https://www.qemu.org/download/#macos]MacOS[/url].
 
-Plusieurs guides expliquent, selon votre distribution, comment compiler à la main le noyau fraîchement téléchargé:
-[*] [url=https://wiki.archlinux.fr/Compiler_un_nouveau_noyau]Arch Linux[/url]
-[*] [url=https://debian-facile.org/doc:systeme:kernel:compiler]Debian[/url]
-[*] [url=https://fedoraproject.org/wiki/Building_a_custom_kernel/fr]Fedora[/url]
-[*] [url=https://wiki.gentoo.org/wiki/Kernel/Gentoo_Kernel_Configuration_Guide/fr]Gentoo[/url]
-[*] [url=https://doc.ubuntu-fr.org/tutoriel/compiler_linux]Ubuntu[/url]
 
-Tous ces guides reprennent plus au moins dans les grandes lignes ces étapes:
-[fixed]
-wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.14.tar.xz
-Tu mets le fichier dans /usr/src : mv linux-5.4.14.tar.xz /usr/src (en root)
+[#FF7100][b]SCREENSHOT[/b][/#FF7100]
+
+[url=https://www.pixenli.com/image/VmBis6mE][img]https://www.pixenli.com/miniature/VmBis6mE[/img][/url]
+ [i]Figure 1: Qemu/kvm émulant Windows 10 (Guest) avec Arch Linux en Host[/i]
+
+
+[#FF7100][b]EXEMPLES en CLI[/b][/#FF7100]
+
+[:icon4] WIP [:icon4]
+
+
+[#FF7100][b]INTERFACES GRAPHIQUES[/b][/#FF7100]
+
+Comme vu dans la précédente section, Qemu est uniquement utilisable en CLI. Mais une surcouche graphique peut rendre utilisation de Qemu plus user-friendly et surtout moins prise de tête. Deux GUIs sous Linux sortent du lot à savoir:
+[*] [url=https://wiki.gnome.org/Apps/Boxes]Gnomes boxes[/url]
+[*] [url=https://virt-manager.org/]virt-manager[/url]
+Toutes les deux nécessitent en plus l'installation du paquet [url=https://www.libvirt.org/]Libvirt[/url]. 
+
+
+[#FF7100][b]SITES OFFICIELS[/b][/#FF7100]
  
-Ensuite dans /usr/src :
-xz -d linux-5.4.14.tar.xz
-tar xvf linux-5.4.14.tar
+--> [url=https://www.qemu.org/]Qemu.org[/url] 
+--> [url=https://www.qemu.org/documentation/]Documentation de Qemu[/url]
+--> [url=https://www.qemu.org/blog/]Blog de Qemu[/url]
+
  
-ln -s linux-5.4.14 linux
-cd linux
-Après, make clean && make mrproper dans /usr/src/linux pour partir sur une bonne base.
-Tu récupéres ton précédent .config ou tu le refais (dans ce cas make menuconfig par exemple).
-Ensuite make oldconfig (et tu sauvegardes ton .config, genre cp .config .configSAVE).
+[#FF7100][b]RESSOURCES ANNEXES[/b][/#FF7100]
+
+Qemu:
+--> [url=https://git.qemu.org/?p=qemu.git]Git de Qemu[/url]
+--> [url=https://www.reddit.com/r/qemu_kvm/]Qemu sur Reddit[/url]
+--> [url=https://wiki.archlinux.org/index.php/QEMU#Graphical_front-ends_for_QEMU]Arch wiki de Qemu[/url]
+--> [url=https://en.wikipedia.org/wiki/QEMU]Article Wikipedia Qemu[/url]
+
+Xen:
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=208&post=74655&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0]Forum HFR de Xen[/url]
+
+
+[#FF7100][b]FAQ[/b][/#FF7100]
+
+[*] Comment accélérer les performances de mon Windows 10 emulé via Qemu/Kvm? En installant les drivers [url=https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html]virtuo[/url].
+[*] Quels matériel vidéo émulé choisir dans Qemu? Les pour et contre dans cet [url=https://www.kraxel.org/blog/2019/09/display-devices-in-qemu/]article[/url].
+[:icon4] WIP [:icon4]
+
+
+[#FF7100][b]CHANGELOGS[/b][/#FF7100]
  
-On compile ensuite : make -j8 && make modules_install (-j8 si 8 threads)
- 
-On monte /boot : mount /boot
-On copie le(s) fichier(s) utile(s) :
-cp arch/x86_64/boot/bzImage /boot/kernel-5.4.14
-cp .config /boot/config-5.4.14 (pour sauvegarder la configuration)
- 
-cd /boot
-là, je ne garde que deux configurations pour ma part : l'ancien et le nouveau (de même dans /lib/modules).
- 
-cd .. : on revient à la racine
-On génère le nouveau fichier pour Grub : grub-mkconfig -o /boot/grub/grub.cfg
-On démonte boot : unmount boot
- 
-Ensuite, on recompile les modules utiles : nvidia-drivers, alsa-lib, alsa-utils, bluez, virtualbox-modules pour ma part.
- 
-Reboot!
-[/fixed][i]Crédit: @j_c_p[/i]
+--> [url=https://wiki.qemu.org/ChangeLog/4.1]Release Notes pour qemu-4.1.0[/url]
 
-Il ne vous reste plus qu'à poster fièrement votre [i]screenfetch[/i] sur le topic [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=420&post=21939&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0]Le topic des 'uname -a'[/url] :sol: 
 
-[#FFAA00][b]RESSOURCES[/b][/#FFAA00]
+[#FF7100][b]HISTORIQUE DES VERSIONS[/b][/#FF7100]
 
-Pour plus d'informations, veuillez consulter: 
-[*] [url=https://git.kernel.org/pub/scm/]Git kernel.org[/url]: Dépôt du code source du noyau Linux ([i]kernel.org[/i]).
-[*] [url=https://www.kernel.org/doc/html/latest/]Doc kernel.org[/url]: Documentation du code source du noyau Linux ([i]kernel.org[/i]).
-[*] [url=http://www.kroah.com/lkn/]Linux Kernel in a Nutshell[/url]: La bible pour pouvoir compiler, customiser et installer son noyau.
-[*] [url=https://kernelnewbies.org/]Kernelnewbies[/url]: Site d'entraide pour le développement du noyau Linux.
-[*] [url=https://forum.linuxfoundation.org/]Linuxfoundation[/url]: Forum de la fondation Linux, ayant pour but de standardiser Linux.
-[*] [url=https://lkml.org/]Lkml.org[/url]: Liste de diffusion non officiel du noyau Linux.
-[*] [url=https://lwn.net/Kernel/]lwn.net[/url]: Couverture du code source du noyau Linux.
+Voici une liste non exhaustive des différentes versions de Qemu. La liste complète des 79 versions est à retrouver [url=https://download.qemu.org/]ici[/url].
 
-[#FFAA00][b]SITE D’ACTUALITÉS[/b][/#FFAA00] 
-
-Pour se maintenir au courant des dernières actualités, vous pouvez aller sur:
-[*] [url=https://www.phoronix.com/scan.php?page=home]Phoronix[/url]: Actualités hardware lié aux distributions Linux.
-[*] [url=https://planet.kernel.org/]Kernel Planet[/url]: Actualités officielles du noyau Linux.
-[*] [url=https://linuxfr.org/]Linuxfr.org[/url]: L'actualité du logiciel libre et de Linux.
-[*] [url=https://www.linuxtricks.fr/pages/bienvenue-sur-linuxtricks]Linuxtricks.fr[/url]: Blogue Linux écrit par le Youtubeur @AdrienD. 
-
-[#FFAA00][b]DISCUSSIONS / DÉBATS[/b][/#FFAA00]
-
-Pour approfondir ses connaissances:
-[*] [url=https://www.youtube.com/watch?v=_-UnhWJjGJk]The State of the Linux Kernel Panel[/url]: Discussion entre les principaux acteurs sur l'état du noyau.
-[*] [url=https://www.youtube.com/watch?v=pOSqctHH9vY]Développement du noyau Linux 1991-2012[/url]: Vidéo retraçant le développement du noyau Linux de sa version 0.01 jusqu'à la 3.7-rc3.
-[*] [url=https://www.tomshardware.com/news/linux-linus-torvalds-criticizes-oracle-zfs]Critique de Torvalds sur ZFS dans le noyau[/url]: Interview de Torvalds recommandant de ne pas utiliser ZFS.
-
-[#FFAA00][b]RESSOURCES ANCIENNES[/b][/#FFAA00]
-
-Ces ressources n'ont pas été mise à jour depuis un petit bout de temps, mais peuvent toujours servir:
-[*] [url=http://en.tldp.org/LDP/tlk/tlk.html]The Linux Kernel[/url]: Ancien ebook, très complet, sur l'architecture du noyau.
-
-[#FFAA00][b]PRÉCÉDENTES VERSIONS DU TOPIC[/b][/#FFAA00]
-
-[#FFAA00][b]22/12/2019: Reprise par FrenchieiSverige[/b][/#FFAA00]
-[#848484]31/08/2005: Reprise par l0ky[/#848484]
-[#848484]29/05/2003: Création du topic par par - Fred -[/#848484]
+[#FF7100][b] 11/08/2020: qemu-5.1.0 [/b][/#FF7100]
+[#848484] 28/04/2020: qemu-5.0.0 [/#848484]
+[#848484] 12/12/2019: qemu-4.2.0 [/#848484]
+[#848484] 15/08/2019: qemu-4.1.0 [/#848484]
+[#848484] 23/04/2019: qemu-4.0.0 [/#848484]
+[#848484] 02/08/2019: qemu-3.1.1 [/#848484]
+[#848484] 12/04/2019: qemu-3.0.1 [/#848484]
+[#848484] 14/08/2018: qemu-3.0.0 [/#848484]
+[#848484] 02/08/2018: qemu-2.12.1 [/#848484]
+[#848484] 31/03/2017: qemu-2.8.1 [/#848484]
+[#848484] 29/09/2016: qemu-2.6.2 [/#848484]
+[#848484] 16/12/2015: qemu-2.5.0 [/#848484]
+[#848484] 01/08/2014: qemu-2.1.0 [/#848484]
+[#848484] 17/04/2014: qemu-2.0.0 [/#848484]
+[#848484] 23/07/2014: qemu-1.7.2 [/#848484]
+[#848484] 16/12/2013: qemu-1.6.2 [/#848484]
+[#848484] 03/12/2012: qemu-1.3.0 [/#848484]
+[#848484] 17/07/2012: qemu-1.1.1 [/#848484]
+[#848484] 01/12/2011: qemu-1.0 [/#848484]
+[#848484] 29/11/2010: qemu-0.13.0 [/#848484]
+[#848484] 29/01/2010: qemu-0.9.1 [/#848484]
