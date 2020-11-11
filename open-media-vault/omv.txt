@@ -10,7 +10,7 @@ Topic initialement crée par [b][#FF0000]Radeon24[/#FF0000][/b], actuellement ma
 Openmediavault, ou OMV pour les intimes, est une distribution Linux orientée [url=https://fr.wikipedia.org/wiki/Serveur_de_stockage_en_r%C3%A9seau][b]NAS[/b][/url], basée sur [url=https://www.debian.org/index.fr.html][b]Debian[/b][/url]. Il a été spécialement conçu pour monter son petit NAS chez soi, ou peut être utilisé dans les petites entreprises, mais ne se limites pas à ses cas de figures. Grâce à sa conception modulaire, il s'agit d'une solution clé en main, facile à utiliser,  facile à installer et d'administrer un stockage en réseau sans plus de connaissances, tout en le personnalisant à ses goûts grâce aux plugins. 
 
 
-[#0055AA][b][u]FEATURES[/u][/b][/#0055AA]
+[#0055AA][b][u]FONCTIONNALITÉS[/u][/b][/#0055AA]
 
 Actuellement, openmediavault est en version [b]5.5[/b] et est basé sur Debian Buster (Debian 10.0) et propose notamment les fonctionnalités suivantes:
 [*] Administration via Web
@@ -30,7 +30,7 @@ Actuellement, openmediavault est en version [b]5.5[/b] et est basé sur Debian B
 De plus, via l'installation du plugin [url=http://omv-extras.org/joomla/][b]OMV-Extras[/b][/url], il est possible d'installer d'autres services comme par example, un client [url=https://fr.wikipedia.org/wiki/BitTorrent_(protocole)][b]Bitorrent[/b][/url], le support [url=https://fr.wikipedia.org/wiki/ISCSI][b]iSCSI[/b][/url], la création d'un cloud personnel [url=https://owncloud.org/][b]Owncloud[/b][/url], la paravirtualisation avec [url=https://www.docker.com/][b]Docker[/b][/url], ou encore l'installation d'un server [url=https://www.plex.tv/][b]Plex[/b][/url] pour transformer votre salon en cinéma!
 
 
-[#0055AA][b][u]OU TELECHARGER OPENMEDIAVAULT?[/u][/b][/#0055AA]
+[#0055AA][b][u]OÙ TELECHARGER OPENMEDIAVAULT?[/u][/b][/#0055AA]
 
 Openmediavault est disponible gratuitement en version [b]Stable[/b] pour plusieurs platformes (PC & ARM).
 * Version PC: 
@@ -47,7 +47,7 @@ Si par contre, vous vous sentez aventurier, et n'avez pas peur de perdre vos don
 Dans les deux cas, veuillez aussi vérifier [b]l'intégrité de votre image[/b] avant de la copier sur votre clé USB grâce au MD5, pour éviter pas mal de soucis lors de l'installation ;)
 
 
-[#0055AA][b][u]SCREENSHOTS[/u][/b][/#0055AA]
+[#0055AA][b][u]CAPTURE D'ÉCRAN[/u][/b][/#0055AA]
 
 [url=https://www.pixenli.com/image/27scX3Hc][img]https://www.pixenli.com/miniature/27scX3Hc[/img][/url]
    [i]Figure 1: Dashboard d'OMV 5.0[/i]
