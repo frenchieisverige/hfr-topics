@@ -8,14 +8,14 @@ http://fabrice.bellard.free.fr/qemu/
 
 C'est un espece de clone de vmware
 C'est LGPL, et ca marche[/quote]
-[#FF7100][b]PRESENTATION[/b][/#FF7100]
+[#FF7100][b][u]PRESÉNTATION[/u][/b][/#FF7100]
 
 Qemu, créé par Fabrice Bellard - un boss du C au passage  [:omniscience:4] - est un logiciel de [b]virtualisation système[/b] comme son compère [url=https://www.virtualbox.org/]VirtualBox[/url]. Il est possible de démarrer un autre système d'exploitation dans une fenêtre et de l'utiliser comme s'il avait été démarré "normalement".
 Qemu possède un gros avantage sur ses concurrents: il est aussi capable de pouvoir [b]émuler du matériel[/b] comme par exemple une architecture X86, ARM ou encore PowerPC.
 Il est donc aussi bien adapté aux [strike]noobs[/strike] novices qu'aux pros.
 
 
-[#FF7100][b]FONCTIONNALITÉS[/b][/#FF7100]
+[#FF7100][b][u]FONCTIONNALITÉS[/u][/b][/#FF7100]
 
 Qemu offre trois grandes fonctionnalités:
 [*] [b]Full-system emulation[/b]: Qemu émule une architecture complète d'un CPU et ses périphériques en plus de virtualiser l'OS.
@@ -23,7 +23,7 @@ Qemu offre trois grandes fonctionnalités:
 [*] [b]Virtualisation[/b]: Qemu peut être intégré dans [url=https://www.linux-kvm.org/page/Main_Page]KVM[/url] ou [url=https://xenproject.org/]Xen[/url] pour profiter de performances quasi native.
 
 
-[#FF7100][b]ARCHITECTURES SUPPORTÉES[/b][/#FF7100]
+[#FF7100][b][u]ARCHITECTURES SUPPORTÉES[/u][/b][/#FF7100]
 
 Qemu est capable d'émuler les matériels suivants:
 [*] x86
@@ -39,7 +39,7 @@ Celles qui nous intéressent principalement sont le x86 pour virtualiser d'autre
 Une liste plus détaillée est à retrouver sur [url=https://en.wikipedia.org/wiki/QEMU#Emulated_hardware_platforms]l'article Wikipedia anglais de Qemu[/url].
 
 
-[#FF7100][b]TÉLÉCHARGEMENTS[/b][/#FF7100]
+[#FF7100][b][u]TÉLÉCHARGEMENTS[/u][/b][/#FF7100]
 
 Qemu est disponible:
 [*] Dans les repos de votre distribution linux via votre manager de paquets préféré ([i]apt/pacman/emerge/yum/whatever[/i]). Instructions [url=https://www.qemu.org/download/#linux]ici[/url]
@@ -48,18 +48,18 @@ Qemu est disponible:
 À noter qu'il est aussi disponible pour [url=https://www.qemu.org/download/#windows]Windows[/url] et [url=https://www.qemu.org/download/#macos]MacOS[/url].
 
 
-[#FF7100][b]SCREENSHOT[/b][/#FF7100]
+[#FF7100][b][u]CAPTURE D'ÉCRAN[/u][/b][/#FF7100]
 
 [url=https://www.pixenli.com/image/VmBis6mE][img]https://www.pixenli.com/miniature/VmBis6mE[/img][/url]
  [i]Figure 1: Qemu/kvm émulant Windows 10 (Guest) avec Arch Linux en Host[/i]
 
 
-[#FF7100][b]EXEMPLES en CLI[/b][/#FF7100]
+[#FF7100][b][u]EXEMPLES en CLI[/u][/b][/#FF7100]
 
 [:icon4] WIP [:icon4]
 
 
-[#FF7100][b]INTERFACES GRAPHIQUES[/b][/#FF7100]
+[#FF7100][b][u]INTERFACES GRAPHIQUES[/u][/b][/#FF7100]
 
 Comme vu dans la précédente section, Qemu est uniquement utilisable en CLI. Mais une surcouche graphique peut rendre utilisation de Qemu plus user-friendly et surtout moins prise de tête. Deux GUIs sous Linux sortent du lot à savoir:
 [*] [url=https://wiki.gnome.org/Apps/Boxes]Gnomes boxes[/url]
@@ -67,14 +67,26 @@ Comme vu dans la précédente section, Qemu est uniquement utilisable en CLI. Ma
 Toutes les deux nécessitent en plus l'installation du paquet [url=https://www.libvirt.org/]Libvirt[/url]. 
 
 
-[#FF7100][b]SITES OFFICIELS[/b][/#FF7100]
+[#FF7100][b][u]F.A.Q[/u][/b][/#FF7100]
+
+[*] Comment accélérer les performances de mon Windows 10 emulé via Qemu/Kvm? En installant les drivers [url=https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html]virtuo[/url].
+[*] Quels matériel vidéo émulé choisir dans Qemu? Les pour et contre dans cet [url=https://www.kraxel.org/blog/2019/09/display-devices-in-qemu/]article[/url].
+[:icon4] WIP [:icon4]
+
+
+[#FF7100][b][u]CHANGELOGS[/u][/b][/#FF7100]
+ 
+--> [url=https://wiki.qemu.org/ChangeLog/5.1]Release Notes pour qemu-5.1.0[/url]
+
+
+[#FF7100][b][u]SITES OFFICIELS[/u][/b][/#FF7100]
  
 --> [url=https://www.qemu.org/]Qemu.org[/url] 
 --> [url=https://www.qemu.org/documentation/]Documentation de Qemu[/url]
 --> [url=https://www.qemu.org/blog/]Blog de Qemu[/url]
 
  
-[#FF7100][b]RESSOURCES ANNEXES[/b][/#FF7100]
+[#FF7100][b][u]RESSOURCES ANNEXES[/u][/b][/#FF7100]
 
 Qemu:
 --> [url=https://git.qemu.org/?p=qemu.git]Git de Qemu[/url]
@@ -86,21 +98,14 @@ Xen:
 --> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=208&post=74655&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0]Forum HFR de Xen[/url]
 
 
-[#FF7100][b]FAQ[/b][/#FF7100]
+[#FF7100][b][u]RESSOURCES ANNEXES[/u][/b][/#FF7100]
 
-[*] Comment accélérer les performances de mon Windows 10 emulé via Qemu/Kvm? En installant les drivers [url=https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html]virtuo[/url].
-[*] Quels matériel vidéo émulé choisir dans Qemu? Les pour et contre dans cet [url=https://www.kraxel.org/blog/2019/09/display-devices-in-qemu/]article[/url].
-[:icon4] WIP [:icon4]
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=420&post=76791&page=1&p=1&sondage=0&owntopic=1&trash=&trash_post=&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t1456615]Installation de Windows 98 sous Qemu[/url]: Tutoriel proposé par [i]@rat de combat[/i]
 
 
-[#FF7100][b]CHANGELOGS[/b][/#FF7100]
- 
---> [url=https://wiki.qemu.org/ChangeLog/4.1]Release Notes pour qemu-4.1.0[/url]
+[#FF7100][b][u]HISTORIQUE DES VERSIONS[/u][/b][/#FF7100]
 
-
-[#FF7100][b]HISTORIQUE DES VERSIONS[/b][/#FF7100]
-
-Voici une liste non exhaustive des différentes versions de Qemu. La liste complète des 79 versions est à retrouver [url=https://download.qemu.org/]ici[/url].
+Voici une liste non exhaustive des différentes versions de Qemu. La liste complète des 81 versions est à retrouver [url=https://download.qemu.org/]ici[/url].
 
 [#FF7100][b] 11/08/2020: qemu-5.1.0 [/b][/#FF7100]
 [#848484] 28/04/2020: qemu-5.0.0 [/#848484]
