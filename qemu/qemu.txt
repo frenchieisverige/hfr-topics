@@ -100,10 +100,8 @@ Xen:
 
 [#FF7100][b][u]RESSOURCES ANNEXES[/u][/b][/#FF7100]
 
---> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=420&post=76791&page=1&p=1&sondage=0&owntopic=1&trash=&trash_post=&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t1456615]Installation de Windows 98 sous Qemu[/url]: Tutoriel proposé par [i]@rat de combat[/i]
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=420&post=76791&page=1&p=1&sondage=0&owntopic=1&trash=&trash_post=&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t1456484]Installation de Windows 98 sous Qemu[/url]: Tutoriel proposé par [i]@rat de combat[/i]
 --> [url=https://forum.hardware.fr/hfr/OSAlternatifs/Logiciels-2/qemu-baffe-sujet_38501_16.htm#t1456633]Mapper un port USB (Host) pour le rendre accessible à l'OS Guest[/url]: Astuce proposée par [i]@Elbarto[/i]
-
-
 
 [#FF7100][b][u]HISTORIQUE DES VERSIONS[/u][/b][/#FF7100]
 
