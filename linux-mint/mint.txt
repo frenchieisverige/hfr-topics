@@ -65,8 +65,8 @@ NB: Si vous le pouvez, utilisez les torrents pour soulager les serveurs de tél�
 
 [#78C02F][b][u]CAPTURE D'ÉCRAN[/u][/b][/#78C02F]
 
-[url=https://www.pixenli.com/image/e5V3qYoj][img]https://www.pixenli.com/miniature/e5V3qYoj[/img][/url]
- [i]Figure 1: Linux Mint 20 Ulyana Cinnamon Edition[/i]
+[url=https://www.pixenli.com/image/eOTNOVO_][img]https://www.pixenli.com/miniature/eOTNOVO_[/img][/url]
+ [i]Figure 1: Linux Mint 20.1 Ulyssa XFCE Edition[/i]
 
 
 [#78C02F][b][u]INSTALLATION[/u][/b][/#78C02F]
@@ -97,9 +97,9 @@ Notez que les cartes AMD/ATI sont recommandées car mieux supportées sous Linux
 
 [#78C02F][b][u]CHANGELOGS[/u][/b][/#78C02F]
 
---> [url=https://www.linuxmint.com/rel_ulyana_cinnamon.php]Release Notes pour Linux Mint 20 Ulyana Cinnamon[/url]
---> [url=https://www.linuxmint.com/rel_ulyana_mate.php]Release Notes pour Linux Mint 20 Ulyana  MATE[/url]
---> [url=https://www.linuxmint.com/rel_ulyana_xfce.php]Release Notes pour Linux Mint 20 Ulyana Xfce[/url]
+--> [url=https://www.linuxmint.com/rel_ulyssa_mate_whatsnew.php]Release Notes pour Linux Mint 20.1 Ulyssa Cinnamon[/url]
+--> [url=https://www.linuxmint.com/rel_ulyssa_mate_whatsnew.php]Release Notes pour Linux Mint 20.1 Ulyssa MATE[/url]
+--> [url=https://www.linuxmint.com/rel_ulyssa_xfce_whatsnew.php]Release Notes pour Linux Mint 20.1 Ulyssa Xfce[/url]
 
 
 [#78C02F][b][u]SITES OFFICIELS[/u][/b][/#78C02F]
@@ -119,8 +119,9 @@ Notez que les cartes AMD/ATI sont recommandées car mieux supportées sous Linux
 
 
 [#78C02F][b][u]HISTORIQUES DES VERSIONS[/u][/b][/#78C02F]
- 
-[#78C02F][b] 27/06/2020: Ulyana 20 LTS basée sur Ubuntu 20.04[/b][/#78C02F] 
+
+[#78C02F][b] 08/01/2021: Ulyssa 20.1 LTS basée sur Ubuntu 20.04.1, maintenue jusqu'en 2025[/b][/#78C02F]
+[#008000] 27/06/2020: Ulyana 20 LTS basée sur Ubuntu 20.04, maintenue jusqu'en 04/2025 [/#008000] 
 [#78C02F][b] 20/03/2020: Debbie LMDE 4.0 basée sur Debian 10[/b][/#78C02F]
 [#008000] 02/08/2019: Tricia 19.3 LTS basée sur Ubuntu 18.04.3, maintenue jusqu'en 04/2023 [/#008000] 
 [#008000] 02/08/2019: Tina 19.2 LTS basée sur Ubuntu 18.04.2, maintenue jusqu'en 04/2023 [/#008000] 
