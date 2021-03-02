@@ -1,0 +1,87 @@
+[b][i][u]Nas perso homemade[/b][/i][/u]
+[img align=center]http://mad86.free.fr/nas/build_network_attached_storage.jpg[/img]
+
+
+Bon comme j'avais lancé l'idée sur plusieurs topics, je le lance moi même :)
+
+Donc pour résumer ici on pourra parler de nos expériences dans les Nas perso homemade.
+Chacun pourra y présenter son nas perso : dans le genre :
+
+[*]Configuration matérielle (avec pourquoi pas des photos).
+[*]Les fonctionnalités.
+[*]Les OS et softs utilisés (pourquoi pas faire un post qui résumerait l'install).
+[*]Contraintes personnelles (nuisance sonore, consommation électrique ...).
+
+Cela permettra un retour d'expérience et une certaine entraide :)
+
+[#ff0e00][b]Présentations de configurations :[/b][/#ff0e00]
+
+[*][url=http://forum.hardware.fr/hfr/Hardware/minipc/unique-perso-homemade-sujet_840082_6.htm#t6880341]clockover[/url]
+[*][url=http://forum.hardware.fr/hfr/Hardware/minipc/unique-perso-homemade-sujet_840082_3.htm#t6869795]Djum[/url]
+[*][url=http://forum.hardware.fr/hfr/Hardware/minipc/unique-perso-homemade-sujet_840082_3.htm#t6869400]Glfwb[/url]
+[*][url=http://forum.hardware.fr/hfr/Hardware/minipc/unique-perso-homemade-sujet_840082_4.htm#t6871861]Itm[/url]
+[*]Mad86 : [url=http://forum.hardware.fr/hfr/Hardware/minipc/unique-perso-homemade-sujet_840082_1.htm#t6859458]Hardware[/url] / [url=http://forum.hardware.fr/hfr/Hardware/minipc/unique-perso-homemade-sujet_840082_4.htm#t6874933]Software[/url]
+[*][url=http://forum.hardware.fr/forum2.php?config=hfr.inc&cat=1&subcat=507&post=840082&page=3&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t6869630]Madix[/url]
+[*][url=http://forum.hardware.fr/hfr/Hardware/minipc/unique-perso-homemade-sujet_840082_4.htm#t6873852]Mdt[/url]
+[*][url=http://neodamcorp.homelinux.net/phpsysinfo/]Neodam[/url]
+[*][url=http://forum.hardware.fr/hfr/Hardware/minipc/unique-perso-homemade-sujet_840082_4.htm#t6871234]Toto_67[/url]
+[*][url=http://forum.hardware.fr/hfr/Hardware/minipc/unique-perso-homemade-sujet_840082_1.htm#t6860410]Zeblods[/url]
+
+[#ff0e00][b]Des ptits howto pour la partie partage de fichiers :[/b][/#ff0e00]
+
+[*][url=http://www.muzo.fr/wiki.php/Debian/HowToSetupNasServer]Sous Debian[/url]
+[*][url=http://www.howtoforge.com/ubuntu-home-fileserver]Sous Ubuntu[/url]
+[*][url=http://samiux.wordpress.com/2008/08/12/howto-home-made-nas-server-with-ubuntu-8041-%E2%80%93-part-i/]Un autre sous Ubuntu[/url]
+[*][url=http://forum.hardware.fr/hfr/Hardware/minipc/unique-perso-homemade-sujet_840082_4.htm#t6871189]HowTo, pour ceux qui veulent partager "simplement" en samba (CIFS) sous OpenSolaris[/url]
+[*][url=http://www.pardus-fr.org/forum/index.php?topic=528.0]HowTo pour Ushare en français of course[/url]
+
+Voilà à vos clavier :D
+
+PS : j'ai mis ce topic dans la section mini PC Nas perso homemade car je pense que cela devrait ce situer ici, même si je sais que certain ont des confs à faire pâlir certaines entreprises françaises :p
+
+
+Yep pour ma part : 
+[*] [b][#ff0000]Hardware :[/#ff0000][/b]
+
+- [url=http://www.intel.com/cd/products/services/emea/fra/motherboards/403389.htm]carte D945GCLF2[/url]
+- [url=http://www.zalman.co.kr/ENG/product/Product_Read.asp?idx=133]Zalman ZM-NBF47 sur le processeur[/url]
+- [url=http://www.coolink-europe.com/main.php?show=art_list&item=18&cat=1&cat_set=1]Coolink Chipchilla sur le chipset[/url]
+- [url=http://www.valueram.com/europe/desktop/memory.asp]2go DDR2 PC667 Kingston Value[/url]
+- [url=http://support.packardbell.com/fr/item/index.php?i=ch032a&pi=platform_amadeus_istart]boitier de récup Packard Bell avec une alim Fortron 250w (ventilo de 12cm) comme celui ci pas trop gros ni trop petit)[/url]
+- [url=http://www.sharkoon.com/html/produkte/zubehoer/silencer_kit/index_en.html]SHARKOON - CASEMOD ACCESSORIES - SILENCER KIT pour mettre le boitier en desktop et limiter les vibrations[/url]
+- [url=http://www.lindy.fr/carte-serial-ata-pci-4-ports-avec-fonction-raid/51151.html]Carte SATA Lite (Raid), 2 ports, PCI[/url]
+- [url=http://www.wdc.com/fr/products/Products.asp?DriveID=576]2 DD Western Digital Green 1 To 32Mo[/url]
+- [url=http://www.lian-li.com/v2/en/product/product06.php?pr_index=41&cl_index=2&sc_index=5&ss_index=12&g=f]Cage de disque dur Lian Li Kit HDD EX-23NB[/url]
+- [url=http://www.transcend.nl/products/ModDetail.asp?ModNo=177&SpNo=28&LangNo=31]1 disque SSD 8Go TRANSCEND - 2.5 SATA (SLC)[/url]
+
+[*][b][#ff0000] Les photos :[/#ff0000][/b]
+
+[img]http://mad86.free.fr/nas/img/P1010446.JPG[/img]
+
+[img]http://mad86.free.fr/nas/img/P1010447.JPG[/img]
+
+[img]http://mad86.free.fr/nas/img/P1010448.JPG[/img]
+
+[img]http://mad86.free.fr/nas/img/P1010449.JPG[/img]
+
+[img]http://mad86.free.fr/nas/img/P1010450.JPG[/img]
+
+[img]http://mad86.free.fr/nas/img/P1010451.JPG[/img]
+
+[img]http://mad86.free.fr/nas/img/P1010452.JPG[/img]
+
+[img]http://mad86.free.fr/nas/img/P1010453.JPG[/img]
+
+[*][b][#ff0000] Software :[/#ff0000][/b]
+
+- OS : Ubuntu Server 8.10
+- Samba pour le partage de fichiers.
+- Mldonkey pour le serveur de download.
+- Ushare pour le streaming multimedia (pour ma PS3).
+
+Pour l'instant j'en suis à l'étape MOD de ma conf hardware et au tâtonnement soft.
+
+[*] [b][#ff0000]Contraintes d'utilisations :[/#ff0000][/b]
+
+- Le silence, d'où la modification du ventilo d'origine un peu pourri :D .
+- La consommation, d'où la carte mère à base d'atom, les DDs Green Power et le futur SSD.

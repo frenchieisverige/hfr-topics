@@ -1,0 +1,177 @@
+[b][i]NAS perso homemade[/i][/b]
+
+Topic initialement créé par [b][#FF0000]mad86[/#FF0000][/b], actuellement maintenu par[b] FrenchieiSverige[/b].
+
+
+[b][#E2001C]INTRODUCTION[/#E2001C][/b]
+
+Marre de payer une fortune pour une solution clef en main comme les NAS [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=22&subcat=503&post=5497&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0]Synology[/url]? [:cerveau manust] Envie de mettre les mains dans le « cambouis électronique »? [:cerveau dawa] Alors ce topic est fait pour vous. 
+Ici, on va débattre des choix des composants jusqu'au choix de l'OS pour partager vos médias favoris. Les différents chapitres II et III n'ont pas d'ordre spéciale et peuvent être interchangeable dans votre réflexion.
+
+[b][#E2001C]CONTRAINTES D'UTILISATIONS[/#E2001C][/b]
+
+La première chose à faire est d'établir un cahier des charges. Qu'est ce que mon NAS doit avoir? Que doit-il respecter?
+Voici quelques pistes:
+[*] [b]Bruit[/b]: Est-ce que mon NAS sera dans une pièce à vivre ou dans un placard?
+[*] [b]Nombres de disques[/b]: Combien de données dois-je stocker? Est-ce qu'une redondance de disques m'est utile ([url=https://fr.wikipedia.org/wiki/RAID_(informatique)]RAID 0/1/5/10[/url])?
+[*] [b]Consommation[/b]: Est-ce pour vous un facteur déterminant pour réduire la facture EDF?
+[*] [b]Charge utile[/b]: Combien de services vais-je faire tourner? (Partage de fichiers, serveur VPN, Docker, Transcoding...)
+[*] [b]Encombrement[/b]: Est-ce que le NAS doit rentrer dans une étagère Kallax d'Ikea?
+[*] [b]Volume de données à transmettre[/b]: Dois-je transmettre beaucoup de données vers mon NAS?
+Cette liste permettra déjà d'élaguer l'arbre pour obtenir une config, qui se paufinera avec le choix du matériel et de l'OS.
+
+
+[b][#E2001C]MATÉRIEL[/#E2001C][/b]
+
+Cette partie est particulièrement lié au choix de l'OS. La sélection des composants ci dessous doit non seulement respecter la configuration minimale pour faire tourner l'OS, mais aussi les services que vous voulez faire tourner par-dessus. Je propose ici la carte mère comme point d'entrée, mais on peut également prendre le processeur ou encore la RAM.
+
+[#E2001C]CARTE MÈRE[/#E2001C]
+Pour moi, c'est l'élément central où tout doit débuter. Nombre de ports SATAs, présence d'un port NVMe pour le système (pour économiser un port SATA), nombre de ports d'extensions (PCIe), max. RAM supportée, la forme de la CM, tous ses éléments doivent apporter de l'eau à votre moulin. Le chipset est aussi à vérifier (Gemini Lake, C612, Epyc). 
+
+[#E2001C]PROCESSEUR[/#E2001C]
+Une fois la carte mère choisi, on peut s'attaquer au processeur. Parfois déjà soudé à la carte mère (ex: [url=https://shop.hardware.fr/fiche/AR201804110061.html]J5005[/url]), la question ne se pose plus. Pour les autres, le dimensionnement de la puissance de votre CPU va se déterminer en fonction de vos services que vous voulez faire tourner. Vous pouvez comparer plusieurs processeurs grâce au site [url=https://www.cpubenchmark.net/singleCompare.php?redirect]cpubenchmark.net[/url]. Veuillez rester un compromis entre nombre de coeurs/threads, performance single-thread et multi-thread et consommation électrique (TDP). En parlant de TDP, faire attention au processeur avec un TDP bas. Certes ils vont moins consommer, mais ils mettront plus de temps à effectuer une tâche ardue car leurs fréquences « boost » est généralement moins élevées, d’où une consommation accrue [url=https://www.truenas.com/community/threads/suggestions-for-a-low-power-system-to-replace-that-old-dual-xeon-macpro.80850/page-2#post-562381]lien[/url] Attention, valable que pour des tâches ardues comme la décompression, la virtualisation etc.. Un transfert de fichier ne va pas faire saturer votre processeur.
+
+[#E2001C]RAM[/#E2001C]
+ECC vs non-ECC? C'est un débat vieux comme le monde, ou vous seul avez la réponse. Pour rappel, la mémoire ECC possède un [url=https://fr.wikipedia.org/wiki/M%C3%A9moire_%C3%A0_code_correcteur_d%27erreurs]correcteur d'erreurs[/url] pour corriger les corruptions de données les plus courantes. Certains pensent que ce n'est pas utile car la plus part de nos fichiers sont édités sur nos PC portables ou fixes qui généralement ne possède pas ce type de mémoire. Une fois copié sur le NAS, la mémoire ECC n'a aucun moyen de savoir si le fichier est corrompu ou pas, car cette dernière s'est produite sur un autre appareil. La RAM ECC est utile que si des changements sont effectués depuis le NAS. Je fais partie de ceux qui préfère avoir de la RAM ECC dans leur serveur, mais comme dit précédemment ce n'est pas une obligation. En revanche, déterminer la quantité de RAM en est une. Elle dépend de l'OS que vous allez choisir, ainsi que les services que vous voulez faire tourner. On peut aller de 2Go à 64Go voir plus.
+Considérant le prix de la DDR4 du moment, repasser sur de la DDR3 n'est pas déconnant, surtout mise en quad channel. 
+ 
+[#E2001C]ALIMENTATION[/#E2001C]
+Un élément à ne pas négliger, vu que votre machine va tourner 24/7. Je partirais au minimum sur de la platinium, vu que le rendement doit être optimum à faible charge. Le nombre de Watt est aussi à prendre ne compte pour optimiser la consommation électrique. Un trop grosse alimentation vous ferra perdre de l'efficacité. Un site sympa pour calculer le wattage: [url=https://outervision.com/power-supply-calculator]OuterVision® Power Supply Calculator[/url]. Veuillez aussi vérifier le nombres de connectiques SATAs en fonction du nombre de vos disques internes.
+
+[#E2001C]DISQUES DURS[/#E2001C]
+La partie stockage, le deuxième élément le plus important dans votre machine. Avant de choisir quelconques modèles, essayer de quantifier le volume de données à stocker, ensuite comme dit le chapitre précédent, ais-je besoin de la redondance de disques? Une fois ses questions répondues, on obtient un nombre de disques à acheter.
+La chose la plus importante à regarder outre la taille, est la technologie utilisée pour augmenter la densité surfacique des disques durs. Pour faire simple, si vous voulez un RAID, utilisez absolument le technologie CMR. Pour le reste, des disques durs SMR font très bien le job. Plus d'informations sur le sujet [url=https://www.silicon.fr/smrgate-disques-durs-339085.html]ici[/url].
+Les modèles les plus populaires sont les Western Digital RED, Seagate IronWolf, Toshiba N300 ou encore les HGSTs Ultrastar, ce dernier étant prévu pour les entreprises.
+Une mode en ce moment pour avoir des disques durs moins cher est de s'essayer au « [url=https://www.howtogeek.com/324769/how-to-get-premium-hard-drives-for-cheap-by-shucking-external-drives/]shuck[/url] », technique consistant à retirer le disques dur interne contenu dans certains modèles de disques dur externes.
+Il n'y a peu, voire aucune différence entre les disques vendus comme disques externes et ceux vendus comme « NAS Edition », même si ils veulent nous faire croire le contraire. 
+Tester les disques avant de les mettre en production est une bonne idée (badblocks, Surface test).
+
+[#E2001C]BOÎTIER[/#E2001C]
+Tour? HTPC? Rack? Voilà tant de forme de boîtiers possible. En plus de la forme de la carte mère, la hauteur pour le ventirad, le nombre d'emplacements 3"5 et surtout le système de fixation sont à regarder. Dans un second temps, on regardera le nombre de ventilos et si il possède une isolation phonique.
+
+[#E2001C]CARTE RÉSEAU[/#E2001C]  
+Pas de modèles en particulier à recommander, vérifiez bien la présence du driver dans l'OS de votre choix.
+
+[#E2001C]CARTES ADDITIONNELLES (OPTIONNELLES)[/#E2001C] 
+Ces cartes vous permettent de rajouter des fonctionnalités, mais ne sont pas obligatoire dans votre build.
+
+[#E2001C]Cartes graphiques[/#E2001C] 
+Très utile lorsque l'on veut faire du transcoding. Cela permet d’alléger considérablement la charge CPU. 
+
+[#E2001C]Cartes SATAs[/#E2001C] 
+[:icon4] WIP [:icon4]
+
+[#E2001C]Cartes RAID[/#E2001C] 
+[:icon4] WIP [:icon4]
+
+
+[b][#E2001C]IV- SYSTÈME D'EXPLOITATION[/#E2001C][/b]
+
+Maintenant, on va s'attaquer à l'OS. Beaucoup sont déjà axés « NAS », ne restant plus qu'à éditer votre configuration.
+[*] OpenMediaVault :
+[#008000]+ Basé sur Debian
++ Gratuit
++ Simple (WebUI pour gérer l'ensemble des configs) / User friendly
++ Plugins et/ou docker pour ajouter des fonctionnalités[/#008000]
+[#FF0000]- Un seul développeur
+- Risque de surpression d'ext3/4 au profit de l'unique btrfs[/#FF0000]
+
+[*] Unraid :
+[#008000]+ Clé en main / intégration
++ Très flexible / adaptable
++ Communauté très vivante, beaucoup d'applis dispo[/#008000]
+[#FF0000]- Coût d'une licence (selon nombre de disques)
+- Un seul type de simili-raid basé sur un/des disques de parité[/#FF0000]
+
+[*] TrueNAS Core (ex FreeNAS)
+[#008000]+ Gratuit[/#008000]
+[#008000]+ Simple [/#008000]
+[#008000]+ Plugins et/ou jails pour ajouter des fonctionnalités[/#008000]
+[#008000]+ Communauté active (principalement en anglais) ou support payant[/#008000]
+[#FF0000]- Pas de Docker[/#FF0000]
+
+[*] TrueNAS Scale
+[#008000]+ Gratuit[/#008000]
+[#008000]+ Simple [/#008000]
+[#008000]+ Plugins et/ou jails pour ajouter des fonctionnalités[/#008000]
+[#008000]+ Communauté active (principalement en anglais) ou support payant[/#008000]
+[#008000]Docker[/#008000]
+[#FF0000]- Ressources[/#FF0000]
+
+[*] Proxmox
+[#008000]+ User friendly
++ Communauté conséquente
++ Gratos (ou abonnement si on veut un vrai support)
++ Passthrough
++ LXC avec une tonne de template d'appli dispo en 2 clics pour la plupart des besoins[/#008000]
+[#FF0000]- Pas de docker directement
+- Gestion des HDD peut être compliquée[/#FF0000]
+
+[*] ESXi
+[#008000]+ [/#008000]
+[#FF0000]- [/#FF0000]
+Tous les CPUs ne sont pas compatible selon la version
+
+[*] Distri Linux (Debian, CentOS, Ubuntu...)
+[#008000]+ Flexibilité  
++ Stabilité  
++ Quantité de logiciels disponibles  
++ Interface Desktop (pour les faux admins Linux)
++ Interface en ligne de commande (pour les vrais, donc)
++ Presque toutes les technos y sont
++ Gratuit (sauf certaines distros)
++ Communauté gigantesque [/#008000]
+[#FF0000]- Pas user friendly dans le cas dun serveur domestique  
+- Il faut tout faire soi-même (temps / connaissances)[/#FF0000]
+
+[*] Windows Pro ou Server
+[#008000]+ Hyperviseur Hyper-V inclus dans la licence
++ Windows[/#008000]
+[#FF0000]- Coût de la licence
+- Ressources
+- Windows [/#FF0000]
+ :D 
+
+[*] Rockstor
+[#008000]+ [/#008000]
+[#FF0000]- [/#FF0000]
+
+[*] XigmaNAS (ex NAS4Free)
+[#008000]+ [/#008000]
+[#FF0000]- [/#FF0000]
+
+
+[b][#E2001C]CONFIGURATION TYPE[/#E2001C][/b]
+
+[:icon4] WIP [:icon4]
+
+
+[b][#E2001C]F.A.Q[/#E2001C][/b]
+
+[:icon4] WIP [:icon4]
+
+
+[b][#E2001C]RESSOURCES HFR[/#E2001C][/b]   
+
+[#E2001C]Système d'exploitation[/#E2001C]
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=72970&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t1311375]OpenMediaVault[/url]
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=76680&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t1446447]unRAID[/url]
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=208&post=74419&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t1361472]Proxmox[/url]
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=41826&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t560557]Ubuntu[/url]
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=12264&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t121002]Debian[/url]
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=72660&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t1298440]CentOS[/url]
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=570&post=338104&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t3139595]Windows Pro ou Server[/url]
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=208&post=62334&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t891433]ESXi[/url]
+
+[#E2001C]Services[/#E2001C]
+--> Transcoding: [url=https://forum.hardware.fr/hfr/VideoSon/unique-plex-sujet_149547_1.htm#t2046585]Plex[/url], [url=https://forum.hardware.fr/hfr/VideoSon/HiFi-HomeCinema/jellyfin-media-server-sujet_154901_1.htm#t2231832]Jellyfin[/url]
+--> Paravirtualisation: [url=https://forum.hardware.fr/hfr/OSAlternatifs/Logiciels-2/topicunik-docker-sujet_74606_1.htm#t1367005]Docker[/url]
+--> VPN: [url=https://forum.hardware.fr/hfr/reseauxpersosoho/Tutoriels/windows-openvpn-tutoriels-sujet_2_46.htm]OpenVPN[/url]
+
+
+[b][#E2001C]SITES OFFICIELS[/#E2001C][/b]   
+[:icon4] WIP [:icon4]
+
+
+[b][#E2001C]CONFIGURATION D'UTILISATEURS[/#E2001C][/b]   
+[:icon4] WIP [:icon4]
