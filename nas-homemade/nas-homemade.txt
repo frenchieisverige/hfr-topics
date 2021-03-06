@@ -5,8 +5,10 @@ Topic initialement créé par [b][#FF0000]mad86[/#FF0000][/b], actuellement main
 
 [b][#E2001C]I. INTRODUCTION[/#E2001C][/b]
 
-Marre de payer une fortune pour une solution clef en main comme les NAS [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=22&subcat=503&post=5497&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0]Synology[/url]? [:cerveau manust] Envie de mettre les mains dans le « cambouis électronique »? [:cerveau dawa] Alors ce topic est fait pour vous. 
-Ici, on va débattre des choix des composants jusqu'au choix de l'OS pour partager vos meilleurs films de vacances :o Les différents chapitres [b][#E2001C]II[/#E2001C][/b] et [b][#E2001C]III[/#E2001C][/b] n'ont pas d'ordre spéciale et peuvent être interchangeable dans votre réflexion.
+Marre de payer une fortune pour une solution clef en main comme les NAS [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=22&subcat=503&post=5497&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0]Synology[/url]? [:cerveau manust] Envie de mettre les mains dans le « cambouis électronique »? [:cerveau dawa] Alors ce topic est fait pour vous! 
+Ici, on va débattre des choix des composants jusqu'au choix de l'OS pour partager vos meilleurs films de vacances :o La configuration logiciel en revanche se passera sur les topics respectifs listés en fin de post. 
+Les différents chapitres [b][#E2001C]II[/#E2001C][/b] et [b][#E2001C]III[/#E2001C][/b] n'ont pas d'ordre spéciale et peuvent être interchangeable dans votre réflexion.
+
 
 [b][#E2001C]II. CONTRAINTES D'UTILISATIONS[/#E2001C][/b]
 
@@ -15,7 +17,7 @@ Voici quelques pistes:
 [*] [b]Bruit[/b]: Est-ce que mon NAS sera dans une pièce à vivre ou dans un placard?
 [*] [b]Nombres de disques[/b]: Combien de données dois-je stocker? Est-ce qu'une redondance de disques m'est utile ([url=https://fr.wikipedia.org/wiki/RAID_(informatique)]RAID 0/1/5/10[/url])?
 [*] [b]Consommation[/b]: Est-ce pour vous un facteur déterminant pour réduire la facture EDF?
-[*] [b]Charge utile[/b]: Combien de services vais-je faire tourner? (Partage de fichiers, serveur VPN, Docker, Transcoding...)
+[*] [b]Charge utile[/b]: Combien de services vais-je faire tourner? (Partage de fichiers, serveur VPN, Docker, Transcodage...)
 [*] [b]Encombrement[/b]: Est-ce que le NAS doit rentrer dans une étagère Kallax d'Ikea?
 [*] [b]Volume de données à transmettre[/b]: Dois-je transmettre beaucoup de données vers mon NAS?
 Cette liste permettra déjà d'élaguer l'arbre pour obtenir une config, qui se peaufinera avec le choix du matériel et de l'OS.
@@ -23,10 +25,14 @@ Cette liste permettra déjà d'élaguer l'arbre pour obtenir une config, qui se 
 
 [b][#E2001C]III. MATÉRIEL[/#E2001C][/b]
 
-Cette partie est particulièrement lié au choix de l'OS. La sélection des composants ci dessous doit non seulement respecter la configuration minimale pour faire tourner l'OS, mais aussi les services que vous voulez faire tourner par-dessus. Je propose ici la carte mère comme point d'entrée, mais on peut également prendre le processeur ou encore la RAM.
+Cette partie est particulièrement lié au choix de l'OS. La sélection des composants ci dessous doit non seulement respecter la configuration minimale pour faire tourner l'OS, mais aussi les services que vous voulez faire tourner par-dessus. 
+On va assumer que vous utiliser le connecteur de stockage grand public, j'ai nommé SATA. Mais il en existe d'autres, répertoriés dans la section [#E2001C]CONNECTEURS DE STOCKAGE[/#E2001C]. Si un de ses connecteurs correspond plus à vos attentes, allez-y, mais vérifiez bien si toute la chaîne est bien compatible (carte mère, alimentations, disques, câbles)
+Dans cette exemple, je vous propose ici la carte mère comme point d'entréede reflexion, mais on peut également prendre le processeur ou encore la RAM.
 
 [#E2001C]CARTE MÈRE[/#E2001C]
 Pour moi, c'est l'élément central où tout doit débuter. Nombre de ports SATAs, présence d'un port NVMe pour le système (pour économiser un port SATA), nombre de ports d'extensions (PCIe), max. RAM supportée, la forme de la CM, tous ses éléments doivent apporter de l'eau à votre moulin. Le chipset est aussi à vérifier (Gemini Lake, C612, Epyc). 
+Une option « luxe » serait la présence de l'[url=https://fr.wikipedia.org/wiki/Intelligent_Platform_Management_Interface]IPMI[/url]/[url=https://www.hpe.com/fr/fr/servers/integrated-lights-out-ilo.html]ILO[/url]/[url=https://www.dell.com/learn/fr/fr/frbsdt1/solutions/integrated-dell-remote-access-controller-idrac]iDRAC[/url]. Sous ses noms barbares se cachent exactement la même fonctionnalité: Pouvoir gérer à distance son serveur, depuis le BIOS jusqu'à l'OS. On parle bien ici de 
+« server management » via le réseau, à ne pas confondre avec les services que l'on va aussi mettre disponible en dehors de chez soi ;)
 
 [#E2001C]PROCESSEUR[/#E2001C]
 Une fois la carte mère choisi, on peut s'attaquer au processeur. Parfois déjà soudé à la carte mère (ex: [url=https://shop.hardware.fr/fiche/AR201804110061.html]J5005[/url]), la question ne se pose plus. Pour les autres, le dimensionnement de la puissance de votre CPU va se déterminer en fonction de vos services que vous voulez faire tourner. Vous pouvez comparer plusieurs processeurs grâce au site [url=https://www.cpubenchmark.net/singleCompare.php?redirect]cpubenchmark.net[/url]. Veuillez respecter un compromis entre nombre de coeurs/threads, performance single-thread et multi-thread et consommation électrique (TDP). En parlant de TDP, faire attention au processeur avec un TDP bas. Certes ils vont moins consommer, mais ils mettront plus de temps à effectuer une tâche ardue car leurs fréquences « boost » est généralement moins élevées, d’où une consommation accrue [url=https://www.truenas.com/community/threads/suggestions-for-a-low-power-system-to-replace-that-old-dual-xeon-macpro.80850/page-2#post-562381]lien[/url] 
@@ -51,75 +57,96 @@ Il n'y a peu, voire aucune différence entre les disques vendus comme disques ex
 Tester les disques avant de les mettre en production est une bonne idée (badblocks, Surface test).
 
 [#E2001C]BOÎTIER[/#E2001C]
-Tour? HTPC? Rack? Voilà tant de formes de boîtiers possibles. En plus de la forme de la carte mère, la hauteur pour le ventirad, le nombre d'emplacements 3"5 et surtout le système de fixation sont à regarder. Dans un second temps, on regardera le nombre de ventilos et si il possède une isolation phonique. La connectique importe peu ici, pouvu qu'il y ait un bouton on/off.
+Tour? HTPC? Rack? Voilà tant de formes de boîtiers possibles. En plus de la forme de la carte mère, la hauteur pour le ventirad, le nombre d'emplacements 3"5 et surtout le système de fixation sont à regarder. En effet, certains disques possèdent que des trous de passages aux extrémités des flancs du disques. Beaucoup de « HHD tray » s'attendent à en avoir au milieu du disque. Dans un second temps, on regardera le nombre de ventilos et si il possède une isolation phonique. La connectique importe peu ici, pourvu qu'il y ait un bouton on/off.
 
 [#E2001C]CARTE RÉSEAU[/#E2001C]  
 Pas de modèles en particulier à recommander, vérifiez bien la présence du driver dans l'OS de votre choix.
 
-[#E2001C]CARTES ADDITIONNELLES (OPTIONNELLES)[/#E2001C] 
-Ces cartes vous permettent de rajouter des fonctionnalités, mais ne sont pas obligatoire dans votre build.
+[#E2001C]CONNECTEURS DE STOCKAGE[/#E2001C]  
+[:icon4] WIP [:icon4]
 
-[#E2001C]Cartes graphiques[/#E2001C] 
-Très utile lorsque l'on veut faire du transcoding. Cela permet d’alléger considérablement la charge CPU. 
+[#E2001C]CARTES ADDITIONNELLES (OPTIONNELLES)[/#E2001C] 
+[:icon4] Ces cartes vous permettent de rajouter des fonctionnalités, mais ne sont pas obligatoires dans votre build [:icon4]
+
+[#E2001C]Cartes graphiques[/#E2001C]
+Sauf si votre processeur n'en est pas équipé, une carte graphique n'est pas utile dans votre configuration, et si tel est le cas, une carte la plus basique suffira. Il faut juste avoir un affichage pour l'installation, devant obsolète par la suite car tout se gère via une interface web ou en [url=https://fr.wikipedia.org/wiki/Interface_en_ligne_de_commande]ligne de commande[/url].
+L'ajout d'une carte graphique, est à mon sens, justifié pour un service de [url=https://fr.wikipedia.org/wiki/Transcodage]transcodage[/url], très utile lorsque qu'on veut soulager considérablement la charge CPU. Veuillez vous référer à la documentation de votre service pour connaître les cartes graphiques compatibles.
 
 [#E2001C]Cartes SATAs[/#E2001C] 
-[:icon4] WIP [:icon4]
+Si vous arrivez à saturation au niveau des ports SATA occupés sur votre carte mère, un bon moyen d'en ajouter est via une carte SATA. Souvent proposé avec 4 ou 6 ports, elle se branche via un port PCIe. Le support du contrôleur par votre OS ainsi que le type de PCIe (x1/x2/x4/x8/x16) présent sur votre carte maman est à vérifier avant son achat.
 
 [#E2001C]Cartes RAID[/#E2001C] 
-[:icon4] WIP [:icon4]
+Les cartes RAID, comme son nom l'indique s'occupe de la redondance des disques. Le gros avantage est que cette gestion est transparente pour l'OS: Ce dernier ne voit qu'un disque/volume, peut importe la configuration RAID en-dessous. Le système d'exploitation n'a donc pas à prendre en charge et gérer le RAID et peu s'installer tranquillement dessus. Le gros désavantage est qu'en cas de panne, il est extrêmement fastidieux (pour ne pas dire pénible) de récupérer les données. En effet, il faut avoir l'exact même modèle de carte, et parfois le même firmware pour que les disques soient correctement reconnus et pouvoir remonter le RAID. D’où le conseil de beaucoup d'acheter deux cartes pour en mettre une en « spare ». Une batterie est vivement conseillée en cas de coupure de courant pour permettre à la carte de finir l'écriture du bit en cours, sous peine de corruption entier du fichier, voire dans quelques cas, du volume entier (bit de parité)
+Si vous voulez faire du RAID ou équivalent, tournez vous plutôt vers une solution logicielle: [url=https://doc.ubuntu-fr.org/raid_logiciel]mdadm[/url] pour Linux, [url=https://docs.oracle.com/cd/E19253-01/820-2315/gcvjg/index.html]RAID-Z[/url] pour Linux/BSD, [url=https://docs.microsoft.com/fr-be/windows-server/administration/windows-commands/diskraid]diskRAID[/url] pour Windows.
 
 
 [b][#E2001C]IV. SYSTÈME D'EXPLOITATION[/#E2001C][/b]
 
 Maintenant, on va s'attaquer à l'OS. C'est ce qui va donner vie à votre matériel et propulser tous vos services.
+
+[#E2001C]ORIENTÉ « NAS »[/#E2001C]
 Certains sont déjà spécialisés « NAS », de quoi partager vos fichiers en quelques clics de souris:
+[img]https://zupimages.net/up/21/09/6hqs.png[/img]
+[i]Figure 2: Système d'exploitation orienté « NAS »[/i] 
 
-* OpenMediaVault :
-[img]https://zupimages.net/up/21/09/c2v6.png[/img]
-
-* Unraid :
-[img]https://zupimages.net/up/21/09/vvf0.png[/img]
-
-* TrueNAS Core (ex FreeNAS)
-[img]https://zupimages.net/up/21/09/xvcx.png[/img]
-
-* TrueNAS Scale
-[img]https://zupimages.net/up/21/09/bxst.png[/img]
-
-* Distribution Linux (Debian, CentOS, Ubuntu...)
-[img]https://zupimages.net/up/21/09/swdr.png[/img]
-
-* Rockstor
-[img]https://zupimages.net/up/21/09/qzvi.png[/img]
-
-* XigmaNAS (ex NAS4Free)
-[img]https://zupimages.net/up/21/09/n0fm.png[/img]
+[#E2001C]ORIENTÉ VIRTUALISATION[/#E2001C]
 
 Pour utilisation - beaucoup - plus avancé, certains OS proposent en plus la [url=https://fr.wikipedia.org/wiki/Virtualisation]virtualisation[/url]:
-
-* Proxmox
-[img]https://zupimages.net/up/21/09/lk5z.png[/img]
-
-* ESXi
-[img]https://zupimages.net/up/21/09/4dhh.png[/img]
-
-* Windows Pro ou Server
-[img]https://zupimages.net/up/21/09/8pmx.png[/img]
+[img]https://zupimages.net/up/21/09/m4af.png[/img]
+[i]Figure 3: Système d'exploitation orienté virtualisation[/i] 
 
 
-[b][#E2001C]V. CONFIGURATION TYPE[/#E2001C][/b]
+[b][#E2001C]V. CONFIGURATIONS TYPES[/#E2001C][/b]
+
+Il n'y a pas de bonne ou mauvaise configuration, le but étant de trouver une homogénéité dans les composants tout en respectant la configuration minimale pour faire tourner le système d'exploitation que vous avez choisi. Cependant, je vais vous aider un peu en proposant des configurations pré-assemblées:
+
+[#E2001C]ACCESS[/#E2001C] 
+* Carte mère: GIGABYTE GA-J3455N-D3H
+* RAM: V7 SO-DIMM 4GB, DDR3L-1600, CL11
+* Boîtier: Kolink Satellite
+* Alimentation: be quiet! System Power B9 300W (Bronze)
+* SSD: Patriot Burst 120GB, SATA
+* Ventirad: Passif
+Total: ~ 190€
+
+[#E2001C]ELITE[/#E2001C] 
+* Carte mère: Supermicro X11SSL-F
+* Processeur: Intel Pentium Gold G5420
+* RAM: Kingston Server Premier DIMM 16GB
+* Boîtier: Node 804
+* Alimentation: be quiet! Pure Power 11 400W ATX 2.4
+* SSD: SanDisk SSD Plus 240GB
+* Ventirad: Intel Stock
+Total: ~ 495€
+
+[#E2001C]FALCON[/#E2001C] 
+* Carte mère: Supermicro X10SRi-F
+* Processeur: Intel Xeon E5 2640 v3
+* RAM: Samsung RDIMM 32GB, DDR4-2666, CL19-19-19, reg ECC
+* Boîtier: Fractal Design Define R5
+* Alimentation: Seasonic Focus PX 650W ATX 2.4
+* SSD: Western Digital WD Blue SN550 NVMe SSD 500GB
+* Adapteur: RaidSonic Icy Box IB-PCI208
+* Ventirad: Noctua NH-D15 
+Total: ~ 830€
 
 [:icon4] WIP [:icon4]
 
 
 [b][#E2001C]VI. F.A.Q[/#E2001C][/b]
 
+--> Comment puis-je tester mes disques avant de copier mes données à stocker? Un [url=https://forum.hardware.fr/hfr/Hardware/minipc/unique-perso-homemade-sujet_840082_376.htm#t10957901]
+]tutoriel[/url] est proposé par [i]@ptibeur[/i]
+
 [:icon4] WIP [:icon4]
 
 
 [b][#E2001C]VII. RESSOURCES HFR[/#E2001C][/b]   
 
-[#E2001C]Système d'exploitation[/#E2001C]
+[#E2001C]MATÉRIEL[/#E2001C]
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=1&subcat=110&post=512109&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t1699443][Topic RAID] tout sur le Raid ; Carte de merde = perfs nulles[/url]: Topic uniquement dédié au RAID matériel (via carte additionnelle)
+
+[#E2001C]SYSTÈME D'EXPLOITATION[/#E2001C]
 --> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=72970&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t1311375][Topic Unique] Openmediavault 5, le topic des utilisateurs[/url]: Le topic consacré à OpenmediaVault (viendez on est bien la bas :D)
 --> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=76680&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t1446447]NAS unRAID, protection pour disques SATA et ATA de tailles différentes[/url]: Le topic d'unRAID, avec son système RAID propre
 --> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=41826&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t560557][UBUNTU] 20.10 'Groovy Gorilla' - Topic dédié[/url]: Topic pour tous les dérivés de la distribution Ubuntu
@@ -131,17 +158,20 @@ Pour utilisation - beaucoup - plus avancé, certains OS proposent en plus la [ur
 --> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=570&post=338104&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t3139595][TU] Windows 10[/url]: Ne vous fiez pas au titre, les questions liées à Windows Server peuvent être aussi posées sur ce topic
 --> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=208&post=62334&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t891433]VirtualBox /VMWare mais surtout Xen ...Mangez en...[/url]: Allez manger du ESXi sur ce topic...
 
-[#E2001C]Services[/#E2001C]
---> Transcoding: [url=https://forum.hardware.fr/hfr/VideoSon/unique-plex-sujet_149547_1.htm#t2046585]Plex[/url], [url=https://forum.hardware.fr/hfr/VideoSon/HiFi-HomeCinema/jellyfin-media-server-sujet_154901_1.htm#t2231832]Jellyfin[/url]
---> Paravirtualisation: [url=https://forum.hardware.fr/hfr/OSAlternatifs/Logiciels-2/topicunik-docker-sujet_74606_1.htm#t1367005]Docker[/url]
---> VPN: [url=https://forum.hardware.fr/hfr/reseauxpersosoho/Tutoriels/windows-openvpn-tutoriels-sujet_2_46.htm]OpenVPN[/url]
+[#E2001C]SERVICES[/#E2001C]
+--> [url=https://forum.hardware.fr/hfr/VideoSon/unique-plex-sujet_149547_1.htm#t2046585][Topic Unique] Plex ![/url]: Topic affecté pour Plex et son transcodage
+--> [url=https://forum.hardware.fr/hfr/VideoSon/HiFi-HomeCinema/jellyfin-media-server-sujet_154901_1.htm#t2231832][TU] Jellyfin - The next FOSS media server[/url]: Topic sur Jellyfin, similaire à Plex, mais en open-source :sol: 
+--> [url=https://forum.hardware.fr/hfr/OSAlternatifs/Logiciels-2/topicunik-docker-sujet_74606_1.htm#t1367005][TOPICUNIK] Docker[/url]: Souvent cité dans les +/- des OS, le topic Docker sera vous répondre pour toute mise en place de services
+--> [url=https://forum.hardware.fr/hfr/reseauxpersosoho/Tutoriels/windows-openvpn-tutoriels-sujet_2_1.htm#t561]Réseau privé virtuel sous Windows - OpenVPN - Tutoriels.[/url]: Topic dédié à OpenVPN, initialement sous Windows, mais qui pourra convenir aussi pour Linux
 
 
 [b][#E2001C]VIII. RESSOURCES ANNEXES[/#E2001C][/b]
 
 --> [url=https://www.serverbuilds.net/]Serverbuilds.net[/url]: Site anglophone proposant des builds alternatives souvent basées sur des pièces d'occasion
 --> [url=https://www.servethehome.com/]Servethehome.com[/url]: Site anglophone généraliste traitant tout ce qui concerne l’hébergement de services à la maison
---> [url=https://xpenology.com/forum/topic/33316-hdd-branding-physical-disks-equivalences-synthesis/]HDD Branding & physical disks equivalences[/url]: Connaître toutes les caractéristiques des disques durs des différents constructeurs   
+--> [url=https://xpenology.com/forum/topic/33316-hdd-branding-physical-disks-equivalences-synthesis/]HDD Branding & physical disks equivalences[/url]: Connaître toutes les caractéristiques des disques durs des différents constructeurs 
+--> [url=https://forums.serverbuilds.net/t/guide-hardware-transcoding-the-jdm-way-quicksync-and-nvenc/1408][Guide] Hardware Transcoding: The JDM way! QuickSync and NVENC[/url]: Un guide anglophone pour configurer le transcodage sous Plex  
+--> [url=http://emery.claude.free.fr/raid-logiciel-windows.html]Raid logiciel - Windows[/url]: Tutoriel en Français pour créer un RAID logiciel sous Windows
 
 [:icon4] WIP [:icon4]
 
