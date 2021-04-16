@@ -51,7 +51,7 @@ La chose la plus importante à regarder outre la taille, est la technologie util
 Les modèles les plus populaires sont les Western Digital RED, Seagate IronWolf, Toshiba N300 ou encore les HGSTs Ultrastar, ce dernier étant prévu pour les entreprises.
 Une mode en ce moment pour avoir des disques durs moins cher est de s'essayer au « [url=https://www.howtogeek.com/324769/how-to-get-premium-hard-drives-for-cheap-by-shucking-external-drives/]shuck[/url] », technique consistant à retirer le disques dur interne contenu dans certains modèles de disques dur externes.
 [img]https://zupimages.net/up/21/09/upgv.png[/img]
-[i]Figure 1: Shuck disques externes WD[/i] 
+ [i]Figure 1: Shuck disques externes WD[/i] 
 
 Il n'y a peu, voire aucune différence entre les disques vendus comme disques externes et ceux vendus comme « NAS Edition », même si ils veulent nous faire croire le contraire. 
 Tester les disques avant de les mettre en production est une bonne idée (badblocks, Surface test).
@@ -73,27 +73,26 @@ Sauf si votre processeur n'en est pas équipé, une carte graphique n'est pas ut
 L'ajout d'une carte graphique, est à mon sens, justifié pour un service de [url=https://fr.wikipedia.org/wiki/Transcodage]transcodage[/url], très utile lorsque qu'on veut soulager considérablement la charge CPU. Veuillez vous référer à la documentation de votre service pour connaître les cartes graphiques compatibles.
 
 [#E2001C]Cartes SATAs[/#E2001C] 
-Si vous arrivez à saturation au niveau des ports SATA occupés sur votre carte mère, un bon moyen d'en ajouter est via une carte SATA. Souvent proposé avec 4 ou 6 ports, elle se branche via un port PCIe. Le support du contrôleur par votre OS ainsi que le type de PCIe (x1/x2/x4/x8/x16) présent sur votre carte maman est à vérifier avant son achat.
+Si vous arrivez à saturation au niveau des ports SATA occupés sur votre carte mère, un bon moyen d'en ajouter est via une carte SATA. Souvent proposé avec 4 ou 6 ports, elle se branche via un port PCIe. Le support du contrôleur par votre OS ainsi que le type de PCIe (x1/x2/x4/x8/x16) présent sur votre carte maman est à vérifier avant son achat. 
 
 [#E2001C]Cartes RAID[/#E2001C] 
 Les cartes RAID, comme son nom l'indique s'occupe de la redondance des disques. Le gros avantage est que cette gestion est transparente pour l'OS: Ce dernier ne voit qu'un disque/volume, peut importe la configuration RAID en-dessous. Le système d'exploitation n'a donc pas à prendre en charge et gérer le RAID et peu s'installer tranquillement dessus. Le gros désavantage est qu'en cas de panne, il est extrêmement fastidieux (pour ne pas dire pénible) de récupérer les données. En effet, il faut avoir l'exact même modèle de carte, et parfois le même firmware pour que les disques soient correctement reconnus et pouvoir remonter le RAID. D’où le conseil de beaucoup d'acheter deux cartes pour en mettre une en « spare ». Une batterie est vivement conseillée en cas de coupure de courant pour permettre à la carte de finir l'écriture du bit en cours, sous peine de corruption entier du fichier, voire dans quelques cas, du volume entier (bit de parité)
 Si vous voulez faire du RAID ou équivalent, tournez vous plutôt vers une solution logicielle: [url=https://doc.ubuntu-fr.org/raid_logiciel]mdadm[/url] pour Linux, [url=https://docs.oracle.com/cd/E19253-01/820-2315/gcvjg/index.html]RAID-Z[/url] pour Linux/BSD, [url=https://docs.microsoft.com/fr-be/windows-server/administration/windows-commands/diskraid]diskRAID[/url] pour Windows.
-
+Par contre, les cartes RAID pouvant être flashée en « [url=https://forums.servethehome.com/index.php?threads/what-is-it-mode.328/]IT Mode[/url] ». Cela revient à avoir avoir une carte SATA branchée, mais avec un contrôleur supporté par votre OS, supportant aussi de grosses charges de travail sans broncher. Une très bonne alternative au cartes SATAs donc.  
 
 [b][#E2001C]IV. SYSTÈME D'EXPLOITATION[/#E2001C][/b]
 
-Maintenant, on va s'attaquer à l'OS. C'est ce qui va donner vie à votre matériel et propulser tous vos services.
+Maintenant, on va s'attaquer à l'OS. C'est ce qui va donner vie à votre matériel et propulser tous vos services. On retrouve deux grandes catégories:
 
 [#E2001C]ORIENTÉ « NAS »[/#E2001C]
-Certains sont déjà spécialisés « NAS », de quoi partager vos fichiers en quelques clics de souris:
+Certains OS sont déjà spécialisés « NAS », de quoi partager vos fichiers en quelques clics de souris:
 [img]https://zupimages.net/up/21/09/6hqs.png[/img]
-[i]Figure 2: Système d'exploitation orienté « NAS »[/i] 
+ [i]Figure 2: Système d'exploitation orienté « NAS »[/i] 
 
 [#E2001C]ORIENTÉ VIRTUALISATION[/#E2001C]
-
 Pour utilisation - beaucoup - plus avancé, certains OS proposent en plus la [url=https://fr.wikipedia.org/wiki/Virtualisation]virtualisation[/url]:
 [img]https://zupimages.net/up/21/09/m4af.png[/img]
-[i]Figure 3: Système d'exploitation orienté virtualisation[/i] 
+ [i]Figure 3: Système d'exploitation orienté virtualisation[/i] 
 
 
 [b][#E2001C]V. CONFIGURATIONS TYPES[/#E2001C][/b]
@@ -108,6 +107,8 @@ Il n'y a pas de bonne ou mauvaise configuration, le but étant de trouver une ho
 * SSD: Patriot Burst 120GB, SATA
 * Ventirad: Passif
 Total: ~ 190€
+Pour un peu plus que le prix d'un Synology DS220J (~ 160€), on s'offre une configuration en x86 et evolutive, de quoi faire une machine sous OMV. La carte mère possède 4 ports SATAs, un pour OS laissant 3 pour le stockage. Attention, le boitier ne supporte que 2 disques 3,5". Seul point noir, le CPU est soudé sur la carte mère.
+
 
 [#E2001C]ELITE[/#E2001C] 
 * Carte mère: Supermicro X11SSL-F
@@ -118,6 +119,7 @@ Total: ~ 190€
 * SSD: SanDisk SSD Plus 240GB
 * Ventirad: Intel Stock
 Total: ~ 495€
+Cette configuration fera sans soucis une très bonne machine NAS sous OMV mais aussi TrueNAS qui fait donc son apparition ici. Ne vous fiez pas à ce Pentium, il est capable de faire tourner Proxmox: quelques VMs légères et pleins de containeurs LXCs! La carte mère possède IPMI ainsi que 6 ports SATAs, et tout autant d'emplacements dans le boîtier.
 
 [#E2001C]FALCON[/#E2001C] 
 * Carte mère: Supermicro X10SRi-F
@@ -129,8 +131,7 @@ Total: ~ 495€
 * Adapteur: RaidSonic Icy Box IB-PCI208
 * Ventirad: Noctua NH-D15 
 Total: ~ 830€
-
-[:icon4] WIP [:icon4]
+Cette configuration est sous simplement champagne. Elle encaisse tout ce que vous lui lancez à la tronche :o
 
 
 [b][#E2001C]VI. F.A.Q[/#E2001C][/b]
@@ -144,7 +145,23 @@ Total: ~ 830€
 [b][#E2001C]VII. RESSOURCES HFR[/#E2001C][/b]   
 
 [#E2001C]MATÉRIEL[/#E2001C]
+--> [url=https://forum.hardware.fr/hfr/Hardware/Processeur/guide-architecture-2021-sujet_692104_1.htm#t4313691][cpu] Guide cpu et architecture maj 30/01/2021[/url]: Topic pour bien choisir son CPU
+--> [url=https://forum.hardware.fr/hfr/Hardware/Memoire/unique-choisir-memoire-sujet_855301_1.htm#t7173070][Topic Unique] choisir sa mémoire DDR3[/url]: Ne vous fiez pas au titre, valable aussi pour la DDR4
+--> [url=https://forum.hardware.fr/hfr/Hardware/SSD/unique-revolution-stockage-sujet_764789_1.htm#t5397220][Topic Unique] SSD : la Révolution du stockage (infos en page 1)[/url]: Le topic pour mettre un coup de fouet à votre NAS
+--> [url=https://forum.hardware.fr/hfr/Hardware/Alimentation/bdd-guerre-watts-sujet_854576_1.htm#t7158384][Topic BDD] La Guerre des Watts[/url]: Le topic pour bien choisir son alimentation
+--> [url=https://forum.hardware.fr/hfr/Hardware/Boitier/boitiers-orientes-bequiet-sujet_948613_1.htm#t9003953][Topic Unique] Les boitiers orientés Silence. Warning: Bequiet! arrive[/url]: Le topic alliant WAF et silence :D
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=1&subcat=466&post=943978&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t8934769]Boitiers et backplanes pour NAS homemade[/url]: Le topic poussant le homemade jusqu'au bout!
 --> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=1&subcat=110&post=512109&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t1699443][Topic RAID] tout sur le Raid ; Carte de merde = perfs nulles[/url]: Topic uniquement dédié au RAID matériel (via carte additionnelle)
+--> [url=https://forum.hardware.fr/hfr/Hardware/HDD/topic-disque-externe-sujet_592036_1.htm#t2781849][TOPiC] Disque-Dur Externe[/url]: Parce que la sauvegarde est tout aussi important que votre configuration! 
+
+--> [url=https://forum.hardware.fr/hfr/Hardware/HDD/disques-toshiba-desktop-sujet_1017045_1.htm#t10078581][Topic unique] Les disques durs Toshiba 3.5" NAS et Desktop[/url]: Le topic réservé aux disques durs Toshiba
+--> [url=https://forum.hardware.fr/hfr/Hardware/Alimentation/seasonic-prime-focus-sujet_893098_1.htm#t7989769][TU] Seasonic Prime, Focus, Core,...[/url]: Le topic alimentation pour les fanboys Seasonic (coucou moi  :whistle:) 
+--> [url=https://forum.hardware.fr/hfr/Hardware/Alimentation/unique-corsair-series-sujet_944238_1.htm][Topic Unique] Corsair RM Series 450/550/650/750/850/1000W[/url]: Autre topic alimentation, cette fois ci c'est Corsair
+--> [url=https://forum.hardware.fr/hfr/Hardware/Boitier/unique-fractal-define-sujet_873754_1.htm#t7552336][Topic Unique] Fractal Design Define R6 / R5 / R4 / R3[/url]: Le topic pour la gamme Define de Fractal
+--> [url=https://forum.hardware.fr/hfr/Hardware/Boitier/unique-master-advanced-sujet_869472_1.htm#t7464649][Topic unique] Cooler Master 690 II Advanced (RC-692)[/url]: Le topic pour ce modèle de chez Coolmaster
+--> [url=https://forum.hardware.fr/hfr/Hardware/Boitier/topic-unique-hfriens-sujet_604307_1.htm#t2954821][Lian-Li, Le Topic Unique] Les Lian des HFRiens[/url]: Le topic regroupant les passionnés Lian-Li
+--> [url=https://forum.hardware.fr/hfr/Hardware/Boitier/silverstone-ds380-baies-sujet_941789_1.htm#t8893343][TU] Silverstone DS380 - Mini tour ITX 8 baies Hot-swap 3.5"[/url]: Le topic d'un des rares boîtiers avec du hot swap 
+
 
 [#E2001C]SYSTÈME D'EXPLOITATION[/#E2001C]
 --> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=72970&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t1311375][Topic Unique] Openmediavault 5, le topic des utilisateurs[/url]: Le topic consacré à OpenmediaVault (viendez on est bien la bas :D)
@@ -152,17 +169,11 @@ Total: ~ 830€
 --> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=41826&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t560557][UBUNTU] 20.10 'Groovy Gorilla' - Topic dédié[/url]: Topic pour tous les dérivés de la distribution Ubuntu
 --> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=12264&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t121002][DEBIAN] - Intégristes barbus, |337, femmes nues...[/url]: Un des topics linux le plus ancien, j'ai nommé Debian
 --> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=72660&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t1298440][RHEL/CentOS] Parce qu'il y'a aussi des barbus qui travaillent ![/url]: Le topic généraliste pour CentOS
---> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=72660&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t1298440][FreeNAS] libérez vos octets - Questions / Réponses[/url]: Le topic HFR pour TrueNAS Core et TrueNAS Scale
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=63902&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t935980][FreeNAS] libérez vos octets - Questions / Réponses[/url]: Le topic HFR pour TrueNAS Core et TrueNAS Scale
  
 --> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=208&post=74419&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t1361472][TOPIKUNIK] Proxmox, une solution de virtualisation kellébien ![/url]: Le topic de Proxmox, axé virtualisation
 --> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=570&post=338104&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t3139595][TU] Windows 10[/url]: Ne vous fiez pas au titre, les questions liées à Windows Server peuvent être aussi posées sur ce topic
 --> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=208&post=62334&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t891433]VirtualBox /VMWare mais surtout Xen ...Mangez en...[/url]: Allez manger du ESXi sur ce topic...
-
-[#E2001C]SERVICES[/#E2001C]
---> [url=https://forum.hardware.fr/hfr/VideoSon/unique-plex-sujet_149547_1.htm#t2046585][Topic Unique] Plex ![/url]: Topic affecté pour Plex et son transcodage
---> [url=https://forum.hardware.fr/hfr/VideoSon/HiFi-HomeCinema/jellyfin-media-server-sujet_154901_1.htm#t2231832][TU] Jellyfin - The next FOSS media server[/url]: Topic sur Jellyfin, similaire à Plex, mais en open-source :sol: 
---> [url=https://forum.hardware.fr/hfr/OSAlternatifs/Logiciels-2/topicunik-docker-sujet_74606_1.htm#t1367005][TOPICUNIK] Docker[/url]: Souvent cité dans les +/- des OS, le topic Docker sera vous répondre pour toute mise en place de services
---> [url=https://forum.hardware.fr/hfr/reseauxpersosoho/Tutoriels/windows-openvpn-tutoriels-sujet_2_1.htm#t561]Réseau privé virtuel sous Windows - OpenVPN - Tutoriels.[/url]: Topic dédié à OpenVPN, initialement sous Windows, mais qui pourra convenir aussi pour Linux
 
 
 [b][#E2001C]VIII. RESSOURCES ANNEXES[/#E2001C][/b]
@@ -176,5 +187,31 @@ Total: ~ 830€
 [:icon4] WIP [:icon4]
 
 
-[b][#E2001C]IX. CONFIGURATION D'UTILISATEURS[/#E2001C][/b]   
-[:icon4] WIP [:icon4]
+[b][#E2001C]IX. CONFIGURATIONS DES MEMBRES HFR[/#E2001C][/b]
+
+[url=https://docs.google.com/spreadsheets/d/1lZyiigeI9fzOi7Vc6hj9Y4x9brCQlKgHiJz_lC7OH88/edit?usp=sharing][u]Lien BDD des CONFIGURATIONS des MEMBRES HFR[/u][/url]
+
+Pour ajouter sa configuration, il suffit de l'entrer sur la [b]feuille 2[/b] (GSheet). Si vous êtes réticent à utiliser les services de Google, vous pouvez copier votre configuration ici avec le modèle suivant:
+[fixed]
+* Pseudo:
+* Cpu:
+* Ventirad:
+* Carte Mère:
+* RAM:
+* Boîtier:
+* Alimentation:
+* Disque (OS):
+* Disques (Stockage):
+* OS:
+* Carte PCIe #1:
+* Carte PCIe #2:
+* Carte PCIe #3:
+* Remarques:
+[/fixed] 
+Je rentrerai manuellement toutes les entrées dans la feuille 1 pour éviter tout sabotage.
+
+
+Le mot de la fin pour [i]@mad86[/i]:
+[quotemsg=6859854,4,327070]
+PS : j'ai mis ce topic dans la section mini PC Nas perso homemade car je pense que cela devrait ce situer ici, même si je sais que certain ont des confs à faire pâlir certaines entreprises françaises :p
+[/quotemsg]
