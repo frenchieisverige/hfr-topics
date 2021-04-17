@@ -112,6 +112,8 @@ Comme il y a trop de changements, Volker Theile, le developpeur d'OMV préconise
 [b]Est-il possible un gestionnaire de cameras de surveillance de type "Surveillance Station"?[/b] Oui, grâce à [url=http://forum.openmediavault.org/index.php/Thread/8578-Zoneminder-on-1-18/?pageNo=1]Zoneminder[/url].
 [b]Est-il possible d'ajouter un disque dur formaté NTFS déjà rempli de données au NAS ?[/b] Oui, possible en installant le paquet [i]ntfs-3g[/i] disponible dans les dépôts Debian mais avec des performances catastrophiques (~10Mo/s) et plus ou moins stable (risque de pertes de données lors de l'écriture/lecture). Ceci est lié au système de fichiers qu'utilise Linux (FUSE filesystem), peu ou pas compatible avec le système de fichiers propriétaire de Microsoft, NTFS. Je ne recommande donc pas l'installation de ce paquet, et plutôt de se diriger vers un disque formaté en ext4.  
 [b]Ma GUI me refuse toutes connexions depuis quelques semaines car la connexion n'est pas sécurisée (aussi bien sur Firefox que Chrome). Comment je peux récupérer l'accès ?[/b] Vérifiez votre HDD système s'il n'est pas plein (gros fichier log etc etc).
+[b]Est-il possible de chiffrer un volume (DATA pas OS) avec LUKS avec un stockage de clef distant sur un serveur NFS?[/b] Oui, grace au [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=72970&page=204&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t1460758
+]tutoriel[/url] proposé par [i]@Deadlock[/i]
 
 [:icon4] WIP [:icon4]
 
