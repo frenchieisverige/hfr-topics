@@ -1,0 +1,40 @@
+PC Gamer:
+
+Hardware:
+
+Boitier: Corsair Carbide Air 540
+Ventilateurs: 11x Corsair SP120 QE + 1x AF140 QE
+Alimentation: Seasonic P860 (Gen2) 860W  
+Carte Mère: Gigabyte Z77X-UD5H
+Mémoire: 16 Go (4x4Go) Corsair Vengence Low Progile Blue DDR3 PC12800 CAS 9  
+Processeur: Intel i7 3770K
+Carte Graphique: Gigabyte GTX 780  
+Stockage: SSD#1 : Samsung 840 Pro 120 Gb (OSX Yosemite)
+                SSD#2 : Kingston HyperX Series 120Gb (Windows 8.1 Pro)
+Rhéobus: Lamptron FC9
+ 
+Watercooling:
+
+Radiateurs: 1x XSPC EX 360 + 2x XSPC EX 240
+Liquide: Mayhems Pastel Blue Berry
+Waterblock VGA: EK FC-780 GTX Ti  
+Waterblock CPU: EK-Supremacy Clean CSQ - Acetal+Nickel
+Pompe: Laing D5
+Reservoir: CAPE Bullseye Pro
+Tubing: MasterKleer Souple & Transparent 10/16
+Embouts: AlphaCool 10/16 Black  
+ 
+Tuning: 
+
+Gaines: MDPC-X Sleeves Black & Aqua Blue + MODdiy Black & Aqua Blue
+LED: Phobya - FlexLight Faible-Densité (36 LED SMD) 60cm Blanc 
+
+------------------------------------------------------------------------
+Portable:
+
+Dell 3330: Intel Celeron 1017U@ 1.60 GHz | 6 GB RAM | SSD Intel Cherryville 120 Go | OS: Ubuntu LTS + Gnome
+
+------------------------------------------------------------------------
+Home Server: 
+
+HP Proliant Gen 8 | CPU: G1610t | Ram: 8 Go DDR3 | OS Disk: Kingston SSDNow E-Series 32 GB | Storage Disks: 4xSeagate NAS HDD 3 To - Raid 5 | OS: OMV 2.2.13 Stone burner + Docker
