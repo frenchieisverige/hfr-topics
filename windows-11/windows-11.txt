@@ -82,9 +82,9 @@ Un autre point noir est selon moi, la [b]nécessité d'un compte Microsoft[/b] p
 Enfin, à noter l'abandon des CPU 32bits (il était temps!)
 
 
-[b][#0B86FA]TESTER SON EGIBILITÉ[/#0B86FA][/b]
+[b][#0B86FA]TESTER SON ÉLIGIBILITÉ[/#0B86FA][/b]
 
-Microsoft avait sorti un outil nommé « PC Health Check ». Mais il a vite été retiré de la page officielle, car n'était pas assez clair pour l'utilisateur en n'indiquant pas les raisons de l'échec de compatibilité avec Windows 11. À ce jour, la seul façon de tester sa machine est via un programme tiers: [url=https://github.com/rcmaehl/WhyNotWin11]WhyNotWin11[/url]. 
+Microsoft a sorti outil nommé « [url=https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewpchealth]PC Health Check »[/url]. À ce jour, il est uniquement disponible à partir du programme Windows Insiders, mais il peut tout de même vous annoncer si votre machine est compatible avec Windows 11. Si cela s'avère être un échec, un excellent programme tiers [url=https://github.com/rcmaehl/WhyNotWin11]WhyNotWin11[/url] vous en dira plus sur les causes de ce recalage. 
 
 
 [b][#0B86FA]DIFFÉRENTES ÉDITIONS[/#0B86FA][/b]
