@@ -1,4 +1,3 @@
-
 PC principal:
 - Modèle: Lenovo ThinkCentre M93p Tiny
 - Processeur: i7-4785T
@@ -26,7 +25,7 @@ HomeServer:
 - Système d'exploitation: OMV 4.1.36-1
 
 =--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
--                           OLD                                -
+                            OLD                                
 =--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
 
 PC Gamer:
@@ -34,9 +33,9 @@ PC Gamer:
 - Ventilateurs: 11x Corsair SP120 QE + 1x AF140 QE
 - Alimentation: Seasonic P860 (Gen2) 860W  
 - Carte Mère: Gigabyte Z77X-UD5H
-- Mémoire: 16 Go (4x4Go) Corsair Vengence Low Progile Blue DDR3 PC12800 CAS 9  
-- Processeur: Intel i7 3770K
-- Carte Graphique: Gigabyte GTX 780  
+- Mémoire: 16 Go DDR3-1600 (4x4Go) Corsair Vengence Low Profile Blue  
+- Processeur: i7-3770K
+- Carte Graphique: 2x GTX 780 (Gigabyte & MSI) 
 - Disque dur: Samsung 840 Pro 120 Gb 
 - Rhéobus: Lamptron FC9
 - Radiateurs: 1x XSPC EX 360 + 2x XSPC EX 240
