@@ -39,6 +39,7 @@ L'intégralité des nouveautés est à retrouver sur le [url=https://blogs.windo
 
 Cette section sera présente jusqu'à la sortie officielle de Windows 11. A terme, elle sera vouée à être archivée dans un post externe ou être déplacée plus bas.
 
+09/09/2021: [url=https://www.youtube.com/watch?v=8FKtTg5VRSU]Vidéo d'introduction de Windows 11[/url]
 31/08/2021: [url=https://blogs.windows.com/windowsexperience/2021/08/31/windows-11-available-on-october-5/]Windows 11 disponible à partir du 5 Octobre[/url]
 27/08/2021: [url=https://blogs.windows.com/windows-insider/2021/08/27/update-on-windows-11-minimum-system-requirements-and-the-pc-health-check-app/]Mise à jour de la configuration minimale requise pour Windows 11[/url]
 19/08/2021: [url=https://twitter.com/windowsinsider/status/1428402160388087809]Sortie du premier ISO bootable (22000.160) pour les WindowsInsiders[/url]
