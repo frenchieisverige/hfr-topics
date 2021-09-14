@@ -31,9 +31,9 @@ Et il existe encore bien d'autres noyaux créés à partir de "patchsets" dits m
 [#FFAA00][b]VERSIONS LES PLUS RÉCENTES[/b][/#FFAA00]
 
 Le développement des noyaux Linux ([i]kernel.org[/i]) va vite, c'est pour cette raison que je recommande directement d'aller sur le site [url=https://www.kernel.org/]kernel.org[/url] pour vérifier la dernière version en date. Néanmoins je vous écris ci dessous les versions que j'essayerai de mettre le plus souvent à jour:
-[*] mainline: 5.10 	
-[*] stable: 5.9.6 	
-[*] LTS: 5.4.75 / 4.19.155 / 4.14.204 / 4.9.241 / 4.4.241
+[*] mainline: 5.15-rc1 	
+[*] stable: 5.14.3 	
+[*] LTS: 5.10.64 / 5.4.145 / 4.19.206 / 4.14.246 / 4.9.282 / 4.4.283
 
 [#FFAA00][b]TÉLÉCHARGER[/b][/#FFAA00]
 
