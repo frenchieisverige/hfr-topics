@@ -41,27 +41,6 @@ Ils font tout pour chasser les vieux démons qui hantent ce store depuis Windows
 L'intégralité des nouveautés est à retrouver sur le [url=https://blogs.windows.com/windows-insider/2021/06/28/announcing-the-first-insider-preview-for-windows-11/]blog de Microsoft[/url].
 
 
-[b][#0B86FA]ACTUALITÉS, RUMEURS et INFOS[/#0B86FA][/b]
-
-05/10/2021: [url=https://blogs.windows.com/windowsexperience/2021/10/04/windows-11-a-new-era-for-the-pc-begins-today/]Sortie officielle de Windows 11 (21H2)[/url]
-09/09/2021: [url=https://www.youtube.com/watch?v=8FKtTg5VRSU]Vidéo d'introduction de Windows 11[/url]
-31/08/2021: [url=https://blogs.windows.com/windowsexperience/2021/08/31/windows-11-available-on-october-5/]Windows 11 disponible à partir du 5 Octobre[/url]
-27/08/2021: [url=https://blogs.windows.com/windows-insider/2021/08/27/update-on-windows-11-minimum-system-requirements-and-the-pc-health-check-app/]Mise à jour de la configuration minimale requise pour Windows 11[/url]
-19/08/2021: [url=https://twitter.com/windowsinsider/status/1428402160388087809]Sortie du premier ISO bootable (22000.160) pour les WindowsInsiders[/url]
-                   [url=https://blogs.windows.com/windows-insider/2021/08/19/new-clock-app-for-windows-11-with-focus-sessions-rolling-out-to-windows-insiders/]Focus Sessions débarque sur le canal Dev[/url] 
-18/08/2021: [url=https://twitter.com/lockheimer/status/1428047760620621831]Microsoft rend plus difficile le changement de navigateur par défaut dans Windows 11[/url]
-12/08/2021: [url=https://blogs.windows.com/windows-insider/2021/08/12/first-set-of-windows-app-updates-rolling-out-to-windows-insiders-for-windows-11/]MAJ de Snipping Tool, de la calculatrice et du client Mail[/url]
-05/08/2021: [url=https://twitter.com/panos_panay/status/1423343837934546946]Intégration de Spotify dans le mode « Focus »[/url]
-22/07/2021: [url=https://blogs.windows.com/windows-insider/2021/07/22/announcing-windows-11-insider-preview-build-22000-100/]Première version de Windows 11 disponible dans le canal Beta[/url]
-01/07/2021: [url=https://twitter.com/XenoPanther/status/1410420278866366465]Un black screen of death pour Windows 11?[/url]
-28/06/2021: [url=https://devblogs.microsoft.com/directx/dynamic-refresh-rate/]Windows 11 inclut un taux de rafraîchissement dynamique pour économiser la batterie des ordinateurs portables[/url]
-25/06/2021: [url=https://www.microsoft.com/security/blog/2021/06/25/windows-11-enables-security-by-design-from-the-chip-to-the-cloud/]Microsoft explique la présence des puces TPM 2.0 dans les configurations minimales[/url]
-24/06/2021: [url=https://www.microsoft.com/en-us/windows/event]Introduction de Windows 11[/url]
-                   [url=https://twitter.com/Windows/status/1408573495970254851]La mise à niveau gratuite vers Windows 11 à partir de 2022[/url]
-15/06/2021: [url=https://www.theverge.com/2021/6/15/22535123/microsoft-windows-11-leak-screenshots-start-menu]Le « leak » de Windows 11[/url] 
-02/06/2021: [url=https://twitter.com/panos_panay/status/1400123553849114624]Annonce du #WindowsEvent pour Windows 11[/url]
-
-
 [b][#0B86FA]CONFIGURATION MINIMALE[/#0B86FA][/b]
 
 D'après la [url=https://www.microsoft.com/fr-fr/windows/windows-11-specifications]documentation officielle[/url], Windows 11 a besoin de:
@@ -123,6 +102,27 @@ Pour plus d'images, une [url=https://lafibre.info/windows/windows-11/]galerie[/u
 
 Windows 11 est officiellement disponible depuis le [b]5 Octobre 2021[/b]. 
 La [b]mise à niveau gratuite[/b] vers Windows 11 depuis les PCs équipés de Windows 10 commencera à partir de cette même date et se ferra de manière échelonnée. Plusieurs facteurs comme l'éligibilité du matériel, des paramètres de fiabilité, de l'âge de l'appareil et d'autres facteurs auront une incidence sur quand vous pourrez bénéficier de cette MAJ. Si tel est le cas, Windows Update vous informera de sa disponibilité. Enfin, Microsoft prévoie que tous les appareils éligibles se verront offrir la mise à niveau gratuite d'ici la mi-2022.
+
+
+[b][#0B86FA]ACTUALITÉS, RUMEURS et INFOS[/#0B86FA][/b]
+
+05/10/2021: [url=https://blogs.windows.com/windowsexperience/2021/10/04/windows-11-a-new-era-for-the-pc-begins-today/]Sortie officielle de Windows 11 (21H2)[/url]
+09/09/2021: [url=https://www.youtube.com/watch?v=8FKtTg5VRSU]Vidéo d'introduction de Windows 11[/url]
+31/08/2021: [url=https://blogs.windows.com/windowsexperience/2021/08/31/windows-11-available-on-october-5/]Windows 11 disponible à partir du 5 Octobre[/url]
+27/08/2021: [url=https://blogs.windows.com/windows-insider/2021/08/27/update-on-windows-11-minimum-system-requirements-and-the-pc-health-check-app/]Mise à jour de la configuration minimale requise pour Windows 11[/url]
+19/08/2021: [url=https://twitter.com/windowsinsider/status/1428402160388087809]Sortie du premier ISO bootable (22000.160) pour les WindowsInsiders[/url]
+                   [url=https://blogs.windows.com/windows-insider/2021/08/19/new-clock-app-for-windows-11-with-focus-sessions-rolling-out-to-windows-insiders/]Focus Sessions débarque sur le canal Dev[/url] 
+18/08/2021: [url=https://twitter.com/lockheimer/status/1428047760620621831]Microsoft rend plus difficile le changement de navigateur par défaut dans Windows 11[/url]
+12/08/2021: [url=https://blogs.windows.com/windows-insider/2021/08/12/first-set-of-windows-app-updates-rolling-out-to-windows-insiders-for-windows-11/]MAJ de Snipping Tool, de la calculatrice et du client Mail[/url]
+05/08/2021: [url=https://twitter.com/panos_panay/status/1423343837934546946]Intégration de Spotify dans le mode « Focus »[/url]
+22/07/2021: [url=https://blogs.windows.com/windows-insider/2021/07/22/announcing-windows-11-insider-preview-build-22000-100/]Première version de Windows 11 disponible dans le canal Beta[/url]
+01/07/2021: [url=https://twitter.com/XenoPanther/status/1410420278866366465]Un black screen of death pour Windows 11?[/url]
+28/06/2021: [url=https://devblogs.microsoft.com/directx/dynamic-refresh-rate/]Windows 11 inclut un taux de rafraîchissement dynamique pour économiser la batterie des ordinateurs portables[/url]
+25/06/2021: [url=https://www.microsoft.com/security/blog/2021/06/25/windows-11-enables-security-by-design-from-the-chip-to-the-cloud/]Microsoft explique la présence des puces TPM 2.0 dans les configurations minimales[/url]
+24/06/2021: [url=https://www.microsoft.com/en-us/windows/event]Introduction de Windows 11[/url]
+                   [url=https://twitter.com/Windows/status/1408573495970254851]La mise à niveau gratuite vers Windows 11 à partir de 2022[/url]
+15/06/2021: [url=https://www.theverge.com/2021/6/15/22535123/microsoft-windows-11-leak-screenshots-start-menu]Le « leak » de Windows 11[/url] 
+02/06/2021: [url=https://twitter.com/panos_panay/status/1400123553849114624]Annonce du #WindowsEvent pour Windows 11[/url]
 
 
 [b][#0B86FA]SITES OFFICIELS[/#0B86FA][/b]
