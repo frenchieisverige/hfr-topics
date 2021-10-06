@@ -138,4 +138,9 @@ La [b]mise à niveau gratuite[/b] vers Windows 11 depuis les PCs équipés de Wi
 
 [b][#0B86FA]HISTORIQUES DES VERSIONS[/#0B86FA][/b]
 
-Aucune version officielle pour le moment. Wait&See [:zest:1]
+[#0B86FA]05/10/2021: 21H2 basée sur la build 22000[/#0B86FA]
+
+[i]Légende:[/i]
+[#0B86FA]Version actuelle[/#0B86FA]
+[#3800C6]Ancienne version mais toujours activement maintenue[/#3800C6]
+[#848484]Version obsolète[/#848484]
