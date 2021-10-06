@@ -42,8 +42,7 @@ L'intégralité des nouveautés est à retrouver sur le [url=https://blogs.windo
 
 [b][#0B86FA]ACTUALITÉS, RUMEURS et INFOS[/#0B86FA][/b]
 
-Cette section sera présente jusqu'à la sortie officielle de Windows 11. A terme, elle sera vouée à être archivée dans un post externe ou être déplacée plus bas.
-
+05/10/2021: [url=https://blogs.windows.com/windowsexperience/2021/10/04/windows-11-a-new-era-for-the-pc-begins-today/]Sortie officielle de Windows 11[/url]
 09/09/2021: [url=https://www.youtube.com/watch?v=8FKtTg5VRSU]Vidéo d'introduction de Windows 11[/url]
 31/08/2021: [url=https://blogs.windows.com/windowsexperience/2021/08/31/windows-11-available-on-october-5/]Windows 11 disponible à partir du 5 Octobre[/url]
 27/08/2021: [url=https://blogs.windows.com/windows-insider/2021/08/27/update-on-windows-11-minimum-system-requirements-and-the-pc-health-check-app/]Mise à jour de la configuration minimale requise pour Windows 11[/url]
@@ -60,8 +59,6 @@ Cette section sera présente jusqu'à la sortie officielle de Windows 11. A term
                    [url=https://twitter.com/Windows/status/1408573495970254851]La mise à niveau gratuite vers Windows 11 à partir de 2022[/url]
 15/06/2021: [url=https://www.theverge.com/2021/6/15/22535123/microsoft-windows-11-leak-screenshots-start-menu]Le « leak » de Windows 11[/url] 
 02/06/2021: [url=https://twitter.com/panos_panay/status/1400123553849114624]Annonce du #WindowsEvent pour Windows 11[/url]
-
-[:icon4] WIP [:icon4]
 
 
 [b][#0B86FA]CONFIGURATION MINIMALE[/#0B86FA][/b]
