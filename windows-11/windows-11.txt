@@ -2,7 +2,7 @@
 
 Windows 10 a –bien– vécu, vive Windows 11! :bounce: 
 
-Bienvenue donc sur ce [TU] Win 11, créé par [b][#FF0000]Je@nb[/#FF0000][/b] et actuellement maintenu par[b] FrenchieiSverige[/b]. 
+Bienvenue donc sur ce Topic Unique consacré au dernier SE de la firme de Redmond.
 
 [b][#FF0000]TL;DR[/#FF0000][/b]
 
@@ -11,6 +11,7 @@ Flemme de lire le FP? Voici les [b]trois[/b] infos importantes:
 [*]Où acheter une licence?: https://www.microsoft.com/fr-fr/d/windows-10-home/d76qx4bznwk4?rtc=1 puis faites la MAJ gratuitement. Même procédure pour la Pro.
 [*]Test de compatibilité: https://aka.ms/GetPCHealthCheckApp
 Toujours pas la réponse à vos questions? [b][#FF0000]Prenez le temps de lire la FP, car nous aussi on aura la flemme de répondre à votre question, si la réponse y est déjà présente![/#FF0000][/b]
+
 
 [b][#0B86FA]LE FOCUS DU TOPIC[/#0B86FA][/b]
 
@@ -106,6 +107,7 @@ Pour le moment, Microsoft n'a encore rien officialisé. Un « listing » de la s
 Microsoft vient de sortir officiellement la première version de son nouvel OS, la [b]21H2[/b]. Trois méthodes sont disponibles: [url=https://www.microsoft.com/fr-fr/software-download/windows11]L'assistant d'installation, le créateur d'un support d'installation où le téléchargement direct de l'image[/url].
 
 [:icon4] Le téléchargement de Windows 11 ne rime pas avec l'obtention automatique d'une licence. Confer le topic des licences pour s'en procurer une officiellement [:icon4]
+
 
 [b][#0B86FA]CAPTURES D'ÉCRANS[/#0B86FA][/b]
 
