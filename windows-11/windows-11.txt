@@ -147,7 +147,7 @@ La [b]mise à niveau gratuite[/b] vers Windows 11 depuis les PCs équipés de Wi
 
 [b][#0B86FA]HISTORIQUES DES VERSIONS[/#0B86FA][/b]
 
-[#0B86FA]05/10/2021: 21H2 basée sur la build 22000[/#0B86FA]
+[#0B86FA]05/10/2021: 21H2 basée sur la build 22000, maintenue jusqu'en 2023[/#0B86FA]
 
 [i]Légende:[/i]
 [#0B86FA]Version actuelle[/#0B86FA]
