@@ -119,7 +119,7 @@ Pour plus d'images, une [url=https://lafibre.info/windows/windows-11/]galerie[/u
 
 [b][#0B86FA]DISPONIBILITÉ[/#0B86FA][/b]
 
-Windows 11 sera officiellement disponible à partir du [b]5 Octobre 2021[/b]. 
+Windows 11 est officiellement disponible depuis le [b]5 Octobre 2021[/b]. 
 La [b]mise à niveau gratuite[/b] vers Windows 11 depuis les PCs équipés de Windows 10 commencera à partir de cette même date et se ferra de manière échelonnée. Plusieurs facteurs comme l'éligibilité du matériel, des paramètres de fiabilité, de l'âge de l'appareil et d'autres facteurs auront une incidence sur quand vous pourrez bénéficier de cette MAJ. Si tel est le cas, Windows Update vous informera de sa disponibilité. Enfin, Microsoft prévoie que tous les appareils éligibles se verront offrir la mise à niveau gratuite d'ici la mi-2022.
 
 
