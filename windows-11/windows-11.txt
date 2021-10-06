@@ -21,8 +21,8 @@ Comme pour les éditions précédentes de Windows, ce topic traitera [b]uniqueme
  [:yann39] Nouvelles fonctionnalités présentes au fil des MAJs
 
 En conséquence, il ne concentrera [b]pas[/b] sur:
- [:judgedredd:2] Les licences: [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=570&post=340725&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0][Windows 10] topic licence[/url]. Windows 11 utilisant le même schéma de licence que Windows 10. Le topic sera mis à jour dès la sortie officielle de ce dernier.
- [:judgedredd:2] Les versions Beta/Insiders: [url=https://forum.hardware.fr/hfr/WindowsSoftware/windows-10/windows-insider-22000-sujet_343098_1.htm][TU] Windows Insider : Dev & Beta = 22000.132 | RP = 21H2.1165[/url]. Cependant, la discussion est tolérée jusqu'à la sortie officielle.
+ [:judgedredd:2] Les licences: [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=570&post=340725&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0][Windows 10] topic licence[/url]
+ [:judgedredd:2] Les versions Beta/Insiders: [url=https://forum.hardware.fr/hfr/WindowsSoftware/windows-10/windows-insider-22000-sujet_343098_1.htm][TU] Windows Insider : Dev & Beta = 22000.132 | RP = 21H2.1165[/url]
 
  
 [b][#0B86FA]PRÉSENTATION[/#0B86FA][/b]
