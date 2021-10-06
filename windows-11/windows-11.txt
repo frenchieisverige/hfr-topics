@@ -10,7 +10,7 @@ Flemme de lire le FP? Voici les [b]trois[/b] infos importantes:
 [*][b][#FF0000]Lien de téléchargement:[/#FF0000][/b] https://www.microsoft.com/fr-fr/software-download/windows11
 [*]Où acheter une licence?: https://www.microsoft.com/fr-fr/d/windows-10-home/d76qx4bznwk4?rtc=1 puis faites la MAJ gratuitement. Même procédure pour la Pro.
 [*]Test de compatibilité: https://aka.ms/GetPCHealthCheckApp
-Toujours pas la réponse à vos questions? [b][#FF0000]Prenez le temps de lire la FP, car nous aussi on aura la flemme de répondre à votre question, si la réponse y est déjà présente![/#FF0000][/b]
+Toujours pas la réponse à vos questions? [b][#FF0000]Prenez le temps de lire la FP et la FAQ, car nous aussi on aura la flemme de répondre à votre question, si la réponse y est déjà présente![/#FF0000][/b]
 
 
 [b][#0B86FA]LE FOCUS DU TOPIC[/#0B86FA][/b]
@@ -102,6 +102,11 @@ Pour plus d'images, une [url=https://lafibre.info/windows/windows-11/]galerie[/u
 
 Windows 11 est officiellement disponible depuis le [b]5 Octobre 2021[/b]. 
 La [b]mise à niveau gratuite[/b] vers Windows 11 depuis les PCs équipés de Windows 10 commencera à partir de cette même date et se ferra de manière échelonnée. Plusieurs facteurs comme l'éligibilité du matériel, des paramètres de fiabilité, de l'âge de l'appareil et d'autres facteurs auront une incidence sur quand vous pourrez bénéficier de cette MAJ. Si tel est le cas, Windows Update vous informera de sa disponibilité. Enfin, Microsoft prévoie que tous les appareils éligibles se verront offrir la mise à niveau gratuite d'ici la mi-2022.
+
+
+[b][#0B86FA]FAQ[/#0B86FA][/b]
+
+[:icon4] WIP [:icon4]
 
 
 [b][#0B86FA]ACTUALITÉS, RUMEURS et INFOS[/#0B86FA][/b]
