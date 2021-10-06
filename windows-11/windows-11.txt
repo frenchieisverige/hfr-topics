@@ -43,7 +43,7 @@ L'intégralité des nouveautés est à retrouver sur le [url=https://blogs.windo
 
 [b][#0B86FA]ACTUALITÉS, RUMEURS et INFOS[/#0B86FA][/b]
 
-05/10/2021: [url=https://blogs.windows.com/windowsexperience/2021/10/04/windows-11-a-new-era-for-the-pc-begins-today/]Sortie officielle de Windows 11[/url]
+05/10/2021: [url=https://blogs.windows.com/windowsexperience/2021/10/04/windows-11-a-new-era-for-the-pc-begins-today/]Sortie officielle de Windows 11 (21H2)[/url]
 09/09/2021: [url=https://www.youtube.com/watch?v=8FKtTg5VRSU]Vidéo d'introduction de Windows 11[/url]
 31/08/2021: [url=https://blogs.windows.com/windowsexperience/2021/08/31/windows-11-available-on-october-5/]Windows 11 disponible à partir du 5 Octobre[/url]
 27/08/2021: [url=https://blogs.windows.com/windows-insider/2021/08/27/update-on-windows-11-minimum-system-requirements-and-the-pc-health-check-app/]Mise à jour de la configuration minimale requise pour Windows 11[/url]
@@ -65,7 +65,7 @@ L'intégralité des nouveautés est à retrouver sur le [url=https://blogs.windo
 [b][#0B86FA]CONFIGURATION MINIMALE[/#0B86FA][/b]
 
 D'après la [url=https://www.microsoft.com/fr-fr/windows/windows-11-specifications]documentation officielle[/url], Windows 11 aurait besoin de:
-[quote] Processeur: 1 gigahertz (GHz) ou plus, avec au moins 2 cœurs sur un processeur 64 bits compatible ou un système sur puce (SoC)
+[quote] Processeur: 1 gigahertz (GHz) ou plus, avec au moins 2 cœurs sur un processeur 64 bits compatible ou un système sur puce (SoC) *
 RAM: 4 gigaoctets (Go)
 Stockage: Périphérique de stockage de 64 Go ou plus
 Carte graphique: Compatible avec DirectX 12 ou version ultérieure avec pilote WDDM 2.0
