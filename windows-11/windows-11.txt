@@ -99,8 +99,9 @@ Pour le moment, Microsoft n'a encore rien officialisé. Un « listing » de la s
 
 [b][#0B86FA]SE PROCURER WINDOWS 11[/#0B86FA][/b]
 
-Microsoft vient de sortir une [b]preview build[/b] (22000.160) directement installable en « bare metal ». L'ISO est récupérable à cette [url=https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso]adresse[/url], en s'étant au préalablement inscrit au [url=https://insider.windows.com/fr-fr/about-windows-insider-program]programme Insiders[/url]. En cas de problème d'inscription, n'hésitez pas à aller consulter le topic HFR dédie, le lien se trouvant dans la section [#0B86FA]RESSOURCES HFR[/#0B86FA].
+Microsoft vient de sortir officiellement la première version de son nouvel OS, la [b]21H2[/b]. Trois méthodes sont disponibles: [url=https://www.microsoft.com/fr-fr/software-download/windows11]L'assistant d'installation, le créateur d'un support d'installation où le téléchargement direct de l'image[/url].
 
+[:icon4] Le téléchargement de Windows 11 ne rime pas avec l'obtention automatique d'une licence. Confer le topic des licences pour s'en procurer une officiellement [:icon4]
 
 [b][#0B86FA]CAPTURES D'ÉCRANS[/#0B86FA][/b]
 
