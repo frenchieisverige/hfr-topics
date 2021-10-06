@@ -93,14 +93,16 @@ Microsoft a sorti outil nommé « PC Health Check » pour voir si votre machine 
 
 [b][#0B86FA]DIFFÉRENTES ÉDITIONS[/#0B86FA][/b]
 
-Pour le moment, Microsoft n'a encore rien officialisé. Un « listing » de la société [url=https://launchstudio.bluetooth.com/ListingDetails/84859]Bluetooth SIG[/url], rapidement retiré depuis, aurait mentionné les editions suivantes en préparation:
-[*]Windows 11 Home
+Microsoft propose actuellement 6 éditions:
+[*]Windows 11 Familiale
 [*]Windows 11 Pro
 [*]Windows 11 Pro pour l'éducation
 [*]Windows 11 Pro pour les stations de travail
 [*]Windows 11 Entreprise
 [*]Windows 11 Éducation
-[*]Windows 11 Réalité mixte
+
+Bien sur, seules les éditions Familiale et Pro sont pertinentes pour le grand public. Un comparatif entre les deux est disponible [url=https://www.microsoft.com/fr-fr/windows/compare-windows-11-home-vs-pro-versions]ici[/url].
+
 
 [b][#0B86FA]SE PROCURER WINDOWS 11[/#0B86FA][/b]
 
