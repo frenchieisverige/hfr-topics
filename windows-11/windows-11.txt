@@ -152,6 +152,8 @@ Questions en vrac:
 --> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=570&post=340725&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0][Windows 10] topic licence[/url]: Tout sur les modèles de licence de Windows 11
 --> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=570&post=343098&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0][TU] Windows Insider : Dev & Beta = 22000.132 | RP = 21H2.1165[/url]: Pour tester en avant première les dernières nouveautés
 --> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=407&post=351048&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0][TU] Edge : le nouveau navigateur de Microsoft basé sur Chromium[/url]: La saveur windowsienne de Chromium
+--> [url=https://forum.hardware.fr/hfr/WindowsSoftware/windows-10/microsoft-entreprise-services-sujet_350158_1.htm#t3323008][TU] Microsoft : l'entreprise, ses services, ses infos, ses rumeurs[/url]: Tout savoir sur l'entreprise derrière Windows 11, j'ai nommé Microsoft
+--> [url=https://forum.hardware.fr/hfr/WindowsSoftware/windows-10/features-windows-utilisez-sujet_351812_1.htm#t3355689][topic Unique] Les features windows que vous n'utilisez pas (27/03/20)[/url]: Initialement prévues pour son grand frère Windows 10, ces astuces peuvent aussi vous être utiles sur le dernier SE de Redmond
 
 
 [b][#0B86FA]RESSOURCES ANNEXES[/#0B86FA][/b]
