@@ -106,6 +106,17 @@ La [b]mise à niveau gratuite[/b] vers Windows 11 depuis les PCs équipés de Wi
 
 [b][#0B86FA]FAQ[/#0B86FA][/b]
 
+Questions en vrac:
+
+[b]Comment activer l'UEFI?[/b] Microsoft propose un [url=https://support.microsoft.com/fr-fr/topic/windows-11-et-d%C3%A9marrage-s%C3%A9curis%C3%A9-a8ff1202-c0d9-42f5-940f-843abef64fad]guide général[/url]. Cependant, se référer au manuel de sa carte mère vous donnera des informations plus précises sur la procédure.
+[b]Comment activer le module TPM de mon processeur?[/b] Cherchez l'option Platform Trust Technology (PTT) pour Intel, ou fTPM pour AMD. Encore une fois, référez vous au manuel de votre carte maman. Pensez aussi à mettre votre BIOS à jour.
+[b]Pourquoi mon processeur n'est pas compatible?[/b] Car [#FF0000]il ne supporte pas certaines instructions comme le MBEC[/#FF0000], demandé par Microsoft avec sa fonction HVCI pour lutter contre les attaques malwares. Plus d'infos [url=https://www.microsoft.com/security/blog/2021/01/11/new-surface-pcs-enable-virtualization-based-security-vbs-by-default-to-empower-customers-to-do-more-securely/?ranMID=46134&ranEAID=hL3Qp0zRBOc&ranSiteID=hL3Qp0zRBOc-rXYwvUvfck7c3gpdeqDKeA&epi=hL3Qp0zRBOc-rXYwvUvfck7c3gpdeqDKeA&irgwc=1&OCID=AID2200057_aff_7809_1243925&tduid=%28ir__gwgi6gsgi9kf6xmlzg20m1oqru2xr63b0ygsoznt00%29%287809%29%281243925%29%28hL3Qp0zRBOc-rXYwvUvfck7c3gpdeqDKeA%29%28%29&irclickid=_gwgi6gsgi9kf6xmlzg20m1oqru2xr63b0ygsoznt00]ici[/url].
+[b]J'ai un module TPM, mais un processeur incompatible. Puis-je quand même installer Windows 11?[/b] Oui, même si ce n'est pas recommandé. [url=https://support.microsoft.com/fr-fr/windows/m%C3%A9thodes-d-installation-de-windows-11-e0edbbfb-cfc5-4011-868b-2ce77ac7c70e]Un guide écrit par Microsoft[/url] est disponible.
+[b]Est-ce que mes programmes et documents sont conservés lors de la migration?[/b] Oui, sauf si vous faites une installation propre depuis l'ISO.
+[b]J'ai activé l'UEFI, mais je ne peux plus démarrer Windows 10. Que faire?[/b] Il faut [url=https://docs.microsoft.com/fr-fr/windows-server/storage/disk-management/change-an-mbr-disk-into-a-gpt-disk]convertir la table de partitionnement de MBR vers GPT[/url].
+[b]J'ai un compte local sous Win 10 Pro. Sera-t-il encore présent après la MAJ?[/b] Oui.
+[b]Je n'ai pas envie de faire un compte Microsoft pour l'edition Famille. Quelles sont mes possibilités?[/b] Rester sous Windows 10, ou [url=https://www.nextinpact.com/article/48319/windows-11-famille-comment-contourner-obligation-davoir-compte-microsoft]contourner cette étape[/url]. Cependant, ce n'est pas recommandé.
+
 [:icon4] WIP [:icon4]
 
 
