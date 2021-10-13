@@ -54,14 +54,6 @@ Affichage: Écran haute définition (720p) d’une diagonale supérieure à 9", 
 Connexion Internet et comptes Microsoft: Windows 11 Famille nécessite une connectivité Internet et un compte Microsoft pour terminer la configuration de l’appareil lors de la première utilisation. Pour toutes les éditions de Windows 11, un accès Internet est requis pour effectuer les mises à jour et pour télécharger et profiter de certaines fonctionnalités. Un compte Microsoft est requis pour certaines fonctionnalités.
 [/quote]* Intel de 8 génération ou plus récent, AMD Zen+ ou plus récent 
 
-Trois points clefs où Microsoft sera intransigeant lors de l'installation:
-[*] Avoir un [b]processeur compatible[/b]: Vous pouvez chercher le votre dans [url=https://docs.microsoft.com/en-us/windows-hardware/design/minimum/windows-processor-requirements]cette liste[/url], selon votre modèle. 
-[*] Activer l'[b]UEFI[/b] comme mode de démarrage, ainsi que le[b]SecureBoot[/b]: Vous pouvez le faire en suivant ce [url=https://support.microsoft.com/fr-fr/topic/windows-11-et-d%C3%A9marrage-s%C3%A9curis%C3%A9-a8ff1202-c0d9-42f5-940f-843abef64fad]ce guide[/url]
-[*] Posséder un module [b]TPM[/b]: L'élément le plus crucial. À brancher sur votre carte maman ([url=https://www.asrock.com/mb/spec/card.asp?Model=TPM-S%20Module]exemple[/url]) [b]ou[/b] directement intégré au processeur (d'où la liste de compatibilité CPU). Cette puce s'inscrit pourtant dans un cadre d'une série de mesures visant à la sécurisation des données ainsi qu'à la réductions des [url=https://www.microsoft.com/security/blog/2021/01/11/new-surface-pcs-enable-virtualization-based-security-vbs-by-default-to-empower-customers-to-do-more-securely/]attaques malwares de 60%[/url].
-Deux autres points à noter: 
-[*] La [b]nécessité d'un compte Microsoft[/b] pour l'édition Home. Bien qu'il offre de nombreux avantages comme la protection contre les attaques de type rançongiciel via une restauration cloud où encore lors d'une perte de la clef Bitlocker, il sous-entend de partager vos données personnelles avec Microsoft.
-[*] L'abandon des CPU 32bits (il était temps!)
-
 
 [b][#0B86FA]TESTER SON ÉLIGIBILITÉ[/#0B86FA][/b]
 
@@ -74,6 +66,19 @@ Si votre PC ne semble pas compatible, pas de panique! Windows 10 offre des MAJs 
 Microsoft vient de sortir officiellement la première version de son nouvel OS, la [b]21H2[/b]. Trois méthodes sont disponibles: [url=https://www.microsoft.com/fr-fr/software-download/windows11]L'assistant d'installation, le créateur d'un support d'installation où le téléchargement direct de l'image[/url].
 
 [:icon4] Le téléchargement de Windows 11 ne rime pas avec l'obtention automatique d'une licence. Confer le topic des licences pour s'en procurer une officiellement [:icon4]
+
+
+[b][#0B86FA]PRÉREQUIS AVANT L'INSTALLATION[/#0B86FA][/b]
+
+Quatres points clefs où Microsoft sera intransigeant lors de l'installation:
+[*] Avoir un [b]processeur compatible[/b]: Vous pouvez chercher le votre dans [url=https://docs.microsoft.com/en-us/windows-hardware/design/minimum/windows-processor-requirements]cette liste[/url], selon votre modèle
+[*] Activer l'[b]UEFI[/b] comme mode de démarrage, ainsi que le [b]SecureBoot[/b]: Vous pouvez le faire en suivant ce [url=https://support.microsoft.com/fr-fr/topic/windows-11-et-d%C3%A9marrage-s%C3%A9curis%C3%A9-a8ff1202-c0d9-42f5-940f-843abef64fad]ce guide[/url]
+[*] Posséder un module [b]TPM[/b]: L'élément le plus crucial. À brancher sur votre carte maman ([url=https://www.asrock.com/mb/spec/card.asp?Model=TPM-S%20Module]exemple[/url]) [b]ou[/b] directement intégré au processeur (d'où la liste de compatibilité CPU). Cette puce s'inscrit pourtant dans un cadre d'une série de mesures visant à la sécurisation des données ainsi qu'à la réductions des [url=https://www.microsoft.com/security/blog/2021/01/11/new-surface-pcs-enable-virtualization-based-security-vbs-by-default-to-empower-customers-to-do-more-securely/]attaques malwares de 60%[/url].
+[*] Vérifier que la table de partitionnement est bien en [b]GPT[/b]: Sans celà, vous aurez beau activer l'UEFI et le SecureBoot, vous n'aurez toujours pas de démarrage sécurisé.
+
+Un autre point à noter: 
+[*] La [b]nécessité d'un compte Microsoft[/b] pour l'édition Home. Bien qu'il offre de nombreux avantages comme la protection contre les attaques de type rançongiciel via une restauration cloud où encore lors d'une perte de la clef Bitlocker, il sous-entend de partager vos données personnelles avec Microsoft.
+
 
 
 [b][#0B86FA]CAPTURES D'ÉCRANS[/#0B86FA][/b]
