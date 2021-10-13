@@ -62,25 +62,11 @@ Deux autres points à noter:
 [*] La [b]nécessité d'un compte Microsoft[/b] pour l'édition Home. Bien qu'il offre de nombreux avantages comme la protection contre les attaques de type rançongiciel via une restauration cloud où encore lors d'une perte de la clef Bitlocker, il sous-entend de partager vos données personnelles avec Microsoft.
 [*] L'abandon des CPU 32bits (il était temps!)
 
-Si votre PC ne semble pas compatible, pas de panique! Windows 10 offre des MAJs jusqu'en [b]2025[/b]. 
-
 
 [b][#0B86FA]TESTER SON ÉLIGIBILITÉ[/#0B86FA][/b]
 
 Microsoft a sorti outil nommé « PC Health Check » pour voir si votre machine est compatible avec Windows 11. Il est disponible à partir du [url=https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewpchealth]programme Windows Insiders[/url] ou encore directement téléchargeable via ce [url=https://aka.ms/GetPCHealthCheckApp]lien[/url]. Si cela s'avère être un échec, un excellent programme tiers [url=https://github.com/rcmaehl/WhyNotWin11]WhyNotWin11[/url] vous en dira plus sur les causes de ce recalage. 
-
-
-[b][#0B86FA]DIFFÉRENTES ÉDITIONS[/#0B86FA][/b]
-
-Microsoft propose actuellement 6 éditions:
-[*]Windows 11 Familiale
-[*]Windows 11 Pro
-[*]Windows 11 Pro pour l'éducation
-[*]Windows 11 Pro pour les stations de travail
-[*]Windows 11 Entreprise
-[*]Windows 11 Éducation
-
-Bien sur, seules les éditions Familiale et Pro sont pertinentes pour le grand public. Un comparatif entre les deux est disponible [url=https://www.microsoft.com/fr-fr/windows/compare-windows-11-home-vs-pro-versions]ici[/url].
+Si votre PC ne semble pas compatible, pas de panique! Windows 10 offre des MAJs jusqu'en [b]2025[/b]. 
 
 
 [b][#0B86FA]SE PROCURER WINDOWS 11[/#0B86FA][/b]
@@ -102,6 +88,19 @@ Pour plus d'images, une [url=https://lafibre.info/windows/windows-11/]galerie[/u
 
 Windows 11 est officiellement disponible depuis le [b]5 Octobre 2021[/b]. 
 La [b]mise à niveau gratuite[/b] vers Windows 11 depuis les PCs équipés de Windows 10 commencera à partir de cette même date et se ferra de manière échelonnée. Plusieurs facteurs comme l'éligibilité du matériel, des paramètres de fiabilité, de l'âge de l'appareil et d'autres facteurs auront une incidence sur quand vous pourrez bénéficier de cette MAJ. Si tel est le cas, Windows Update vous informera de sa disponibilité. Enfin, Microsoft prévoie que tous les appareils éligibles se verront offrir la mise à niveau gratuite d'ici la mi-2022.
+
+
+[b][#0B86FA]LES DIFFÉRENTES ÉDITIONS[/#0B86FA][/b]
+
+Microsoft propose actuellement 6 éditions:
+[*]Windows 11 Familiale
+[*]Windows 11 Pro
+[*]Windows 11 Pro pour l'éducation
+[*]Windows 11 Pro pour les stations de travail
+[*]Windows 11 Entreprise
+[*]Windows 11 Éducation
+
+Bien sur, seules les éditions Familiale et Pro sont pertinentes pour le grand public. Un comparatif entre les deux est disponible [url=https://www.microsoft.com/fr-fr/windows/compare-windows-11-home-vs-pro-versions]ici[/url].
 
 
 [b][#0B86FA]FAQ[/#0B86FA][/b]
