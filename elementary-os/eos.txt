@@ -17,10 +17,10 @@ Son interface se veut intuitive, légère et inspiré d'un OS développé par un
 [#0055AA][b][u]CONFIGURATION MINIMALE[/u][/b][/#0055AA]
 
 [quote]
-- Processeur: Intel i3 récent ou un processeur double cœur 64 bits comparable
-- Mémoire vive: 4 Go 
-- Disque dur: Solid State Drive (SSD) avec 15 Go d'espace libre
-- Écran: Résolution minimale de l'écran de 1024×768
+- Processeur : Intel i3 récent ou un processeur double cœur 64 bits comparable
+- Mémoire vive : 4 Go 
+- Disque dur : Solid State Drive (SSD) avec 15 Go d'espace libre
+- Écran : Résolution minimale de l'écran de 1024×768
 - Accès Internet
 - Souris/pavé tactile et clavier intégrés ou filaires
 [/quote]
@@ -36,7 +36,7 @@ Tout comme Ubuntu, cette release est uniquement disponible pour les processeurs 
 [#0055AA][b][u]CAPTURE D'ÉCRAN[/u][/b][/#0055AA]
 
 [url=https://www.pixenli.com/image/4luQ7k66][img]https://www.pixenli.com/miniature/4luQ7k66[/img][/url]
- [i]Figure 1: Bureau d'eOS 6 Odin[/i]
+ [i]Figure 1 : Bureau d'eOS 6 Odin[/i]
 
 
 [#0055AA][b][u]INSTALLATION[/u][/b][/#0055AA]
@@ -56,26 +56,26 @@ eOS fournit sur son site un excellent [url=https://elementary.io/fr/docs/install
 
 [#0055AA][b][u]RESSOURCES ANNEXES[/u][/b][/#0055AA]
 
---> [url=https://www.youtube.com/watch?v=adKLsjWyquQ]Vidéo YT de presentation d'eOS 6 par AdrienD[/url]: Présente les atouts mais aussi les défauts de cette distribution linux
---> [url=https://www.nextinpact.com/article/47839/linux-zorin-os-et-son-sens-aigu-laccueil-grand-public]Elementary OS 6 soigne ses détails, mais agace par sa rigidité[/url]: NextImpact passe en revue ce SE dans cet article 
---> [url=http://www.elementaryos-fr.org/]Site FR d'Elementary OS[/url]: Site officiel francophone d'Elementary OS
---> [url=http://forum.elementaryos-fr.org/]Forum FR d'Elementary OS[/url]: Forum francophone d'Elementary OS
---> [url=https://elementaryforums.com/index.php/]Forum EN d'Elementary OS[/url]: Forum d'Elementary OS dans la langue de Shakespeare
---> [url=http://elementary-art.deviantart.com/]Elementary OS sur DeviantArt[/url]: Pour personnaliser son Elementary OS à souhait!
---> [url=http://danrabbit.deviantart.com/gallery/]Danrabbit pour Elementary OS[/url]: Un créateur plutôt talentueux au service d'Elementary OS
+--> [url=https://www.youtube.com/watch?v=adKLsjWyquQ]Vidéo YT de présentation d'eOS 6 par Adrien.D[/url] : Présente les atouts mais aussi les défauts de cette distribution linux
+--> [url=https://www.nextinpact.com/article/47839/linux-zorin-os-et-son-sens-aigu-laccueil-grand-public]Elementary OS 6 soigne ses détails, mais agace par sa rigidité[/url] : NextInpact passe en revue ce SE dans cet article 
+--> [url=http://www.elementaryos-fr.org/]Site FR d'Elementary OS[/url] : Site officiel francophone d'Elementary OS
+--> [url=http://forum.elementaryos-fr.org/]Forum FR d'Elementary OS[/url] : Forum francophone d'Elementary OS
+--> [url=https://elementaryforums.com/index.php/]Forum EN d'Elementary OS[/url] : Forum d'Elementary OS dans la langue de Shakespeare
+--> [url=http://elementary-art.deviantart.com/]Elementary OS sur DeviantArt[/url] : Pour personnaliser son Elementary OS à souhait!
+--> [url=http://danrabbit.deviantart.com/gallery/]Danrabbit pour Elementary OS[/url] : Un créateur plutôt talentueux au service d'Elementary OS
 
 
 [#0055AA][b][u]HISTORIQUE DES VERSIONS[/u][/b][/#0055AA]
 
-[#0055AA][b] 10/08/2021: Odin 6 basée sur Ubuntu 20.04 LTS [/b][/#0055AA]
-[#FF6300] 03/12/2019: Hera 5.1 basée sur Ubuntu 18.04 LTS [/#FF6300]
-[#FF6300] 16/09/2018: Juno (5.0) basée sur Ubuntu 18.04 LTS, maintenue jusqu'en 04/2024 [/#FF6300]
-[#848484] 09/09/2016: Loki (0.4.1) basée sur Ubuntu 16.04 LTS[/#848484]
-[#848484] 08/02/2015: Freya (0.3) basée sur Ubuntu 14.04 LTS [/#848484]
-[#848484] 10/08/2013: Luna (0.2) basée sur Ubuntu 12.04 [/#848484]
-[#848484] 11/04/2011: Jupiter (0.1) basée sur Ubuntu 10.10 [/#848484]
+[#0055AA][b] 10/08/2021 : Odin 6 basée sur Ubuntu 20.04 LTS [/b][/#0055AA]
+[#FF6300] 03/12/2019 : Hera 5.1 basée sur Ubuntu 18.04 LTS [/#FF6300]
+[#FF6300] 16/09/2018 : Juno (5.0) basée sur Ubuntu 18.04 LTS, maintenue jusqu'en 04/2024 [/#FF6300]
+[#848484] 09/09/2016 : Loki (0.4.1) basée sur Ubuntu 16.04 LTS[/#848484]
+[#848484] 08/02/2015 : Freya (0.3) basée sur Ubuntu 14.04 LTS [/#848484]
+[#848484] 10/08/2013 : Luna (0.2) basée sur Ubuntu 12.04 [/#848484]
+[#848484] 11/04/2011 : Jupiter (0.1) basée sur Ubuntu 10.10 [/#848484]
 
-[i]Légende:[/i]
+[i]Légende :[/i]
 [#0055AA]Version actuelle[/#0055AA]
 [#FF6300]Ancienne version mais toujours maintenue[/#FF6300]
 [#848484]Version obsolète[/#848484]
