@@ -57,6 +57,7 @@ eOS fournit sur son site un excellent [url=https://elementary.io/fr/docs/install
 [#0055AA][b][u]RESSOURCES ANNEXES[/u][/b][/#0055AA]
 
 --> [url=https://www.youtube.com/watch?v=adKLsjWyquQ]Vidéo YT de presentation d'eOS 6 par AdrienD[/url]: Présente les atouts mais aussi les défauts de cette distribution linux
+--> [url=https://www.nextinpact.com/article/47839/linux-zorin-os-et-son-sens-aigu-laccueil-grand-public]Elementary OS 6 soigne ses détails, mais agace par sa rigidité[/url]: NextImpact passe en revue ce SE dans cet article 
 --> [url=http://www.elementaryos-fr.org/]Site FR d'Elementary OS[/url]: Site officiel francophone d'Elementary OS
 --> [url=http://forum.elementaryos-fr.org/]Forum FR d'Elementary OS[/url]: Forum francophone d'Elementary OS
 --> [url=https://elementaryforums.com/index.php/]Forum EN d'Elementary OS[/url]: Forum d'Elementary OS dans la langue de Shakespeare
