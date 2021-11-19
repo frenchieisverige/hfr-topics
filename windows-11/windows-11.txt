@@ -1,82 +1,82 @@
 [img]https://i.imgur.com/gxueRvd.gif[/img]
 
-Windows 10 a –bien– vécu, vive Windows 11! :bounce: 
+Windows 10 a — bien — vécu, vive Windows 11 ! :bounce: 
 
 Bienvenue donc sur ce Topic Unique consacré au dernier SE de la firme de Redmond.
 
 [b][#FF0000]TL;DR[/#FF0000][/b]
 
-Flemme de lire le FP? Voici les [b]trois[/b] infos importantes:
-[*][b][#FF0000]Lien de téléchargement:[/#FF0000][/b] https://www.microsoft.com/fr-fr/software-download/windows11
-[*]Où acheter une licence?: https://www.microsoft.com/fr-fr/d/windows-10-home/d76qx4bznwk4?rtc=1 puis faites la MAJ gratuitement. Même procédure pour la Pro.
-[*]Test de compatibilité: https://aka.ms/GetPCHealthCheckApp
-Toujours pas la réponse à vos questions? [b][#FF0000]Prenez le temps de lire la FP et la FAQ, car nous aussi on aura la flemme de répondre à votre question, si la réponse y est déjà présente![/#FF0000][/b]
+Flemme de lire le FP ? Voici les [b]trois[/b] infos importantes :
+[*][b][#FF0000]Lien de téléchargement :[/#FF0000][/b] https://www.microsoft.com/fr-fr/software-download/windows11
+[*]Où acheter une licence ? : https://www.microsoft.com/fr-fr/d/windows-10-home/d76qx4bznwk4?rtc=1 puis faites la MAJ gratuitement. Même procédure pour la Pro.
+[*]Test de compatibilité : https://aka.ms/GetPCHealthCheckApp
+Toujours pas la réponse à vos questions ? [b][#FF0000]Prenez le temps de lire la FP et la FAQ, car nous aussi on aura la flemme de répondre à votre question, si la réponse y est déjà présente ![/#FF0000][/b]
 
 
 [b][#0B86FA]LE FOCUS DU TOPIC[/#0B86FA][/b]
 
-Comme pour les éditions précédentes de Windows, ce topic traitera [b]uniquement[/b] les points suivants:
+Comme pour les éditions précédentes de Windows, ce topic traitera [b]uniquement[/b] les points suivants :
  [:yann39] Actualités, rumeurs, infos, trouvailles et j'en passe sur le produit en lui-même
  [:yann39] Problèmes logiciels ou matériels
  [:yann39] Nouvelles fonctionnalités présentes au fil des MAJs
 
-En conséquence, il ne concentrera [b]pas[/b] sur:
- [:judgedredd:2] Les licences: [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=570&post=340725&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0][Windows 10] topic licence[/url]
- [:judgedredd:2] Les versions Beta/Insiders: [url=https://forum.hardware.fr/hfr/WindowsSoftware/windows-10/windows-insider-22000-sujet_343098_1.htm][TU] Windows Insider : Dev & Beta = 22000.132 | RP = 21H2.1165[/url]
+En conséquence, il ne concentrera [b]pas[/b] sur :
+ [:judgedredd:2] Les licences : [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=570&post=340725&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0][Windows 10/11] topic licence[/url]
+ [:judgedredd:2] Les versions Beta/Insiders : [url=https://forum.hardware.fr/hfr/WindowsSoftware/windows-10/windows-insider-22000-sujet_343098_1.htm][TU] Windows Insider : Dev & Beta = 22000.132 | RP = 21H2.1165[/url]
 
  
 [b][#0B86FA]PRÉSENTATION[/#0B86FA][/b]
 
 Après une [url=https://www.it-connect.fr/microsoft-confirme-lauthenticite-du-leak-de-windows-11/]fuite d'une version de développement[/url] de manière intentionnelle ou pas, Microsoft a enfin présenté officiellement Windows 11 au grand public ce 24 Juin 2021. 
-A travers une conférence retransmise en ligne ponctuée de [url=https://thenextweb.com/news/windows-11-super-laggy-announcement]lags[/url] (Microsoft, [:clooney3]), nous avons pu apercevoir les grandes lignes directrices du projet nommé « Sunny Valley » en interne:
-[*][b]Le design[/b]: Nouvelle [url=https://insider.windows.com/fr-fr/insidewindows11/article/inside-new-look]barre de tâches[/url], réintroduction des [url=https://insider.windows.com/fr-fr/insidewindows11/article/inside-widgets]widgets[/url], mises en page des fenêtres inédites ([url=https://fr.denizatm.com/pages/49664-how-to-use-snap-layouts-in-windows-11]Snap layouts[/url]), vous l'avez compris, Windows veut faire peau neuve. 
+A travers une conférence retransmise en ligne ponctuée de [url=https://thenextweb.com/news/windows-11-super-laggy-announcement]lags[/url] (Microsoft, [:clooney3]), nous avons pu apercevoir les grandes lignes directrices du projet nommé « Sunny Valley » en interne :
+[*][b]Le design[/b] : Nouvelle [url=https://insider.windows.com/fr-fr/insidewindows11/article/inside-new-look]barre de tâches[/url], réintroduction des [url=https://insider.windows.com/fr-fr/insidewindows11/article/inside-widgets]widgets[/url], mises en page des fenêtres inédites ([url=https://fr.denizatm.com/pages/49664-how-to-use-snap-layouts-in-windows-11]Snap layouts[/url]), vous l'avez compris, Windows veut faire peau neuve. 
 Ce nouveau design est plutôt bien accueilli par une grande majorité, mais introduit cependant quelques concessions à faire comme non prise en charge du [url=https://windows.developpez.com/actu/317060/Microsoft-confirme-que-la-barre-des-taches-de-Windows-11-ne-prend-plus-en-charge-le-glisser-deposer-L-entreprise-fait-marche-arriere-sur-le-mode-sombre-Windows-11-sera-livre-en-mode-clair/]glisser-déposer[/url] ou encore sa position fixe (RIP surface d'écran sur appareils mobiles) tout cela dû à sa réécriture complète.
-[*][b]Le Microsoft Store[/b]: Il devient - enfin - une pièce centrale de l'OS: [url=https://blogs.windows.com/windowsexperience/2021/06/24/building-a-new-open-microsoft-store-on-windows-11/]regarder films et séries ou encore installer des applications Android[/url]. Oui, oui, vous avez bien lu, Windows 11 pourra faire tourner des applications Android. De plus pour enrichir son catalogue, Microsoft autorisera pour les développeurs des plateformes de commerce externes à leurs applications, et donc empocher 100 % de leurs revenus. 
+[*][b]Le Microsoft Store[/b] : Il devient - enfin - une pièce centrale de l'OS : [url=https://blogs.windows.com/windowsexperience/2021/06/24/building-a-new-open-microsoft-store-on-windows-11/]regarder films et séries ou encore installer des applications Android[/url]. Oui, oui, vous avez bien lu, Windows 11 pourra faire tourner des applications Android. De plus pour enrichir son catalogue, Microsoft autorisera pour les développeurs des plateformes de commerce externes à leurs applications, et donc empocher 100 % de leurs revenus. 
 Ils font tout pour chasser les vieux démons qui hantent ce store depuis Windows 8.
-[*][b]L'expérience de jeu[/b]: Avec l'[url=https://news.xbox.com/fr-fr/2021/06/24/windows-11-meilleur-windows-pour-jeu-video/]autoHDR et DirectStorage[/url], Microsoft ne devrait pas décevoir les gamers en plus d'une intégration plus poussée du Game Pass dans Windows 11.
-[*][b]L'intégration de Teams[/b]: Un choix ambigu de Microsoft, à l'heure où les employés doivent retourner au bureau. Certainement une contre offensive à Apple avec son Facetime. Mais alors, quelle est à ce moment la place de Skype?
-[*][b]Les interactions[/b]: Le clavier et la souris ont étés les premières entrées pour pouvoir interagir avec le système. Avec les écrans tactiles de plus en plus répandus, Windows 11 introduit de toutes nouvelles expériences [url=https://insider.windows.com/fr-fr/insidewindows11/article/inside-windows11-touch-voice]tactiles et vocales[/url] pour commander votre système.
-[*][b]Le support[/b]: Sous le capot, Microsoft introduit des technologies comme l'[url=https://blogs.windows.com/windowsdeveloper/2021/06/28/announcing-arm64ec-building-native-and-interoperable-apps-for-windows-11-on-arm/]arm64ec[/url], une couche d'émulation X86 pour processeurs ARM ainsi que le support des CPUs hybrides comme la génération « Lakefield » d'Intel.
+[*][b]L'expérience de jeu[/b] : Avec l'[url=https://news.xbox.com/fr-fr/2021/06/24/windows-11-meilleur-windows-pour-jeu-video/]autoHDR et DirectStorage[/url], Microsoft ne devrait pas décevoir les gamers en plus d'une intégration plus poussée du Game Pass dans Windows 11.
+[*][b]L'intégration de Teams[/b] : Un choix ambigu de Microsoft, à l'heure où les employés doivent retourner au bureau. Certainement une contre offensive à Apple avec son Facetime. Mais alors, quelle est à ce moment la place de Skype ?
+[*][b]Les interactions[/b] : Le clavier et la souris ont étés les premières entrées pour pouvoir interagir avec le système. Avec les écrans tactiles de plus en plus répandus, Windows 11 introduit de toutes nouvelles expériences [url=https://insider.windows.com/fr-fr/insidewindows11/article/inside-windows11-touch-voice]tactiles et vocales[/url] pour commander votre système.
+[*][b]Le support[/b] : Sous le capot, Microsoft introduit des technologies comme l'[url=https://blogs.windows.com/windowsdeveloper/2021/06/28/announcing-arm64ec-building-native-and-interoperable-apps-for-windows-11-on-arm/]arm64ec[/url], une couche d'émulation X86 pour processeurs ARM ainsi que le support des CPUs hybrides comme la génération « Lakefield » d'Intel.
 
 L'intégralité des nouveautés est à retrouver sur le [url=https://blogs.windows.com/windows-insider/2021/06/28/announcing-the-first-insider-preview-for-windows-11/]blog de Microsoft[/url].
 
 
 [b][#0B86FA]CONFIGURATION MINIMALE[/#0B86FA][/b]
 
-D'après la [url=https://www.microsoft.com/fr-fr/windows/windows-11-specifications]documentation officielle[/url], Windows 11 a besoin de:
-[quote] Processeur: 1 gigahertz (GHz) ou plus, avec au moins 2 cœurs sur un processeur 64 bits compatible ou un système sur puce (SoC) *
-RAM: 4 gigaoctets (Go)
-Stockage: Périphérique de stockage de 64 Go ou plus
-Carte graphique: Compatible avec DirectX 12 ou version ultérieure avec pilote WDDM 2.0
-Microprogramme du système: Démarrage sécurisé compatible UEFI
-TPM: Module de plateforme sécurisée (TPM) version 2.0
-Affichage: Écran haute définition (720p) d’une diagonale supérieure à 9", 8 bits par canal de couleur
-Connexion Internet et comptes Microsoft: Windows 11 Famille nécessite une connectivité Internet et un compte Microsoft pour terminer la configuration de l’appareil lors de la première utilisation. Pour toutes les éditions de Windows 11, un accès Internet est requis pour effectuer les mises à jour et pour télécharger et profiter de certaines fonctionnalités. Un compte Microsoft est requis pour certaines fonctionnalités.
+D'après la [url=https://www.microsoft.com/fr-fr/windows/windows-11-specifications]documentation officielle[/url], Windows 11 a besoin de :
+[quote] Processeur : 1 gigahertz (GHz) ou plus, avec au moins 2 cœurs sur un processeur 64 bits compatible ou un système sur puce (SoC) *
+RAM : 4 gigaoctets (Go)
+Stockage : Périphérique de stockage de 64 Go ou plus
+Carte graphique : Compatible avec DirectX 12 ou version ultérieure avec pilote WDDM 2.0
+Microprogramme du système : Démarrage sécurisé compatible UEFI
+TPM : Module de plateforme sécurisée (TPM) version 2.0
+Affichage : Écran haute définition (720p) d’une diagonale supérieure à 9", 8 bits par canal de couleur
+Connexion Internet et comptes Microsoft : Windows 11 Famille nécessite une connectivité Internet et un compte Microsoft pour terminer la configuration de l’appareil lors de la première utilisation. Pour toutes les éditions de Windows 11, un accès Internet est requis pour effectuer les mises à jour et pour télécharger et profiter de certaines fonctionnalités. Un compte Microsoft est requis pour certaines fonctionnalités.
 [/quote]* Intel de 8 génération ou plus récent, AMD Zen+ ou plus récent 
 
 
 [b][#0B86FA]TESTER SON ÉLIGIBILITÉ[/#0B86FA][/b]
 
 Microsoft a sorti outil nommé « PC Health Check » pour voir si votre machine est compatible avec Windows 11. Il est disponible à partir du [url=https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewpchealth]programme Windows Insiders[/url] ou encore directement téléchargeable via ce [url=https://aka.ms/GetPCHealthCheckApp]lien[/url]. Si cela s'avère être un échec, un excellent programme tiers [url=https://github.com/rcmaehl/WhyNotWin11]WhyNotWin11[/url] vous en dira plus sur les causes de ce recalage. 
-Si votre PC ne semble pas compatible, pas de panique! Windows 10 offre des MAJs jusqu'en [b]2025[/b]. 
+Si votre PC ne semble pas compatible, pas de panique ! Windows 10 offre des MAJs jusqu'en [b]2025[/b]. 
 
 
 [b][#0B86FA]SE PROCURER WINDOWS 11[/#0B86FA][/b]
 
-Microsoft vient de sortir officiellement la première version de son nouvel OS, la [b]21H2[/b]. Trois méthodes sont disponibles: [url=https://www.microsoft.com/fr-fr/software-download/windows11]L'assistant d'installation, le créateur d'un support d'installation où le téléchargement direct de l'image[/url].
+Microsoft vient de sortir officiellement la première version de son nouvel OS, la [b]21H2[/b]. Trois méthodes sont disponibles : [url=https://www.microsoft.com/fr-fr/software-download/windows11]L'assistant d'installation, le créateur d'un support d'installation où le téléchargement direct de l'image[/url].
 
-[:icon4] Le téléchargement de Windows 11 ne rime pas avec l'obtention automatique d'une licence. Confer le topic des licences pour s'en procurer une officiellement [:icon4]
+[:icon4] Le téléchargement de Windows 11 ne rime pas avec l'obtention automatique d'une licence. Confer [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=580&post=340725&page=1&p=1&sondage=0&owntopic=1&trash=&trash_post=&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t3172826]le topic des licences[/url] pour s'en procurer une officiellement [:icon4]
 
 
 [b][#0B86FA]PRÉREQUIS AVANT L'INSTALLATION[/#0B86FA][/b]
 
-Quatres points clefs où Microsoft sera intransigeant lors de l'installation:
-[*] Avoir un [b]processeur compatible[/b]: Vous pouvez chercher le votre dans [url=https://docs.microsoft.com/en-us/windows-hardware/design/minimum/windows-processor-requirements]cette liste[/url], selon votre modèle
-[*] Activer l'[b]UEFI[/b] comme mode de démarrage, ainsi que le [b]SecureBoot[/b]: Vous pouvez le faire en suivant ce [url=https://support.microsoft.com/fr-fr/topic/windows-11-et-d%C3%A9marrage-s%C3%A9curis%C3%A9-a8ff1202-c0d9-42f5-940f-843abef64fad]ce guide[/url]
-[*] Posséder un module [b]TPM[/b]: L'élément le plus crucial. À brancher sur votre carte maman ([url=https://www.asrock.com/mb/spec/card.asp?Model=TPM-S%20Module]exemple[/url]) [b]ou[/b] directement intégré au processeur (d'où la liste de compatibilité CPU). Cette puce s'inscrit pourtant dans un cadre d'une série de mesures visant à la sécurisation des données ainsi qu'à la réductions des [url=https://www.microsoft.com/security/blog/2021/01/11/new-surface-pcs-enable-virtualization-based-security-vbs-by-default-to-empower-customers-to-do-more-securely/]attaques malwares de 60%[/url].
-[*] Vérifier que la table de partitionnement est bien en [b]GPT[/b]: Sans celà, vous aurez beau activer l'UEFI et le SecureBoot, vous n'aurez toujours pas de démarrage sécurisé.
+Quatres points clefs où Microsoft sera intransigeant lors de l'installation :
+[*] Avoir un [b]processeur compatible[/b] : Vous pouvez chercher le votre dans [url=https://docs.microsoft.com/en-us/windows-hardware/design/minimum/windows-processor-requirements]cette liste[/url], selon votre modèle
+[*] Activer l'[b]UEFI[/b] comme mode de démarrage, ainsi que le [b]SecureBoot[/b] : Vous pouvez le faire en suivant ce [url=https://support.microsoft.com/fr-fr/topic/windows-11-et-d%C3%A9marrage-s%C3%A9curis%C3%A9-a8ff1202-c0d9-42f5-940f-843abef64fad]ce guide[/url]
+[*] Posséder un module [b]TPM[/b] : L'élément le plus crucial. À brancher sur votre carte maman ([url=https://www.asrock.com/mb/spec/card.asp?Model=TPM-S%20Module]exemple[/url]) [b]ou[/b] directement intégré au processeur (d'où la liste de compatibilité CPU). Cette puce s'inscrit pourtant dans un cadre d'une série de mesures visant à la sécurisation des données ainsi qu'à la réductions des [url=https://www.microsoft.com/security/blog/2021/01/11/new-surface-pcs-enable-virtualization-based-security-vbs-by-default-to-empower-customers-to-do-more-securely/]attaques malwares de 60%[/url].
+[*] Vérifier que la table de partitionnement est bien en [b]GPT[/b] : Sans celà, vous aurez beau activer l'UEFI et le SecureBoot, vous n'aurez toujours pas de démarrage sécurisé.
 
-Un autre point à noter: 
+Un autre point à noter : 
 [*] La [b]nécessité d'un compte Microsoft[/b] pour l'édition Home. Bien qu'il offre de nombreux avantages comme la protection contre les attaques de type rançongiciel via une restauration cloud où encore lors d'une perte de la clef Bitlocker, il sous-entend de partager vos données personnelles avec Microsoft.
 
 
@@ -84,7 +84,7 @@ Un autre point à noter:
 [b][#0B86FA]CAPTURES D'ÉCRANS[/#0B86FA][/b]
 
 [url=https://www.pixenli.com/image/1Lvx2iKA][img]https://www.pixenli.com/miniature/1Lvx2iKA[/img][/url]
-  [i]Figure 1: Le nouveau bureau de Windows 11[/i]
+  [i]Figure 1 : Le nouveau bureau de Windows 11[/i]
 
 Pour plus d'images, une [url=https://lafibre.info/windows/windows-11/]galerie[/url] a été créé par nos confrères de chez [i]lafibre.info[/i].
 
@@ -97,7 +97,7 @@ La [b]mise à niveau gratuite[/b] vers Windows 11 depuis les PCs équipés de Wi
 
 [b][#0B86FA]LES DIFFÉRENTES ÉDITIONS[/#0B86FA][/b]
 
-Microsoft propose actuellement 6 éditions:
+Microsoft propose actuellement 6 éditions :
 [*]Windows 11 Familiale
 [*]Windows 11 Pro
 [*]Windows 11 Pro pour l'éducation
@@ -110,69 +110,69 @@ Bien sur, seules les éditions Familiale et Pro sont pertinentes pour le grand p
 
 [b][#0B86FA]ACTUALITÉS, RUMEURS et INFOS[/#0B86FA][/b]
 
-05/10/2021: [url=https://blogs.windows.com/windowsexperience/2021/10/04/windows-11-a-new-era-for-the-pc-begins-today/]Sortie officielle de Windows 11 (21H2)[/url]
-09/09/2021: [url=https://www.youtube.com/watch?v=8FKtTg5VRSU]Vidéo d'introduction de Windows 11[/url]
-31/08/2021: [url=https://blogs.windows.com/windowsexperience/2021/08/31/windows-11-available-on-october-5/]Windows 11 disponible à partir du 5 Octobre[/url]
-27/08/2021: [url=https://blogs.windows.com/windows-insider/2021/08/27/update-on-windows-11-minimum-system-requirements-and-the-pc-health-check-app/]Mise à jour de la configuration minimale requise pour Windows 11[/url]
-19/08/2021: [url=https://twitter.com/windowsinsider/status/1428402160388087809]Sortie du premier ISO bootable (22000.160) pour les WindowsInsiders[/url]
+05/10/2021 : [url=https://blogs.windows.com/windowsexperience/2021/10/04/windows-11-a-new-era-for-the-pc-begins-today/]Sortie officielle de Windows 11 (21H2)[/url]
+09/09/2021 : [url=https://www.youtube.com/watch?v=8FKtTg5VRSU]Vidéo d'introduction de Windows 11[/url]
+31/08/2021 : [url=https://blogs.windows.com/windowsexperience/2021/08/31/windows-11-available-on-october-5/]Windows 11 disponible à partir du 5 Octobre[/url]
+27/08/2021 : [url=https://blogs.windows.com/windows-insider/2021/08/27/update-on-windows-11-minimum-system-requirements-and-the-pc-health-check-app/]Mise à jour de la configuration minimale requise pour Windows 11[/url]
+19/08/2021 : [url=https://twitter.com/windowsinsider/status/1428402160388087809]Sortie du premier ISO bootable (22000.160) pour les WindowsInsiders[/url]
                    [url=https://blogs.windows.com/windows-insider/2021/08/19/new-clock-app-for-windows-11-with-focus-sessions-rolling-out-to-windows-insiders/]Focus Sessions débarque sur le canal Dev[/url] 
-18/08/2021: [url=https://twitter.com/lockheimer/status/1428047760620621831]Microsoft rend plus difficile le changement de navigateur par défaut dans Windows 11[/url]
-12/08/2021: [url=https://blogs.windows.com/windows-insider/2021/08/12/first-set-of-windows-app-updates-rolling-out-to-windows-insiders-for-windows-11/]MAJ de Snipping Tool, de la calculatrice et du client Mail[/url]
-05/08/2021: [url=https://twitter.com/panos_panay/status/1423343837934546946]Intégration de Spotify dans le mode « Focus »[/url]
-22/07/2021: [url=https://blogs.windows.com/windows-insider/2021/07/22/announcing-windows-11-insider-preview-build-22000-100/]Première version de Windows 11 disponible dans le canal Beta[/url]
-01/07/2021: [url=https://twitter.com/XenoPanther/status/1410420278866366465]Un black screen of death pour Windows 11?[/url]
-28/06/2021: [url=https://devblogs.microsoft.com/directx/dynamic-refresh-rate/]Windows 11 inclut un taux de rafraîchissement dynamique pour économiser la batterie des ordinateurs portables[/url]
-25/06/2021: [url=https://www.microsoft.com/security/blog/2021/06/25/windows-11-enables-security-by-design-from-the-chip-to-the-cloud/]Microsoft explique la présence des modules TPM 2.0 dans les configurations minimales[/url]
-24/06/2021: [url=https://www.microsoft.com/en-us/windows/event]Introduction de Windows 11[/url]
+18/08/2021 : [url=https://twitter.com/lockheimer/status/1428047760620621831]Microsoft rend plus difficile le changement de navigateur par défaut dans Windows 11[/url]
+12/08/2021 : [url=https://blogs.windows.com/windows-insider/2021/08/12/first-set-of-windows-app-updates-rolling-out-to-windows-insiders-for-windows-11/]MAJ de Snipping Tool, de la calculatrice et du client Mail[/url]
+05/08/2021 : [url=https://twitter.com/panos_panay/status/1423343837934546946]Intégration de Spotify dans le mode « Focus »[/url]
+22/07/2021 : [url=https://blogs.windows.com/windows-insider/2021/07/22/announcing-windows-11-insider-preview-build-22000-100/]Première version de Windows 11 disponible dans le canal Beta[/url]
+01/07/2021 : [url=https://twitter.com/XenoPanther/status/1410420278866366465]Un black screen of death pour Windows 11 ?[/url]
+28/06/2021 : [url=https://devblogs.microsoft.com/directx/dynamic-refresh-rate/]Windows 11 inclut un taux de rafraîchissement dynamique pour économiser la batterie des ordinateurs portables[/url]
+25/06/2021 : [url=https://www.microsoft.com/security/blog/2021/06/25/windows-11-enables-security-by-design-from-the-chip-to-the-cloud/]Microsoft explique la présence des modules TPM 2.0 dans les configurations minimales[/url]
+24/06/2021 : [url=https://www.microsoft.com/en-us/windows/event]Introduction de Windows 11[/url]
                    [url=https://twitter.com/Windows/status/1408573495970254851]La mise à niveau gratuite vers Windows 11 à partir de 2022[/url]
-15/06/2021: [url=https://www.theverge.com/2021/6/15/22535123/microsoft-windows-11-leak-screenshots-start-menu]Le « leak » de Windows 11[/url] 
-02/06/2021: [url=https://twitter.com/panos_panay/status/1400123553849114624]Annonce du #WindowsEvent pour Windows 11[/url]
+15/06/2021 : [url=https://www.theverge.com/2021/6/15/22535123/microsoft-windows-11-leak-screenshots-start-menu]Le « leak » de Windows 11[/url] 
+02/06/2021 : [url=https://twitter.com/panos_panay/status/1400123553849114624]Annonce du #WindowsEvent pour Windows 11[/url]
 
 
 [b][#0B86FA]FAQ[/#0B86FA][/b]
 
-Questions en vrac:
+Questions en vrac :
 
-[b]Comment activer l'UEFI?[/b] Microsoft propose un [url=https://support.microsoft.com/fr-fr/topic/windows-11-et-d%C3%A9marrage-s%C3%A9curis%C3%A9-a8ff1202-c0d9-42f5-940f-843abef64fad]guide général[/url]. Cependant, se référer au manuel de sa carte mère vous donnera des informations plus précises sur la procédure.
-[b]Comment activer le module TPM de mon processeur?[/b] Cherchez l'option Platform Trust Technology (PTT) pour Intel, ou fTPM pour AMD. Encore une fois, référez vous au manuel de votre carte maman. Pensez aussi à mettre votre BIOS à jour.
-[b]Pourquoi mon processeur n'est pas compatible?[/b] Car [#FF0000]il ne supporte pas certaines instructions comme le MBEC[/#FF0000], demandé par Microsoft avec sa fonction HVCI pour lutter contre les attaques malwares. Plus d'infos [url=https://www.microsoft.com/security/blog/2021/01/11/new-surface-pcs-enable-virtualization-based-security-vbs-by-default-to-empower-customers-to-do-more-securely/?ranMID=46134&ranEAID=hL3Qp0zRBOc&ranSiteID=hL3Qp0zRBOc-rXYwvUvfck7c3gpdeqDKeA&epi=hL3Qp0zRBOc-rXYwvUvfck7c3gpdeqDKeA&irgwc=1&OCID=AID2200057_aff_7809_1243925&tduid=%28ir__gwgi6gsgi9kf6xmlzg20m1oqru2xr63b0ygsoznt00%29%287809%29%281243925%29%28hL3Qp0zRBOc-rXYwvUvfck7c3gpdeqDKeA%29%28%29&irclickid=_gwgi6gsgi9kf6xmlzg20m1oqru2xr63b0ygsoznt00]ici[/url].
-[b]J'ai un module TPM, mais un processeur incompatible. Puis-je quand même installer Windows 11?[/b] Oui, même si ce n'est pas recommandé. [url=https://support.microsoft.com/fr-fr/windows/m%C3%A9thodes-d-installation-de-windows-11-e0edbbfb-cfc5-4011-868b-2ce77ac7c70e]Un guide écrit par Microsoft[/url] est disponible.
-[b]Est-ce que mes programmes et documents sont conservés lors de la migration?[/b] Oui, sauf si vous faites une installation propre depuis l'ISO.
-[b]J'ai activé l'UEFI, mais je ne peux plus démarrer Windows 10. Que faire?[/b] Il faut [url=https://docs.microsoft.com/fr-fr/windows-server/storage/disk-management/change-an-mbr-disk-into-a-gpt-disk]convertir la table de partitionnement de MBR vers GPT[/url].
-[b]J'ai un compte local sous Win 10 Pro. Sera-t-il encore présent après la MAJ?[/b] Oui.
-[b]Je n'ai pas envie de faire un compte Microsoft pour l'edition Famille. Quelles sont mes possibilités?[/b] Rester sous Windows 10, ou [url=https://www.nextinpact.com/article/48319/windows-11-famille-comment-contourner-obligation-davoir-compte-microsoft]contourner cette étape[/url]. Cependant, ce n'est pas recommandé.
-[b]Mon démarrage n'est toujours pas sécurisé malgré l'activation de l'UEFI et le SecureBoot. Pourquoi?[/b] La table de partitionnement doit être en GPT.
+[b]Comment activer l'UEFI ?[/b] Microsoft propose un [url=https://support.microsoft.com/fr-fr/topic/windows-11-et-d%C3%A9marrage-s%C3%A9curis%C3%A9-a8ff1202-c0d9-42f5-940f-843abef64fad]guide général[/url]. Cependant, se référer au manuel de sa carte mère vous donnera des informations plus précises sur la procédure.
+[b]Comment activer le module TPM de mon processeur ?[/b] Cherchez l'option Platform Trust Technology (PTT) pour Intel, ou fTPM pour AMD. Encore une fois, référez vous au manuel de votre carte maman. Pensez aussi à mettre votre BIOS à jour.
+[b]Pourquoi mon processeur n'est pas compatible ?[/b] Car [#FF0000]il ne supporte pas certaines instructions comme le MBEC[/#FF0000], demandé par Microsoft avec sa fonction HVCI pour lutter contre les attaques malwares. Plus d'infos [url=https://www.microsoft.com/security/blog/2021/01/11/new-surface-pcs-enable-virtualization-based-security-vbs-by-default-to-empower-customers-to-do-more-securely/?ranMID=46134&ranEAID=hL3Qp0zRBOc&ranSiteID=hL3Qp0zRBOc-rXYwvUvfck7c3gpdeqDKeA&epi=hL3Qp0zRBOc-rXYwvUvfck7c3gpdeqDKeA&irgwc=1&OCID=AID2200057_aff_7809_1243925&tduid=%28ir__gwgi6gsgi9kf6xmlzg20m1oqru2xr63b0ygsoznt00%29%287809%29%281243925%29%28hL3Qp0zRBOc-rXYwvUvfck7c3gpdeqDKeA%29%28%29&irclickid=_gwgi6gsgi9kf6xmlzg20m1oqru2xr63b0ygsoznt00]ici[/url].
+[b]J'ai un module TPM, mais un processeur incompatible. Puis-je quand même installer Windows 11 ?[/b] Oui, même si ce n'est pas recommandé. [url=https://support.microsoft.com/fr-fr/windows/m%C3%A9thodes-d-installation-de-windows-11-e0edbbfb-cfc5-4011-868b-2ce77ac7c70e]Un guide écrit par Microsoft[/url] est disponible.
+[b]Est-ce que mes programmes et documents sont conservés lors de la migration ?[/b] Oui, sauf si vous faites une installation propre depuis l'ISO.
+[b]J'ai activé l'UEFI, mais je ne peux plus démarrer Windows 10. Que faire ?[/b] Il faut [url=https://docs.microsoft.com/fr-fr/windows/deployment/mbr-to-gpt]convertir la table de partitionnement de MBR vers GPT[/url]. Il n'y a pas de perte de données, mais une sauvegarde est fortement recommandé ocasou. Une [url=https://docs.microsoft.com/fr-fr/windows-server/storage/disk-management/change-an-mbr-disk-into-a-gpt-disk]autre méthode[/url] est disponible, mais elle implique un formatage complet du disque.
+[b]J'ai un compte local sous Win 10 Pro. Sera-t-il encore présent après la MAJ ?[/b] Oui.
+[b]Je n'ai pas envie de faire un compte Microsoft pour l'edition Famille. Quelles sont mes possibilités ?[/b] Rester sous Windows 10, ou [url=https://www.nextinpact.com/article/48319/windows-11-famille-comment-contourner-obligation-davoir-compte-microsoft]contourner cette étape[/url]. Cependant, ce n'est pas recommandé.
+[b]Mon démarrage n'est toujours pas sécurisé malgré l'activation de l'UEFI et le SecureBoot. Pourquoi ?[/b] La table de partitionnement doit être en GPT.
 
 [:icon4] WIP [:icon4]
 
 
 [b][#0B86FA]SITES OFFICIELS[/#0B86FA][/b]
 
---> [url=https://www.microsoft.com/fr-fr/windows/windows-11]Windows 11[/url]: Page de présentation
---> [url=https://blogs.windows.com][TU]Windows Blog[/url]: Pour connaitre les coulisses du dernier OS de Redmond (en anglais)
+--> [url=https://www.microsoft.com/fr-fr/windows/windows-11]Windows 11[/url] : Page de présentation
+--> [url=https://blogs.windows.com][TU]Windows Blog[/url] : Pour connaitre les coulisses du dernier OS de Redmond (en anglais)
 
 
 [b][#0B86FA]RESSOURCES HFR[/#0B86FA][/b]
 
---> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=570&post=340725&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0][Windows 10] topic licence[/url]: Tout sur les modèles de licence de Windows 11
---> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=570&post=343098&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0][TU] Windows Insider : Dev & Beta = 22000.132 | RP = 21H2.1165[/url]: Pour tester en avant première les dernières nouveautés
---> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=407&post=351048&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0][TU] Edge : le nouveau navigateur de Microsoft basé sur Chromium[/url]: La saveur windowsienne de Chromium
---> [url=https://forum.hardware.fr/hfr/WindowsSoftware/windows-10/microsoft-entreprise-services-sujet_350158_1.htm#t3323008][TU] Microsoft : l'entreprise, ses services, ses infos, ses rumeurs[/url]: Tout savoir sur l'entreprise derrière Windows 11, j'ai nommé Microsoft
---> [url=https://forum.hardware.fr/hfr/WindowsSoftware/windows-10/features-windows-utilisez-sujet_351812_1.htm#t3355689][topic Unique] Les features windows que vous n'utilisez pas (27/03/20)[/url]: Initialement prévues pour son grand frère Windows 10, ces astuces peuvent aussi vous être utiles sur le dernier SE de Redmond
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=570&post=340725&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0][Windows 10] topic licence[/url] : Tout sur les modèles de licence de Windows 11
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=570&post=343098&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0][TU] Windows Insider : Dev & Beta = 22000.132 | RP = 21H2.1165[/url] : Pour tester en avant première les dernières nouveautés
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=407&post=351048&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0][TU] Edge : le nouveau navigateur de Microsoft basé sur Chromium[/url] : La saveur windowsienne de Chromium
+--> [url=https://forum.hardware.fr/hfr/WindowsSoftware/windows-10/microsoft-entreprise-services-sujet_350158_1.htm#t3323008][TU] Microsoft : l'entreprise, ses services, ses infos, ses rumeurs[/url] : Tout savoir sur l'entreprise derrière Windows 11, j'ai nommé Microsoft
+--> [url=https://forum.hardware.fr/hfr/WindowsSoftware/windows-10/features-windows-utilisez-sujet_351812_1.htm#t3355689][topic Unique] Les features windows que vous n'utilisez pas (27/03/20)[/url] : Initialement prévues pour son grand frère Windows 10, ces astuces peuvent aussi vous être utiles sur le dernier SE de Redmond
 
 
 [b][#0B86FA]RESSOURCES ANNEXES[/#0B86FA][/b]
 
 --> [url=https://lafibre.info/windows/annonce-du-nouveau-windows-le-24-juin-2021/]Annonce du nouveau Windows 11, le 24 Juin 2021[/url]: Le topic Windows 11 sur le forum [i]lafibre.info[/i]
 --> [url=https://lecrabeinfo.net/faq-windows-11.html]FAQ de Windows 11 : tout savoir sur Windows 11[/url]: Une FAQ très détaillée du site [i]lecrabeinfo.net[/i]
---> [url=https://fr.wikipedia.org/wiki/Windows_11]Windows 11[/url]: L'article Wikipédia consacré à Windows 11
+--> [url=https://fr.wikipedia.org/wiki/Windows_11]Windows 11[/url] : L'article Wikipédia consacré à Windows 11
 
 
 [b][#0B86FA]HISTORIQUES DES VERSIONS[/#0B86FA][/b]
 
-[#0B86FA]05/10/2021: 21H2 basée sur la build 22000, maintenue jusqu'en 2023[/#0B86FA]
+[#0B86FA]05/10/2021 : 21H2 basée sur la build 22000, maintenue jusqu'en 2023[/#0B86FA]
 
-[i]Légende:[/i]
+[i]Légende :[/i]
 [#0B86FA]Version actuelle[/#0B86FA]
 [#3800C6]Ancienne version mais toujours activement maintenue[/#3800C6]
 [#848484]Version obsolète[/#848484]
