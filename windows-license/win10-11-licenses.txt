@@ -1,0 +1,181 @@
+[url=https://www.pixenli.com/image/V-K6AZ5D][img]https://www.pixenli.com/miniature/V-K6AZ5D[/img][/url]
+
+Windows c'est chouette, avec une licence c'est mieux ! ;) 
+Bienvenue donc sur ce Topic Unique Licence Windows 10/11, complémentaire des [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=570&post=338104&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0][TU] Windows 10[/url] et [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=580&post=354031&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0][TU] Windows 11[/url] :bounce: 
+
+[b][#FF0000]TL;DR[/#FF0000][/b]
+
+Flemme de lire le FP ? Voici les [b]deux[/b] infos importantes :
+[*] [b][#FF0000]Une installation Windows = Une licence [/#FF0000][/b]
+[*] Où acheter une licence ? : https://www.microsoft.com/fr-fr/d/windows-10-home/d76qx4bznwk4?rtc=1 
+Toujours pas la réponse à vos questions ? [b][#FF0000]Prenez le temps de lire la FP et la FAQ, car nous aussi on aura la flemme de répondre à votre question, si la réponse y est déjà présente ![/#FF0000][/b]
+
+
+[b][#71008D]AVERTISSEMENT DE LA MODERATION[/#71008D][/b]
+
+Rappel des règles du forum :
+[quote][#0000ff][g]VIII[/g][/#0000ff]. [b]Les messages ou discussions autour des sites de ventes de clés Microsoft autre que les sites ou revendeurs officiels[/b] (Liste : https://www.microsoft.com/france/acheter/revendeurs.aspx ) [b]sont interdits et passibles de sanctions[/b]. Cela inclus aussi bien les sites spécialisés dans la vente de clés (marché gris), que les revendeurs des Marketplace de certains sites connus (marché gris, ou import illégal de clés). Retenez une règle simple : une licence Windows à 20/30 €, ça n'existe pas.[/quote]
+
+[b][#71008D]LE FOCUS DU TOPIC[/#71008D][/b]
+
+Le topic a été originellement créé pour Windows 10, c'est pour cette raison que les 173 premières pages de ce topics lui sont consacrées. Mais comme Windows 11 reprend le même système concernant l'achat, l'activation et le transfert de la licence, il sera donc traité aussi ici.
+
+Ce topic traitera donc [b]uniquement[/b] les points suivants :
+ [:yann39] Tout ce qui concerne les licences pour Windows 10 et 11
+En conséquence, il ne concentrera [b]pas[/b] sur : 
+ [:judgedredd:2] Les éditions inférieures : [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=438&post=262410&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0]Tout sur les licences Microsoft Windows[/url]
+
+
+[b][#71008D]INTRODUCTION[/#71008D][/b]
+
+Si vous voulez utiliser Windows 10/11, vous devez posséder une licence valide, comme stipulé dans les [url=https://www.microsoft.com/en-us/Useterms/Retail/Windows/10/UseTerms_Retail_Windows_10_english.htm]CLUFs[/url] (Contrat de Licence d'Utilisateur Final). Mais il n'est pas toujours facile de savoir quelle licence vous devez avoir besoin. Ce topic aura pour but de vous éclairer pour que vous puissiez faire le bon choix.
+
+Mais de manière générale, peut importe la licence dont vous disposez,[#FF0000] une licence Windows ne peut activer qu'[b]une[/b] installation Windows[/#FF0000]. 
+
+
+[b][#71008D]LES DIFFERENTS TYPES DE LICENCES[/#71008D][/b]
+
+Il existe plusieurs types de licences. Non pas qu'elles activent des fonctionnalités différentes dans Windows 10/11, mais plutôt dans la façon de ce les procurer et quelles sont les avantages après activation. Nous allons voir ça ensemble.
+
+[#71008D]LICENCE BOÎTE[/#71008D]
+La licence boîte ou encore connue sous les noms Retail, FPP (Full Packaged Product) ou au détail, est la plus chère mais la moins restrictive. Elle peut[b] être installée sur n'importe quel PC[/b] et n'est pas rattachée à ce dernier. Par conséquence, elle est [b]transférable[/b] et vous pouvez la réutiliser sur un autre PC en ayant au préalable désactivée la licence sur PC précédent. Bien-sûr, il n'est pas possible d'utiliser une licence boîte sur plusieurs PC en même temps.
+[url=https://www.pixenli.com/image/0GvpxWvk][img]https://www.pixenli.com/miniature/0GvpxWvk[/img][/url]
+ [i]Figure 1 : Licence boîte[/i]
+
+La licence Retail peut s'acquérir en version boîte ou de manière dématérialisée (Cf. section [#71008D]SE PROCURER UNE LICENCE[/#71008D]).
+Elle offre en plus un [b]support direct[/b] auprès de Microsoft : 2 ouvertures d'incidents techniques. 
+Enfin, elle ne nécessite pas une version antérieure de Windows « qualifiante ».
+
+[#71008D]LICENCE OEM[/#71008D]
+La licence OEM, pour Original Equipment Manufacturer, est une licence vendue avec les PCs que vous trouvez en grandes surfaces (DELL, ASUS, ACER, etc...). Cette licence est une clef numérique et est [b]stockée dans une table du BIOS/UEFI de l'ordinateur[/b] (Microsoft Digital Marker). Pour cette raison, il est [b]impossible de transférer[/b] ce type de licence sur un autre PC car [b]liée à la carte mère[/b]. Par contre, cela ne vous empêche pas de faire évoluer les autres composants de votre machine : mémoire, disque dur, carte graphique... Mais attention, je le répète, pas la carte maman, car Microsoft la considère comme pièce de référence.
+[url=https://www.pixenli.com/image/6ynTn1S6][img]https://www.pixenli.com/miniature/6ynTn1S6[/img][/url]
+ [i]Figure 2 : Licence OEM sous forme de sticker (Genuine Microsoft Label) [/i]
+
+La licence OEM n'est plus disponible pour le particulier depuis Windows 7. Seuls les constructeurs habilités par Microsoft peuvent avoir accès à ces types ce types de licences pour intégrer dans leurs PCs. Elle n'offre pas non plus de support directement avec Microsoft. Si vous avez un problème avec cette dernière, [b]vous devez contacter directement le constructeur[/b] de votre ordinateur.
+Si l'envie vous en prend, la licence OEM de Windows 10 Pro permet la rétrogradation légale vers une version précédente Pro de Windows (Windows 7 Pro, Windows 8 Pro, Windows 8.1 Pro). Pour savoir comment rétrograder correctement, contactez simplement le fabricant de votre PC.
+Dans de rare cas, il se pourrait aussi que vous ayez une licence DSP OEI (Delivery Service Partners Original Equipment Installation). Mais c'est exactement la même chose que les licences OEMs, sauf ces licences sont prévues pour de petits constructeurs de PCs, qui n'ont pas autant de marge de négociations sur les prix que les gros constructeurs du marché.
+
+[#71008D]LICENCE NUMERIQUE[/#71008D]
+La licence numérique est un nouveau mécanisme d'activation apparu lors de Windows 10. Elle se fait [b]uniquement par Internet[/b] et évite d’avoir à saisir une clé de produit.
+En arrière plan, lors de la première activation, Windows génère un code d’identification unique pour identifier votre machine et l'associe à une licence numérique de Windows 11 ou 10 dans sa base de données.
+[url=https://www.pixenli.com/image/sj6f4y-_][img]https://www.pixenli.com/miniature/sj6f4y-_[/img][/url]
+ [i]Figure 3 : Licence numérique [/i]
+
+L'avantage est que en cas de réinstallation, Windows essayera [b]automatiquement de se valider[/b] auprès des serveurs de Microsoft en vérifiant si l'identifiant unique est lié ou non à une licence numérique.
+Pour savoir comment obtenir une licence numérique, confer la section [#71008D]CLEF PRODUIT vs LICENCE NUMERIQUE[/#71008D].
+
+[#71008D]LICENCE « Microsoft Imagine »[/#71008D]
+Connu sous le nom de MSDNAA ou encore DreamSpark, [url=https://www.microsoft.com/en-cy/imagine]Microsoft Imagine[/url] est le programme de licences Microsoft destiné aux établissements d'enseignement supérieur. Il existe deux types de programme Microsoft Imagine Standard et Microsoft Imagine Premium.
+Merci à Nex84 pour la récolte d'infos
+Les licences MSDNAA sont très particulières. Extrait du contrat de licences
+[quote]b. Installation and Use Rights.
+You may install and use two (2) copies of the DreamSpark Direct Subscription software on your devices (a) to support your education; (b) in non-commercial research; or (c) to design, develop, test, and demonstrate software programs for the above purposes. The DreamSpark Direct Subscription and software are personal to you and may not be shared, transferred, resold, assigned or used to develop or maintain your own administrative or IT systems.
+c. Using Windows Desktop Operating Systems.
+Your DreamSpark Direct Subscription includes certain Windows operating system products. You may install these products only on a computer that is already licensed to run a full version of a Windows operating system on it, as evidenced by a valid Certificate of Authenticity (COA) for a Windows operating system affixed to the computer.[/quote]
+Source : https://www.dreamspark.com/Student/Direct-EULA.aspx
+Ca veut dire que :
+- on ne peut installer une licence MSDNAA/DreamSpark que sur une machine ayant déjà une licence (elle la complète)
+- on ne peut pas transférer cette licence 
+Par extension, elle ne peut pas non plus servir de licence qualifiante pour une quelconque mise à jour.
+
+[#71008D]LICENCE VOLUME (PRO)[/#71008D]
+Il existe encore un autre licences réservé au monde professionnel, dont je vais vous en parler brièvement : la licence [url=https://docs.microsoft.com/fr-fr/licensing/]Volume Licence[/url] réservée [b]aux organisations et entreprises[/b] qui ont besoin d’installer et d’activer Windows sur plusieurs machines en même temps avec des outils spéciaux comme MAK (Multiple Activation Key) ou KMS (Key Management Services).
+
+
+[b][#71008D]SE PROCURER UNE LICENCE[/#71008D][/b]
+
+Il y a plusieurs façon de se procurer une licence Windows 10/11 :
+
+[#71008D]OEM[/#71008D]
+En achetant simplement un ordinateur avec Windows déjà [b]préinstallé[/b]. Une licence OEM vous sera alors fourni.
+
+[#71008D]BOÎTE[/#71008D]
+Le mieux est encore d'acheter sur [b]le site de Microsoft[/b], comme ça pas de surprise :
+[*][url=https://www.microsoft.com/fr-fr/d/windows-10-famille/d76qx4bznwk4?rtc=1&activetab=pivot:overviewtab]Windows 10/11 Famille[/url]
+[*][url=https://www.microsoft.com/fr-fr/d/windows-10-pro/df77x4d43rkt?rtc=1&activetab=pivot:overviewtab]Windows 10/11 Professionnel[/url]
+Une alternative serait de prendre sa licence sur Amazon, qui tend à être un poil moins cher que sur le site de Microsoft :
+[*][url=https://www.amazon.fr/WINDOWS-FAMILLE-32-bit-64-bit-French/dp/B07W7F757P/ref=sr_1_7]Windows 10/11 Famille/Professionnel[/url]
+Attention, veuillez uniquement prendre ce produit sur Amazon. Beaucoup de boutiques tendent à revendre des versions grises ou alors des versions OEM qui ne sont normalement pas disponible à la revente pour les particuliers :non: 
+
+
+[b][#71008D]CLEF PRODUIT vs LICENCE NUMERIQUE[/#71008D][/b]
+
+Voici une liste pour déterminer si vous avez une clef produit ou une licence numérique pour savoir ensuite quelle marche à suivre pour l'activation de Windows :
+
+Vous avez une licence avec une [b]clef produit[/b] si vous avez :
+[*] acheté un PC avec Windows 10 pré-installé. Vous avez alors une version OEM. 
+[*] acheté une version boîte de Windows 10 chez un revendeur agréé. Vous aurez donc une version boîte.
+[*] installé Windows 10 avec une clef produit OEM Windows 7/8.1. Vous avez alors une version OEM.
+[*] installé Windows 10 avec une clef produit boîte Windows 7/8.1. Vous aurez donc une version boîte.
+
+Vous avez une licence avec une [b]licence numérique[/b] si vous avez :
+[*] effectué la MAJ gratuite vers Windows 11 depuis un Windows 10 boîte/OEM. Vous avez alors respectivement une version boîte/OEM. 
+[*] effectué la MAJ gratuite vers Windows 10 depuis un Windows 7/8.1 boîte/OEM. Vous avez alors respectivement une version boîte/OEM. 
+[*] acheté une copie Windows 10 Famille/Professionnel sur le Microsoft Store. Vous avez alors une version boîte.
+[*] acheté une mise à niveau vers Windows 10 Professionnel sur le Microsoft Store. Vous avez alors une version boîte.
+[*] installé Windows 10 avec une clef produit boîte Windows 7/8.1. Vous aurez donc une version boîte.
+
+Un [url=https://lecrabeinfo.net/quelle-est-ma-licence-windows-10.html]tableau exhaustif[/url] est à retrouver chez nos confrères de chez [i]lecrabeinfo[/i].
+
+
+[b][#71008D]ACTIVATION[/#71008D][/b]
+
+[#71008D]LICENCE NUMERIQUE[/#71008D]
+Si vous possédez une licence numérique, Windows essayera de [b]s'activer automatiquement[/b] dès qu'une connexion internet est disponible.
+
+[#71008D]CLEF PRODUIT[/#71008D]
+Dans le cas d'une licence à clef de produit, vous pouvez activer votre Windows à deux endroits.
+Une possibilité s'offre à vous lors de [b]l'installation[/b] :
+[url=https://www.pixenli.com/image/C2dNz-fs][img]https://www.pixenli.com/miniature/C2dNz-fs[/img][/url]
+ [i] Figure 4 : Activation lors de l'installation[/i]
+
+Une seconde, après l'installation dans le menu [b]Mise à jour et sécurité > Activation > Mettre à jour la clé de produit > Modifier la clé de produit[/b]
+[url=https://www.pixenli.com/image/ke2zCDls][img]https://www.pixenli.com/miniature/ke2zCDls[/img][/url]
+ [i] Figure 5 : Activation post installation[/i]
+
+Si vous n'arrivez toujours pas à activer votre Windows, Microsoft a fait [url=https://support.microsoft.com/fr-fr/windows/activer-windows-c39005d4-95ee-b91e-b399-2820fda32227]un article d'aide[/url].
+
+
+[b][#71008D]CONSERVATION DE LA LICENCE[/#71008D][/b]
+
+Cette étape n'est pas obligatoire, mais nous vous conseillons [b]de lier votre licence boîte à votre compte Windows[/b]. Il y a que des avantages:
+[*] impossible de la perdre
+[*] facilement transférable
+Si vous suivez bien, aucune raison de le faire pour une licence OEM car lié au matériel, et facilement reconnaissable par Windows lors d'une réinstallation complète.
+
+
+[b][#71008D]MISE À NIVEAU[/#71008D][/b]
+
+soon
+
+
+[b][#71008D]FAQ[/#71008D][/b]
+
+Questions en vrac :
+
+[b]Puis-je directement installer et activer Windows 11 en utilisant une clef de produit Windows 10 ?[/b] Oui.
+[b]J'ai perdu ma clef de produit. Puis-je la retrouver sur Windows ?[/b] Oui, en suivant ce [url=https://support.microsoft.com/fr-fr/windows/trouver-votre-cl%C3%A9-de-produit-windows-aaa2bf69-7b2b-9f13-f581-a806abf0a886]tutoriel[/url]
+[b]Est-ce que je peux faire une installation propre de Windows 10 sans passer par l'étape "Mise à jour" de mon installation actuelle ?[/b] Oui, On peut faire une clean install uniquement depuis Windows 10 th2 (version 1511).
+[b]Comment réactiver Windows après un changement de matériel ?[/b] En suivant [url=https://support.microsoft.com/fr-fr/windows/r%C3%A9activation-de-windows-10-apr%C3%A8s-un-changement-de-configuration-mat%C3%A9rielle-2c0e962a-f04c-145b-6ead-fb3fc72b6665]ce guide[/url] 
+[b]Je possède une licence qui est d'origine pour Windows 7/8.1. Puis-je directement installer Windows 10 et saisir ma clef Windows 7/8.1 lors de l'installation ?[/b] Oui.
+[b]Puis-je revendre ma licence ?[/b] Dans le cas d'une licence OEM, il est impossible de vendre séparément la licence de la carte mère. Cette dernière doit être aussi cédé. Dans le cas d'une version boîte, aucun soucis.
+[b]Puis-je acheter une licence d'occaz' ?[/b] Oui, mais uniquement la version boîte, car transférable. Veuillez à bien vous assurer que le vendeur a bien désactivé la licence de sa machine.
+[b]Je souhaiterais transférer ma licence sur une autre machine. Comment faire ?[/b] En suivant [url=https://answers.microsoft.com/fr-fr/windows/forum/all/transfert-de-licence-num%C3%A9rique/673353ff-b6b9-44a7-bdba-53af9a870e4f]ce tutoriel[/url] 
+[b]Dois-je avoir une licence pour profiter du programme Windows Insiders ?[/b] Oui, ce n'est pas parce qu'on est un « remonteur » de bugs pour Microsoft qu'il faut s'affranchir de la licence. Il faut payer, comme tout le monde !
+[b]Comment puis-je voir mes licences lié à mon compte Microsoft ?[/b] En ce rendant sur le site https://account.microsoft.com/devices.
+
+[:icon4] WIP [:icon4]
+
+
+[b][#71008D]SITES OFFICIELS[/#71008D][/b]
+
+--> [url=https://support.microsoft.com/fr-fr/windows/obtenir-de-l-aide-sur-les-erreurs-d-activation-de-windows-09d8fb64-6768-4815-0c30-159fa7d89d85]Erreurs d’activation de Windows[/url] : Guide pour résoudre les erreurs d'activation lié à la licence
+--> [url=https://account.microsoft.com/devices]Microsoft/devices[/url] : Connaître quels appareils est associés à quelle clef sauvegardé dans son compte Microsoft
+--> [url=https://www.microsoft.com/fr-fr/howtotell/hardware-pc-purchase]Étiquettes de produit authentique Microsoft[/url] : Découvrir les points à vérifier avant d’effectuer un achat d'un PC neuf ou d’occasion
+--> [url=https://www.microsoft.com/en-us/Useterms/Retail/Windows/10/UseTerms_Retail_Windows_10_english.htm]CLUF Windows 10 (en anglais)[/url] : Les conditions générales d'utilisation de Windows 10
+
+
+[b][#71008D]RESSOURCES HFR[/#71008D][/b]
+
+--> [url=https://forum.hardware.fr/hfr/WindowsSoftware/Logiciels/microsoft-etudiants-ultimatesteal-sujet_287253_6.htm]Produits Microsoft à prix étudiants - MSDN-AA - UltimateSteal[/url] : Tout sur le programme Microsoft Imagine, anciennement MSDNAA.
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=438&post=262410&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0]Tout sur les licences Microsoft Windows[/url] : Les licences de 98 à Windows 8, en passant par Windows server 2003.

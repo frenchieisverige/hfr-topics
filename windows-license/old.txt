@@ -1,0 +1,67 @@
+[img]http://reho.st/self/fa01d35159ed1268eb3feaaab80231b1833ab085.jpg[/img]
+
+Je crée ce topic pour parler des licences et des différentes versions de Windows 10/11.
+
+
+Rappel des règles du forum :
+[quote][#0000ff][g]VIII[/g][/#0000ff]. [b]Les messages ou discussions autour des sites de ventes de clés Microsoft autre que les sites ou revendeurs officiels[/b] (Liste : https://www.microsoft.com/france/acheter/revendeurs.aspx ) [b]sont interdits et passibles de sanctions[/b]. Cela inclus aussi bien les sites spécialisés dans la vente de clés (marché gris), que les revendeurs des Marketplace de certains sites connus (marché gris, ou import illégal de clés). Retenez une règle simple : une licence Windows à 20/30 €, ça n'existe pas.[/quote]
+
+
+Tout ce qu'on sait pour l'instant, c'est que la mise à jour sera gratuite pendant un an, depuis une licence valide de Windows 7 ou Windows 8.1
+Passé ce délai, il faudra probablement payer pour les retardataires.
+Mais pour ceux qui ont fait l'installation à temps, l'utilisation de Windows 10 restera gratuite, passé le délai d'un an.
+
+[b]Que devient ma licence W7/W8 après mise à jour ?[/b]
+Une licence OEM W7/W8 devient une licence OEM W10.
+Tous ceux qui font la mise à jour gratuite, à partir d'une version BOITE ou OEM, obtiennent la même clé. 
+Ensuite, le PC est reconnu sur les serveurs de Microsoft, en fonction de son identification hardware.
+Ainsi, il est possible de faire une clean install sur ce PC avant ou après le 29 juillet 2016.
+
+En cliquant sur l'icone de la barre des taches OBTENIR WINDOWS 10 :
+
+[img]http://reho.st/self/f2e14fcdbbdb93fe0c0e48c7ed4ef1412b237236.jpg[/img]
+
+En cliquant dans le menu, en haut, à gauche, regarder si votre PC est PRET
+
+[img]http://reho.st/self/1b35bb7a7b4ab84937ee4331c4e85e8ea18fb614.jpg[/img]
+
+QUELLE VERSION POUR QUI ?
+
+[img]http://reho.st/self/27a97e15158c149e738057934466d75584b01736.jpg[/img]
+
+[b]FAQ[/b]
+ 
+[b]Est-ce que je peux faire une clean install sans passer par l'étape "Mise à jour" de mon installation actuelle ?[/b] 
+OUI ! On peut faire une clean install uniquement depuis Windows 10 th2 (version 1511).
+Par exemple, si la licence d'origine est W7, alors il suffit d'installer W10 en saisissant sa clé W7.
+Pour la clé a saisir lors de la réinstallation, si la machine est la même que lors de la Mise à Jour, pas besoin de rentrer de clé. 
+ 
+[b]Windows refuse ma clé 7/8 lors de la réinstallation [/b]
+Si la machine a bien été mise à jour depuis 7/8 vers 10 sans changement de materiel depuis, il suffit de cliquer sur "Ignorer cette étape" ou "plus tard" lorsque la clé est demandée lors de la réinstallation.
+
+[b]Quelle différence entre la version 1511 et la 1511.2 ?[/b]
+la version 1511 est sortie en novembre 2015 puis la version 1511.2 en avril 2016. 
+la version 1511.2 est une version 1511 qui inclut toutes les mises à jour entre novembre 2015 et avril 2016.
+
+[b]Téléchargement des fichiers ISO directement sur le site Microsoft [/b]:
+https://www.microsoft.com/en-us/software-download/windows10ISO/
+
+[b]Windows 10 FPP (version boite complète) en vente sur amazon :[/b]
+https://www.amazon.fr/dp/B012BSRDAI
+
+[b]Tout savoir sur les licences Windows : Retail, OEM, SLP, VL…[/b]
+http://lecrabeinfo.net/tout-savoir-sur-les-licences-windows-retail-oem-vl-cle-produit.html
+
+[b]Toutes les méthodes pour activer W10, avant/après la gratuité : licence numérique, clé de produit[/b]
+https://support.microsoft.com/fr-fr/help/12440/windows-10-activation
+
+[b]Codes d'erreurs d'activation de W10 et Solutions[/b]
+https://support.microsoft.com/fr-fr/help/10738/windows-activation-errors
+
+[b]Utilitaire de résolution des problèmes d'activation[/b]
+https://support.microsoft.com/fr-fr/help/20527/windows-10-activation-troubleshooter
+
+[b]Liste des revendeurs de logiciels Microsoft pour les particuliers[/b]
+https://www.microsoft.com/france/acheter/revendeurs.aspx
+
+EDIT 21/11/2018 : visiblement la mise à jour gratuite est toujours possible depuis Windows 7 ou Windows 8
