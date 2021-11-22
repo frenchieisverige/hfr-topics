@@ -28,7 +28,7 @@ En conséquence, il ne concentrera [b]pas[/b] sur :
 
 [b][#71008D]INTRODUCTION[/#71008D][/b]
 
-Si vous voulez utiliser Windows 10/11, vous devez posséder une licence valide, comme stipulé dans les [url=https://www.microsoft.com/en-us/Useterms/Retail/Windows/10/UseTerms_Retail_Windows_10_english.htm]CLUFs[/url] (Contrat de Licence d'Utilisateur Final). Mais il n'est pas toujours facile de savoir quelle licence vous devez avoir besoin. Ce topic aura pour but de vous éclairer pour que vous puissiez faire le bon choix.
+Si vous voulez utiliser Windows 10/11, vous devez posséder une licence valide, comme stipulé dans les CLUFs (Contrat de Licence d'Utilisateur Final). Mais il n'est pas toujours facile de savoir quelle licence vous devez avoir besoin. Ce topic aura pour but de vous éclairer pour que vous puissiez faire le bon choix.
 
 Mais de manière générale, peut importe la licence dont vous disposez,[#FF0000] une licence Windows ne peut activer qu'[b]une[/b] installation Windows[/#FF0000]. 
 
@@ -109,8 +109,8 @@ Vous avez une licence avec une [b]clef produit[/b] si vous avez :
 [*] installé Windows 10 avec une clef produit boîte Windows 7/8.1. Vous aurez donc une version boîte.
 
 Vous avez une licence avec une [b]licence numérique[/b] si vous avez :
-[*] effectué la MAJ gratuite vers Windows 11 depuis un Windows 10 boîte/OEM. Vous avez alors respectivement une version boîte/OEM. 
-[*] effectué la MAJ gratuite vers Windows 10 depuis un Windows 7/8.1 boîte/OEM. Vous avez alors respectivement une version boîte/OEM. 
+[*] effectué la mise à niveau gratuite vers Windows 11 depuis un Windows 10 boîte/OEM. Vous avez alors respectivement une version boîte/OEM. 
+[*] effectué la mise à niveau gratuite vers Windows 10 depuis un Windows 7/8.1 boîte/OEM. Vous avez alors respectivement une version boîte/OEM. 
 [*] acheté une copie Windows 10 Famille/Professionnel sur le Microsoft Store. Vous avez alors une version boîte.
 [*] acheté une mise à niveau vers Windows 10 Professionnel sur le Microsoft Store. Vous avez alors une version boîte.
 [*] installé Windows 10 avec une clef produit boîte Windows 7/8.1. Vous aurez donc une version boîte.
@@ -172,8 +172,8 @@ Questions en vrac :
 --> [url=https://support.microsoft.com/fr-fr/windows/obtenir-de-l-aide-sur-les-erreurs-d-activation-de-windows-09d8fb64-6768-4815-0c30-159fa7d89d85]Erreurs d’activation de Windows[/url] : Guide pour résoudre les erreurs d'activation lié à la licence
 --> [url=https://account.microsoft.com/devices]Microsoft/devices[/url] : Connaître quels appareils est associés à quelle clef sauvegardé dans son compte Microsoft
 --> [url=https://www.microsoft.com/fr-fr/howtotell/hardware-pc-purchase]Étiquettes de produit authentique Microsoft[/url] : Découvrir les points à vérifier avant d’effectuer un achat d'un PC neuf ou d’occasion
---> [url=https://www.microsoft.com/en-us/Useterms/Retail/Windows/10/UseTerms_Retail_Windows_10_english.htm]CLUF Windows 10 (en anglais)[/url] : Les conditions générales d'utilisation de Windows 10
-
+--> [url=https://www.microsoft.com/en-us/Useterms/Retail/Windows/10/Useterms_Retail_Windows_10_French.htm]CLUF Windows 10[/url] : Les conditions générales d'utilisation de Windows 10
+--> [url=https://www.microsoft.com/en-us/Useterms/Retail/Windows/11/Useterms_Retail_Windows_11_French.htm]CLUF Windows 11[/url] : Les conditions générales d'utilisation de Windows 11
 
 [b][#71008D]RESSOURCES HFR[/#71008D][/b]
 
