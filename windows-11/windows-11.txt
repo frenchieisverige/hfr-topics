@@ -8,7 +8,7 @@ Bienvenue donc sur ce Topic Unique consacré au dernier SE de la firme de Redmon
 
 Flemme de lire le FP ? Voici les [b]trois[/b] infos importantes :
 [*][b][#FF0000]Lien de téléchargement :[/#FF0000][/b] https://www.microsoft.com/fr-fr/software-download/windows11
-[*]Où acheter une licence ? : https://www.microsoft.com/fr-fr/d/windows-10-home/d76qx4bznwk4?rtc=1 puis faites la MAJ gratuitement. Même procédure pour la Pro.
+[*]Où acheter une licence ? : https://www.microsoft.com/fr-fr/d/windows-10-home/d76qx4bznwk4?rtc=1 Même site pour l'édition Professionnel.
 [*]Test de compatibilité : https://aka.ms/GetPCHealthCheckApp
 Toujours pas la réponse à vos questions ? [b][#FF0000]Prenez le temps de lire la FP et la FAQ, car nous aussi on aura la flemme de répondre à votre question, si la réponse y est déjà présente ![/#FF0000][/b]
 
@@ -18,7 +18,7 @@ Toujours pas la réponse à vos questions ? [b][#FF0000]Prenez le temps de lire 
 Comme pour les éditions précédentes de Windows, ce topic traitera [b]uniquement[/b] les points suivants :
  [:yann39] Actualités, rumeurs, infos, trouvailles et j'en passe sur le produit en lui-même
  [:yann39] Problèmes logiciels ou matériels
- [:yann39] Nouvelles fonctionnalités présentes au fil des MAJs
+ [:yann39] Nouvelles fonctionnalités présentes au fil des mises à jour
 
 En conséquence, il ne concentrera [b]pas[/b] sur :
  [:judgedredd:2] Les licences : [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=570&post=340725&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0][Windows 10/11] topic licence[/url]
@@ -92,7 +92,7 @@ Pour plus d'images, une [url=https://lafibre.info/windows/windows-11/]galerie[/u
 [b][#0B86FA]DISPONIBILITÉ[/#0B86FA][/b]
 
 Windows 11 est officiellement disponible depuis le [b]5 Octobre 2021[/b]. 
-La [b]mise à niveau gratuite[/b] vers Windows 11 depuis les PCs équipés de Windows 10 commencera à partir de cette même date et se ferra de manière échelonnée. Plusieurs facteurs comme l'éligibilité du matériel, des paramètres de fiabilité, de l'âge de l'appareil et d'autres facteurs auront une incidence sur quand vous pourrez bénéficier de cette MAJ. Si tel est le cas, Windows Update vous informera de sa disponibilité. Enfin, Microsoft prévoie que tous les appareils éligibles se verront offrir la mise à niveau gratuite d'ici la mi-2022.
+La [b]mise à niveau gratuite[/b] vers Windows 11 depuis les PCs équipés de Windows 10 commencera à partir de cette même date et se ferra de manière échelonnée. Plusieurs facteurs comme l'éligibilité du matériel, des paramètres de fiabilité, de l'âge de l'appareil et d'autres facteurs auront une incidence sur quand vous pourrez bénéficier de cette dernière. Si tel est le cas, Windows Update vous informera de sa disponibilité. Enfin, Microsoft prévoie que tous les appareils éligibles se verront offrir la mise à niveau gratuite d'ici la mi-2022.
 
 
 [b][#0B86FA]LES DIFFÉRENTES ÉDITIONS[/#0B86FA][/b]
@@ -115,7 +115,7 @@ Bien sur, seules les éditions Familiale et Pro sont pertinentes pour le grand p
 31/08/2021 : [url=https://blogs.windows.com/windowsexperience/2021/08/31/windows-11-available-on-october-5/]Windows 11 disponible à partir du 5 Octobre[/url]
 27/08/2021 : [url=https://blogs.windows.com/windows-insider/2021/08/27/update-on-windows-11-minimum-system-requirements-and-the-pc-health-check-app/]Mise à jour de la configuration minimale requise pour Windows 11[/url]
 19/08/2021 : [url=https://twitter.com/windowsinsider/status/1428402160388087809]Sortie du premier ISO bootable (22000.160) pour les WindowsInsiders[/url]
-                   [url=https://blogs.windows.com/windows-insider/2021/08/19/new-clock-app-for-windows-11-with-focus-sessions-rolling-out-to-windows-insiders/]Focus Sessions débarque sur le canal Dev[/url] 
+                    [url=https://blogs.windows.com/windows-insider/2021/08/19/new-clock-app-for-windows-11-with-focus-sessions-rolling-out-to-windows-insiders/]Focus Sessions débarque sur le canal Dev[/url] 
 18/08/2021 : [url=https://twitter.com/lockheimer/status/1428047760620621831]Microsoft rend plus difficile le changement de navigateur par défaut dans Windows 11[/url]
 12/08/2021 : [url=https://blogs.windows.com/windows-insider/2021/08/12/first-set-of-windows-app-updates-rolling-out-to-windows-insiders-for-windows-11/]MAJ de Snipping Tool, de la calculatrice et du client Mail[/url]
 05/08/2021 : [url=https://twitter.com/panos_panay/status/1423343837934546946]Intégration de Spotify dans le mode « Focus »[/url]
@@ -124,7 +124,7 @@ Bien sur, seules les éditions Familiale et Pro sont pertinentes pour le grand p
 28/06/2021 : [url=https://devblogs.microsoft.com/directx/dynamic-refresh-rate/]Windows 11 inclut un taux de rafraîchissement dynamique pour économiser la batterie des ordinateurs portables[/url]
 25/06/2021 : [url=https://www.microsoft.com/security/blog/2021/06/25/windows-11-enables-security-by-design-from-the-chip-to-the-cloud/]Microsoft explique la présence des modules TPM 2.0 dans les configurations minimales[/url]
 24/06/2021 : [url=https://www.microsoft.com/en-us/windows/event]Introduction de Windows 11[/url]
-                   [url=https://twitter.com/Windows/status/1408573495970254851]La mise à niveau gratuite vers Windows 11 à partir de 2022[/url]
+                    [url=https://twitter.com/Windows/status/1408573495970254851]La mise à niveau gratuite vers Windows 11 à partir de 2022[/url]
 15/06/2021 : [url=https://www.theverge.com/2021/6/15/22535123/microsoft-windows-11-leak-screenshots-start-menu]Le « leak » de Windows 11[/url] 
 02/06/2021 : [url=https://twitter.com/panos_panay/status/1400123553849114624]Annonce du #WindowsEvent pour Windows 11[/url]
 
@@ -139,9 +139,10 @@ Questions en vrac :
 [b]J'ai un module TPM, mais un processeur incompatible. Puis-je quand même installer Windows 11 ?[/b] Oui, même si ce n'est pas recommandé. [url=https://support.microsoft.com/fr-fr/windows/m%C3%A9thodes-d-installation-de-windows-11-e0edbbfb-cfc5-4011-868b-2ce77ac7c70e]Un guide écrit par Microsoft[/url] est disponible.
 [b]Est-ce que mes programmes et documents sont conservés lors de la migration ?[/b] Oui, sauf si vous faites une installation propre depuis l'ISO.
 [b]J'ai activé l'UEFI, mais je ne peux plus démarrer Windows 10. Que faire ?[/b] Il faut [url=https://docs.microsoft.com/fr-fr/windows/deployment/mbr-to-gpt]convertir la table de partitionnement de MBR vers GPT[/url]. Il n'y a pas de perte de données, mais une sauvegarde est fortement recommandé ocasou. Une [url=https://docs.microsoft.com/fr-fr/windows-server/storage/disk-management/change-an-mbr-disk-into-a-gpt-disk]autre méthode[/url] est disponible, mais elle implique un formatage complet du disque.
-[b]J'ai un compte local sous Win 10 Pro. Sera-t-il encore présent après la MAJ ?[/b] Oui.
+[b]J'ai un compte local sous Win 10 Pro. Sera-t-il encore présent après la mise à niveau ?[/b] Oui.
 [b]Je n'ai pas envie de faire un compte Microsoft pour l'edition Famille. Quelles sont mes possibilités ?[/b] Rester sous Windows 10, ou [url=https://www.nextinpact.com/article/48319/windows-11-famille-comment-contourner-obligation-davoir-compte-microsoft]contourner cette étape[/url]. Cependant, ce n'est pas recommandé.
 [b]Mon démarrage n'est toujours pas sécurisé malgré l'activation de l'UEFI et le SecureBoot. Pourquoi ?[/b] La table de partitionnement doit être en GPT.
+[b]Quels sont les avantages de lier son compte Microsoft avec Windows 11 ?[/b] Le [url=https://forum.hardware.fr/hfr/WindowsSoftware/windows-11/windows-lire-fp-sujet_354031_107.htm#t3412278]post[/url] de [i]@flash_gordon[/i] vous énumère tout les bienfaits. 
 
 [:icon4] WIP [:icon4]
 
