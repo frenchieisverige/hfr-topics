@@ -5,21 +5,21 @@ Topic initialement créé par [b][#FF0000]mad86[/#FF0000][/b], actuellement main
 
 [b][#E2001C]I. INTRODUCTION[/#E2001C][/b]
 
-Marre de payer une fortune pour une solution clef en main comme les NAS [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=22&subcat=503&post=5497&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0]Synology[/url]? [:cerveau manust] Envie de mettre les mains dans le « cambouis électronique »? [:cerveau dawa] Alors ce topic est fait pour vous! 
+Marre de payer une fortune pour une solution clef en main comme les NAS [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=22&subcat=503&post=5497&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0]Synology[/url] ? [:cerveau manust] Envie de mettre les mains dans le « cambouis électronique » ? [:cerveau dawa] Alors ce topic est fait pour vous ! 
 Ici, on va débattre des choix des composants jusqu'au choix de l'OS pour partager vos meilleurs films de vacances :o La configuration logiciel en revanche se passera sur les topics respectifs listés en fin de post. 
 Les différents chapitres [b][#E2001C]II[/#E2001C][/b] et [b][#E2001C]III[/#E2001C][/b] n'ont pas d'ordre spéciale et peuvent être interchangeable dans votre réflexion.
 
 
 [b][#E2001C]II. CONTRAINTES D'UTILISATIONS[/#E2001C][/b]
 
-La première chose à faire est d'établir un cahier des charges. Qu'est ce que mon NAS doit avoir? Que doit-il respecter?
+La première chose à faire est d'établir un cahier des charges. Qu'est ce que mon NAS doit avoir ? Que doit-il respecter ?
 Voici quelques pistes:
-[*] [b]Bruit[/b]: Est-ce que mon NAS sera dans une pièce à vivre ou dans un placard?
-[*] [b]Nombres de disques[/b]: Combien de données dois-je stocker? Est-ce qu'une redondance de disques m'est utile ([url=https://fr.wikipedia.org/wiki/RAID_(informatique)]RAID 0/1/5/10[/url])?
-[*] [b]Consommation[/b]: Est-ce pour vous un facteur déterminant pour réduire la facture EDF?
-[*] [b]Charge utile[/b]: Combien de services vais-je faire tourner? (Partage de fichiers, serveur VPN, Docker, Transcodage...)
-[*] [b]Encombrement[/b]: Est-ce que le NAS doit rentrer dans une étagère Kallax d'Ikea?
-[*] [b]Volume de données à transmettre[/b]: Dois-je transmettre beaucoup de données vers mon NAS?
+[*] [b]Bruit[/b]: Est-ce que mon NAS sera dans une pièce à vivre ou dans un placard ?
+[*] [b]Nombres de disques[/b]: Combien de données dois-je stocker? Est-ce qu'une redondance de disques m'est utile ([url=https://fr.wikipedia.org/wiki/RAID_(informatique)]RAID 0/1/5/10[/url]) ?
+[*] [b]Consommation[/b]: Est-ce pour vous un facteur déterminant pour réduire la facture EDF ?
+[*] [b]Charge utile[/b]: Combien de services vais-je faire tourner ? (Partage de fichiers, serveur VPN, Docker, Transcodage...)
+[*] [b]Encombrement[/b]: Est-ce que le NAS doit rentrer dans une étagère Kallax d'Ikea ?
+[*] [b]Volume de données à transmettre[/b]: Dois-je transmettre beaucoup de données vers mon NAS ?
 Cette liste permettra déjà d'élaguer l'arbre pour obtenir une config, qui se peaufinera avec le choix du matériel et de l'OS.
 
 
@@ -39,14 +39,14 @@ Une fois la carte mère choisi, on peut s'attaquer au processeur. Parfois déjà
 Attention, valable que pour des tâches ardues comme la décompression, la virtualisation etc.. Un transfert de fichier ne va pas faire saturer votre processeur.
 
 [#E2001C]RAM[/#E2001C]
-ECC vs non-ECC? C'est un débat vieux comme le monde, ou vous seul avez la réponse. Pour rappel, la mémoire ECC possède un [url=https://fr.wikipedia.org/wiki/M%C3%A9moire_%C3%A0_code_correcteur_d%27erreurs]correcteur d'erreurs[/url] pour corriger les corruptions de données les plus courantes. Certains pensent que ce n'est pas utile car la plus part de nos fichiers sont édités sur nos PC portables ou fixes qui généralement ne possède pas ce type de mémoire. Une fois copié sur le NAS, la mémoire ECC n'a aucun moyen de savoir si le fichier est corrompu ou pas, car cette dernière s'est produite sur un autre appareil. La RAM ECC est utile que si des changements sont effectués depuis le NAS. Je fais partie de ceux qui préfère avoir de la RAM ECC dans leur serveur, mais comme dit précédemment ce n'est pas une obligation. En revanche, déterminer la quantité de RAM en est une. Elle dépend de l'OS que vous allez choisir, ainsi que les services que vous voulez faire tourner. On peut aller de 2Go à 64Go voir plus.
+ECC vs non-ECC ? C'est un débat vieux comme le monde, ou vous seul avez la réponse. Pour rappel, la mémoire ECC possède un [url=https://fr.wikipedia.org/wiki/M%C3%A9moire_%C3%A0_code_correcteur_d%27erreurs]correcteur d'erreurs[/url] pour corriger les corruptions de données les plus courantes. Certains pensent que ce n'est pas utile car la plus part de nos fichiers sont édités sur nos PC portables ou fixes qui généralement ne possède pas ce type de mémoire. Une fois copié sur le NAS, la mémoire ECC n'a aucun moyen de savoir si le fichier est corrompu ou pas, car cette dernière s'est produite sur un autre appareil. La RAM ECC est utile que si des changements sont effectués depuis le NAS. Je fais partie de ceux qui préfère avoir de la RAM ECC dans leur serveur, mais comme dit précédemment ce n'est pas une obligation. En revanche, déterminer la quantité de RAM en est une. Elle dépend de l'OS que vous allez choisir, ainsi que les services que vous voulez faire tourner. On peut aller de 2Go à 64Go voir plus.
 Considérant le prix de la DDR4 du moment, repasser sur de la DDR3 n'est pas déconnant, surtout mise en quad channel. 
  
 [#E2001C]ALIMENTATION[/#E2001C]
 Un élément à ne pas négliger, vu que votre machine va tourner 24/7. Je partirais au minimum sur de la platinium, vu que le rendement doit être optimum à faible charge. Le nombre de Watt est aussi à prendre ne compte pour optimiser la consommation électrique. Un trop grosse alimentation vous ferra perdre de l'efficacité. Un site sympa pour calculer le wattage: [url=https://outervision.com/power-supply-calculator]OuterVision® Power Supply Calculator[/url]. Veuillez aussi vérifier le nombres de connectiques SATAs en fonction du nombre de vos disques internes.
 
 [#E2001C]DISQUES DURS[/#E2001C]
-La partie stockage, le deuxième élément le plus important dans votre machine. Avant de choisir quelconques modèles, essayer de quantifier le volume de données à stocker, ensuite comme dit le chapitre précédent, ais-je besoin de la redondance de disques? Une fois ses questions répondues, on obtient un nombre de disques à acheter.
+La partie stockage, le deuxième élément le plus important dans votre machine. Avant de choisir quelconques modèles, essayer de quantifier le volume de données à stocker, ensuite comme dit le chapitre précédent, ais-je besoin de la redondance de disques ? Une fois ses questions répondues, on obtient un nombre de disques à acheter.
 La chose la plus importante à regarder outre la taille, est la technologie utilisée pour augmenter la densité surfacique des disques durs. Pour faire simple, si vous voulez un RAID, utilisez absolument le technologie CMR. Pour le reste, des disques durs SMR font très bien le job. Plus d'informations sur le sujet [url=https://www.silicon.fr/smrgate-disques-durs-339085.html]ici[/url].
 Les modèles les plus populaires sont les Western Digital RED, Seagate IronWolf, Toshiba N300 ou encore les HGSTs Ultrastar, ce dernier étant prévu pour les entreprises.
 Une mode en ce moment pour avoir des disques durs moins cher est de s'essayer au « [url=https://www.howtogeek.com/324769/how-to-get-premium-hard-drives-for-cheap-by-shucking-external-drives/]shuck[/url] », technique consistant à retirer le disques dur interne contenu dans certains modèles de disques dur externes.
@@ -57,7 +57,7 @@ Il n'y a peu, voire aucune différence entre les disques vendus comme disques ex
 Tester les disques avant de les mettre en production est une bonne idée (badblocks, Surface test).
 
 [#E2001C]BOÎTIER[/#E2001C]
-Tour? HTPC? Rack? Voilà tant de formes de boîtiers possibles. En plus de la forme de la carte mère, la hauteur pour le ventirad, le nombre d'emplacements 3"5 et surtout le système de fixation sont à regarder. En effet, certains disques possèdent que des trous de passages aux extrémités des flancs du disques. Beaucoup de « HHD tray » s'attendent à en avoir au milieu du disque. Dans un second temps, on regardera le nombre de ventilos et si il possède une isolation phonique. La connectique importe peu ici, pourvu qu'il y ait un bouton on/off.
+Tour ? HTPC ? Rack ? Voilà tant de formes de boîtiers possibles. En plus de la forme de la carte mère, la hauteur pour le ventirad, le nombre d'emplacements 3"5 et surtout le système de fixation sont à regarder. En effet, certains disques possèdent que des trous de passages aux extrémités des flancs du disques. Beaucoup de « HHD tray » s'attendent à en avoir au milieu du disque. Dans un second temps, on regardera le nombre de ventilos et si il possède une isolation phonique. La connectique importe peu ici, pourvu qu'il y ait un bouton on/off.
 
 [#E2001C]CARTE RÉSEAU[/#E2001C]  
 Pas de modèles en particulier à recommander, vérifiez bien la présence du driver dans l'OS de votre choix.
@@ -136,7 +136,7 @@ Cette configuration est sous simplement champagne. Elle encaisse tout ce que vou
 
 [b][#E2001C]VI. F.A.Q[/#E2001C][/b]
 
---> Comment puis-je tester mes disques avant de copier mes données à stocker? Un [url=https://forum.hardware.fr/hfr/Hardware/minipc/unique-perso-homemade-sujet_840082_376.htm#t10957901]
+--> Comment puis-je tester mes disques avant de copier mes données à stocker ? Un [url=https://forum.hardware.fr/hfr/Hardware/minipc/unique-perso-homemade-sujet_840082_376.htm#t10957901]
 ]tutoriel[/url] est proposé par [i]@ptibeur[/i]
 
 [:icon4] WIP [:icon4]
@@ -150,9 +150,9 @@ Cette configuration est sous simplement champagne. Elle encaisse tout ce que vou
 --> [url=https://forum.hardware.fr/hfr/Hardware/SSD/unique-revolution-stockage-sujet_764789_1.htm#t5397220][Topic Unique] SSD : la Révolution du stockage (infos en page 1)[/url]: Le topic pour mettre un coup de fouet à votre NAS
 --> [url=https://forum.hardware.fr/hfr/Hardware/Alimentation/bdd-guerre-watts-sujet_854576_1.htm#t7158384][Topic BDD] La Guerre des Watts[/url]: Le topic pour bien choisir son alimentation
 --> [url=https://forum.hardware.fr/hfr/Hardware/Boitier/boitiers-orientes-bequiet-sujet_948613_1.htm#t9003953][Topic Unique] Les boitiers orientés Silence. Warning: Bequiet! arrive[/url]: Le topic alliant WAF et silence :D
---> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=1&subcat=466&post=943978&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t8934769]Boitiers et backplanes pour NAS homemade[/url]: Le topic poussant le homemade jusqu'au bout!
+--> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=1&subcat=466&post=943978&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t8934769]Boitiers et backplanes pour NAS homemade[/url]: Le topic poussant le homemade jusqu'au bout !
 --> [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=1&subcat=110&post=512109&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t1699443][Topic RAID] tout sur le Raid ; Carte de merde = perfs nulles[/url]: Topic uniquement dédié au RAID matériel (via carte additionnelle)
---> [url=https://forum.hardware.fr/hfr/Hardware/HDD/topic-disque-externe-sujet_592036_1.htm#t2781849][TOPiC] Disque-Dur Externe[/url]: Parce que la sauvegarde est tout aussi important que votre configuration! 
+--> [url=https://forum.hardware.fr/hfr/Hardware/HDD/topic-disque-externe-sujet_592036_1.htm#t2781849][TOPiC] Disque-Dur Externe[/url]: Parce que la sauvegarde est tout aussi important que votre configuration ! 
 
 --> [url=https://forum.hardware.fr/hfr/Hardware/HDD/disques-toshiba-desktop-sujet_1017045_1.htm#t10078581][Topic unique] Les disques durs Toshiba 3.5" NAS et Desktop[/url]: Le topic réservé aux disques durs Toshiba
 --> [url=https://forum.hardware.fr/hfr/Hardware/Alimentation/seasonic-prime-focus-sujet_893098_1.htm#t7989769][TU] Seasonic Prime, Focus, Core,...[/url]: Le topic alimentation pour les fanboys Seasonic (coucou moi  :whistle:) 
