@@ -1,61 +1,61 @@
-PC principal:
-- Modèle: Lenovo ThinkCentre M93p Tiny
-- Processeur: i7-4785T
-- Mémoire vive: 2x 8GB DDR3L-1600
-- Disque dur: Samsung SSD 850 EVO 500GB
-- Carte WiFi: BCM94352HMB
-- Écran: 2x Iiyama XB2481HS-B1 avec pied HUANUO HNDS5B
-- Système d'exploitation: MacOS Catalina
+PC principal :
+- Modèle : Lenovo ThinkCentre M93p Tiny
+- Processeur : i7-4785T
+- Mémoire vive : 2x 8GB DDR3L-1600
+- Disque dur : Samsung SSD 850 EVO 500GB
+- Carte WiFi : BCM94352HMB
+- Écran : 2x Iiyama XB2481HS-B1 avec pied HUANUO HNDS5B
+- Système d'exploitation : MacOS Catalina
 
-PC portable:
-- Modèle: Microsoft Surface Pro 3
-- Processeur: i5-4300U
-- Mémoire vive: 8GB LPDDR3
-- Disque dur: 256GB SSD
-- Écran: 12 pouces multi-touch
-- Clavier: Typecover
-- Système d'exploitation: Windows 10 Pro
+PC portable :
+- Modèle : Microsoft Surface Pro 3
+- Processeur : i5-4300U
+- Mémoire vive : 8GB LPDDR3
+- Disque dur : 256GB SSD
+- Écran : 12 pouces multi-touch
+- Clavier : Typecover
+- Système d'exploitation : Windows 10 Pro
 
-HomeServer:
-- Modèle: HP Proliant Gen 8
-- Processeur: Xeon E3-1220L v2
-- Mémoire vive: 2x 4GB DDR3 ECC
-- Disque dur (OS): Kingston SSDNow E-Series 32 GB
-- Disque dur (Stockage): 4x Seagate NAS HDD 3 To (Raid 5)
-- Système d'exploitation: OMV 4.1.36-1
+HomeServer :
+- Modèle : HP Proliant Gen 8
+- Processeur : Xeon E3-1220L v2
+- Mémoire vive : 2x 4GB DDR3 ECC
+- Disque dur (OS) : Kingston SSDNow E-Series 32 GB
+- Disque dur (Stockage) : 4x Seagate NAS HDD 3 To (Raid 5)
+- Système d'exploitation : OMV 4.1.36-1
 
 =--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
                             OLD                                
 =--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
 
-PC Gamer:
-- Boitier: Corsair Carbide Air 540
-- Ventilateurs: 11x Corsair SP120 QE + 1x AF140 QE
-- Alimentation: Seasonic P860 (Gen2) 860W  
-- Carte Mère: Gigabyte Z77X-UD5H
-- Mémoire: 16 Go DDR3-1600 (4x4Go) Corsair Vengence Low Profile Blue  
-- Processeur: i7-3770K
-- Carte Graphique: 2x GTX 780 (Gigabyte & MSI) 
-- Disque dur: Samsung 840 Pro 120 Gb 
-- Rhéobus: Lamptron FC9
-- Radiateurs: 1x XSPC EX 360 + 2x XSPC EX 240
-- Liquide: Mayhems Pastel Blue Berry
-- Waterblock VGA: EK FC-780 GTX Ti  
-- Waterblock CPU: EK-Supremacy Clean CSQ - Acetal+Nickel
-- Pompe: Laing D5
-- Reservoir: CAPE Bullseye Pro
-- Tubing: MasterKleer Souple & Transparent 10/16
-- Embouts: AlphaCool 10/16 Black  
-- Gaines: MDPC-X Sleeves Black & Aqua Blue + MODdiy Black & Aqua Blue
-- LED: Phobya - FlexLight Faible-Densité (36 LED SMD) 60cm Blanc 
-- Système d'exploitation: Windows 10 Pro
+PC Gamer :
+- Boitier : Corsair Carbide Air 540
+- Ventilateurs : 11x Corsair SP120 QE + 1x AF140 QE
+- Alimentation : Seasonic P860 (Gen2) 860W  
+- Carte Mère : Gigabyte Z77X-UD5H
+- Mémoire : 16 Go DDR3-1600 (4x4Go) Corsair Vengence Low Profile Blue  
+- Processeur : i7-3770K
+- Carte Graphique : 2x GTX 780 (Gigabyte & MSI) 
+- Disque dur : Samsung 840 Pro 120 Gb 
+- Rhéobus : Lamptron FC9
+- Radiateurs : 1x XSPC EX 360 + 2x XSPC EX 240
+- Liquide : Mayhems Pastel Blue Berry
+- Waterblock VGA : EK FC-780 GTX Ti  
+- Waterblock CPU : EK-Supremacy Clean CSQ - Acetal+Nickel
+- Pompe : Laing D5
+- Reservoir : CAPE Bullseye Pro
+- Tubing : MasterKleer Souple & Transparent 10/16
+- Embouts : AlphaCool 10/16 Black  
+- Gaines : MDPC-X Sleeves Black & Aqua Blue + MODdiy Black & Aqua Blue
+- LED : Phobya - FlexLight Faible-Densité (36 LED SMD) 60cm Blanc 
+- Système d'exploitation : Windows 10 Pro
 
-PC Portable:
-- Modèle: Dell Latitude 3330
-- Processeur: Celeron 1017U
-- Mémoire vive: 6 GB DDR3L
-- Disque dur: Intel Cherryville 120 Go
-- Système d'exploitation: Ubuntu LTS + Gnome
+PC Portable :
+- Modèle : Dell Latitude 3330
+- Processeur : Celeron 1017U
+- Mémoire vive : 6 GB DDR3L
+- Disque dur : Intel Cherryville 120 Go
+- Système d'exploitation : Ubuntu LTS + Gnome
 
 
 
