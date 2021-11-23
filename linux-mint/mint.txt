@@ -27,7 +27,7 @@ Enfin, la version basé sur Debian, réservé aux utilisateurs plus expériment�
 [*]LMDE 4 Cinnamon
 
 
-[#78C02F][b][u]POURQUOI CHOISIR LINUX MINT VS UBUNTU LTS?[/u][/b][/#78C02F]
+[#78C02F][b][u]POURQUOI CHOISIR LINUX MINT VS UBUNTU LTS ?[/u][/b][/#78C02F]
 
 [*]Environnement de bureau Cinnamon conviviale : Voir section [#78C02F]SCREENSHOTS[/#78C02F]
 [*]Gestion des mises à jours plus souple : [url=https://www.youtube.com/watch?v=whxK7rLdbuo]vidéo[/url] 
