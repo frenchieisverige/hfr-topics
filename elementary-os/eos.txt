@@ -6,7 +6,7 @@
 [#0055AA][b][u]INTRODUCTION[/u][/b][/#0055AA]
 
 Elementary OS, ou eOS pour les intimes, est une distribution Linux basée sur [b]Ubuntu LTS[/b]. Le système d’exploitation utilise son propre environnement de bureau basé sur Gnome (GTK3) nommé Pantheon.
-Cette distribution a initialement commencé en étant un ensemble de thèmes et d’applications conçus pour Ubuntu mais qui mettait en avant une homogénéisation et une harmonie dans la présentation de la distribution. Le but étant simple: combler les manques de Linux.
+Cette distribution a initialement commencé en étant un ensemble de thèmes et d’applications conçus pour Ubuntu mais qui mettait en avant une homogénéisation et une harmonie dans la présentation de la distribution. Le but étant simple : combler les manques de Linux.
 [*]améliorer [b]l’esthétique globale[/b] en imposant une cohérence entre les logiciels
 [*]limiter le besoin de l’utilisateur à accéder à la console et la ligne de commande
 [*]améliorer la facilité d’utilisation et simplification à se servir de Linux
