@@ -1,6 +1,6 @@
 [img]https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Linux_Mint_logo_submission.svg/500px-Linux_Mint_logo_submission.svg.png[/img]
 
-Topic initialement créé par [b][#FF0000]Tenaka[/#FF0000][/b], actuellement maintenu par[b] FrenchieiSverige[/b].
+Topic initialement créé par [b][#FF0000]Tenaka[/#FF0000][/b], actuellement maintenu par [b]FrenchieiSverige[/b].
 
 
 [#78C02F][b][u]PRÉSENTATION[/u][/b][/#78C02F]
@@ -8,37 +8,36 @@ Topic initialement créé par [b][#FF0000]Tenaka[/#FF0000][/b], actuellement mai
 [quote]En bref : Une distribution user friendly basée sur Ubuntu ou alors Debian disposant de surcouches afin d'améliorer l'expérience utilisateur.  
 Plus de stabilité avec des applications adaptées et performantes [/quote]
 
-Comme Tenaka ( R.I.P [:silvershaded] ) nous l'a si bien décrit, [b]Linux Mint[/b] est une distribution GNU/Linux gratuite visant le grand public. Basé sur Ubuntu ou Debian (Cf. [#78C02F]Les différentes éditions[/#78C02F]), cette distribution a su se faire une place de choix parmis les distributions Linux, à un tel point que l'élève a depassé le maître - Ubuntu en [:sigmund frog] - Elle est la distribution la plus recherchée depuis 2011 sur [url=https://distrowatch.com/]Distrowatch[/url].
+Comme Tenaka ( R.I.P [:silvershaded] ) nous l'a si bien décrit, [b]Linux Mint[/b] est une distribution GNU/Linux gratuite visant le grand public. Basé sur Ubuntu ou Debian (Cf. [#78C02F]LES DIFFÉRENTES ÉDITIONS[/#78C02F]), cette distribution a su se faire une place de choix parmi les distributions Linux, à un tel point que l'élève a dépassé le maître - Ubuntu en [:sigmund frog] - Elle est la distribution la plus recherchée depuis 2011 sur [url=https://distrowatch.com/]Distrowatch[/url].
 
-Son succès se base surtout sur sa devise [i]"From freedom came elegance"[/i] mais aussi par des choix techniques en incluant notemment des logiciels propriétaires pour que l'utilisateur est un système clef en main, au grand dam de la [url=https://www.fsf.org/?set_language=fr]Free Software Foundation[/url]. Une autre explication plus trollesque serait les frustrés de Windows 10 :whistle: 
+Son succès se base surtout sur sa devise [i]"From freedom came elegance"[/i] mais aussi par des choix techniques en incluant notamment des logiciels propriétaires pour que l'utilisateur est un système clef en main, au grand dam de la [url=https://www.fsf.org/?set_language=fr]Free Software Foundation[/url]. Une autre explication plus trollesque serait les frustrés de Windows 10 et 11 maintenant :whistle: 
 
 
 [#78C02F][b][u]LES DIFFÉRENTES ÉDITIONS[/u][/b][/#78C02F]
 
-Comme énnoncé précedemment, Linux Mint est basé soit sur Ubuntu soit sur Debian (même si en soit Ubuntu est un dérivé de Debian :o) 
+Comme énoncé précédemment, Linux Mint est basé soit sur Ubuntu soit sur Debian (même si en soit Ubuntu est un dérivé de Debian :o) 
 
 Commençons donc par les editions basées sur Ubuntu :
 [*]Cinnamon
 [*]MATE
 [*]XFCE
-Ces [strike]quatre[/strike] trois éditions (RIP KDE) sont toutes les mêmes, sauf le Desktop Environment (DE) ou bureau en bon vieux Français. A vous de prendre celui qui vous convient le mieux. Si vous venez du monde Windows, je vous conseille de prendre la version Cinnamon pour ne pas être trop perdu :jap:
+Ces [strike]quatre[/strike] trois éditions (RIP KDE) sont toutes les mêmes, sauf le Desktop Environment (DE) ou bureau en bon vieux Français. À vous de prendre celui qui vous convient le mieux. Si vous venez du monde Windows, je vous conseille de prendre la version Cinnamon pour ne pas être trop perdu :jap:
 
 Enfin, la version basé sur Debian, réservé aux utilisateurs plus expérimentés :
 [*]LMDE 4 Cinnamon
 
+[#78C02F][b][u]POURQUOI CHOISIR LINUX MINT VS UBUNTU LTS?[/u][/b][/#78C02F]
 
-[#78C02F][b][u]POURQUOI CHOISIR LINUX MINT VS UBUNTU LTS ?[/u][/b][/#78C02F]
-
-[*]Environnement de bureau Cinnamon conviviale : Voir section [#78C02F]SCREENSHOTS[/#78C02F]
+[*]Environnement de bureau Cinnamon convivial : Voir section [#78C02F]CAPTURE D'ÉCRAN[/#78C02F]
 [*]Gestion des mises à jours plus souple : [url=https://www.youtube.com/watch?v=whxK7rLdbuo]vidéo[/url] 
 [*]Gestion des noyaux sous Mint facilité : [url=https://youtu.be/_BvDi-ENzDA?t=395]vidéo[/url] 
 
-[:icon4] WIP, donnez votre avis! [:icon4]
+[:icon4] WIP, donnez votre avis ! [:icon4]
 
 
 [#78C02F][b][u]CONFIGURATION MINIMALE[/u][/b][/#78C02F]
 
-Même si Mint est beaucoup plus léger que Windows, cette distribution demande quand même un minumum pour fonctionner:
+Même si Mint est beaucoup plus léger que Windows, cette distribution demande quand même un minimum pour fonctionner :
 [*] Ubuntu :
 [quote]CPU : 32 ou 64 bits
 RAM : 1Go (2GB recommandé pour une utilisation confortable).
@@ -59,36 +58,55 @@ Toutes les versions (Ubuntu & Debian) peuvent être téléchargées à partir de
 
 Prenez la version 64-bits, à moins que votre PC soit encore équipé d'un Pentium 4 [:blitzien] :o
 
-N'oubliez pas aussi de vérifier l'intégrité de votre image que vous venez de télecharger pour éviter de mauvaises surprises durant l'installation. Une procédure en anglais est disponible [url=https://linuxmint.com/verify.php]ici[/url] ;)
+N'oubliez pas aussi de vérifier l'intégrité de votre image que vous venez de télécharger pour éviter de mauvaises surprises durant l'installation. Une procédure en anglais est disponible [url=https://linuxmint.com/verify.php]ici[/url] ;)
 NB : Si vous le pouvez, utilisez les torrents pour soulager les serveurs de téléchargement. Ne vous en faites pas, c'est du contenu légal, donc aucun risque de ce faire coincer par HADOPI [:herr muller:4] 
 
 
 [#78C02F][b][u]CAPTURE D'ÉCRAN[/u][/b][/#78C02F]
 
-[url=https://www.pixenli.com/image/eOTNOVO_][img]https://www.pixenli.com/miniature/eOTNOVO_[/img][/url]
- [i]Figure 1 : Linux Mint 20.1 Ulyssa XFCE Edition[/i]
+[url=https://www.pixenli.com/image/1uxIabum][img]https://www.pixenli.com/miniature/1uxIabum[/img][/url]
+ [i]Figure 1 : Linux Mint 20.3 Una XFCE Edition[/i]
 
 
 [#78C02F][b][u]INSTALLATION[/u][/b][/#78C02F]
 
 L'installation se passe en deux étapes : Premièrement la création de la clef USB bootable (ou alors la gravure de l'ISO sur un DVD si votre carte mère ne supporte pas le boot sur clef USB :O) et dans un second temps l'installation de cet OS sur votre ordinateur.
 
-Pour la première étape, je vous conseille l'excellent [url=https://rufus.akeo.ie/?locale=fr]Rufus[/url] si vous êtes sous Windows. Des milliers de tutoriels sont disponibles sur la toile, je ne vais pas m'attarder la dessus. Mais bon comme je suis un mec sympa, je vous donne quand même un [url=http://lmgtfy.com/?q=clef+usb+rofus]lien[/url] :D
+Pour la première étape, je vous conseille l'excellent [url=https://rufus.akeo.ie/?locale=fr]Rufus[/url] si vous êtes sous Windows. Des milliers de tutoriels sont disponibles sur la toile, je ne vais pas m'attarder là dessus. Mais bon comme je suis un mec sympa, je vous donne quand même un [url=http://lmgtfy.com/?q=clef+usb+rofus]lien[/url] :D
 Pour les plus barbus d'entre nous, un [i]dd[/i] fera l'affaire :
 [fixed]sudo dd if=/chemin/vers/image/LinuxMint.iso of=/dev/sdX bs=4096 status=progress[/fixed]
 Ou X est la lettre correspondant à votre clé USB.
 
-Pour la seconde étape, il faut se laisser guider. En cas de difficulté, je vous conseille de lire le guide d'utilisateur, qui détaille pas à pas la procédure d'installation :jap: (situé dans la partie[#78C02F] ressources annexes[/#78C02F])
+Pour la seconde étape, il faut se laisser guider. En cas de difficulté, je vous conseille de lire le guide d'utilisateur, qui détaille pas à pas la procédure d'installation :jap: (situé dans la partie [#78C02F]RESSOURCES ANNEXES[/#78C02F])
 
 
 [#78C02F][b][u]POST-INSTALLATION[/u][/b][/#78C02F]
 
 Après l'installation, je vous conseille de prendre ses pilotes pour votre carte graphique :
-[*]NVIDIA : pilotes proprétaires.
+[*]NVIDIA : pilotes propriétaires.
 [*]AMD/ATI : pilotes libres.
 [*]Intel : pilotes libres. 
 
 Notez que les cartes AMD/ATI sont recommandées car mieux supportées sous Linux que leurs rivales Nvidia. Ce dernier ne mettant pas du sien pour nous sortir (ou laisser sortir) des pilotes compatible Linux.
+
+
+[#78C02F][b][u]MISE À JOUR[/u][/b][/#78C02F]
+
+Il y a plusieurs façon de mettre son système à jour vers Una 20.3 (en supposant que vous êtes déjà sur une version 20.x) :
+[*] en utilisant l'interface graphique en suivant ce tutoriel : https://blog.linuxmint.com/?p=4216 (recommandé)
+[*] en tapant ces lignes de commande dans un terminal :
+[fixed]sudo apt update
+sudo apt upgrade
+mint-release-upgrade
+[/fixed]
+Un merci à [i]@li1ju[/i] pour ce mini-tutoriel. Attention, il ne sauvegarde pas vos données contrairement au tutoriel en passant par l'interface graphique.
+
+
+[#78C02F][b][u]MISE À NIVEAU VERS LM 20.x[/u][/b][/#78C02F]
+
+Si vous êtes encore sous Linux Mint 19.x, il est encore temps pour vous de migrer vers la dernière monture de Linux Mint en procédant à une mise à niveau (à ne pas confondre avec mise à jour). Vous pouvez le faire en suivant ce tutoriel : https://linuxmint-user-guide.readthedocs.io/en/latest/upgrade-to-mint-20.html
+[:icon4] Je ne le répéterai jamais assez, prenez le temps de faire des sauvegardes de vos documents sensibles avant de vous lancer dans une telle mise à niveau. On est jamais à l'abris d'un plantage ou bogue [:icon4]
+
 
 [#78C02F][b][u]F.A.Q[/u][/b][/#78C02F]
 
@@ -97,9 +115,11 @@ Notez que les cartes AMD/ATI sont recommandées car mieux supportées sous Linux
 
 [#78C02F][b][u]CHANGELOGS[/u][/b][/#78C02F]
 
---> [url=https://www.linuxmint.com/rel_ulyssa_mate_whatsnew.php]Release Notes pour Linux Mint 20.1 Ulyssa Cinnamon[/url]
---> [url=https://www.linuxmint.com/rel_ulyssa_mate_whatsnew.php]Release Notes pour Linux Mint 20.1 Ulyssa MATE[/url]
---> [url=https://www.linuxmint.com/rel_ulyssa_xfce_whatsnew.php]Release Notes pour Linux Mint 20.1 Ulyssa Xfce[/url]
+--> [url=https://www.linuxmint.com/rel_una_cinnamon_whatsnew.php]Release Notes pour Linux Mint 20.3 Una Cinnamon[/url]
+--> [url=https://www.linuxmint.com/rel_una_mate_whatsnew.php]Release Notes pour Linux Mint 20.3 Una MATE[/url]
+--> [url=https://www.linuxmint.com/rel_una_xfce_whatsnew.php]Release Notes pour Linux Mint 20.3 Una Xfce[/url]
+
+--> [url=https://linuxmint.com/rel_debbie.php]Release Notes pour LMDE 4 Debbie[/url]
 
 
 [#78C02F][b][u]SITES OFFICIELS[/u][/b][/#78C02F]
@@ -118,9 +138,11 @@ Notez que les cartes AMD/ATI sont recommandées car mieux supportées sous Linux
 --> [url=http://www.linuxquestions.org/questions/linux-distributions-5/]linuxquestions.org[/url] : Site plus généraliste de Linux.
 
 
-[#78C02F][b][u]HISTORIQUES DES VERSIONS[/u][/b][/#78C02F]
+[#78C02F][b][u]HISTORIQUE DES VERSIONS[/u][/b][/#78C02F]
 
-[#78C02F][b] 08/01/2021 : Ulyssa 20.1 LTS basée sur Ubuntu 20.04.1, maintenue jusqu'en 2025[/b][/#78C02F]
+[#78C02F][b] 07/01/2022 : Una 20.3 LTS basée sur Ubuntu 20.04.3, maintenue jusqu'en 2025[/b][/#78C02F]
+[#008000] 08/07/2021 : Uma 20.2 LTS basée sur Ubuntu 20.04.2, maintenue jusqu'en 2025 [/#008000] 
+[#008000] 08/01/2021 : Ulyssa 20.1 LTS basée sur Ubuntu 20.04.1, maintenue jusqu'en 2025 [/#008000] 
 [#008000] 27/06/2020 : Ulyana 20 LTS basée sur Ubuntu 20.04, maintenue jusqu'en 04/2025 [/#008000] 
 [#78C02F][b] 20/03/2020 : Debbie LMDE 4.0 basée sur Debian 10[/b][/#78C02F]
 [#008000] 02/08/2019 : Tricia 19.3 LTS basée sur Ubuntu 18.04.3, maintenue jusqu'en 04/2023 [/#008000] 
