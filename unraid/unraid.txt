@@ -1,0 +1,183 @@
+[url=https://www.pixenli.com/image/f8W2SrCE][img]https://www.pixenli.com/miniature/f8W2SrCE[/img][/url]
+
+Topic initialement crée par [b][#FF0E00]orb9[/#FF0E00][/b], actuellement maintenu par [b]FrenchieiSverige[/b]. Retrouvez son post original [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=76680&page=16&p=1&sondage=0&owntopic=1&trash=&trash_post=&print=0&numreponse=0&quote_only=0&new=0&nojs=0#t1472906]ici[/url].
+
+
+[#FF3800][b]PRÉSENTATION[/b][/#FF3800]
+
+unRAID est un système d'exploitation propriétaire orienté NAS développé par la société Lime Technology, Inc. Comme son nom l'indique, il ne se repose pas sur les traditionnelles technologies de redondance RAID, mais plutôt sur[b] un savant mélange entre disques de données et disques de parités[/b], le tout pouvant être boosté avec un disque de cache.
+Allant du simple serveur de fichiers jusqu'à la virtualisation de plusieurs SEs, en passant par un serveur d'applications, unRAID, basé sur [url=https://forum.hardware.fr/hfr/OSAlternatifs/Installation/slackware-current-presque-sujet_25831_1.htm]Linux Slackware[/url], sera satisfaire vos envies les plus folles !
+Vous l'avez bien compris, unRAID est un véritable couteau suisse que nous allons découvrir ensemble sur ce TU.
+
+
+[#FF3800][b]POURQUOI CHOISIR unRAID ?[/b][/#FF3800]
+
+Je vais vous donner un seul argument qui ferra mouche : la [b]possibilité de choisir son matériel informatique[/b] à sa convenance tout en ayant la [b]simplicité d'utilisation[/b] d'un Synology ou QNAP. 
+
+En effet, unRAID se trouve entre Synology / QNAP où la personnalisation matérielle n'est pas possible et un OMV, beaucoup plus difficile à administer.
+
+
+[#FF3800][b]LES DIFFÉRENTES TARIFICATIONS[/b][/#FF3800]
+
+Cependant, le côté « plug-and-play » d'unRAID se paye. Le coût de la licence varie en fonction du nombre de disques branchés dans la grappe : 
+[*]Basic : 59 $ → jusqu'à 6 disques¹
+[*]Plus  : 89 $ → jusqu'à 12 disques
+[*]Plus  : 129 $ → aucune limite de disques²
+
+¹ la clef d'amorçage du système ne compte pas
+² dans une limite de 30 pools, chacun composé de 35 disques
+
+Pour tester unRAID avant d'acheter définitivement une licence, une version complète d'essai de 30 jours est disponible, renouvelable 2 fois 15 jours.
+
+Enfin, unRAID autorise le changement du modèle de licence à postériori (vous n'êtes pas bloqué une fois un modèle choisi). 
+
+
+[#FF3800][b]CONFIGURATIONS MINIMALES[/b][/#FF3800]
+
+unRAID suggère 3 configurations minimales, en fonction de ce que vous voulez mettre en place.
+[#FF3800]Serveur de Stockage de données :[/#FF3800]
+[quote]
+CPU : Mono-Core @1.0 GHz ou meilleur (64-bits)
+RAM : Au moins 4 Go
+Disques : Au minimum deux disques pour assurer la protection des données avec un disque de parité
+Clef USB : Entre 2 Go et 32 Go max (pour le SE)
+Autres : Ethernet et contrôleurs USB / SATA supportés par Linux
+[/quote]
+[#FF3800]Serveur d'Applications :[/#FF3800]
+[quote]
+CPU : quad-core @2.4 GHz ou meilleur (64-bits)
+RAM : Entre 4 à 8 Go 
+Disques : Au minimum deux disques pour assurer la protection des données avec un disque de parité
+Clef USB : Entre 2 Go et 32 Go max (pour le SE)
+Autres : Ethernet et contrôleurs USB / SATA supportés par Linux
+[/quote]
+[#FF3800]Serveur de Machines Virtuelles :[/#FF3800]
+[quote]
+CPU : Un processeur supportant Intel VT-x, Intel VT-d / AMD-V, AMD-Vi
+Carte Mère : Un CM supportant IOMMU 
+Disques : Au minimum deux disques pour assurer la protection des données avec un disque de parité
+Clef USB : Entre 2 Go et 32 Go max (pour le SE)
+Autres : Ethernet et contrôleurs USB / SATA supportés par Linux
+[/quote]
+À noter qu'unRAID ne donne pas de préconisations sur le volume de RAM : cela depend... Dans tous les cas, gardez toujours au moins 4 Go pour le système.
+
+Plus d'informations à retrouver sur la page officielle : https://unraid.net/fr. À noter que les configurations minimales diffèrent entre le Français et l'Anglais. J'ai donc logiquement priorisé les informations du site anglais :jap:
+
+
+[#FF3800][b]TÉLÉCHARGEMENTS[/b][/#FF3800]
+
+Rien de plus facile pour se procurer unRAID : 
+[*]« USB Creator » : Petit utilitaire ([url=https://github.com/limetech/usb-creator]opensource ![/url]) fournit par Lime qui vous guidera pas à pas pour créer votre media directement amorçable. Disponible sous Windows et Mac (méthode recommandée) 
+[*]Manuellement : Vous pouvez récupérer les images ISO [url=https://unraid.net/fr/t%C3%A9l%C3%A9charger]ici[/url], puis ensuite créer manuellement la clef USB.
+
+Pour créer manuellement une clef USB bootable (si vous êtes sous Linux par exemple), suivez ce [url=https://wiki.unraid.net/M%C3%A9thode_Manuelle_-_Fran%C3%A7ais]tutoriel[/url]. 
+
+
+[#FF3800][b]CAPTURE D'ÉCRAN[/b][/#FF3800]
+
+[url=https://www.pixenli.com/image/7-a7qbVg][img]https://www.pixenli.com/miniature/7-a7qbVg[/img][/url]
+  Figure 1 : Dashboard d'unRAID 6.9
+
+
+[#FF3800][b]INSTALLATION[/b][/#FF3800]
+
+Si vous avez bien suivi la l'assistant pour créer votre clef USB, vous avez déjà fini l'installation ! En effet, unRAID [b]se charge en RAM à chaque démarrage[/b] de la machine et n'a pas besoin d'avoir une installation sur un disque dur dédié comme Windows par exemple.
+Il ne vous reste plus qu'à brancher cette clef USB sur votre serveur et faire en sorte que votre BIOS soit réglé pour démarrer sur cette dernière.
+
+Ensuite vient le temps de se connecter à la GUI en ouvrant votre navigateur préféré et en entrant http://tower.local dans la barre d'adresse pour :
+[*]configurer le mot de passe root
+[*]rentrer votre clef de licence
+À noter que si vous avez rentrer un autre hostname lors de la création de la clef USB, veuillez l'utiliser à la place de tower dans l'URL pour vous connecter à votre serveur.
+
+Si vous avez des soucis de connexion, référez vous à la [url=https://wiki.unraid.net/Articles/Getting_Started#Initial_Setup]documentation[/url].
+
+
+[#FF3800][b]CREATION ET CONFIGURATION DE LA / LES GRAPPE(S)[/b][/#FF3800]
+
+Comme vous l'avez déjà lu, unRAID ne se base pas sur les technologies traditionnelles RAID. Lime a développé sa propre technologie se rapprochant du RAID 4 avec son disque de parité indépendant. Cependant, et contrairement au RAID 4, les disques de données sont eux aussi [b]indépendants[/b]. 
+Une conséquence qui en découle est que vous pouvez perdre uniquement les données du disque tombé en panne si aucun disque de parité n'est plus disponible.
+
+unRAID a aussi l'avantage de pouvoir créer [b]une grappe de plusieurs disques de différentes tailles[/b] et tout cela est transparent pour l'utilisateur car il ne verra qu'une partition formaté en XFS par défaut.
+
+La résilience d'unRAID se traduit par un ou des disques de parité. Plus vous assignez de disques à la parité, plus vous vous autorisez une tolérance de matériel grande : [b]1 disque de parité = 1 disque qui peut claquer[/b]. Et vous données seront toujours intact. Par contre, il est très important d'assigner les plus gros disques à la parité de votre grappe.
+
+Malheureusement, de part sa conception, unRAID peut souffrir de performances d'écrire faibles comparé à un RAID 5 traditionnel. En effet, l'écriture se limite aux capacités du disque sur lequel unRAID est entrain d'écrire. Heureusement, il est possible d'ajouter un [b]cache[/b] : les données seront d'abord copié la-dessus, puis ensuite, quand l'activité du serveur est faible (généralement la nuit). unRAID viendra alors copier les données sur la grappe. Un SSD s'y prête bien pour ce genre d'utilisation. Par contre, je recommande vivement un « [b]cache pool[/b] » et non un seul disque cache, car en cas de défaillance du SSD, vous perdez vos données copiées sur le cache. Par défaut, unRAID utilise le BTRFS RAID 1. 
+
+Enfin, je conseille de choisir [b]la stratégie d'écriture « most free »[/b] sur la grappe, pour lisser l'usure en la répartissant équitablement sur chaque disque.
+
+Si vous rencontrez quelques pépins pour la création de la grappe, veuillez vous rendre [url=https://wiki.unraid.net/Articles/Getting_Started#Starting_the_Array_and_Formatting_Your_Devices]ici[/url] et [url=https://wiki.unraid.net/Cache_disk]ici[/url] pour le cache.
+
+
+[#FF3800][b]CATALOGUE D'APPLICATIONS[/b][/#FF3800]
+
+unRAID propose un [url=https://unraid.net/community/apps][b]catalogue d'applications[/b][/url] communautaire. C'est à dire que ce sont des bénévoles qui s'occupent de la maintenance pour vous proposer au mieux les dernière versions des applications.
+Attention cependant, certains jettent l'éponge par manque de temps. Veuillez faire donc attention si l'application est toujours [b]maintenue[/b].
+
+PS : Vous aurez besoin dans 3/4 du temps de Docker.
+
+
+[#FF3800][b]F.A.Q[/b][/#FF3800]
+
+[b]Combien de disques de données unRAID supporte avec la redondance ?[/b] Jusqu'à 28 disques de données pour 2 disques de parité.
+[b]Puis-je gérer plusieurs serveurs unRAID dans une même interface ?[/b] Oui, depuis la v6.9. Mais veuillez bien sécuriser votre compte avec la double authentification [url=https://www.microsoft.com/fr-fr/security/mobile-authenticator-app]Microsoft Authenticator[/url] ou [url=https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=fr&gl=US]Google Authenticator[/url].
+
+[:icon4] WIP [:icon4]
+
+Une liste complémentaire (en anglais) de FAQ est à retrouver sur le [url=https://forums.unraid.net/topic/46802-faq-for-unraid-v6/]forum[/url]. 
+
+
+[#FF3800][b]CHANGELOGS[/b][/#FF3800]
+
+unRAID OS 6.9.2 :
+[quote]
+[*]Failed Login Restrictions
+[*]Driver Updates
+[*]Linux kernel Updates
+[*]Bugs fixes
+[/quote]
+Plus d'infos : https://wiki.unraid.net/Manual/Release_Notes/Unraid_OS_6.9.2
+
+Pour rappel, les changements principaux ont eu lieu dans la version 6.9 : https://wiki.unraid.net/Manual/Release_Notes/Unraid_OS_6.9.0
+
+
+[#FF3800][b]SITES OFFICIELS[/b][/#FF3800]
+
+--> [url=https://wiki.unraid.net/Documentation]wiki.unraid.net[/url]
+--> [url=https://forums.unraid.net/discord/invite/general/]discord.unraid.net[/url]
+--> [url=https://forums.unraid.net/forum/79-french-fran%C3%A7ais/]forum.unraid.net/fr[/url]
+--> [url=https://forums.unraid.net]forum.unraid.net[/url]
+
+
+[#FF3800][b]RESSOURCES ANNEXES[/b][/#FF3800]
+
+--> [url=https://www.youtube.com/watch?v=e4V-dXGuP5w]Tuto UNRAID #21 : Quoi de neuf sur UNRAID en 2021? (version stable 6.9)[/url] : vidéo YT annonçant la version 6.9 d'unRAID
+--> [url=https://www.presse-citron.net/tutoriel-comment-creer-un-nas-maison-avec-des-composants-pc-et-unraid-partie-2/]Tutoriel : comment créer un NAS maison avec des composants PC et unRAID (partie 2)[/url] : Guide de A à Z pour monter et installer son serveur unRAID
+--> [url=https://www.youtube.com/watch?v=FAy9N1vX76o]320 TERABYTES in a normal case!! - The DIY 4k editing NAS[/url] : Vidéo YT d'LTT, grand fan et promotteur d'unRAID
+--> [url=https://forum.hardware.fr/hfr/OSAlternatifs/Installation/slackware-current-presque-sujet_25831_1.htm][SLACKWARE] du futur / 14.2 out, -current RC3-presque-15.0[/url] : Topic Unique HFR pour Linux Slackware
+
+
+[#FF3800][b]HISTORIQUE DES VERSIONS[/b][/#FF3800]
+
+Voici une liste non exhaustive des différentes versions d'unRAID. La liste complète des versions est à retrouver [url=https://forums.unraid.net/forum/7-announcements/?sortby=start_date&sortdirection=desc]ici[/url].
+
+02/03/2021 : unRAID 6.9
+10/12/2019 : unRAID 6.8
+11/05/2019 : unRAID 6.7
+19/09/2018 : unRAID 6.6
+14/03/2018 : unRAID 6.5
+12/01/2018 : unRAID 6.4
+04/02/2017 : unRAID 6.3
+01/10/2016 : unRAID 6.2
+06/09/2015 : unRAID 6.1
+16/06/2015 : unRAID 6.0
+28/08/2013 : unRAID 5.0
+25/11/2011 : unRAID 4.7
+07/12/2010 : unRAID 4.6
+09/12/2009 : unRAID 4.5
+07/01/2009 : unRAID 4.4
+12/06/2008 : unRAID 4.3
+05/10/2007 : unRAID 4.2
+14/06/2007 : unRAID 4.1
+14/05/2007 : unRAID 4.0
+14/10/2006 : unRAID 3.0
+21/03/2006 : unRAID 2.060315
