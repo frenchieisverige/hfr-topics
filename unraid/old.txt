@@ -1,0 +1,36 @@
+[url=http://www.lime-technology.com/]unRAID[/url] est un système de NAS basé sur Linux Slackware qui s'installe sur une clé USB de 128 MO minimum. Pas d’affolement l'interaction se fait par une interface web très simple.
+
+Le système n'est pas basé sur un standard type RAID 1 ou RAID 5, il se rapproche du RAID 4 par son disque de parité indépendant, mais avec unRAID les disques de données sont eux aussi indépendants.
+
+Comme le RAID 5, unRAID protège les données en cas de panne d'un seul disque, Mais le premier avantage d'unRAID, c'est qu'en cas de multiples pannes, seules les données des disques concernés sont perdues (et une récupération éventuelle est facilitée).
+Un deuxième avantage, c'est que les disques n'ont pas à être de tailles identiques. La seule restriction se trouve sur le disque de parité qui doit être au moins égale au plus gros disque de données.
+
+Ma configuration personnelle a par exemple un 120GO ATA de parité, et deux 80GO SATA de données (donc 160GO). C'est l'idéal pour ceux qui ont des tas de disques de tailles différentes qui traînent.
+
+Le système est très proche en pratique du X-RAID des [url=http://www.infrant.com/products/products_details.php?name=ReadyNAS%20NVPlus]ReadyNAS d'Infrant[/url] (récemment racheté par NETGEAR)
+
+Les disques de données sont formatés avec une seule partition reiserFS.
+
+
+Le prix :
+Licence 3 disques   gratuit
+Licence 6 disques   $69 ($99 pour 2)
+Licence 14 disques  $119 ($149 pour 2)
+Des systèmes sont aussi en vente mais ils sont plutôt destinés au marché US.
+
+
+L'installation :
+Au plus simple depuis Windows.
+ 
+_brancher la clé USB sous Windows (mini 128MO) 
+_la formatter en FAT32 et lui donner le nom UNRAID 
+_télécharger l'utilitaire syslinux 
+_à la ligne de commande taper syslinux.exe x: (avec x la lettre de la clé USB) 
+_télécharger unRAID 
+_décompresser le tout sur la clé USB 
+ 
+Par défault le système utilisera DHCP.
+Au besoin un fichier nommé network.cfg se trouve dans le répertoire config sur la clé, il permet de désigner une IP manuellement en éditant simplement le fichier avec Notepad.
+ 
+Brancher la clé USB sur votre nouveau système NAS en prenant soin de régler le boot sur USB, brancher vos disques (ATTENTION ILS SERONT FORMATÉS), et voilà.
+Une fois démarrer la machine est accessible via un navigateur web pour l'attribution des disques (1 parité, le reste données), et les différents réglages.
