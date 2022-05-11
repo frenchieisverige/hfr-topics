@@ -24,13 +24,14 @@ Commençons donc par les editions basées sur Ubuntu :
 Ces [strike]quatre[/strike] trois éditions (RIP KDE) sont toutes les mêmes, sauf le Desktop Environment (DE) ou bureau en bon vieux Français. À vous de prendre celui qui vous convient le mieux. Si vous venez du monde Windows, je vous conseille de prendre la version Cinnamon pour ne pas être trop perdu :jap:
 
 Enfin, la version basé sur Debian, réservé aux utilisateurs plus expérimentés :
-[*]LMDE 4 Cinnamon
+[*]LMDE 5 Cinnamon
 
 [#78C02F][b][u]POURQUOI CHOISIR LINUX MINT VS UBUNTU LTS?[/u][/b][/#78C02F]
 
 [*]Environnement de bureau Cinnamon convivial : Voir section [#78C02F]CAPTURE D'ÉCRAN[/#78C02F]
 [*]Gestion des mises à jours plus souple : [url=https://www.youtube.com/watch?v=whxK7rLdbuo]vidéo[/url] 
 [*]Gestion des noyaux sous Mint facilité : [url=https://youtu.be/_BvDi-ENzDA?t=395]vidéo[/url] 
+[*]Pas de Snaps ! : [url=https://www.youtube.com/watch?v=4MIVJ_XLTXU]vidéo[/url] 
 
 [:icon4] WIP, donnez votre avis ! [:icon4]
 
@@ -39,15 +40,15 @@ Enfin, la version basé sur Debian, réservé aux utilisateurs plus expériment�
 
 Même si Mint est beaucoup plus léger que Windows, cette distribution demande quand même un minimum pour fonctionner :
 [*] Ubuntu :
-[quote]CPU : 32 ou 64 bits
-RAM : 1Go (2GB recommandé pour une utilisation confortable).
-Disque Dur : 15Go d'espace disque disponible (20Go recommandé).
+[quote]CPU : 64 bits
+RAM : 2 Go (4 Go recommandé pour une utilisation confortable).
+Disque Dur : 20 Go d'espace disque disponible (100 Go recommandé).
 Carte Graphique : Une pouvant supporter une résolution d'au moins 1024×768.
 1 port USB ou lecteur DVD pour l'installation[/quote]
 [*] Debian :
 [quote]CPU : 32 ou 64 bits
-RAM : 1Go (2GB recommandé pour une utilisation confortable).
-Disque Dur : 15Go d'espace disque disponible (20Go recommandé).
+RAM : 2 Go (4 Go recommandé pour une utilisation confortable).
+Disque Dur : 20 Go d'espace disque disponible (100 Go recommandé).
 Carte Graphique : Une pouvant supporter une résolution d'au moins 1024×768. 
 1 port USB ou lecteur DVD pour l'installation[/quote]
 
@@ -56,7 +57,8 @@ Carte Graphique : Une pouvant supporter une résolution d'au moins 1024×768.
 
 Toutes les versions (Ubuntu & Debian) peuvent être téléchargées à partir de ce lien : [url]https://linuxmint.com/download_all.php[/url]. 
 
-Prenez la version 64-bits, à moins que votre PC soit encore équipé d'un Pentium 4 [:blitzien] :o
+Linux Mint ne vous laisse plus le choix, votre processeur doit prendre en charge le 64-bits, ce qui doit être le cas si votre PC a moins de 15 ans [:panzemeyer] 
+Mais si votre PC est encore équipé d'un Pentium 4 [:blitzien] :o, LMDE 5 vient à la rescousse en vous offrant encore un support 32-bits.
 
 N'oubliez pas aussi de vérifier l'intégrité de votre image que vous venez de télécharger pour éviter de mauvaises surprises durant l'installation. Une procédure en anglais est disponible [url=https://linuxmint.com/verify.php]ici[/url] ;)
 NB : Si vous le pouvez, utilisez les torrents pour soulager les serveurs de téléchargement. Ne vous en faites pas, c'est du contenu légal, donc aucun risque de ce faire coincer par HADOPI [:herr muller:4] 
@@ -64,8 +66,9 @@ NB : Si vous le pouvez, utilisez les torrents pour soulager les serveurs de tél
 
 [#78C02F][b][u]CAPTURE D'ÉCRAN[/u][/b][/#78C02F]
 
-[url=https://www.pixenli.com/image/1uxIabum][img]https://www.pixenli.com/miniature/1uxIabum[/img][/url]
- [i]Figure 1 : Linux Mint 20.3 Una XFCE Edition[/i]
+
+[url=https://www.pixenli.com/image/MODaAP8C][img]https://www.pixenli.com/miniature/MODaAP8C[/img][/url]
+ [i]Figure 1 : LMDE 5 Elsie Cinnamon Edition[/i]
 
 
 [#78C02F][b][u]INSTALLATION[/u][/b][/#78C02F]
@@ -119,7 +122,7 @@ Si vous êtes encore sous Linux Mint 19.x, il est encore temps pour vous de migr
 --> [url=https://www.linuxmint.com/rel_una_mate_whatsnew.php]Release Notes pour Linux Mint 20.3 Una MATE[/url]
 --> [url=https://www.linuxmint.com/rel_una_xfce_whatsnew.php]Release Notes pour Linux Mint 20.3 Una Xfce[/url]
 
---> [url=https://linuxmint.com/rel_debbie.php]Release Notes pour LMDE 4 Debbie[/url]
+--> [url=https://linuxmint.com/rel_elsie.php]Release Notes pour LMDE 5 Elsie[/url]
 
 
 [#78C02F][b][u]SITES OFFICIELS[/u][/b][/#78C02F]
@@ -140,16 +143,17 @@ Si vous êtes encore sous Linux Mint 19.x, il est encore temps pour vous de migr
 
 [#78C02F][b][u]HISTORIQUE DES VERSIONS[/u][/b][/#78C02F]
 
+[#78C02F][b] 20/03/2022 : Elsie LMDE 5.0 basée sur Debian 11[/b][/#78C02F]
 [#78C02F][b] 07/01/2022 : Una 20.3 LTS basée sur Ubuntu 20.04.3, maintenue jusqu'en 2025[/b][/#78C02F]
 [#008000] 08/07/2021 : Uma 20.2 LTS basée sur Ubuntu 20.04.2, maintenue jusqu'en 2025 [/#008000] 
 [#008000] 08/01/2021 : Ulyssa 20.1 LTS basée sur Ubuntu 20.04.1, maintenue jusqu'en 2025 [/#008000] 
 [#008000] 27/06/2020 : Ulyana 20 LTS basée sur Ubuntu 20.04, maintenue jusqu'en 04/2025 [/#008000] 
-[#78C02F][b] 20/03/2020 : Debbie LMDE 4.0 basée sur Debian 10[/b][/#78C02F]
-[#008000] 02/08/2019 : Tricia 19.3 LTS basée sur Ubuntu 18.04.3, maintenue jusqu'en 04/2023 [/#008000] 
-[#008000] 02/08/2019 : Tina 19.2 LTS basée sur Ubuntu 18.04.2, maintenue jusqu'en 04/2023 [/#008000] 
-[#008000] 31/08/2018 : Cindy LMDE 3.0 basée sur Debian 9, maintenue jusqu'en ~2022/2023[/#008000]
-[#008000] 29/06/2018 : Tessa 19.1 LTS basée sur Ubuntu 18.04.1, maintenue jusqu'en 04/2023 [/#008000]
-[#008000] 29/06/2018 : Tara 19 LTS basée sur Ubuntu 18.04, maintenue jusqu'en 04/2023 [/#008000]  
+[#008000] 20/03/2020 : Debbie LMDE 4.0 basée sur Debian 10, maintenue jusqu'en 04/2022 [/#008000]
+[#FF6300] 02/08/2019 : Tricia 19.3 LTS basée sur Ubuntu 18.04.3, maintenue jusqu'en 04/2023 [/#FF6300] 
+[#FF6300] 02/08/2019 : Tina 19.2 LTS basée sur Ubuntu 18.04.2, maintenue jusqu'en 04/2023 [/#FF6300]
+[#848484] 31/08/2018 : Cindy LMDE 3.0 basée sur Debian 9 [/#848484]
+[#FF6300] 29/06/2018 : Tessa 19.1 LTS basée sur Ubuntu 18.04.1, maintenue jusqu'en 04/2023 [/#FF6300]
+[#FF6300] 29/06/2018 : Tara 19 LTS basée sur Ubuntu 18.04, maintenue jusqu'en 04/2023 [/#FF6300]  
 [#848484] 24/11/2017 : Sylvia 18.3 LTS basée sur Ubuntu 16.04.3[/#848484]
 [#848484] 29/06/2017 : Sonya 18.2 LTS basée sur Ubuntu 16.04.2[/#848484] 
 [#848484] 16/12/2016 : Serena 18.1 LTS basée sur Ubuntu 16.04.1[/#848484]
