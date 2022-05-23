@@ -15,6 +15,10 @@ Toujours pas la réponse à vos questions ? [b][#FF0000]Prenez le temps de lire 
 
 Rappel des règles du forum :
 [quote][#0000ff][g]VIII[/g][/#0000ff]. [b]Les messages ou discussions autour des sites de ventes de clés Microsoft autre que les sites ou revendeurs officiels[/b] (Liste : https://www.microsoft.com/france/acheter/revendeurs.aspx ) [b]sont interdits et passibles de sanctions[/b]. Cela inclus aussi bien les sites spécialisés dans la vente de clés (marché gris), que les revendeurs des Marketplace de certains sites connus (marché gris, ou import illégal de clés). Retenez une règle simple : une licence Windows à 20/30 €, ça n'existe pas.[/quote]
+Un exemple bien concret (Extrait du [url=https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=407&post=354460&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0]topic Office[/url] mais c'est exactement la même chose) :
+[quotemsg=3420512,84,240980]J'ai commandé office chez Cdiscount pour 1,95€ . Je vous tiendrai au courant . livraison entre 10 et 12 mai . Je croyais que c'était un truc à télécharger ... on verra !
+[/quotemsg][quotemsg=3420535,88,240980]En fait je l'ai téléchargé mais j'ai pas réussi à l'activer. 
+Numéro de série trop souvent utilisé,  bref piège à  cons quoi . Heureusement que je m'en suis tenu à celui à 1,95€ . Je ressaierai. ..[/quotemsg]
 
 [b][#71008D]LE FOCUS DU TOPIC[/#71008D][/b]
 
@@ -47,11 +51,12 @@ Elle offre en plus un [b]support direct[/b] auprès de Microsoft : 2 ouvertures 
 Enfin, elle ne nécessite pas une version antérieure de Windows « qualifiante ».
 
 [#71008D]LICENCE OEM[/#71008D]
-La licence OEM, pour Original Equipment Manufacturer, est une licence vendue avec les PCs que vous trouvez en grandes surfaces (DELL, ASUS, ACER, etc...). Cette licence est une clef numérique et est [b]stockée dans une table du BIOS/UEFI de l'ordinateur[/b] (Microsoft Digital Marker). Pour cette raison, il est [b]impossible de transférer[/b] ce type de licence sur un autre PC car [b]liée à la carte mère[/b]. Par contre, cela ne vous empêche pas de faire évoluer les autres composants de votre machine : mémoire, disque dur, carte graphique... Mais attention, je le répète, pas la carte maman, car Microsoft la considère comme pièce de référence.
+La licence OEM, pour Original Equipment Manufacturer, est une licence vendue avec les PCs que vous trouvez en grandes surfaces (DELL, ASUS, ACER, etc...). Cette licence est une clef numérique (OEM:DM) et est [b]stockée dans une table du BIOS/UEFI de l'ordinateur[/b] (Microsoft Digital Marker). Pour cette raison, il est [b]impossible de transférer[/b] ce type de licence sur un autre PC car [b]liée à la carte mère[/b]. Par contre, cela ne vous empêche pas de faire évoluer les autres composants de votre machine : mémoire, disque dur, carte graphique... Mais attention, je le répète, pas la carte maman, car Microsoft la considère comme pièce de référence.
 [url=https://www.pixenli.com/image/6ynTn1S6][img]https://www.pixenli.com/miniature/6ynTn1S6[/img][/url]
  [i]Figure 2 : Licence OEM sous forme de sticker (Genuine Microsoft Label) [/i]
 
-La licence OEM n'est plus disponible pour le particulier depuis Windows 7. Seuls les constructeurs habilités par Microsoft peuvent avoir accès à ces types ce types de licences pour intégrer dans leurs PCs. Elle n'offre pas non plus de support directement avec Microsoft. Si vous avez un problème avec cette dernière, [b]vous devez contacter directement le constructeur[/b] de votre ordinateur.
+La licence OEM n'est plus disponible pour le particulier via leurs conditions d'utilisation depuis Windows 7. Seuls les constructeurs habilités par Microsoft peuvent avoir accès à ces types ce types de licences pour intégrer dans leurs PCs. Elle n'offre pas non plus de support directement avec Microsoft. Si vous avez un problème avec cette dernière, [b]vous devez contacter directement le constructeur[/b] de votre ordinateur.
+Cependant, si vous avez déjà consulté les sites d'assembleur PC comme LDLC par exemple, il est possible d'acheter une licence OEM pour un particulier. Ce dernier a par contre l'obligation de fournir cette licence pour que l'assembleur agréé puissent l'installer sur la machine en question. Un peu tiré par les cheveux, mais possible. Mais elle reste néanmoins une licence OEM, donc pas transférable. Vu l'économie du 
 Si l'envie vous en prend, la licence OEM de Windows 10 Pro permet la rétrogradation légale vers une version précédente Pro de Windows (Windows 7 Pro, Windows 8 Pro, Windows 8.1 Pro). Pour savoir comment rétrograder correctement, contactez simplement le fabricant de votre PC.
 Dans de rare cas, il se pourrait aussi que vous ayez une licence DSP OEI (Delivery Service Partners Original Equipment Installation). Mais c'est exactement la même chose que les licences OEMs, sauf ces licences sont prévues pour de petits constructeurs de PCs, qui n'ont pas autant de marge de négociations sur les prix que les gros constructeurs du marché.
 
@@ -154,14 +159,23 @@ soon
 Questions en vrac :
 
 [b]Puis-je directement installer et activer Windows 11 en utilisant une clef de produit Windows 10 ?[/b] Oui.
+
 [b]J'ai perdu ma clef de produit. Puis-je la retrouver sur Windows ?[/b] Oui, en suivant ce [url=https://support.microsoft.com/fr-fr/windows/trouver-votre-cl%C3%A9-de-produit-windows-aaa2bf69-7b2b-9f13-f581-a806abf0a886]tutoriel[/url]
+
 [b]Est-ce que je peux faire une installation propre de Windows 10 sans passer par l'étape "Mise à jour" de mon installation actuelle ?[/b] Oui, On peut faire une clean install uniquement depuis Windows 10 th2 (version 1511).
+
 [b]Comment réactiver Windows après un changement de matériel ?[/b] En suivant [url=https://support.microsoft.com/fr-fr/windows/r%C3%A9activation-de-windows-10-apr%C3%A8s-un-changement-de-configuration-mat%C3%A9rielle-2c0e962a-f04c-145b-6ead-fb3fc72b6665]ce guide[/url] 
+
 [b]Je possède une licence qui est d'origine pour Windows 7/8.1. Puis-je directement installer Windows 10 et saisir ma clef Windows 7/8.1 lors de l'installation ?[/b] Oui.
+
 [b]Puis-je revendre ma licence ?[/b] Dans le cas d'une licence OEM, il est impossible de vendre séparément la licence de la carte mère. Cette dernière doit être aussi cédé. Dans le cas d'une version boîte, aucun soucis.
+
 [b]Puis-je acheter une licence d'occaz' ?[/b] Oui, mais uniquement la version boîte, car transférable. Veuillez à bien vous assurer que le vendeur a bien désactivé la licence de sa machine.
+
 [b]Je souhaiterais transférer ma licence sur une autre machine. Comment faire ?[/b] En suivant [url=https://answers.microsoft.com/fr-fr/windows/forum/all/transfert-de-licence-num%C3%A9rique/673353ff-b6b9-44a7-bdba-53af9a870e4f]ce tutoriel[/url] 
+
 [b]Dois-je avoir une licence pour profiter du programme Windows Insiders ?[/b] Oui, ce n'est pas parce qu'on est un « remonteur » de bugs pour Microsoft qu'il faut s'affranchir de la licence. Il faut payer, comme tout le monde !
+
 [b]Comment puis-je voir mes licences lié à mon compte Microsoft ?[/b] En ce rendant sur le site https://account.microsoft.com/devices.
 
 [:icon4] WIP [:icon4]
@@ -172,8 +186,10 @@ Questions en vrac :
 --> [url=https://support.microsoft.com/fr-fr/windows/obtenir-de-l-aide-sur-les-erreurs-d-activation-de-windows-09d8fb64-6768-4815-0c30-159fa7d89d85]Erreurs d’activation de Windows[/url] : Guide pour résoudre les erreurs d'activation lié à la licence
 --> [url=https://account.microsoft.com/devices]Microsoft/devices[/url] : Connaître quels appareils est associés à quelle clef sauvegardé dans son compte Microsoft
 --> [url=https://www.microsoft.com/fr-fr/howtotell/hardware-pc-purchase]Étiquettes de produit authentique Microsoft[/url] : Découvrir les points à vérifier avant d’effectuer un achat d'un PC neuf ou d’occasion
+--> [url=http://download.microsoft.com/documents/France/licences/2015/Windows-10-Volume-Licensing-Guide.pdf]Guide pour les licences de volume Windows 10[/url] : Guide de référence des licences en volume pour Windows 10
 --> [url=https://www.microsoft.com/en-us/Useterms/Retail/Windows/10/Useterms_Retail_Windows_10_French.htm]CLUF Windows 10[/url] : Les conditions générales d'utilisation de Windows 10
 --> [url=https://www.microsoft.com/en-us/Useterms/Retail/Windows/11/Useterms_Retail_Windows_11_French.htm]CLUF Windows 11[/url] : Les conditions générales d'utilisation de Windows 11
+
 
 [b][#71008D]RESSOURCES HFR[/#71008D][/b]
 
