@@ -110,6 +110,9 @@ Bien sur, seules les éditions Familiale et Pro sont pertinentes pour le grand p
 
 [b][#0B86FA]ACTUALITÉS, RUMEURS et INFOS[/#0B86FA][/b]
 
+20/09/2022 : [url=https://blogs.windows.com/windowsexperience/2022/09/20/available-today-the-windows-11-2022-update/]Présentation de Windows 11 22H2[/url]
+24/05/2022 : [url=https://blogs.windows.com/windowsdeveloper/2022/05/24/microsoft-store-grows-with-the-developer-community/]Windows Subsystem for Android disponible officiellement en France avant la fin de l'année[/url]
+05/04/2022 : [url=https://blogs.windows.com/windowsexperience/2022/04/05/windows-powers-the-future-of-hybrid-work/]Présentation de Windows 11 22H2[/url]
 05/10/2021 : [url=https://blogs.windows.com/windowsexperience/2021/10/04/windows-11-a-new-era-for-the-pc-begins-today/]Sortie officielle de Windows 11 (21H2)[/url]
 09/09/2021 : [url=https://www.youtube.com/watch?v=8FKtTg5VRSU]Vidéo d'introduction de Windows 11[/url]
 31/08/2021 : [url=https://blogs.windows.com/windowsexperience/2021/08/31/windows-11-available-on-october-5/]Windows 11 disponible à partir du 5 Octobre[/url]
@@ -171,7 +174,8 @@ Questions en vrac :
 
 [b][#0B86FA]HISTORIQUES DES VERSIONS[/#0B86FA][/b]
 
-[#0B86FA]05/10/2021 : 21H2 basée sur la build 22000, maintenue jusqu'en 2023[/#0B86FA]
+[#0B86FA]20/09/2022 : 22H2 basée sur la build 22621, maintenue jusqu'en octobre 2024[/#0B86FA]
+[#3800C6]05/10/2021 : 21H2 basée sur la build 22000, maintenue jusqu'au 10 octobre 2023[/#3800C6]
 
 [i]Légende :[/i]
 [#0B86FA]Version actuelle[/#0B86FA]
