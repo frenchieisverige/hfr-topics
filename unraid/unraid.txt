@@ -75,8 +75,8 @@ Pour créer manuellement une clef USB bootable (si vous êtes sous Linux par exe
 
 [#FF3800][b]CAPTURE D'ÉCRAN[/b][/#FF3800]
 
-[url=https://www.pixenli.com/image/7-a7qbVg][img]https://www.pixenli.com/miniature/7-a7qbVg[/img][/url]
-  Figure 1 : Dashboard d'unRAID 6.9
+[url=https://www.pixenli.com/image/deHQQohw][img]https://www.pixenli.com/miniature/deHQQohw[/img][/url]
+  Figure 1 : Dashboard d'unRAID 6.10
 
 
 [#FF3800][b]INSTALLATION[/b][/#FF3800]
@@ -128,16 +128,16 @@ Une liste complémentaire (en anglais) de FAQ est à retrouver sur le [url=https
 
 [#FF3800][b]CHANGELOGS[/b][/#FF3800]
 
-unRAID OS 6.9.2 :
+unRAID OS 6.11.5 :
 [quote]
-[*]Failed Login Restrictions
-[*]Driver Updates
+[*]Fix share information in Diagnostics
+[*]Set IPVLAN as default only for new installations
 [*]Linux kernel Updates
 [*]Bugs fixes
 [/quote]
-Plus d'infos : https://wiki.unraid.net/Manual/Release_Notes/Unraid_OS_6.9.2
+Plus d'infos : https://unraid-dl.sfo2.cdn.digitaloceanspaces.com/stable/unRAIDServer-6.11.5-x86_64.txt
 
-Pour rappel, les changements principaux ont eu lieu dans la version 6.9 : https://wiki.unraid.net/Manual/Release_Notes/Unraid_OS_6.9.0
+Pour rappel, les changements principaux ont eu lieu dans la version 6.9 : https://wiki.unraid.net/Unraid_OS_6.11.0
 
 
 [#FF3800][b]SITES OFFICIELS[/b][/#FF3800]
@@ -150,7 +150,7 @@ Pour rappel, les changements principaux ont eu lieu dans la version 6.9 : https:
 
 [#FF3800][b]RESSOURCES ANNEXES[/b][/#FF3800]
 
---> [url=https://www.youtube.com/watch?v=e4V-dXGuP5w]Tuto UNRAID #21 : Quoi de neuf sur UNRAID en 2021? (version stable 6.9)[/url] : vidéo YT annonçant la version 6.9 d'unRAID
+--> [url=https://www.youtube.com/watch?v=NSEdFuyruS4&list=PLM2f-IWlnhs6jBlMEADyjQROQ6QIM8GWv]Playlist unRAID par SuperBoki[/url] : Une large collection de tutoriels pour configurer son unRAID
 --> [url=https://www.presse-citron.net/tutoriel-comment-creer-un-nas-maison-avec-des-composants-pc-et-unraid-partie-2/]Tutoriel : comment créer un NAS maison avec des composants PC et unRAID (partie 2)[/url] : Guide de A à Z pour monter et installer son serveur unRAID
 --> [url=https://www.youtube.com/watch?v=FAy9N1vX76o]320 TERABYTES in a normal case!! - The DIY 4k editing NAS[/url] : Vidéo YT d'LTT, grand fan et promotteur d'unRAID
 --> [url=https://forum.hardware.fr/hfr/OSAlternatifs/Installation/slackware-current-presque-sujet_25831_1.htm][SLACKWARE] du futur / 14.2 out, -current RC3-presque-15.0[/url] : Topic Unique HFR pour Linux Slackware
@@ -160,6 +160,8 @@ Pour rappel, les changements principaux ont eu lieu dans la version 6.9 : https:
 
 Voici une liste non exhaustive des différentes versions d'unRAID. La liste complète des versions est à retrouver [url=https://forums.unraid.net/forum/7-announcements/?sortby=start_date&sortdirection=desc]ici[/url].
 
+23/09/2022 : unRAID 6.11
+07/05/2022 : unRAID 6.10
 02/03/2021 : unRAID 6.9
 10/12/2019 : unRAID 6.8
 11/05/2019 : unRAID 6.7
