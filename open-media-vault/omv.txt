@@ -125,12 +125,14 @@ Je ne vous conseille pas de faire une MAJ d'un système d'exploitation déjà in
 
 [#0055AA][b][u]CHANGELOGS[/u][/b][/#0055AA]
 
-openMediaVault 6.0.27 :
+openMediaVault 6.1.5 :
 [quote]  
-[*]Update locale files.
-[*]Issue #1302: Add SMART support for QNAP TR-004 (non-RAID mode).
-[*]Fix bug when user tries to change the password via the UI.
-[*]Fix bug in ‘Diagnostics | System Logs | Remote’ page.
+[*] Update locale files.
+[*] Various bug fixes and improvements.
+[*] Display SSL fingerprints in the details page.
+[*] Fix bug related to the `archive` flag in the Rsync task page.
+[*] Issue #1459: Improve error message when obsolete cached data has been found.
+[*] Issue #1467: Add SMART support for ASMedia ASM2362 USB to NVMe bridge.
 [/quote]
 
 Une liste complète des changelogs pour openmediavault 6 peut se retrouver à [url=https://www.openmediavault.org/?p=3201]l'adresse suivante[/url]. 
