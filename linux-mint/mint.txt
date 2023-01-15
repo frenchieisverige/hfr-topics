@@ -66,9 +66,8 @@ NB : Si vous le pouvez, utilisez les torrents pour soulager les serveurs de tél
 
 [#78C02F][b][u]CAPTURE D'ÉCRAN[/u][/b][/#78C02F]
 
-
-[url=https://www.pixenli.com/image/MODaAP8C][img]https://www.pixenli.com/miniature/MODaAP8C[/img][/url]
- [i]Figure 1 : LMDE 5 Elsie Cinnamon Edition[/i]
+[url=https://www.pixenli.com/image/hfXdpwEU][img]https://www.pixenli.com/miniature/hfXdpwEU[/img][/url]
+ [i]Figure 1 : Linux Mint 21.1 Vera Mate Edition[/i]
 
 
 [#78C02F][b][u]INSTALLATION[/u][/b][/#78C02F]
@@ -95,8 +94,8 @@ Notez que les cartes AMD/ATI sont recommandées car mieux supportées sous Linux
 
 [#78C02F][b][u]MISE À JOUR[/u][/b][/#78C02F]
 
-Il y a plusieurs façon de mettre son système à jour vers Una 20.3 (en supposant que vous êtes déjà sur une version 20.x) :
-[*] en utilisant l'interface graphique en suivant ce tutoriel : https://blog.linuxmint.com/?p=4216 (recommandé)
+Il y a plusieurs façon de mettre son système à jour vers Una 21.1 (en supposant que vous êtes déjà sur une version 20.x) :
+[*] en utilisant l'interface graphique en suivant ce tutoriel : https://blog.linuxmint.com/?p=4461 (recommandé)
 [*] en tapant ces lignes de commande dans un terminal :
 [fixed]sudo apt update
 sudo apt upgrade
@@ -105,9 +104,9 @@ mint-release-upgrade
 Un merci à [i]@li1ju[/i] pour ce mini-tutoriel. Attention, il ne sauvegarde pas vos données contrairement au tutoriel en passant par l'interface graphique.
 
 
-[#78C02F][b][u]MISE À NIVEAU VERS LM 20.x[/u][/b][/#78C02F]
+[#78C02F][b][u]MISE À NIVEAU VERS LM 21.x[/u][/b][/#78C02F]
 
-Si vous êtes encore sous Linux Mint 19.x, il est encore temps pour vous de migrer vers la dernière monture de Linux Mint en procédant à une mise à niveau (à ne pas confondre avec mise à jour). Vous pouvez le faire en suivant ce tutoriel : https://linuxmint-user-guide.readthedocs.io/en/latest/upgrade-to-mint-20.html
+Si vous êtes encore sous Linux Mint 20.x, il est encore temps pour vous de migrer vers la dernière monture de Linux Mint en procédant à une mise à niveau (à ne pas confondre avec mise à jour). Vous pouvez le faire en suivant ce tutoriel : https://linuxmint-user-guide.readthedocs.io/en/latest/upgrade-to-mint-21.html
 [:icon4] Je ne le répéterai jamais assez, prenez le temps de faire des sauvegardes de vos documents sensibles avant de vous lancer dans une telle mise à niveau. On est jamais à l'abris d'un plantage ou bogue [:icon4]
 
 
@@ -118,9 +117,9 @@ Si vous êtes encore sous Linux Mint 19.x, il est encore temps pour vous de migr
 
 [#78C02F][b][u]CHANGELOGS[/u][/b][/#78C02F]
 
---> [url=https://www.linuxmint.com/rel_una_cinnamon_whatsnew.php]Release Notes pour Linux Mint 20.3 Una Cinnamon[/url]
---> [url=https://www.linuxmint.com/rel_una_mate_whatsnew.php]Release Notes pour Linux Mint 20.3 Una MATE[/url]
---> [url=https://www.linuxmint.com/rel_una_xfce_whatsnew.php]Release Notes pour Linux Mint 20.3 Una Xfce[/url]
+--> [url=https://www.linuxmint.com/rel_vera_cinnamon.php]Release Notes pour Linux Mint 21.1 Una Cinnamon[/url]
+--> [url=https://www.linuxmint.com/rel_vera_mate.php]Release Notes pour Linux Mint 21.1 Una MATE[/url]
+--> [url=https://www.linuxmint.com/rel_vera_xfce.php]Release Notes pour Linux Mint 21.1 Una Xfce[/url]
 
 --> [url=https://linuxmint.com/rel_elsie.php]Release Notes pour LMDE 5 Elsie[/url]
 
@@ -143,12 +142,14 @@ Si vous êtes encore sous Linux Mint 19.x, il est encore temps pour vous de migr
 
 [#78C02F][b][u]HISTORIQUE DES VERSIONS[/u][/b][/#78C02F]
 
+[#78C02F][b] 20/12/2022 : Una 21.1 LTS basée sur Ubuntu 20.04, maintenue jusqu'en 04/2027[/b][/#78C02F]
+[#008000] 31/07/2022 : Vanessa 21 LTS basée sur Ubuntu 22.04, maintenue jusqu'en 04/2027[/#008000]
 [#78C02F][b] 20/03/2022 : Elsie LMDE 5.0 basée sur Debian 11[/b][/#78C02F]
-[#78C02F][b] 07/01/2022 : Una 20.3 LTS basée sur Ubuntu 20.04.3, maintenue jusqu'en 2025[/b][/#78C02F]
+[#008000] 07/01/2022 : Una 20.3 LTS basée sur Ubuntu 20.04.3, maintenue jusqu'en 2025[/#008000] 
 [#008000] 08/07/2021 : Uma 20.2 LTS basée sur Ubuntu 20.04.2, maintenue jusqu'en 2025 [/#008000] 
 [#008000] 08/01/2021 : Ulyssa 20.1 LTS basée sur Ubuntu 20.04.1, maintenue jusqu'en 2025 [/#008000] 
 [#008000] 27/06/2020 : Ulyana 20 LTS basée sur Ubuntu 20.04, maintenue jusqu'en 04/2025 [/#008000] 
-[#008000] 20/03/2020 : Debbie LMDE 4.0 basée sur Debian 10, maintenue jusqu'en 04/2022 [/#008000]
+[#848484] 20/03/2020 : Debbie LMDE 4.0 basée sur Debian 10, maintenue jusqu'en 04/2022 [/#848484]
 [#FF6300] 02/08/2019 : Tricia 19.3 LTS basée sur Ubuntu 18.04.3, maintenue jusqu'en 04/2023 [/#FF6300] 
 [#FF6300] 02/08/2019 : Tina 19.2 LTS basée sur Ubuntu 18.04.2, maintenue jusqu'en 04/2023 [/#FF6300]
 [#848484] 31/08/2018 : Cindy LMDE 3.0 basée sur Debian 9 [/#848484]
