@@ -83,7 +83,7 @@ Un autre point à noter :
 
 [b][#0B86FA]CAPTURES D'ÉCRANS[/#0B86FA][/b]
 
-[url=https://www.pixenli.com/image/1Lvx2iKA][img]https://www.pixenli.com/miniature/1Lvx2iKA[/img][/url]
+[url=https://www.pixenli.com/image/OsBJOK8l][img]https://www.pixenli.com/miniature/OsBJOK8l[/img][/url]
   [i]Figure 1 : Le nouveau bureau de Windows 11[/i]
 
 Pour plus d'images, une [url=https://lafibre.info/windows/windows-11/]galerie[/url] a été créé par nos confrères de chez [i]lafibre.info[/i].
@@ -110,6 +110,22 @@ Bien sur, seules les éditions Familiale et Pro sont pertinentes pour le grand p
 
 [b][#0B86FA]ACTUALITÉS, RUMEURS et INFOS[/#0B86FA][/b]
 
+02/08/2023 : [url=https://www.youtube.com/watch?v=Es5dvD0heGg]Cortana tire sa révérence sous Windows 11, mais reste disponible dans Outlook mobile[/url]
+02/08/2023 : [url=https://twitter.com/XenoPanther/status/1686712381840179200]Fuite : Un outil interne Microsoft divulgué sur le net pour activer certaines fonctionnalités secrètes[/url]
+12/06/2023 : [url=https://blogs.windows.com/windows-insider/2023/06/12/update-to-windows-subsystem-for-android-on-windows-11-june-2023/]Le partage de fichiers entre le Windows Subsystem for Android et Windows 11 désormais possible[/url]
+26/05/2023 : [url=https://twitter.com/tomwarren/status/1662056577560465408]Windows 11 supportera nativement les archives RAR en Septembre, la création pas avant 2024[/url]
+23/05/2023 : [url=https://blogs.windows.com/windowsdeveloper/2023/05/23/bringing-the-power-of-ai-to-windows-11-unlocking-a-new-era-of-productivity-for-customers-and-developers-with-windows-copilot-and-dev-home/]Windows Copilot, votre nouvel assistant personnel propulsé par une IA[/url]
+19/04/2023 : [url=https://twitter.com/thebookisclosed/status/1648827082690949122]La barre des tâches se dote enfin d'étiquettes et ne combine plus les icônes des applications[/url]
+22/03/2023 : [url=https://blogs.windows.com/windows-insider/2023/04/07/announcing-windows-11-insider-preview-build-22621-1546-and-22624-1546/]La touche d'impression d'écran ouvre désormais l'outil de capture d'écran[/url]
+22/03/2023 : [url=https://twitter.com/thebookisclosed/status/1638627589681020930]Windows 11 cache des références au Cloud PC[/url]
+29/03/2023 : [url=https://www.youtube.com/watch?v=4-u-I3unSy8]Vers un menu démarrer dédié à la pub' ?[/url]
+15/03/2023 : [url=https://twitter.com/thebookisclosed/status/1632890950845431811]Une Dev build montre la barre des tâches en haut de l'écran[/url]
+02/03/2023 : [url=https://twitter.com/PhantomOfEarth/status/1631378284423290886]Un outil de Microsoft permet de désactiver les recommandations du menu Démarrer[/url]
+02/03/2023 : [url=https://www.windowscentral.com/software-apps/windows-11/this-is-microsofts-new-modern-file-explorer-overhaul-for-windows-11]Une refonte partielle de l'explorateur de fichiers avec Home avec une barre d'adresse et un champ recherche modernisées ainsi qu'un onglet « Home »[/url]
+25/12/2022 : [url=https://www.windowslatest.com/2022/12/25/windows-11s-notepad-is-allegedly-getting-browser-like-tabs-feature/]Fuite : Le Bloc-notes va bénéficier aussi des onglets[/url]
+22/11/2022 : [url=https://devblogs.microsoft.com/commandline/the-windows-subsystem-for-linux-in-the-microsoft-store-is-now-generally-available-on-windows-10-and-11/]Windows Subsystem for Linux disponible pour tous dans le Microsoft Store[/url]
+18/10/2022 : [url=https://blogs.windows.com/windowsexperience/2022/10/18/making-the-everyday-easier-with-new-experiences-available-in-windows-11/]L'explorateur de fichiers supporte enfin les onglets[/url]
+                    [url=https://devblogs.microsoft.com/commandline/windows-terminal-is-now-the-default-in-windows-11/]Windows Terminal est maintenant le terminal par défaut sur 22H2[/url]
 20/09/2022 : [url=https://blogs.windows.com/windowsexperience/2022/09/20/available-today-the-windows-11-2022-update/]Présentation de Windows 11 22H2[/url]
 24/05/2022 : [url=https://blogs.windows.com/windowsdeveloper/2022/05/24/microsoft-store-grows-with-the-developer-community/]Windows Subsystem for Android disponible officiellement en France avant la fin de l'année[/url]
 05/04/2022 : [url=https://blogs.windows.com/windowsexperience/2022/04/05/windows-powers-the-future-of-hybrid-work/]Présentation de Windows 11 22H2[/url]
