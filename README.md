@@ -14,7 +14,7 @@ I decided to revive some topics that were either dead or the front page was not 
 ## Presentation
 
 Here are the topics that I'm currently maintaining:
-* [[LINUX MINT] - Topic dédié / version Vera 21.1 LTS - Elsie 5](https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=67863&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0)
+* [[LINUX MINT] - Topic dédié / version Victoria 21.2 LTS - Elsie 5](https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=67863&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0)
 * [NAS unRAID, protection pour disques SATA et ATA de tailles différentes](https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=76680&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0)
 * [[Noyau Linux] Version 6 et des brouettes](https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=205&post=24424&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0)
 * [Qemu : la baffe](https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=208&post=38501&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0)
@@ -22,7 +22,7 @@ Here are the topics that I'm currently maintaining:
 * [[Topic Unique] Nas perso homemade](https://forum.hardware.fr/forum1.php?config=hfr.inc&cat=1&page=1&subcat=0&sondage=0&owntopic=1&trash=0&trash_post=0&moderation=0&new=0&nojs=0&subcatgroup=0)
 * [[Topic Unique] Openmediavault 6, le topic des utilisateurs](https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=11&subcat=204&post=72970&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0)
 * [[Topic Unique] Nas perso homemade](https://forum.hardware.fr/forum1.php?config=hfr.inc&cat=1&page=1&subcat=0&sondage=0&owntopic=1&trash=0&trash_post=0&moderation=0&new=0&nojs=0&subcatgroup=0)
-* [[TU] Windows 11 - Rachetez vous un PC !](https://forum.hardware.fr/forum1.php?config=hfr.inc&cat=1&page=1&subcat=0&sondage=0&owntopic=1&trash=0&trash_post=0&moderation=0&new=0&nojs=0&subcatgroup=0)
+* [[TU] Windows 11 - Lire la FP](https://forum.hardware.fr/forum1.php?config=hfr.inc&cat=1&page=1&subcat=0&sondage=0&owntopic=1&trash=0&trash_post=0&moderation=0&new=0&nojs=0&subcatgroup=0)
 * [[Windows 10/11] topic licence](https://forum.hardware.fr/forum2.php?config=hfr.inc&cat=4&subcat=580&post=340725&page=1&p=1&sondage=0&owntopic=1&trash=0&trash_post=0&print=0&numreponse=0&quote_only=0&new=0&nojs=0)
 
 ## TODOs
