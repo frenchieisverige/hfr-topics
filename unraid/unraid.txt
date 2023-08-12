@@ -128,16 +128,15 @@ Une liste complémentaire (en anglais) de FAQ est à retrouver sur le [url=https
 
 [#FF3800][b]CHANGELOGS[/b][/#FF3800]
 
-unRAID OS 6.11.5 :
+unRAID OS 6.12.3 :
 [quote]
-[*]Fix share information in Diagnostics
-[*]Set IPVLAN as default only for new installations
-[*]Linux kernel Updates
-[*]Bugs fixes
+[*]Fix IPv6 networking
+[*]Add Linux kernel 6.1.38
+[*]Bugs fixes for Docker : rc.docker, rc.library, rc.nginx, shfs, webgui
 [/quote]
-Plus d'infos : https://unraid-dl.sfo2.cdn.digitaloceanspaces.com/stable/unRAIDServer-6.11.5-x86_64.txt
+Plus d'infos : https://docs.unraid.net/unraid-os/release-notes/6.12.3/
 
-Pour rappel, les changements principaux ont eu lieu dans la version 6.9 : https://wiki.unraid.net/Unraid_OS_6.11.0
+Pour rappel, les changements principaux ont eu lieu dans la version 6.12 : https://docs.unraid.net/unraid-os/release-notes/6.12.0
 
 
 [#FF3800][b]SITES OFFICIELS[/b][/#FF3800]
@@ -160,6 +159,7 @@ Pour rappel, les changements principaux ont eu lieu dans la version 6.9 : https:
 
 Voici une liste non exhaustive des différentes versions d'unRAID. La liste complète des versions est à retrouver [url=https://forums.unraid.net/forum/7-announcements/?sortby=start_date&sortdirection=desc]ici[/url].
 
+14/06/2023 : unRAID 6.12
 23/09/2022 : unRAID 6.11
 07/05/2022 : unRAID 6.10
 02/03/2021 : unRAID 6.9
