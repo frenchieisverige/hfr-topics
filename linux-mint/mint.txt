@@ -66,8 +66,8 @@ NB : Si vous le pouvez, utilisez les torrents pour soulager les serveurs de tél
 
 [#78C02F][b][u]CAPTURE D'ÉCRAN[/u][/b][/#78C02F]
 
-[url=https://www.pixenli.com/image/hfXdpwEU][img]https://www.pixenli.com/miniature/hfXdpwEU[/img][/url]
- [i]Figure 1 : Linux Mint 21.1 Vera Mate Edition[/i]
+[url=https://www.pixenli.com/image/F0i_qh7f][img]https://www.pixenli.com/miniature/F0i_qh7f[/img][/url]
+ [i]Figure 1 : Linux Mint 21.2 Victoria Cinnamon Edition[/i]
 
 
 [#78C02F][b][u]INSTALLATION[/u][/b][/#78C02F]
@@ -94,8 +94,8 @@ Notez que les cartes AMD/ATI sont recommandées car mieux supportées sous Linux
 
 [#78C02F][b][u]MISE À JOUR[/u][/b][/#78C02F]
 
-Il y a plusieurs façon de mettre son système à jour vers Una 21.1 (en supposant que vous êtes déjà sur une version 20.x) :
-[*] en utilisant l'interface graphique en suivant ce tutoriel : https://blog.linuxmint.com/?p=4461 (recommandé)
+Il y a plusieurs façon de mettre son système à jour vers Victoria 21.2 (en supposant que vous êtes déjà sur une version 21.x) :
+[*] en utilisant l'interface graphique en suivant ce tutoriel : https://blog.linuxmint.com/?p=4550 (recommandé)
 [*] en tapant ces lignes de commande dans un terminal :
 [fixed]sudo apt update
 sudo apt upgrade
@@ -117,9 +117,9 @@ Si vous êtes encore sous Linux Mint 20.x, il est encore temps pour vous de migr
 
 [#78C02F][b][u]CHANGELOGS[/u][/b][/#78C02F]
 
---> [url=https://www.linuxmint.com/rel_vera_cinnamon.php]Release Notes pour Linux Mint 21.1 Una Cinnamon[/url]
---> [url=https://www.linuxmint.com/rel_vera_mate.php]Release Notes pour Linux Mint 21.1 Una MATE[/url]
---> [url=https://www.linuxmint.com/rel_vera_xfce.php]Release Notes pour Linux Mint 21.1 Una Xfce[/url]
+--> [url=https://www.linuxmint.com/rel_victoria_cinnamon.php]Release Notes pour Linux Mint 21.2 Victoria Cinnamon[/url]
+--> [url=https://www.linuxmint.com/rel_victoria_mate.php]Release Notes pour Linux Mint 21.2 Victoria MATE[/url]
+--> [url=https://www.linuxmint.com/rel_victoria_xfce.php]Release Notes pour Linux Mint 21.2 Victoria Xfce[/url]
 
 --> [url=https://linuxmint.com/rel_elsie.php]Release Notes pour LMDE 5 Elsie[/url]
 
@@ -142,7 +142,8 @@ Si vous êtes encore sous Linux Mint 20.x, il est encore temps pour vous de migr
 
 [#78C02F][b][u]HISTORIQUE DES VERSIONS[/u][/b][/#78C02F]
 
-[#78C02F][b] 20/12/2022 : Una 21.1 LTS basée sur Ubuntu 20.04, maintenue jusqu'en 04/2027[/b][/#78C02F]
+[#78C02F][b] 20/12/2022 : Victoria 21.2 LTS basée sur Ubuntu 20.04, maintenue jusqu'en 04/2027[/b][/#78C02F]
+[#008000] 20/12/2022 : Vera 21.1 LTS basée sur Ubuntu 20.04, maintenue jusqu'en 04/2027[/#008000]
 [#008000] 31/07/2022 : Vanessa 21 LTS basée sur Ubuntu 22.04, maintenue jusqu'en 04/2027[/#008000]
 [#78C02F][b] 20/03/2022 : Elsie LMDE 5.0 basée sur Debian 11[/b][/#78C02F]
 [#008000] 07/01/2022 : Una 20.3 LTS basée sur Ubuntu 20.04.3, maintenue jusqu'en 2025[/#008000] 
@@ -150,11 +151,11 @@ Si vous êtes encore sous Linux Mint 20.x, il est encore temps pour vous de migr
 [#008000] 08/01/2021 : Ulyssa 20.1 LTS basée sur Ubuntu 20.04.1, maintenue jusqu'en 2025 [/#008000] 
 [#008000] 27/06/2020 : Ulyana 20 LTS basée sur Ubuntu 20.04, maintenue jusqu'en 04/2025 [/#008000] 
 [#848484] 20/03/2020 : Debbie LMDE 4.0 basée sur Debian 10, maintenue jusqu'en 04/2022 [/#848484]
-[#FF6300] 02/08/2019 : Tricia 19.3 LTS basée sur Ubuntu 18.04.3, maintenue jusqu'en 04/2023 [/#FF6300] 
-[#FF6300] 02/08/2019 : Tina 19.2 LTS basée sur Ubuntu 18.04.2, maintenue jusqu'en 04/2023 [/#FF6300]
+[#848484] 02/08/2019 : Tricia 19.3 LTS basée sur Ubuntu 18.04.3, maintenue jusqu'en 04/2023 [/#848484] 
+[#848484] 02/08/2019 : Tina 19.2 LTS basée sur Ubuntu 18.04.2, maintenue jusqu'en 04/2023 [/#848484]
 [#848484] 31/08/2018 : Cindy LMDE 3.0 basée sur Debian 9 [/#848484]
-[#FF6300] 29/06/2018 : Tessa 19.1 LTS basée sur Ubuntu 18.04.1, maintenue jusqu'en 04/2023 [/#FF6300]
-[#FF6300] 29/06/2018 : Tara 19 LTS basée sur Ubuntu 18.04, maintenue jusqu'en 04/2023 [/#FF6300]  
+[#848484] 29/06/2018 : Tessa 19.1 LTS basée sur Ubuntu 18.04.1, maintenue jusqu'en 04/2023 [/#848484]
+[#848484] 29/06/2018 : Tara 19 LTS basée sur Ubuntu 18.04, maintenue jusqu'en 04/2023 [/#848484]  
 [#848484] 24/11/2017 : Sylvia 18.3 LTS basée sur Ubuntu 16.04.3[/#848484]
 [#848484] 29/06/2017 : Sonya 18.2 LTS basée sur Ubuntu 16.04.2[/#848484] 
 [#848484] 16/12/2016 : Serena 18.1 LTS basée sur Ubuntu 16.04.1[/#848484]
