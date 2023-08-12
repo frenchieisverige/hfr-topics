@@ -1,11 +1,11 @@
-[url=https://www.pixenli.com/image/3KezRNFJ][img]https://www.pixenli.com/miniature/3KezRNFJ[/img][/url]
+[url=https://www.pixenli.com/image/dggJ0WUu][img]https://www.pixenli.com/miniature/dggJ0WUu[/img][/url]
 
 [:troudbal] Bonjour, et bienvenue sur mon premier topic unique! [:troudbal] 
 
 
 [#0055AA][b][u]INTRODUCTION[/u][/b][/#0055AA]
 
-Elementary OS, ou eOS pour les intimes, est une distribution Linux basée sur [b]Ubuntu LTS[/b]. Le système d’exploitation utilise son propre environnement de bureau basé sur Gnome (GTK3) nommé Pantheon.
+Elementary OS, ou eOS pour les intimes, est une distribution Linux basée sur [b]Ubuntu LTS[/b]. Le système d’exploitation utilise son propre environnement de bureau basé sur Gnome (GTK4) nommé Pantheon.
 Cette distribution a initialement commencé en étant un ensemble de thèmes et d’applications conçus pour Ubuntu mais qui mettait en avant une homogénéisation et une harmonie dans la présentation de la distribution. Le but étant simple : combler les manques de Linux.
 [*]améliorer [b]l’esthétique globale[/b] en imposant une cohérence entre les logiciels
 [*]limiter le besoin de l’utilisateur à accéder à la console et la ligne de commande
@@ -17,10 +17,9 @@ Son interface se veut intuitive, légère et inspiré d'un OS développé par un
 [#0055AA][b][u]CONFIGURATION MINIMALE[/u][/b][/#0055AA]
 
 [quote]
-- Processeur : Intel i3 récent ou un processeur double cœur 64 bits comparable
+- Processeur : Processeur double cœur 64 bits
 - Mémoire vive : 4 Go 
-- Disque dur : Solid State Drive (SSD) avec 15 Go d'espace libre
-- Écran : Résolution minimale de l'écran de 1024×768
+- Disque dur : Solid State Drive (SSD) avec 32 Go d'espace libre
 - Accès Internet
 - Souris/pavé tactile et clavier intégrés ou filaires
 [/quote]
@@ -29,14 +28,14 @@ Son interface se veut intuitive, légère et inspiré d'un OS développé par un
 [#0055AA][b][u]SE PROCURER ELEMENTARY OS[/u][/b][/#0055AA]
  
 Elementary OS est disponible gratuitement et légalement. Il suffit de rentrer [b]$0[/b] dans « Autre » et cliquer sur « Télécharger elementary OS » :
-[*][url=https://elementary.io/fr/][#0055AA]elementary OS 6 Odin[/#0055AA][/url]	 
+[*][url=https://elementary.io/fr/][#0055AA]elementary OS 7 Horus[/#0055AA][/url]	 
 Tout comme Ubuntu, cette release est uniquement disponible pour les processeurs [b]64 bits[/b].
 
 
 [#0055AA][b][u]CAPTURE D'ÉCRAN[/u][/b][/#0055AA]
 
-[url=https://www.pixenli.com/image/4luQ7k66][img]https://www.pixenli.com/miniature/4luQ7k66[/img][/url]
- [i]Figure 1 : Bureau d'eOS 6 Odin[/i]
+[url=https://www.pixenli.com/image/ZYXy7bcj][img]https://www.pixenli.com/miniature/ZYXy7bcj[/img][/url]
+ [i]Figure 1 : Bureau d'eOS 7 Horus[/i]
 
 
 [#0055AA][b][u]INSTALLATION[/u][/b][/#0055AA]
@@ -46,18 +45,17 @@ eOS fournit sur son site un excellent [url=https://elementary.io/fr/docs/install
 
 [#0055AA][b][u]CHANGELOGS[/u][/b][/#0055AA]
 
-[*] [url=https://blog.elementary.io/elementary-os-6-odin-released/]elementary OS 6 Odin[/url] disponible
+[*] [url=https://blog.elementary.io/os-7-available-now/]elementary OS 7 Horus[/url] disponible
 
 
 [#0055AA][b][u]SITES OFFICIELS[/u][/b][/#0055AA]
 
---> [url]https://elementary.io/fr[/url]
+--> [url]https://elementary.io/fr/[/url]
 --> [url]https://blog.elementary.io[/url]
 
 [#0055AA][b][u]RESSOURCES ANNEXES[/u][/b][/#0055AA]
 
---> [url=https://www.youtube.com/watch?v=adKLsjWyquQ]Vidéo YT de présentation d'eOS 6 par Adrien.D[/url] : Présente les atouts mais aussi les défauts de cette distribution linux
---> [url=https://www.nextinpact.com/article/47839/linux-zorin-os-et-son-sens-aigu-laccueil-grand-public]Elementary OS 6 soigne ses détails, mais agace par sa rigidité[/url] : NextInpact passe en revue ce SE dans cet article 
+--> [url=https://www.youtube.com/watch?v=Ize6QW_Fxww]Vidéo YT de présentation d'eOS 7 par Adrien.D[/url] : Présente les atouts mais aussi les défauts de cette distribution Linux
 --> [url=http://www.elementaryos-fr.org/]Site FR d'Elementary OS[/url] : Site officiel francophone d'Elementary OS
 --> [url=http://forum.elementaryos-fr.org/]Forum FR d'Elementary OS[/url] : Forum francophone d'Elementary OS
 --> [url=https://elementaryforums.com/index.php/]Forum EN d'Elementary OS[/url] : Forum d'Elementary OS dans la langue de Shakespeare
@@ -67,9 +65,10 @@ eOS fournit sur son site un excellent [url=https://elementary.io/fr/docs/install
 
 [#0055AA][b][u]HISTORIQUE DES VERSIONS[/u][/b][/#0055AA]
 
-[#0055AA][b] 10/08/2021 : Odin 6 basée sur Ubuntu 20.04 LTS [/b][/#0055AA]
+[#0055AA][b] 31/01/2023 : Horus 7 basée sur Ubuntu 22.04 LTS [/b][/#0055AA]
+[#FF6300] 10/08/2021 : Odin 6 basée sur Ubuntu 20.04 LTS [/#FF6300]
 [#FF6300] 03/12/2019 : Hera 5.1 basée sur Ubuntu 18.04 LTS [/#FF6300]
-[#FF6300] 16/09/2018 : Juno (5.0) basée sur Ubuntu 18.04 LTS, maintenue jusqu'en 04/2024 [/#FF6300]
+[#FF6300] 16/09/2018 : Juno (5.0) basée sur Ubuntu 18.04 LTS[/#FF6300]
 [#848484] 09/09/2016 : Loki (0.4.1) basée sur Ubuntu 16.04 LTS[/#848484]
 [#848484] 08/02/2015 : Freya (0.3) basée sur Ubuntu 14.04 LTS [/#848484]
 [#848484] 10/08/2013 : Luna (0.2) basée sur Ubuntu 12.04 [/#848484]
