@@ -1,4 +1,4 @@
-[url=https://www.pixenli.com/image/KBKgbagy][img]https://www.pixenli.com/miniature/KBKgbagy[/img][/url]
+[url=https://www.pixenli.com/image/dUwGcr7C][img]https://www.pixenli.com/miniature/dUwGcr7C[/img][/url]
 
 Bienvenue sur le topic officiel du noyau Linux sur le forum HFR !
 
@@ -31,9 +31,9 @@ Et il existe encore bien d'autres noyaux créés à partir de  « patchsets »  
 [#FFAA00][b]VERSIONS LES PLUS RÉCENTES[/b][/#FFAA00]
 
 Le développement des noyaux Linux ([i]kernel.org[/i]) va vite, c'est pour cette raison que je recommande directement d'aller sur le site [url=https://www.kernel.org/]kernel.org[/url] pour vérifier la dernière version en date. Néanmoins je vous écris ci dessous les versions que j'essayerai de mettre le plus souvent à jour :
-[*] mainline : 6.2-rc3 	
-[*] stable : 6.1.11 	
-[*] LTS : 5.15.88 / 5.10.163 / 5.4.228 / 4.19.269 / 4.14.302 / 4.9.337
+[*] mainline : 6.5-rc5 	
+[*] stable : 6.4.9 	
+[*] LTS : 6.1.44 / 5.15.125 / 5.10.189 / 5.4.252 / 4.19.290 / 4.14.321
 
 [#FFAA00][b]TÉLÉCHARGER[/b][/#FFAA00]
 
